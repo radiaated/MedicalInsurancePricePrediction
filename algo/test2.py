@@ -5,25 +5,29 @@ import importlib
 
 
 
-df = pd.read_csv("./fake_ds.csv")
+# df = pd.read_csv("./fake_ds.csv")
 
 
-def gb(df, op):
+def gb(dff, op, l_r):
 
-    tmp_df = df.copy()
+    tmp_df = dff.copy()
 
     mean_op = tmp_df[op].mean()
+    print(mean_op)
     tmp_df["latest_pred"] = tmp_df[op].mean()
 
     tmp_df.drop(columns=op, inplace=True)
 
-    for resi in range(10):
+    open('./trees/trees.py', 'w').close()
 
-        
-        
+    for resi in range(100):
+
+        # print(f"\n{tmp_df}")
+
         for i in tmp_df.index:
-            tmp_df.loc[i, f"Residual_{resi}"] = df.loc[i, op] - tmp_df.loc[i,"latest_pred"]
+            tmp_df.loc[i, f"Residual_{resi}"] = dff.loc[i, op] - tmp_df.loc[i,"latest_pred"]
 
+        tp_lat = tmp_df["latest_pred"]
         tmp_df.drop(columns="latest_pred", inplace=True)
 
         tree = ID3(tmp_df, f"Residual_{resi}")
@@ -32,21 +36,18 @@ def gb(df, op):
         tree.show_tree()
         tree.create_tree(f"tree_{resi}")
 
-        
+        tmp_df["latest_pred"] = tp_lat
 
         importlib.reload(trees)
 
         for i in tmp_df.index:
-            tmp_df.loc[i,"latest_pred"] = 0.1 * getattr(trees, f"tree_{resi}")(tmp_df.loc[i].to_dict()) + mean_op
+            tmp_df.loc[i,"latest_pred"] = tmp_df.loc[i,"latest_pred"] + l_r * getattr(trees, f"tree_{resi}")(tmp_df.loc[i].to_dict())
 
         print(f"Tree {resi} Completed:\n {tmp_df}")
+
         tmp_df.drop(columns=f"Residual_{resi}", inplace=True)
 
-
-        
-
-
-gb(df, "HoursPlayed")
+    return mean_op, tmp_df
 
 
 

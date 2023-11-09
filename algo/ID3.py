@@ -23,14 +23,17 @@ class ID3:
     def build_tree(self, dff = None, curr_depth=1):
         
         if not isinstance(dff, pd.DataFrame):
-            dff = self.dff
+            dff = self.dff.copy()
 
         split_col = ""
         max_std = -1
 
         y_std = np.std(dff[self.op])
 
-        if y_std * y_std < 0.1 or len(dff.index) <= 3:
+        if len(dff.index) == 0:
+            self.tree_code += ("\t" * curr_depth) + f"return 0\n"
+        
+        elif y_std * y_std < 0.1 or len(dff.index) <= 3 or curr_depth >= 3:
         
             
             
@@ -68,7 +71,7 @@ class ID3:
                     
                     if y_std - sd_x_y > max_std:
                         max_std = std_r(y_std, sd_x_y)
-                        att_crit = tmp_df[col].unique()
+                        att_crit = self.dff[col].unique()
                         split_col = col
 
 
@@ -101,7 +104,7 @@ class ID3:
         
         self.tree_code = f"\ndef {tree_name}(tree_dict):\n" + self.tree_code
         
-
+        
         ftree = open(f"./trees/trees.py", "a+")
         ftree.write(self.tree_code)
         ftree.close()
