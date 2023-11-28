@@ -1,0 +1,1499 @@
+gender,children,smoker,region,medical_history,family_medical_history,exercise_frequency,occupation,coverage_level,charges,age,bmi
+male,4,no,southwest,High blood pressure,Diabetes,Frequently,Blue collar,Premium,18465.07213952774,41-56,40 - 54
+male,1,yes,southwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,19901.49963361245,41-56,18.5 - 25
+female,0,yes,southwest,High blood pressure,Diabetes,Never,Student,Premium,18848.805069039,41-56,35 - 40
+male,2,yes,northeast,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,23831.34201652353,41-56,30 - 35
+male,1,no,southwest,High blood pressure,Diabetes,Occasionally,White collar,Basic,11729.774150574696,41-56,25 - 30
+male,4,no,northwest,Heart disease,Diabetes,Rarely,Student,Premium,19065.58018456725,41-56,18.5 - 25
+female,4,yes,southwest,Heart disease,Heart disease,Occasionally,White collar,Premium,27744.91204212474,41-56,18.5 - 25
+female,0,no,northeast,Diabetes,Heart disease,Occasionally,White collar,Standard,16876.926311050433,18-26,25 - 30
+male,2,yes,southeast,Heart disease,High blood pressure,Occasionally,Unemployed,Premium,23490.225273445787,26-41,35 - 40
+female,0,yes,southeast,Diabetes,Heart disease,Frequently,Blue collar,Standard,22924.497761905262,>56,40 - 54
+male,1,no,northeast,Heart disease,High blood pressure,Frequently,Student,Premium,19464.49427777042,18-26,25 - 30
+male,3,yes,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Premium,27015.781042290542,>56,30 - 35
+female,2,no,southeast,Heart disease,Diabetes,Never,Unemployed,Basic,12044.260201669904,26-41,18.5 - 25
+male,2,yes,southwest,Heart disease,Heart disease,Frequently,Blue collar,Standard,26763.128426579064,41-56,30 - 35
+male,4,no,northwest,Diabetes,Diabetes,Never,White collar,Basic,12652.678704938922,>56,25 - 30
+male,5,yes,southeast,Heart disease,Heart disease,Occasionally,Unemployed,Premium,28138.31960521033,>56,18.5 - 25
+male,1,no,northwest,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,12993.397856245096,26-41,18.5 - 25
+female,1,yes,southeast,Diabetes,Heart disease,Frequently,Student,Basic,20557.00542920371,>56,40 - 54
+female,4,yes,southwest,Diabetes,Diabetes,Rarely,Unemployed,Basic,15866.165227166965,26-41,40 - 54
+female,2,no,southeast,Diabetes,Diabetes,Frequently,Unemployed,Basic,10243.891748070786,18-26,25 - 30
+male,1,no,southeast,Heart disease,Heart disease,Rarely,Unemployed,Premium,21374.62146259284,41-56,18.5 - 25
+male,3,yes,northeast,High blood pressure,High blood pressure,Frequently,Student,Premium,22021.714882273864,>56,35 - 40
+female,2,yes,southeast,Diabetes,Diabetes,Frequently,Student,Premium,21210.79718949453,26-41,25 - 30
+male,0,yes,northeast,High blood pressure,Diabetes,Occasionally,Blue collar,Basic,16975.345933193028,18-26,30 - 35
+male,1,no,northeast,Heart disease,Diabetes,Rarely,Blue collar,Basic,15590.718165432403,26-41,35 - 40
+male,0,yes,northeast,Diabetes,Heart disease,Occasionally,Blue collar,Standard,21960.609106908203,18-26,25 - 30
+male,1,no,northeast,High blood pressure,Heart disease,Never,Student,Standard,14055.20742438105,18-26,18.5 - 25
+male,2,yes,southeast,High blood pressure,High blood pressure,Rarely,Student,Standard,14893.177317330405,18-26,18.5 - 25
+female,5,yes,southeast,Diabetes,Heart disease,Occasionally,Blue collar,Basic,21001.88547411895,>56,25 - 30
+male,2,no,southwest,Heart disease,Heart disease,Occasionally,White collar,Premium,24611.248645708045,41-56,30 - 35
+male,0,yes,southwest,Diabetes,High blood pressure,Occasionally,White collar,Basic,15254.9182783188,18-26,18.5 - 25
+female,0,yes,southwest,Diabetes,Diabetes,Frequently,Student,Basic,16245.950397126626,>56,30 - 35
+male,4,yes,southwest,Diabetes,Heart disease,Rarely,White collar,Standard,22885.55438337219,18-26,40 - 54
+female,2,yes,southeast,Diabetes,High blood pressure,Rarely,Blue collar,Premium,21244.837031482235,26-41,40 - 54
+female,3,no,southwest,High blood pressure,Diabetes,Never,Blue collar,Standard,10775.097459737131,41-56,< 18.5
+male,3,yes,northwest,Diabetes,High blood pressure,Occasionally,Unemployed,Basic,15715.459171346853,26-41,40 - 54
+male,4,no,northwest,Diabetes,Diabetes,Rarely,Student,Standard,14688.97463945066,>56,40 - 54
+male,5,yes,southwest,High blood pressure,High blood pressure,Never,White collar,Premium,20418.51986259316,41-56,25 - 30
+female,1,no,southeast,Diabetes,High blood pressure,Never,Blue collar,Standard,11864.788690277488,26-41,35 - 40
+female,1,yes,northwest,Diabetes,Heart disease,Frequently,Unemployed,Premium,24172.737889138338,26-41,40 - 54
+male,0,no,northwest,Diabetes,Heart disease,Frequently,Unemployed,Basic,15093.16415730174,18-26,35 - 40
+female,2,yes,northwest,High blood pressure,Diabetes,Frequently,Student,Basic,16569.02487652075,41-56,40 - 54
+female,2,no,northwest,Heart disease,Heart disease,Rarely,Student,Basic,16720.10465137799,>56,40 - 54
+male,3,no,northeast,Diabetes,Heart disease,Never,Student,Premium,19782.202288927903,>56,25 - 30
+male,5,no,northeast,Diabetes,Heart disease,Rarely,Unemployed,Premium,19535.972512390228,41-56,30 - 35
+male,4,no,southwest,Heart disease,High blood pressure,Frequently,Student,Basic,15802.287934307642,>56,40 - 54
+female,0,yes,northwest,Heart disease,Heart disease,Occasionally,White collar,Basic,22713.565049615885,26-41,25 - 30
+male,4,yes,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Standard,18199.09420538486,18-26,25 - 30
+male,5,no,northeast,Heart disease,Heart disease,Frequently,Blue collar,Basic,20909.609487950063,26-41,35 - 40
+male,2,no,northeast,Heart disease,Diabetes,Rarely,Unemployed,Premium,19782.49510062914,>56,25 - 30
+female,3,no,northeast,Diabetes,High blood pressure,Rarely,White collar,Standard,14385.122015557528,41-56,40 - 54
+female,4,yes,northwest,Diabetes,Heart disease,Occasionally,White collar,Premium,26210.976460766527,18-26,40 - 54
+male,0,no,southeast,Heart disease,High blood pressure,Rarely,White collar,Basic,14720.475458955812,41-56,40 - 54
+female,4,no,northwest,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,12953.642772667929,26-41,35 - 40
+male,0,yes,southwest,Heart disease,Heart disease,Never,Unemployed,Standard,22768.83990766554,18-26,40 - 54
+male,0,yes,southwest,Heart disease,Heart disease,Rarely,Blue collar,Premium,27496.965563321908,26-41,40 - 54
+male,1,yes,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Premium,20753.23686140768,26-41,25 - 30
+female,3,no,southwest,High blood pressure,Heart disease,Rarely,Student,Premium,17360.316925584477,41-56,25 - 30
+male,5,no,southeast,High blood pressure,High blood pressure,Rarely,White collar,Basic,11240.82768443118,41-56,25 - 30
+male,3,yes,northeast,High blood pressure,High blood pressure,Never,Student,Premium,20466.055602407192,41-56,40 - 54
+male,2,yes,southwest,Diabetes,Heart disease,Occasionally,White collar,Standard,22501.405129770224,26-41,18.5 - 25
+female,0,no,northeast,High blood pressure,High blood pressure,Occasionally,Student,Basic,9014.763724275836,41-56,18.5 - 25
+female,3,yes,northwest,Heart disease,High blood pressure,Occasionally,Blue collar,Premium,23674.733739977662,41-56,18.5 - 25
+male,5,no,southwest,Diabetes,Diabetes,Rarely,Blue collar,Basic,13252.439859648426,>56,25 - 30
+male,0,yes,southeast,Heart disease,Diabetes,Rarely,Unemployed,Premium,24069.33131654356,>56,25 - 30
+female,0,yes,southwest,High blood pressure,Diabetes,Frequently,Blue collar,Basic,15913.528394829224,41-56,25 - 30
+female,1,no,northeast,Diabetes,High blood pressure,Rarely,Unemployed,Basic,10013.473527846954,41-56,40 - 54
+female,5,no,southwest,Heart disease,Diabetes,Never,Blue collar,Basic,13455.272005401544,18-26,25 - 30
+female,3,yes,northeast,Diabetes,High blood pressure,Rarely,White collar,Standard,19279.92859702284,26-41,40 - 54
+male,4,no,northwest,Diabetes,High blood pressure,Rarely,White collar,Basic,13666.953975169585,>56,40 - 54
+male,4,no,northeast,Heart disease,High blood pressure,Occasionally,Student,Basic,15473.549505735027,41-56,40 - 54
+male,2,yes,southwest,High blood pressure,Diabetes,Never,Student,Premium,18855.6392327534,>56,< 18.5
+female,3,no,southwest,Diabetes,Heart disease,Never,Unemployed,Premium,16549.561841506482,41-56,18.5 - 25
+female,4,yes,southeast,Heart disease,Heart disease,Frequently,Unemployed,Standard,24543.34788719266,41-56,25 - 30
+female,3,no,southwest,High blood pressure,High blood pressure,Never,Blue collar,Premium,13471.022557399474,26-41,18.5 - 25
+female,3,yes,northwest,High blood pressure,High blood pressure,Never,Student,Standard,15062.795554029934,41-56,35 - 40
+female,1,yes,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Basic,16265.475335048475,41-56,35 - 40
+male,5,yes,northwest,Diabetes,Heart disease,Occasionally,White collar,Premium,26533.48240419977,41-56,18.5 - 25
+male,1,yes,northwest,Diabetes,High blood pressure,Never,White collar,Basic,15653.994480254229,41-56,18.5 - 25
+male,5,yes,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Premium,24631.27118968157,18-26,30 - 35
+male,2,yes,southwest,Heart disease,High blood pressure,Never,Blue collar,Standard,20251.44427417773,26-41,18.5 - 25
+male,3,no,northwest,High blood pressure,High blood pressure,Frequently,Blue collar,Premium,15704.972385294384,26-41,18.5 - 25
+male,4,no,southeast,Heart disease,Heart disease,Frequently,Student,Basic,19109.52116207721,>56,18.5 - 25
+male,1,no,southwest,Heart disease,High blood pressure,Frequently,Student,Premium,19484.019151424152,41-56,35 - 40
+female,5,no,southeast,Heart disease,Heart disease,Never,Student,Premium,21988.251847393167,>56,40 - 54
+female,4,no,northwest,Heart disease,Heart disease,Never,Blue collar,Basic,16334.846263062404,26-41,18.5 - 25
+male,1,no,southeast,High blood pressure,Diabetes,Frequently,Blue collar,Standard,15242.06255469208,26-41,40 - 54
+female,1,yes,southeast,Heart disease,Heart disease,Frequently,Student,Standard,24841.98829247239,26-41,40 - 54
+male,4,yes,northeast,Heart disease,High blood pressure,Occasionally,Student,Premium,25075.60950366585,26-41,40 - 54
+female,0,yes,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,21137.49984589805,>56,30 - 35
+female,5,no,northwest,Diabetes,Heart disease,Frequently,Student,Premium,20447.20976691653,26-41,30 - 35
+male,0,yes,northeast,Heart disease,Diabetes,Rarely,Unemployed,Standard,21779.364414767293,26-41,40 - 54
+male,0,yes,southwest,High blood pressure,Diabetes,Never,Student,Basic,13879.09146404196,18-26,30 - 35
+female,5,no,southeast,Heart disease,Heart disease,Frequently,Unemployed,Basic,18325.728556141406,>56,25 - 30
+male,0,no,southwest,Diabetes,High blood pressure,Frequently,Unemployed,Basic,10216.614935875485,>56,18.5 - 25
+female,4,yes,southwest,Heart disease,Heart disease,Occasionally,Blue collar,Premium,28500.54454709152,41-56,35 - 40
+male,2,yes,northeast,High blood pressure,Diabetes,Rarely,Blue collar,Premium,20586.031177928795,18-26,18.5 - 25
+male,5,no,northeast,Diabetes,Diabetes,Rarely,Student,Standard,14139.160067006307,18-26,35 - 40
+male,0,no,northeast,Heart disease,Heart disease,Rarely,Blue collar,Premium,23277.09027824809,18-26,40 - 54
+male,1,yes,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Standard,19629.219068645176,26-41,35 - 40
+male,5,no,southwest,High blood pressure,High blood pressure,Never,Unemployed,Standard,10764.095842155117,26-41,35 - 40
+female,5,yes,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,21603.888735565062,26-41,18.5 - 25
+male,2,yes,northeast,Heart disease,High blood pressure,Frequently,Unemployed,Basic,20261.51283987684,18-26,40 - 54
+female,3,no,northwest,Diabetes,High blood pressure,Frequently,Blue collar,Basic,12622.882011661502,41-56,40 - 54
+male,2,yes,southwest,Diabetes,Diabetes,Never,Unemployed,Basic,15416.321458464792,41-56,25 - 30
+female,1,no,southwest,High blood pressure,High blood pressure,Never,Blue collar,Premium,13132.60957463036,26-41,18.5 - 25
+female,4,no,southwest,Diabetes,Heart disease,Rarely,White collar,Standard,16677.076280704565,26-41,18.5 - 25
+male,2,yes,northwest,Diabetes,Heart disease,Frequently,Unemployed,Basic,20705.53581906596,41-56,35 - 40
+female,1,no,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Premium,20024.652727322307,26-41,30 - 35
+female,1,no,southwest,Diabetes,High blood pressure,Occasionally,Blue collar,Basic,9932.938493376623,26-41,18.5 - 25
+male,2,no,northeast,Heart disease,Heart disease,Occasionally,White collar,Basic,19659.45917193226,18-26,35 - 40
+male,2,yes,northwest,Heart disease,Heart disease,Rarely,Student,Premium,27733.75300868179,26-41,40 - 54
+female,0,no,northeast,High blood pressure,High blood pressure,Frequently,Student,Standard,11761.671979675386,18-26,30 - 35
+male,4,no,northeast,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,17499.813330831268,18-26,25 - 30
+male,3,yes,southeast,Diabetes,Heart disease,Never,Blue collar,Basic,19393.685944893376,18-26,18.5 - 25
+female,3,yes,southeast,Diabetes,High blood pressure,Occasionally,Unemployed,Premium,18848.352176947432,18-26,25 - 30
+male,0,yes,southwest,Heart disease,Heart disease,Never,Blue collar,Standard,23569.80772458571,26-41,30 - 35
+male,1,no,southwest,High blood pressure,High blood pressure,Frequently,Blue collar,Standard,13409.211008375329,>56,18.5 - 25
+female,2,yes,northwest,Heart disease,Diabetes,Frequently,Student,Premium,23940.20151494549,41-56,18.5 - 25
+male,4,no,northeast,Heart disease,High blood pressure,Rarely,White collar,Standard,17809.680707244013,>56,30 - 35
+female,5,yes,southwest,Heart disease,Heart disease,Frequently,Student,Basic,23414.899011541114,41-56,40 - 54
+female,3,yes,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Basic,19939.1699230656,26-41,35 - 40
+male,4,yes,southeast,High blood pressure,Diabetes,Rarely,Blue collar,Standard,18234.12653503244,26-41,25 - 30
+female,5,no,southeast,High blood pressure,High blood pressure,Never,Student,Basic,8244.846378813563,41-56,25 - 30
+male,1,no,northeast,Diabetes,Diabetes,Frequently,Blue collar,Basic,14862.309149856315,>56,30 - 35
+female,5,yes,southwest,Heart disease,Heart disease,Never,White collar,Premium,27005.369610304235,41-56,18.5 - 25
+male,4,no,northwest,High blood pressure,High blood pressure,Occasionally,Blue collar,Premium,17213.985945228345,>56,40 - 54
+male,4,yes,southeast,High blood pressure,High blood pressure,Frequently,Student,Standard,19469.39203325683,41-56,40 - 54
+female,4,no,southeast,Diabetes,Heart disease,Frequently,Student,Premium,20466.3740046456,>56,35 - 40
+male,1,no,northeast,Heart disease,Heart disease,Frequently,Student,Premium,25289.24250799397,>56,40 - 54
+male,4,no,southwest,High blood pressure,Heart disease,Frequently,Student,Basic,15578.276333985665,>56,40 - 54
+male,5,yes,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Basic,17232.30858840272,26-41,35 - 40
+male,5,no,northeast,High blood pressure,Heart disease,Occasionally,Unemployed,Standard,16547.315216064035,26-41,35 - 40
+female,2,no,southwest,Diabetes,Diabetes,Rarely,Unemployed,Standard,11864.0511361862,41-56,35 - 40
+male,3,no,southeast,Diabetes,Heart disease,Frequently,Student,Basic,16137.019846910936,41-56,30 - 35
+female,1,yes,northeast,Diabetes,Diabetes,Never,Unemployed,Basic,14070.500242768368,18-26,25 - 30
+male,0,no,southeast,Diabetes,Diabetes,Never,Unemployed,Standard,12130.318752964118,41-56,30 - 35
+male,4,no,northwest,Heart disease,Heart disease,Never,White collar,Premium,22880.33394822996,18-26,25 - 30
+female,1,yes,northeast,Diabetes,Heart disease,Frequently,Blue collar,Standard,23616.664685807813,26-41,30 - 35
+female,3,no,southwest,Diabetes,Diabetes,Frequently,White collar,Standard,15852.290197219978,26-41,40 - 54
+female,0,no,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,14536.152150372827,41-56,18.5 - 25
+male,4,yes,southeast,High blood pressure,Heart disease,Frequently,Unemployed,Basic,20239.473958040795,>56,35 - 40
+male,1,yes,southeast,High blood pressure,Heart disease,Frequently,Blue collar,Basic,20352.132598508204,26-41,30 - 35
+male,4,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Standard,18286.373391723457,26-41,30 - 35
+male,1,no,northwest,Heart disease,Heart disease,Frequently,White collar,Standard,21433.69449685149,41-56,18.5 - 25
+male,4,yes,southeast,Heart disease,Diabetes,Never,White collar,Basic,21163.08563005873,41-56,35 - 40
+male,0,yes,northwest,High blood pressure,High blood pressure,Never,Blue collar,Premium,19848.7880674768,41-56,40 - 54
+female,0,no,northwest,Diabetes,Heart disease,Frequently,Unemployed,Standard,15643.648335813949,41-56,30 - 35
+male,3,yes,southwest,High blood pressure,Diabetes,Frequently,White collar,Premium,23485.38487074043,26-41,25 - 30
+female,0,yes,southeast,Heart disease,High blood pressure,Rarely,Blue collar,Basic,18040.65333520594,>56,35 - 40
+male,3,yes,southwest,Diabetes,High blood pressure,Frequently,White collar,Basic,18670.989747962583,41-56,40 - 54
+male,2,no,northwest,High blood pressure,Heart disease,Never,Blue collar,Basic,12607.413842810234,18-26,25 - 30
+female,4,yes,northwest,High blood pressure,High blood pressure,Occasionally,Blue collar,Basic,15560.537938204205,41-56,35 - 40
+male,3,no,northeast,Heart disease,Diabetes,Never,Student,Basic,16002.58237530816,>56,40 - 54
+female,2,no,southwest,High blood pressure,High blood pressure,Rarely,Blue collar,Standard,10573.135604715106,26-41,30 - 35
+male,4,yes,northeast,High blood pressure,Diabetes,Rarely,White collar,Standard,19017.59230926709,26-41,30 - 35
+female,0,yes,northeast,Diabetes,Diabetes,Never,Student,Standard,16775.246044775136,>56,25 - 30
+female,3,yes,southwest,High blood pressure,High blood pressure,Occasionally,White collar,Basic,15857.539248614865,41-56,30 - 35
+female,0,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,15414.646985697746,41-56,35 - 40
+female,5,no,northwest,High blood pressure,High blood pressure,Rarely,White collar,Premium,15549.2312273506,26-41,30 - 35
+male,5,no,southwest,Diabetes,High blood pressure,Never,Student,Premium,16374.202541508435,>56,40 - 54
+male,1,yes,northeast,Heart disease,Heart disease,Rarely,White collar,Basic,24363.00985566554,>56,35 - 40
+female,0,yes,southwest,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,15176.801922475866,>56,40 - 54
+male,2,no,northeast,Diabetes,Diabetes,Occasionally,Blue collar,Basic,13588.514358395969,>56,35 - 40
+female,0,no,northwest,Diabetes,Diabetes,Occasionally,Blue collar,Basic,10688.383798996378,26-41,18.5 - 25
+female,2,no,southeast,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,14927.044316783653,>56,40 - 54
+female,3,no,southeast,Heart disease,High blood pressure,Rarely,White collar,Basic,13589.689599053743,41-56,18.5 - 25
+female,4,no,northeast,Heart disease,Diabetes,Frequently,White collar,Standard,19095.57990166398,>56,25 - 30
+male,5,no,northwest,Diabetes,Diabetes,Occasionally,Student,Standard,14574.601557205871,26-41,40 - 54
+male,1,yes,southeast,High blood pressure,Diabetes,Frequently,Student,Premium,22310.12975149104,41-56,40 - 54
+female,3,yes,northwest,Heart disease,Diabetes,Rarely,Unemployed,Basic,17934.438552436317,26-41,35 - 40
+female,5,yes,northwest,High blood pressure,High blood pressure,Frequently,Unemployed,Standard,16292.50080706164,26-41,30 - 35
+male,5,yes,southeast,High blood pressure,Diabetes,Frequently,Student,Standard,19492.99916116428,26-41,30 - 35
+female,0,yes,northwest,High blood pressure,Diabetes,Never,Unemployed,Standard,14476.651406415676,26-41,35 - 40
+female,0,no,northwest,High blood pressure,Diabetes,Rarely,White collar,Standard,11469.194807296455,26-41,18.5 - 25
+female,0,no,southwest,Heart disease,Diabetes,Never,White collar,Premium,19696.93219279727,>56,40 - 54
+female,0,yes,northeast,Diabetes,Diabetes,Rarely,Unemployed,Premium,19291.508364826444,26-41,25 - 30
+female,3,yes,southeast,High blood pressure,High blood pressure,Occasionally,Student,Basic,12830.546052650569,18-26,18.5 - 25
+male,0,no,southwest,High blood pressure,Diabetes,Never,Student,Standard,12069.39103167898,>56,40 - 54
+female,3,no,northeast,Diabetes,Diabetes,Frequently,Unemployed,Premium,18159.775842440355,41-56,40 - 54
+male,2,yes,southeast,Diabetes,Heart disease,Occasionally,White collar,Basic,20845.821892201515,41-56,18.5 - 25
+female,4,no,northwest,Diabetes,High blood pressure,Never,Blue collar,Standard,12484.562721802042,26-41,40 - 54
+female,4,no,northwest,High blood pressure,High blood pressure,Occasionally,White collar,Standard,12548.106282411944,41-56,35 - 40
+female,0,no,northwest,High blood pressure,High blood pressure,Rarely,White collar,Premium,15118.93600585865,41-56,40 - 54
+female,0,no,southwest,Diabetes,Heart disease,Rarely,Unemployed,Basic,12495.56692304742,26-41,35 - 40
+female,5,yes,northwest,High blood pressure,Diabetes,Occasionally,Blue collar,Standard,18393.93285110699,26-41,40 - 54
+female,3,no,northwest,Heart disease,High blood pressure,Never,White collar,Standard,15282.210180509304,26-41,25 - 30
+female,2,no,southeast,Heart disease,High blood pressure,Never,Student,Premium,16915.909789785426,26-41,25 - 30
+female,0,no,southeast,High blood pressure,Diabetes,Never,Student,Premium,14051.06828378652,26-41,40 - 54
+female,4,no,northwest,Diabetes,Heart disease,Frequently,Student,Basic,14834.298056448708,26-41,25 - 30
+female,0,no,northeast,Diabetes,Diabetes,Never,Blue collar,Basic,11415.490925905557,26-41,40 - 54
+male,4,yes,northwest,Diabetes,High blood pressure,Never,White collar,Premium,21694.64830146485,>56,18.5 - 25
+male,4,no,southwest,Heart disease,Heart disease,Rarely,Blue collar,Basic,19142.257474889,>56,30 - 35
+female,4,no,northwest,High blood pressure,High blood pressure,Never,White collar,Premium,15020.947246144402,26-41,40 - 54
+female,1,yes,southwest,Heart disease,High blood pressure,Rarely,White collar,Basic,18168.18693650638,18-26,35 - 40
+male,0,no,northwest,Heart disease,Diabetes,Frequently,White collar,Standard,18986.073567786505,26-41,35 - 40
+female,0,yes,northwest,Diabetes,Diabetes,Never,Student,Basic,15072.267260588256,41-56,40 - 54
+female,2,yes,southwest,Diabetes,High blood pressure,Never,Student,Premium,17892.303289901953,41-56,18.5 - 25
+male,1,no,northeast,Heart disease,High blood pressure,Never,Student,Premium,18869.11843248384,41-56,40 - 54
+male,5,yes,northwest,High blood pressure,Heart disease,Never,White collar,Premium,24805.71400239263,>56,18.5 - 25
+female,2,yes,southwest,Heart disease,Diabetes,Never,White collar,Standard,20581.67782035684,>56,18.5 - 25
+male,3,yes,southwest,High blood pressure,High blood pressure,Occasionally,White collar,Premium,21601.07478838937,26-41,40 - 54
+male,0,no,northeast,High blood pressure,High blood pressure,Never,White collar,Basic,9721.678330325249,41-56,25 - 30
+male,1,yes,southwest,High blood pressure,High blood pressure,Never,White collar,Premium,19838.14299690654,18-26,40 - 54
+female,1,no,southeast,Heart disease,Diabetes,Rarely,Student,Basic,13679.519452938834,26-41,40 - 54
+male,3,no,southwest,Diabetes,Diabetes,Occasionally,Unemployed,Standard,12514.75443532669,18-26,30 - 35
+female,1,yes,northwest,High blood pressure,High blood pressure,Never,Blue collar,Basic,13222.758268464251,>56,18.5 - 25
+female,0,no,southeast,High blood pressure,High blood pressure,Rarely,White collar,Premium,15448.03789572808,26-41,40 - 54
+female,5,no,southwest,High blood pressure,Heart disease,Rarely,Student,Basic,12969.10635714411,>56,35 - 40
+male,4,yes,southwest,Diabetes,High blood pressure,Never,Unemployed,Basic,14895.304443334791,>56,35 - 40
+female,3,no,northwest,Diabetes,Diabetes,Never,Blue collar,Basic,11538.52093566192,26-41,40 - 54
+female,4,no,northwest,High blood pressure,High blood pressure,Occasionally,Student,Basic,8274.433413193068,26-41,30 - 35
+female,2,no,southeast,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,14185.051643438608,>56,30 - 35
+female,0,yes,northeast,Diabetes,Diabetes,Frequently,White collar,Premium,23659.40022048753,41-56,25 - 30
+female,3,yes,southwest,Diabetes,High blood pressure,Never,White collar,Standard,17204.107383284754,18-26,40 - 54
+male,2,no,northeast,Diabetes,Heart disease,Never,Student,Premium,19038.61587665796,41-56,18.5 - 25
+female,2,no,southwest,High blood pressure,High blood pressure,Frequently,White collar,Premium,15737.114878077178,41-56,30 - 35
+male,2,yes,southwest,High blood pressure,Heart disease,Occasionally,Blue collar,Premium,25168.78785639584,41-56,40 - 54
+male,4,no,southwest,Heart disease,Diabetes,Occasionally,Student,Standard,17072.17750543948,18-26,40 - 54
+female,0,no,southeast,Heart disease,Diabetes,Frequently,White collar,Basic,16535.542940913743,26-41,40 - 54
+female,4,no,northwest,Diabetes,Diabetes,Frequently,Student,Premium,15913.69428984052,26-41,18.5 - 25
+female,0,no,northeast,Diabetes,Heart disease,Occasionally,Blue collar,Basic,13802.12440893305,18-26,18.5 - 25
+male,0,no,northeast,High blood pressure,Heart disease,Never,Blue collar,Standard,15837.224359271,26-41,30 - 35
+male,1,yes,northeast,Heart disease,Heart disease,Occasionally,Blue collar,Standard,25933.919509245134,26-41,35 - 40
+male,0,yes,southwest,Heart disease,Diabetes,Rarely,Student,Standard,21514.88629385476,41-56,40 - 54
+female,1,no,southwest,High blood pressure,Heart disease,Frequently,Student,Basic,12230.52814940781,18-26,25 - 30
+female,0,yes,southeast,Heart disease,Heart disease,Occasionally,Blue collar,Basic,22328.049721263404,26-41,30 - 35
+male,3,no,northeast,Diabetes,Heart disease,Never,Student,Standard,17164.032689528995,>56,40 - 54
+female,4,yes,southeast,Heart disease,Diabetes,Never,Student,Standard,20754.81467149257,41-56,30 - 35
+male,0,yes,southwest,Heart disease,Heart disease,Frequently,Unemployed,Basic,22082.04489683129,41-56,18.5 - 25
+female,4,no,southwest,High blood pressure,Diabetes,Frequently,Unemployed,Premium,16341.370670383278,>56,40 - 54
+male,1,no,southwest,High blood pressure,High blood pressure,Frequently,Unemployed,Basic,9458.753389983987,41-56,18.5 - 25
+male,0,yes,southeast,High blood pressure,High blood pressure,Frequently,Student,Standard,16922.381154512026,41-56,25 - 30
+male,1,yes,southeast,Heart disease,Diabetes,Rarely,Student,Standard,21534.25865135716,>56,25 - 30
+female,1,no,southwest,High blood pressure,Heart disease,Never,White collar,Basic,11833.391700060163,26-41,18.5 - 25
+male,2,no,northwest,High blood pressure,Diabetes,Never,Unemployed,Basic,8086.015240269359,26-41,18.5 - 25
+female,1,no,southwest,Heart disease,Heart disease,Rarely,White collar,Basic,17238.062826856614,41-56,35 - 40
+male,4,no,southwest,High blood pressure,Diabetes,Never,Unemployed,Standard,11166.12996931516,18-26,35 - 40
+female,2,yes,southwest,High blood pressure,High blood pressure,Frequently,White collar,Basic,15641.702810243656,>56,18.5 - 25
+male,0,no,southwest,Heart disease,High blood pressure,Occasionally,Student,Premium,17078.919635856233,18-26,18.5 - 25
+male,4,yes,southwest,Diabetes,High blood pressure,Rarely,Blue collar,Basic,17478.54500081213,>56,35 - 40
+female,5,yes,northeast,High blood pressure,Heart disease,Frequently,Unemployed,Basic,20175.54705447887,>56,40 - 54
+male,4,yes,southwest,Heart disease,Heart disease,Frequently,Student,Premium,27993.81794115135,18-26,18.5 - 25
+male,5,no,northwest,Diabetes,Heart disease,Never,Student,Basic,14425.881769696944,26-41,40 - 54
+male,5,no,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,15747.046802421431,41-56,40 - 54
+female,2,yes,southwest,High blood pressure,High blood pressure,Never,Blue collar,Basic,13721.52627707767,41-56,30 - 35
+male,0,yes,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Basic,20971.50822189958,26-41,40 - 54
+female,0,no,northwest,High blood pressure,Diabetes,Occasionally,Unemployed,Standard,11742.74929975666,26-41,40 - 54
+female,5,no,southwest,Heart disease,Diabetes,Occasionally,White collar,Standard,18493.01690963471,>56,40 - 54
+female,0,yes,southeast,Heart disease,High blood pressure,Frequently,Student,Standard,20749.368815106147,26-41,40 - 54
+male,2,yes,northeast,High blood pressure,Heart disease,Rarely,Unemployed,Premium,22650.191018904705,26-41,25 - 30
+female,2,yes,northeast,Heart disease,High blood pressure,Frequently,Student,Standard,20623.97712648206,18-26,18.5 - 25
+female,1,no,northwest,Heart disease,Diabetes,Rarely,Student,Standard,14740.831196350571,41-56,25 - 30
+male,3,no,southeast,Diabetes,High blood pressure,Frequently,Student,Premium,18395.14596455556,>56,40 - 54
+male,0,no,southwest,Heart disease,Diabetes,Never,Student,Basic,13277.439046906828,>56,25 - 30
+female,4,yes,southeast,Heart disease,Diabetes,Rarely,Unemployed,Premium,22818.39552366883,41-56,18.5 - 25
+male,2,yes,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,23167.945913930194,>56,40 - 54
+male,2,no,southeast,Heart disease,Diabetes,Frequently,White collar,Basic,18000.566113556997,>56,40 - 54
+male,4,yes,northeast,Diabetes,High blood pressure,Never,Blue collar,Standard,18887.62760986028,41-56,25 - 30
+male,4,no,northwest,Diabetes,Diabetes,Rarely,Student,Premium,16039.713164521396,26-41,18.5 - 25
+female,3,yes,northeast,Diabetes,High blood pressure,Never,Unemployed,Standard,16388.3137792586,41-56,25 - 30
+female,5,yes,northwest,Diabetes,Heart disease,Occasionally,Unemployed,Standard,20253.09884653079,18-26,25 - 30
+male,5,yes,northwest,High blood pressure,High blood pressure,Frequently,Unemployed,Standard,17695.49842897972,41-56,25 - 30
+female,5,no,northwest,High blood pressure,Diabetes,Occasionally,White collar,Standard,12532.735729167482,26-41,18.5 - 25
+male,1,yes,southeast,Heart disease,Diabetes,Rarely,Student,Premium,24645.88154513064,>56,25 - 30
+male,1,yes,northwest,Heart disease,Heart disease,Occasionally,Blue collar,Premium,28324.464623866203,>56,25 - 30
+female,5,no,northwest,Heart disease,High blood pressure,Never,Blue collar,Basic,12868.314072440851,26-41,25 - 30
+male,5,yes,southwest,High blood pressure,Diabetes,Never,Unemployed,Premium,19962.60470182989,26-41,35 - 40
+female,5,yes,northwest,Heart disease,Heart disease,Frequently,White collar,Standard,25979.344894289454,26-41,25 - 30
+female,1,no,northeast,High blood pressure,Heart disease,Never,Unemployed,Basic,11199.873163818196,41-56,18.5 - 25
+male,4,yes,southwest,Diabetes,High blood pressure,Occasionally,Blue collar,Standard,18717.886431497325,41-56,25 - 30
+female,5,no,northeast,Heart disease,High blood pressure,Occasionally,Blue collar,Standard,17368.877048051672,>56,25 - 30
+male,2,yes,southeast,Diabetes,Heart disease,Never,Student,Premium,24844.78452927751,>56,40 - 54
+female,5,no,southwest,Heart disease,Heart disease,Rarely,Student,Premium,22496.606858825253,41-56,35 - 40
+female,2,yes,southeast,Diabetes,Heart disease,Occasionally,Blue collar,Basic,20420.04417575559,18-26,40 - 54
+female,0,yes,northwest,Diabetes,Heart disease,Frequently,Blue collar,Standard,23226.258377919206,>56,40 - 54
+female,0,yes,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Basic,14403.113705713946,>56,35 - 40
+female,2,no,northeast,Heart disease,High blood pressure,Never,Unemployed,Basic,12314.700986179463,41-56,35 - 40
+female,5,no,northwest,Heart disease,Diabetes,Occasionally,Unemployed,Basic,13786.590198397616,>56,30 - 35
+female,1,no,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Standard,15021.086977832489,>56,40 - 54
+female,4,no,southeast,Diabetes,High blood pressure,Frequently,Unemployed,Basic,11831.668665333757,41-56,40 - 54
+male,4,no,southeast,High blood pressure,Heart disease,Frequently,White collar,Premium,22269.896849981826,41-56,40 - 54
+male,3,yes,northeast,Diabetes,Heart disease,Rarely,Blue collar,Basic,20430.983900477808,18-26,30 - 35
+female,0,no,southwest,High blood pressure,Heart disease,Rarely,White collar,Premium,18066.83470817477,>56,25 - 30
+male,2,no,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,11850.82782993449,>56,30 - 35
+male,4,yes,southwest,Diabetes,Heart disease,Rarely,Student,Basic,19378.64367330589,41-56,25 - 30
+female,3,no,southeast,Heart disease,Diabetes,Never,Unemployed,Premium,16622.61638771712,26-41,18.5 - 25
+female,0,no,northwest,Diabetes,Heart disease,Rarely,White collar,Standard,16009.371783345352,26-41,35 - 40
+female,0,yes,northwest,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,17480.92516996754,>56,30 - 35
+female,5,yes,southeast,Diabetes,High blood pressure,Never,Unemployed,Basic,15171.14569891846,>56,40 - 54
+male,4,no,southeast,Diabetes,High blood pressure,Never,Blue collar,Standard,12848.489879580702,18-26,25 - 30
+female,1,no,northwest,Heart disease,High blood pressure,Frequently,Unemployed,Standard,14651.775323184544,18-26,25 - 30
+female,4,no,northeast,Diabetes,Heart disease,Never,Unemployed,Basic,14848.601422232972,>56,40 - 54
+male,3,no,southeast,High blood pressure,Heart disease,Frequently,Unemployed,Premium,19671.01935922662,41-56,40 - 54
+male,0,yes,southwest,High blood pressure,Diabetes,Rarely,White collar,Premium,21558.04449429494,26-41,35 - 40
+male,1,no,northeast,Diabetes,Diabetes,Occasionally,Unemployed,Standard,14399.67769275441,41-56,35 - 40
+male,1,yes,southeast,Diabetes,High blood pressure,Frequently,Student,Basic,15535.455515672633,18-26,25 - 30
+male,3,yes,southeast,Diabetes,Heart disease,Rarely,Unemployed,Basic,18945.677469231618,18-26,40 - 54
+female,5,yes,southwest,Heart disease,Diabetes,Occasionally,Blue collar,Standard,21793.90978652224,>56,25 - 30
+male,5,yes,northwest,Heart disease,High blood pressure,Occasionally,White collar,Premium,26783.638506552,41-56,40 - 54
+female,2,no,northeast,Heart disease,Heart disease,Rarely,Student,Standard,17923.367132631924,41-56,18.5 - 25
+female,0,no,northeast,Diabetes,Heart disease,Occasionally,Student,Standard,17401.226034801024,>56,40 - 54
+male,0,no,southeast,Diabetes,High blood pressure,Frequently,Blue collar,Basic,13143.196752248055,41-56,35 - 40
+female,1,no,southeast,Heart disease,Diabetes,Rarely,White collar,Basic,14111.65553916688,18-26,35 - 40
+female,1,no,northeast,Heart disease,High blood pressure,Rarely,Blue collar,Standard,14961.512163630265,26-41,18.5 - 25
+male,0,yes,northeast,High blood pressure,Diabetes,Frequently,White collar,Standard,20885.25930035304,26-41,40 - 54
+female,0,no,southwest,Heart disease,Heart disease,Frequently,Unemployed,Standard,18156.2438944288,18-26,30 - 35
+male,2,no,southwest,High blood pressure,Diabetes,Never,Blue collar,Basic,9741.354925052408,41-56,18.5 - 25
+female,5,yes,southeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,21690.92158933232,41-56,35 - 40
+female,4,no,southeast,High blood pressure,Heart disease,Rarely,Student,Basic,13266.694548728376,41-56,40 - 54
+female,4,yes,northwest,Heart disease,Heart disease,Occasionally,Student,Standard,25191.099608807323,41-56,40 - 54
+female,2,no,southeast,High blood pressure,Heart disease,Frequently,White collar,Basic,15965.268385986934,>56,35 - 40
+male,2,yes,southeast,High blood pressure,Diabetes,Rarely,White collar,Premium,21844.7592401152,26-41,35 - 40
+female,1,no,northeast,High blood pressure,Diabetes,Never,White collar,Standard,12049.931933722666,26-41,30 - 35
+male,3,no,northeast,Heart disease,Diabetes,Rarely,White collar,Basic,17880.148200401673,41-56,40 - 54
+male,2,no,southeast,Heart disease,High blood pressure,Never,Blue collar,Basic,13370.946711171786,18-26,35 - 40
+female,3,yes,northeast,Heart disease,Heart disease,Rarely,White collar,Basic,23216.64362036092,>56,25 - 30
+female,0,no,northwest,Diabetes,Heart disease,Occasionally,Unemployed,Basic,13733.05527659461,41-56,40 - 54
+male,4,no,southeast,High blood pressure,Diabetes,Rarely,Student,Basic,10581.463614463077,18-26,35 - 40
+female,1,no,northwest,High blood pressure,High blood pressure,Occasionally,White collar,Standard,12090.05299382256,41-56,30 - 35
+male,2,no,northwest,High blood pressure,High blood pressure,Never,Student,Premium,13874.387018807422,26-41,40 - 54
+female,1,no,southeast,Heart disease,High blood pressure,Occasionally,White collar,Premium,19160.31668938204,26-41,25 - 30
+male,2,yes,northwest,Heart disease,Diabetes,Rarely,Unemployed,Standard,20573.34432211531,>56,25 - 30
+female,1,no,southwest,Heart disease,Diabetes,Occasionally,White collar,Premium,21170.09527314669,>56,40 - 54
+female,5,yes,southwest,High blood pressure,High blood pressure,Rarely,Student,Premium,18140.7124835856,18-26,30 - 35
+male,1,yes,northwest,High blood pressure,Diabetes,Never,Blue collar,Premium,21330.555956776054,41-56,40 - 54
+male,4,yes,southeast,Heart disease,High blood pressure,Frequently,Blue collar,Standard,23291.90196607292,41-56,40 - 54
+male,3,no,southwest,High blood pressure,Diabetes,Occasionally,White collar,Premium,17059.78512812844,41-56,25 - 30
+male,3,no,northwest,Heart disease,High blood pressure,Occasionally,Student,Basic,14400.306310074457,26-41,40 - 54
+female,0,no,southeast,High blood pressure,High blood pressure,Frequently,Student,Premium,14177.935989215692,18-26,25 - 30
+female,5,no,northwest,Diabetes,High blood pressure,Occasionally,Unemployed,Standard,11447.7047997521,26-41,35 - 40
+male,1,yes,northeast,Diabetes,Diabetes,Never,Unemployed,Premium,20276.42966557246,26-41,25 - 30
+male,2,no,northwest,Heart disease,Diabetes,Frequently,Student,Basic,14651.32964708612,18-26,18.5 - 25
+female,4,no,northwest,Diabetes,High blood pressure,Occasionally,White collar,Premium,16012.680930764494,26-41,18.5 - 25
+male,1,yes,northwest,High blood pressure,Diabetes,Rarely,Blue collar,Basic,16898.714744486915,>56,40 - 54
+male,1,no,southeast,Heart disease,Diabetes,Never,Unemployed,Premium,18443.66861966797,41-56,35 - 40
+male,3,yes,northwest,Diabetes,Diabetes,Occasionally,Student,Standard,18532.274616377585,>56,18.5 - 25
+male,1,no,northeast,High blood pressure,High blood pressure,Never,Unemployed,Basic,7636.412644600469,18-26,25 - 30
+male,0,no,southwest,Diabetes,Diabetes,Rarely,White collar,Premium,17202.026182781952,41-56,30 - 35
+female,2,yes,northeast,Diabetes,Heart disease,Never,Blue collar,Basic,19327.49676495848,>56,18.5 - 25
+male,0,yes,southeast,Diabetes,Diabetes,Frequently,Unemployed,Standard,19789.9302511362,41-56,40 - 54
+female,5,yes,northeast,High blood pressure,Diabetes,Occasionally,Blue collar,Premium,21387.83028567447,41-56,18.5 - 25
+male,5,yes,southeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,22615.56401486571,26-41,18.5 - 25
+male,0,no,northeast,Diabetes,Diabetes,Never,Student,Standard,12335.50047678622,41-56,18.5 - 25
+female,1,yes,southeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,14812.86467289078,>56,25 - 30
+male,3,no,southwest,High blood pressure,High blood pressure,Rarely,White collar,Premium,15791.74160624991,41-56,25 - 30
+male,4,no,southwest,High blood pressure,Diabetes,Occasionally,Unemployed,Standard,12048.27523787996,26-41,25 - 30
+female,3,yes,northwest,Diabetes,High blood pressure,Occasionally,Unemployed,Basic,14880.315082916157,41-56,30 - 35
+male,0,yes,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Basic,18866.867865681663,18-26,18.5 - 25
+female,3,yes,northwest,Diabetes,Diabetes,Occasionally,White collar,Standard,20373.62490362417,>56,35 - 40
+male,4,yes,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,19727.68079583732,>56,25 - 30
+female,4,yes,northeast,High blood pressure,Diabetes,Never,Blue collar,Standard,17764.983439941836,26-41,30 - 35
+male,2,yes,southwest,High blood pressure,Diabetes,Never,White collar,Premium,20396.267171549487,18-26,35 - 40
+female,3,yes,southwest,High blood pressure,Diabetes,Never,Student,Premium,19520.546975272067,26-41,40 - 54
+male,5,no,southwest,Diabetes,Diabetes,Never,White collar,Standard,15493.920322885448,26-41,40 - 54
+female,2,no,southwest,Diabetes,High blood pressure,Frequently,White collar,Standard,14587.572318781646,>56,30 - 35
+female,1,yes,southwest,Diabetes,Heart disease,Frequently,Blue collar,Standard,23137.039389270965,41-56,40 - 54
+female,2,yes,northwest,Heart disease,Heart disease,Occasionally,Student,Standard,24385.41500658571,41-56,40 - 54
+female,1,no,southeast,High blood pressure,Heart disease,Never,Blue collar,Basic,13591.486292516449,>56,40 - 54
+female,3,yes,northeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,23148.360438831816,26-41,40 - 54
+female,4,no,northeast,Heart disease,High blood pressure,Never,Unemployed,Standard,14923.245432596525,41-56,40 - 54
+female,4,yes,northwest,Diabetes,Diabetes,Never,White collar,Basic,16754.073846558476,41-56,25 - 30
+male,5,yes,northeast,Diabetes,Heart disease,Rarely,Unemployed,Basic,19240.698336427133,26-41,25 - 30
+male,5,no,southeast,Diabetes,High blood pressure,Never,Unemployed,Basic,10704.620687143544,41-56,40 - 54
+female,0,yes,southeast,Heart disease,High blood pressure,Occasionally,Student,Premium,22968.921646296298,>56,25 - 30
+male,5,yes,northwest,Diabetes,Heart disease,Occasionally,Blue collar,Standard,23339.843802439,41-56,35 - 40
+male,2,no,southeast,High blood pressure,Heart disease,Frequently,Blue collar,Standard,17711.861251986604,18-26,40 - 54
+male,4,yes,southeast,Heart disease,Diabetes,Never,White collar,Standard,22579.01335211056,26-41,35 - 40
+male,1,yes,northeast,Diabetes,Heart disease,Rarely,Student,Standard,22170.68535164575,26-41,40 - 54
+female,4,yes,southwest,High blood pressure,High blood pressure,Rarely,Student,Standard,14893.316945396806,41-56,18.5 - 25
+male,0,no,northwest,High blood pressure,Heart disease,Frequently,Blue collar,Standard,18386.303928636065,41-56,40 - 54
+female,4,yes,northwest,Heart disease,Diabetes,Rarely,Unemployed,Basic,18056.81427162456,26-41,30 - 35
+male,2,no,southeast,High blood pressure,Heart disease,Occasionally,Student,Standard,16528.72030191105,>56,30 - 35
+male,0,yes,southeast,High blood pressure,Diabetes,Occasionally,Unemployed,Basic,14935.299157004612,41-56,30 - 35
+female,0,no,northwest,High blood pressure,High blood pressure,Never,Unemployed,Basic,6495.235966491662,41-56,25 - 30
+male,3,no,southwest,High blood pressure,Heart disease,Frequently,White collar,Standard,18812.47305492635,26-41,40 - 54
+female,4,yes,southwest,Diabetes,High blood pressure,Rarely,Unemployed,Standard,15906.14508502225,41-56,30 - 35
+female,0,no,northwest,Diabetes,High blood pressure,Frequently,Blue collar,Basic,11427.549384687169,26-41,40 - 54
+male,0,yes,northeast,Heart disease,High blood pressure,Rarely,Unemployed,Premium,23314.63449447205,>56,18.5 - 25
+male,1,yes,northeast,Diabetes,High blood pressure,Occasionally,Blue collar,Basic,18176.488373103,>56,35 - 40
+female,2,yes,southeast,Heart disease,Diabetes,Never,Blue collar,Premium,23706.10903003452,26-41,35 - 40
+female,3,no,northeast,Heart disease,Diabetes,Frequently,Blue collar,Standard,18258.55234518241,>56,18.5 - 25
+male,4,yes,northwest,Heart disease,Diabetes,Occasionally,Student,Standard,22644.098610216723,41-56,40 - 54
+female,1,yes,northeast,High blood pressure,Heart disease,Frequently,Blue collar,Standard,22543.871909942045,26-41,35 - 40
+female,1,yes,southwest,Diabetes,Heart disease,Rarely,White collar,Standard,21133.585886183697,>56,18.5 - 25
+female,4,no,southeast,Diabetes,Diabetes,Occasionally,Unemployed,Standard,13237.546010621563,41-56,25 - 30
+male,5,yes,southeast,High blood pressure,High blood pressure,Frequently,Unemployed,Premium,20282.11616512644,41-56,< 18.5
+male,5,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Basic,16885.98325058279,26-41,35 - 40
+male,2,no,northeast,Heart disease,Diabetes,Rarely,Student,Premium,19763.50049298512,26-41,25 - 30
+male,1,no,northwest,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,8469.342766711874,18-26,35 - 40
+female,4,yes,northeast,High blood pressure,Heart disease,Occasionally,Blue collar,Basic,19757.11392669456,41-56,35 - 40
+female,0,yes,southeast,High blood pressure,Diabetes,Rarely,White collar,Basic,16398.615673767184,41-56,40 - 54
+male,4,no,northwest,Diabetes,Heart disease,Never,Blue collar,Standard,17714.73982046925,41-56,40 - 54
+male,4,no,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Premium,21035.65503700108,18-26,40 - 54
+male,2,no,southeast,Diabetes,High blood pressure,Rarely,Student,Premium,16115.827080054878,>56,35 - 40
+female,0,no,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Premium,16960.83788495744,>56,40 - 54
+female,2,no,northwest,Heart disease,Diabetes,Never,Blue collar,Standard,14795.880301763807,18-26,18.5 - 25
+male,1,no,southwest,Heart disease,Diabetes,Never,Blue collar,Premium,18035.59326789617,18-26,18.5 - 25
+male,0,yes,southwest,Heart disease,Diabetes,Rarely,Blue collar,Premium,24806.06384182853,18-26,40 - 54
+male,3,yes,northwest,Heart disease,Diabetes,Never,Unemployed,Standard,20022.96321991925,26-41,35 - 40
+female,4,yes,northeast,Heart disease,Heart disease,Frequently,White collar,Basic,25900.96255116041,41-56,40 - 54
+female,2,no,southwest,Diabetes,Heart disease,Never,Student,Premium,16813.004879812088,41-56,18.5 - 25
+male,3,no,northeast,Heart disease,Diabetes,Occasionally,White collar,Basic,16929.54003655699,26-41,40 - 54
+female,0,yes,northeast,High blood pressure,High blood pressure,Frequently,White collar,Standard,19247.43803684493,18-26,40 - 54
+female,0,no,northwest,Diabetes,Heart disease,Occasionally,Student,Basic,13516.739887484977,18-26,40 - 54
+female,1,no,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Standard,11271.450061474725,18-26,30 - 35
+female,1,no,northwest,High blood pressure,Heart disease,Rarely,Student,Premium,16700.140122822308,>56,18.5 - 25
+female,2,no,northeast,Diabetes,Heart disease,Never,Student,Standard,15461.896601605406,>56,30 - 35
+male,0,no,northwest,Diabetes,Diabetes,Never,Student,Standard,12646.334634913175,26-41,40 - 54
+male,2,no,southeast,Heart disease,Diabetes,Rarely,Student,Standard,17635.503519169815,>56,40 - 54
+female,3,yes,southwest,Heart disease,Heart disease,Occasionally,Student,Standard,23930.644962197683,26-41,25 - 30
+female,5,yes,northeast,High blood pressure,Heart disease,Never,Unemployed,Premium,23268.873154142013,>56,40 - 54
+female,0,yes,northeast,High blood pressure,Diabetes,Frequently,Student,Standard,18107.71910379099,26-41,40 - 54
+male,0,no,northwest,Heart disease,High blood pressure,Frequently,Student,Basic,14028.019133770473,41-56,25 - 30
+female,1,yes,southeast,High blood pressure,High blood pressure,Occasionally,White collar,Premium,21385.409232524613,>56,40 - 54
+male,2,yes,southwest,Heart disease,Diabetes,Frequently,White collar,Premium,27786.471889674514,41-56,40 - 54
+female,3,no,southeast,Heart disease,Diabetes,Rarely,Student,Standard,16404.459310784874,41-56,40 - 54
+male,2,yes,southeast,Heart disease,High blood pressure,Occasionally,Student,Premium,24056.11414094716,41-56,35 - 40
+male,1,yes,northwest,Diabetes,Heart disease,Frequently,White collar,Standard,23537.768135452094,26-41,25 - 30
+male,4,yes,southwest,Diabetes,Heart disease,Never,Student,Basic,18701.25153992115,>56,18.5 - 25
+male,2,no,southeast,Heart disease,Heart disease,Never,Student,Standard,19527.226145821805,18-26,40 - 54
+male,3,no,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Basic,15772.028904436564,41-56,30 - 35
+male,0,yes,southwest,Heart disease,Heart disease,Rarely,Student,Standard,23808.99393519024,18-26,40 - 54
+male,5,yes,southwest,High blood pressure,High blood pressure,Frequently,Blue collar,Basic,17792.823956040884,26-41,40 - 54
+male,2,yes,northeast,Diabetes,High blood pressure,Never,Blue collar,Premium,21891.836374566643,41-56,30 - 35
+female,4,no,southeast,Diabetes,High blood pressure,Never,Unemployed,Basic,8874.313309776539,41-56,35 - 40
+female,4,no,northeast,Heart disease,Diabetes,Frequently,Unemployed,Basic,14104.697070588303,18-26,18.5 - 25
+female,4,no,southeast,High blood pressure,Heart disease,Frequently,Unemployed,Premium,18072.38410341321,18-26,30 - 35
+female,3,yes,northwest,Heart disease,Diabetes,Frequently,Student,Basic,19074.57922609167,26-41,18.5 - 25
+female,2,no,southwest,Diabetes,Diabetes,Rarely,Student,Premium,15481.982118157946,>56,30 - 35
+male,3,yes,northeast,Heart disease,Diabetes,Frequently,White collar,Premium,28573.718105340893,26-41,40 - 54
+male,0,yes,northwest,Diabetes,Diabetes,Frequently,Blue collar,Premium,22995.47374512715,26-41,18.5 - 25
+male,4,yes,northwest,Heart disease,Diabetes,Occasionally,White collar,Premium,27579.51349360113,>56,40 - 54
+male,1,no,northwest,Diabetes,Diabetes,Frequently,Blue collar,Premium,18684.83458443446,>56,18.5 - 25
+male,1,yes,southeast,Diabetes,Diabetes,Frequently,White collar,Standard,20263.784085550287,18-26,18.5 - 25
+male,2,yes,northeast,Diabetes,High blood pressure,Never,Unemployed,Standard,16088.33941802675,26-41,25 - 30
+male,0,yes,southwest,Heart disease,Diabetes,Occasionally,White collar,Standard,22443.6665012599,41-56,25 - 30
+female,4,no,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,8731.799626251093,41-56,35 - 40
+male,2,yes,northwest,Diabetes,Diabetes,Frequently,White collar,Premium,23880.86416806177,26-41,35 - 40
+male,3,yes,southeast,Heart disease,Diabetes,Occasionally,Student,Standard,22766.88221359624,41-56,40 - 54
+female,2,yes,northeast,Diabetes,High blood pressure,Occasionally,Unemployed,Basic,14043.646057017111,26-41,18.5 - 25
+female,2,yes,northwest,High blood pressure,High blood pressure,Never,Student,Standard,15332.495481134303,>56,35 - 40
+female,4,yes,northwest,High blood pressure,Heart disease,Frequently,White collar,Basic,20380.59265377231,>56,25 - 30
+female,0,yes,southeast,High blood pressure,Diabetes,Rarely,Unemployed,Premium,19093.51780168751,>56,40 - 54
+male,4,yes,northeast,Heart disease,High blood pressure,Rarely,White collar,Standard,22652.016187071746,18-26,40 - 54
+male,1,no,southwest,High blood pressure,Diabetes,Never,White collar,Standard,12686.12742601506,18-26,30 - 35
+male,0,no,northeast,High blood pressure,High blood pressure,Never,Blue collar,Premium,15025.42933819275,41-56,35 - 40
+male,4,yes,northeast,Heart disease,Heart disease,Never,White collar,Basic,24783.16295685734,26-41,40 - 54
+male,1,yes,southeast,Diabetes,Diabetes,Never,Blue collar,Premium,22296.882426726475,26-41,40 - 54
+male,0,yes,southeast,High blood pressure,Diabetes,Rarely,Blue collar,Basic,15569.634233744044,41-56,18.5 - 25
+male,1,yes,southeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Standard,18396.41246976734,>56,35 - 40
+male,5,yes,northwest,Heart disease,High blood pressure,Occasionally,White collar,Premium,25828.98668521577,41-56,30 - 35
+male,3,yes,southeast,High blood pressure,High blood pressure,Occasionally,Student,Premium,20690.407724173147,41-56,40 - 54
+female,1,no,northwest,Diabetes,Diabetes,Never,White collar,Standard,12891.365012077453,26-41,40 - 54
+male,1,yes,southwest,Heart disease,Heart disease,Occasionally,Blue collar,Basic,23231.045826272573,18-26,35 - 40
+male,4,no,northwest,Heart disease,High blood pressure,Rarely,Blue collar,Basic,14284.8444630851,26-41,30 - 35
+male,0,yes,southwest,Heart disease,Diabetes,Occasionally,White collar,Premium,25449.677231158657,18-26,30 - 35
+female,1,no,northwest,Diabetes,Heart disease,Rarely,Student,Premium,18976.09917632123,26-41,40 - 54
+female,0,no,northeast,High blood pressure,Heart disease,Frequently,Student,Basic,14655.358762362705,>56,25 - 30
+male,2,no,northwest,Diabetes,High blood pressure,Occasionally,Blue collar,Premium,16855.09415503439,41-56,30 - 35
+male,5,no,southwest,High blood pressure,Diabetes,Never,Student,Basic,10952.475400898296,18-26,40 - 54
+female,4,no,northwest,Diabetes,Heart disease,Frequently,White collar,Premium,21455.813134650605,26-41,18.5 - 25
+female,3,yes,southwest,Diabetes,High blood pressure,Frequently,Blue collar,Premium,22021.54357684379,41-56,40 - 54
+female,5,no,southwest,Heart disease,Diabetes,Rarely,White collar,Premium,20530.42875912752,26-41,35 - 40
+male,0,no,southwest,High blood pressure,Diabetes,Rarely,Blue collar,Premium,15672.943574057232,26-41,35 - 40
+male,5,yes,southwest,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,20152.57142635877,>56,18.5 - 25
+male,4,no,southeast,High blood pressure,Heart disease,Never,Student,Premium,18755.756165519266,41-56,40 - 54
+female,2,yes,southeast,Diabetes,High blood pressure,Never,Student,Standard,14707.53137675854,26-41,18.5 - 25
+male,1,no,northeast,Diabetes,Diabetes,Occasionally,Unemployed,Standard,12587.581839943578,18-26,18.5 - 25
+female,4,yes,southwest,High blood pressure,High blood pressure,Never,Unemployed,Standard,15073.94353086839,26-41,35 - 40
+female,3,no,southwest,Heart disease,Diabetes,Rarely,Student,Standard,15242.303116328378,26-41,40 - 54
+female,5,no,southwest,Diabetes,High blood pressure,Never,Student,Premium,14112.269261127063,>56,18.5 - 25
+male,3,yes,southwest,High blood pressure,Diabetes,Never,Unemployed,Premium,19866.218215961344,41-56,30 - 35
+male,2,no,northeast,Diabetes,High blood pressure,Frequently,Blue collar,Standard,14762.842307691912,26-41,25 - 30
+female,5,yes,southwest,Diabetes,Diabetes,Occasionally,Unemployed,Premium,20658.88860115936,>56,25 - 30
+male,0,no,southwest,Heart disease,Diabetes,Occasionally,White collar,Premium,20005.191431605537,26-41,18.5 - 25
+male,2,yes,northwest,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,22174.59515076253,41-56,18.5 - 25
+female,4,no,southeast,Diabetes,Diabetes,Never,White collar,Premium,16448.026564492833,26-41,18.5 - 25
+male,2,no,northwest,Heart disease,High blood pressure,Never,Student,Basic,11812.071712796733,>56,< 18.5
+female,5,yes,southeast,Diabetes,Heart disease,Never,Unemployed,Basic,16929.968654839962,18-26,18.5 - 25
+female,5,yes,southwest,Heart disease,Heart disease,Occasionally,Unemployed,Basic,22378.07675846299,41-56,40 - 54
+male,2,no,southeast,High blood pressure,Heart disease,Rarely,Student,Standard,16155.760270505612,41-56,35 - 40
+female,3,no,southwest,Heart disease,High blood pressure,Occasionally,White collar,Basic,14437.81549734629,41-56,30 - 35
+female,0,no,northeast,Diabetes,Heart disease,Frequently,Student,Premium,19695.89644015465,26-41,30 - 35
+female,0,no,southwest,Heart disease,Diabetes,Never,Student,Premium,17157.835609130332,41-56,25 - 30
+female,0,no,northwest,Heart disease,Diabetes,Frequently,White collar,Standard,17432.723761324123,18-26,25 - 30
+female,0,yes,northeast,High blood pressure,High blood pressure,Never,Unemployed,Standard,14880.230381553558,>56,35 - 40
+male,1,yes,northwest,High blood pressure,High blood pressure,Frequently,Unemployed,Standard,16484.227466358923,41-56,18.5 - 25
+male,2,no,northwest,Diabetes,Heart disease,Never,Unemployed,Standard,14466.478309377324,18-26,18.5 - 25
+male,3,no,northeast,High blood pressure,High blood pressure,Never,Unemployed,Standard,11501.375704876707,41-56,25 - 30
+female,4,yes,northeast,Diabetes,Heart disease,Frequently,White collar,Standard,25458.133977002108,41-56,40 - 54
+male,0,yes,southeast,Diabetes,High blood pressure,Never,White collar,Basic,15479.550420056346,26-41,30 - 35
+female,4,no,southwest,Diabetes,Diabetes,Frequently,Blue collar,Standard,15669.10906436974,>56,35 - 40
+male,0,no,northeast,Heart disease,Diabetes,Frequently,Blue collar,Basic,18112.015113567435,>56,40 - 54
+male,1,no,southeast,High blood pressure,High blood pressure,Rarely,Student,Basic,9443.546258804825,26-41,40 - 54
+male,5,no,northwest,Heart disease,Diabetes,Never,White collar,Basic,16360.705077098166,>56,30 - 35
+male,0,no,southeast,Diabetes,Diabetes,Frequently,White collar,Premium,19590.98782651454,26-41,40 - 54
+female,2,no,southeast,Heart disease,High blood pressure,Never,Student,Premium,15961.201234925826,26-41,25 - 30
+male,4,yes,southeast,High blood pressure,Heart disease,Never,Unemployed,Standard,20591.03964649224,41-56,40 - 54
+female,3,yes,northeast,High blood pressure,Heart disease,Never,Unemployed,Standard,19702.30240495712,>56,40 - 54
+female,4,no,northeast,Diabetes,Diabetes,Frequently,Student,Standard,15235.216094740814,41-56,40 - 54
+female,1,yes,southwest,Heart disease,Heart disease,Frequently,Blue collar,Premium,29048.68656637708,>56,40 - 54
+male,1,no,northeast,Heart disease,High blood pressure,Rarely,White collar,Basic,15347.336054377183,26-41,40 - 54
+male,4,no,northeast,High blood pressure,Diabetes,Never,Blue collar,Standard,14371.894141234228,26-41,40 - 54
+male,1,no,southeast,Diabetes,Heart disease,Occasionally,Unemployed,Premium,19639.49394067719,41-56,40 - 54
+female,3,yes,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Basic,20864.04188712684,41-56,30 - 35
+male,1,no,northeast,Heart disease,Diabetes,Rarely,Student,Basic,15019.838451084705,41-56,30 - 35
+male,0,no,southeast,Heart disease,Diabetes,Never,Blue collar,Premium,19460.358957005687,18-26,30 - 35
+male,0,yes,southwest,Heart disease,Heart disease,Never,Unemployed,Premium,26146.24246297024,26-41,40 - 54
+male,2,yes,northwest,Diabetes,High blood pressure,Never,Blue collar,Basic,15868.320426659417,18-26,40 - 54
+female,2,no,northeast,Heart disease,High blood pressure,Occasionally,Student,Premium,18545.865727335466,26-41,35 - 40
+female,0,no,southwest,Diabetes,High blood pressure,Frequently,Student,Standard,12011.722146810504,18-26,35 - 40
+female,1,yes,northeast,High blood pressure,Heart disease,Frequently,Student,Premium,25303.73319819243,41-56,40 - 54
+female,5,yes,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Basic,16842.86582075565,41-56,35 - 40
+female,5,yes,northwest,Diabetes,Diabetes,Rarely,Blue collar,Premium,22395.71286065412,26-41,40 - 54
+female,3,yes,northeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Standard,18029.33561546577,26-41,40 - 54
+male,3,yes,southeast,Diabetes,Heart disease,Rarely,Student,Premium,24234.92401922408,>56,25 - 30
+female,4,no,southwest,High blood pressure,Heart disease,Frequently,White collar,Premium,19557.01351038921,18-26,18.5 - 25
+female,2,no,northeast,High blood pressure,High blood pressure,Never,Student,Standard,11142.78065043139,26-41,40 - 54
+male,5,no,southeast,Heart disease,Diabetes,Rarely,White collar,Premium,21188.381369386378,26-41,25 - 30
+male,3,yes,northeast,High blood pressure,Heart disease,Never,Student,Premium,24133.28285231625,>56,30 - 35
+male,3,yes,northwest,Heart disease,Heart disease,Frequently,White collar,Premium,30369.18690297586,26-41,35 - 40
+male,2,no,northeast,High blood pressure,Diabetes,Never,Student,Premium,16147.820139616244,41-56,40 - 54
+male,2,yes,northeast,Heart disease,High blood pressure,Occasionally,Student,Premium,24305.672263866843,26-41,40 - 54
+female,3,no,northeast,Diabetes,Diabetes,Occasionally,Student,Premium,16094.325632560478,>56,18.5 - 25
+male,3,no,southeast,Diabetes,Heart disease,Never,White collar,Standard,17293.145499774608,>56,18.5 - 25
+female,4,yes,southeast,Heart disease,High blood pressure,Rarely,Unemployed,Standard,20183.77554185341,>56,35 - 40
+female,1,yes,southeast,Heart disease,Heart disease,Frequently,White collar,Standard,25725.32169710908,41-56,25 - 30
+male,0,no,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,17740.294323894108,>56,40 - 54
+female,1,yes,southwest,Diabetes,High blood pressure,Rarely,White collar,Premium,20636.50851401662,26-41,40 - 54
+female,2,yes,northwest,High blood pressure,Diabetes,Occasionally,White collar,Standard,19276.41534254167,>56,40 - 54
+female,4,no,southeast,Heart disease,Heart disease,Rarely,White collar,Premium,23633.99873936656,26-41,40 - 54
+female,1,yes,southwest,High blood pressure,Diabetes,Frequently,Student,Premium,20068.43205226453,>56,18.5 - 25
+male,0,yes,northwest,Diabetes,High blood pressure,Never,White collar,Basic,15460.7155828428,26-41,25 - 30
+female,4,no,southwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,14055.618622157594,26-41,25 - 30
+female,5,yes,southeast,Diabetes,Heart disease,Frequently,Student,Premium,26201.03998804821,>56,35 - 40
+female,2,yes,southwest,High blood pressure,Diabetes,Never,Unemployed,Standard,14420.133625328452,41-56,18.5 - 25
+female,2,no,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Premium,18579.1371848228,41-56,18.5 - 25
+male,3,no,southeast,High blood pressure,Diabetes,Never,White collar,Premium,16229.058223003423,41-56,18.5 - 25
+female,5,no,northeast,Diabetes,Heart disease,Rarely,Student,Premium,18048.86888866268,18-26,18.5 - 25
+male,0,yes,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Standard,21388.734702909587,26-41,30 - 35
+male,4,no,northwest,High blood pressure,Diabetes,Never,Student,Standard,11406.668871521731,26-41,18.5 - 25
+male,4,yes,southeast,High blood pressure,High blood pressure,Rarely,Blue collar,Basic,15007.737872319636,26-41,30 - 35
+female,0,no,northeast,Diabetes,High blood pressure,Rarely,Unemployed,Basic,8975.97287527829,41-56,18.5 - 25
+female,0,yes,southeast,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,17672.86108902365,26-41,30 - 35
+male,5,no,northeast,Heart disease,Heart disease,Rarely,Student,Standard,20362.01469230581,26-41,18.5 - 25
+male,2,yes,southwest,High blood pressure,Diabetes,Rarely,Blue collar,Standard,17203.180394682917,26-41,25 - 30
+male,3,yes,northwest,Diabetes,Heart disease,Rarely,Student,Standard,21197.91381951097,18-26,40 - 54
+female,4,no,northwest,High blood pressure,Heart disease,Frequently,White collar,Basic,15631.35357661852,41-56,35 - 40
+female,2,yes,southeast,Diabetes,Diabetes,Frequently,Blue collar,Standard,19866.44009500763,18-26,30 - 35
+female,4,yes,southwest,Diabetes,Heart disease,Occasionally,White collar,Basic,20598.4734956928,>56,18.5 - 25
+female,4,yes,northeast,High blood pressure,Heart disease,Frequently,Student,Basic,20374.48331039595,26-41,40 - 54
+female,2,yes,southwest,Diabetes,Diabetes,Frequently,Unemployed,Premium,19846.35066235844,41-56,< 18.5
+female,1,no,northeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Standard,12261.6196662258,18-26,35 - 40
+male,2,no,southeast,Diabetes,Diabetes,Occasionally,Unemployed,Standard,13032.893893912393,>56,25 - 30
+male,3,no,southeast,High blood pressure,Diabetes,Never,Unemployed,Standard,10515.19271065245,26-41,18.5 - 25
+female,3,no,northeast,High blood pressure,High blood pressure,Occasionally,Student,Premium,14089.41325675707,18-26,35 - 40
+male,1,no,southwest,Heart disease,Diabetes,Rarely,Unemployed,Basic,13809.402574852476,>56,40 - 54
+female,2,yes,northeast,Diabetes,Diabetes,Frequently,Student,Basic,16285.502232669083,26-41,18.5 - 25
+female,5,no,southeast,Heart disease,Heart disease,Frequently,White collar,Basic,20073.655817983552,26-41,30 - 35
+male,5,no,northeast,Diabetes,Heart disease,Occasionally,White collar,Basic,17773.50645767517,>56,35 - 40
+male,1,no,northwest,Diabetes,Diabetes,Rarely,Unemployed,Standard,12999.274386205328,26-41,40 - 54
+female,0,yes,southwest,Diabetes,Heart disease,Never,Student,Standard,17870.334562233667,18-26,18.5 - 25
+male,2,yes,southeast,High blood pressure,High blood pressure,Frequently,White collar,Basic,18629.96422850821,>56,40 - 54
+female,0,yes,northeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,21624.57751575093,41-56,40 - 54
+male,2,yes,southwest,Heart disease,Heart disease,Frequently,White collar,Standard,27379.89054269495,18-26,40 - 54
+female,1,yes,northeast,Heart disease,Heart disease,Frequently,Unemployed,Basic,24212.350222435824,>56,40 - 54
+male,2,yes,southwest,Heart disease,Diabetes,Rarely,Blue collar,Standard,21844.47393792172,18-26,35 - 40
+female,3,yes,southwest,High blood pressure,Diabetes,Frequently,White collar,Basic,16694.05528830501,18-26,18.5 - 25
+male,1,no,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,18778.579869293328,41-56,40 - 54
+male,0,yes,northwest,High blood pressure,High blood pressure,Never,Unemployed,Premium,17243.989760354256,18-26,18.5 - 25
+male,3,yes,northwest,Heart disease,High blood pressure,Occasionally,White collar,Premium,26145.55686355688,18-26,40 - 54
+male,3,yes,southeast,Heart disease,Diabetes,Occasionally,Unemployed,Basic,19658.15083012084,41-56,40 - 54
+female,3,yes,southeast,Diabetes,Diabetes,Frequently,White collar,Premium,23996.36075134906,18-26,40 - 54
+male,3,yes,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Premium,26071.67617226758,41-56,25 - 30
+female,5,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,13656.409654561408,>56,18.5 - 25
+male,1,yes,northwest,High blood pressure,Heart disease,Rarely,White collar,Premium,24505.05603762532,26-41,35 - 40
+male,4,yes,northwest,High blood pressure,Heart disease,Frequently,Blue collar,Standard,24281.37795695168,>56,40 - 54
+female,4,no,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Premium,14893.359966895565,41-56,18.5 - 25
+male,0,yes,southwest,Diabetes,Diabetes,Rarely,Student,Basic,16881.422775762712,41-56,40 - 54
+female,1,no,southwest,Diabetes,Diabetes,Never,Unemployed,Premium,13525.654667873032,41-56,18.5 - 25
+male,5,no,northwest,Heart disease,Diabetes,Occasionally,Student,Basic,15647.55338019882,41-56,35 - 40
+male,0,yes,southwest,Diabetes,Heart disease,Frequently,Unemployed,Premium,24783.024630752137,26-41,30 - 35
+female,3,no,northwest,Heart disease,Heart disease,Occasionally,Unemployed,Basic,17520.363185157697,>56,40 - 54
+female,4,no,northwest,High blood pressure,Heart disease,Frequently,White collar,Standard,17496.69603562347,>56,25 - 30
+female,0,no,northwest,High blood pressure,Diabetes,Frequently,Blue collar,Premium,16062.720852275274,18-26,30 - 35
+female,2,no,southeast,Heart disease,High blood pressure,Never,Unemployed,Standard,13790.197427852068,26-41,40 - 54
+male,4,yes,northwest,Diabetes,High blood pressure,Frequently,Student,Basic,16709.5144982559,41-56,30 - 35
+male,5,no,southwest,Heart disease,Heart disease,Rarely,Blue collar,Premium,24514.717915695484,>56,35 - 40
+male,5,no,southwest,Heart disease,Heart disease,Occasionally,Student,Standard,21204.5872862386,26-41,40 - 54
+female,4,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,16135.398363176802,26-41,40 - 54
+male,1,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Standard,18860.93897968062,41-56,40 - 54
+male,1,yes,northeast,Diabetes,High blood pressure,Occasionally,White collar,Standard,19830.935959956216,26-41,40 - 54
+female,4,no,northeast,Diabetes,Diabetes,Frequently,Student,Basic,13214.52345390061,41-56,30 - 35
+male,4,no,southeast,Heart disease,Diabetes,Frequently,White collar,Standard,19501.63900041625,41-56,18.5 - 25
+female,4,yes,southwest,Heart disease,High blood pressure,Rarely,White collar,Premium,25179.915567863314,26-41,40 - 54
+female,1,yes,southeast,Diabetes,Heart disease,Occasionally,Student,Standard,20595.23541708923,18-26,35 - 40
+female,4,no,southwest,High blood pressure,Diabetes,Frequently,Blue collar,Standard,12641.786809507565,26-41,18.5 - 25
+male,2,yes,northeast,High blood pressure,High blood pressure,Never,Student,Standard,15867.433294616105,26-41,35 - 40
+female,5,no,southeast,Heart disease,Heart disease,Never,White collar,Basic,17935.41680856072,>56,30 - 35
+female,0,no,southwest,High blood pressure,Heart disease,Never,White collar,Premium,17456.39554750656,26-41,25 - 30
+female,2,yes,northeast,Diabetes,High blood pressure,Never,Blue collar,Basic,15879.100851984442,>56,25 - 30
+male,5,no,southeast,High blood pressure,Diabetes,Occasionally,Student,Premium,16173.508193163903,>56,18.5 - 25
+male,2,no,southwest,Diabetes,Diabetes,Never,Student,Basic,10980.171973592778,41-56,35 - 40
+male,3,no,northwest,High blood pressure,High blood pressure,Rarely,White collar,Basic,10538.9519275678,26-41,35 - 40
+male,2,yes,northwest,High blood pressure,Heart disease,Frequently,Unemployed,Premium,23902.57403907944,41-56,30 - 35
+female,1,yes,northeast,Heart disease,Heart disease,Never,White collar,Standard,25057.27017654825,41-56,25 - 30
+male,3,yes,northwest,High blood pressure,Diabetes,Frequently,Blue collar,Basic,17524.92652897442,26-41,25 - 30
+male,4,yes,northeast,High blood pressure,Heart disease,Rarely,White collar,Standard,24129.23592848685,41-56,40 - 54
+male,2,yes,southeast,Diabetes,Heart disease,Never,Student,Premium,23665.33274274901,18-26,35 - 40
+female,3,no,southwest,Heart disease,Heart disease,Never,Blue collar,Standard,18672.271719136104,26-41,35 - 40
+male,4,no,northeast,Heart disease,High blood pressure,Rarely,White collar,Premium,22119.243716865232,41-56,40 - 54
+male,5,no,southeast,High blood pressure,High blood pressure,Rarely,Student,Standard,12203.94317327196,>56,18.5 - 25
+male,0,yes,southeast,Heart disease,Diabetes,Frequently,Student,Basic,19720.072124517475,26-41,25 - 30
+female,5,no,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Basic,14531.144998348387,>56,18.5 - 25
+male,0,yes,northeast,Heart disease,Diabetes,Rarely,Unemployed,Basic,18585.17387363909,>56,18.5 - 25
+male,4,yes,southwest,Diabetes,High blood pressure,Occasionally,Blue collar,Standard,18187.753165920367,26-41,25 - 30
+male,1,no,northeast,Heart disease,Heart disease,Frequently,Unemployed,Premium,23712.316037037403,18-26,40 - 54
+male,4,no,southwest,High blood pressure,High blood pressure,Occasionally,Blue collar,Standard,13536.771334560552,41-56,35 - 40
+male,4,yes,northwest,High blood pressure,Heart disease,Never,Unemployed,Standard,19459.785886011425,>56,18.5 - 25
+female,0,yes,southwest,Diabetes,Heart disease,Rarely,Blue collar,Premium,24172.181082129755,>56,35 - 40
+male,5,yes,northeast,High blood pressure,High blood pressure,Rarely,Student,Premium,19744.789816077835,18-26,18.5 - 25
+female,1,yes,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Basic,16938.450239254824,41-56,40 - 54
+male,4,no,northeast,High blood pressure,Heart disease,Never,Blue collar,Basic,16027.005143306187,41-56,40 - 54
+female,0,yes,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Premium,22897.39308007116,41-56,18.5 - 25
+female,5,yes,southeast,Diabetes,Heart disease,Rarely,Blue collar,Standard,21705.950311013174,41-56,30 - 35
+male,4,yes,southwest,Heart disease,High blood pressure,Never,Student,Premium,22111.75343258636,41-56,18.5 - 25
+female,5,yes,northwest,High blood pressure,Diabetes,Never,White collar,Standard,17923.92836013045,>56,18.5 - 25
+female,5,yes,northwest,High blood pressure,High blood pressure,Rarely,Blue collar,Basic,15624.936044565682,>56,40 - 54
+female,3,yes,northeast,High blood pressure,Diabetes,Frequently,Unemployed,Standard,18130.462507504373,26-41,40 - 54
+female,0,yes,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Basic,14804.405716195031,41-56,30 - 35
+male,1,yes,southwest,High blood pressure,Diabetes,Occasionally,Student,Basic,15189.216490220071,41-56,18.5 - 25
+male,3,yes,northeast,High blood pressure,High blood pressure,Frequently,Blue collar,Premium,23333.624187399622,>56,30 - 35
+female,4,yes,southwest,Diabetes,Diabetes,Never,Unemployed,Standard,15952.01180900056,41-56,18.5 - 25
+female,1,no,northwest,Diabetes,High blood pressure,Rarely,Unemployed,Basic,8609.917593226179,>56,18.5 - 25
+female,5,no,northwest,Diabetes,Diabetes,Frequently,Blue collar,Standard,16077.958381380507,18-26,40 - 54
+male,4,no,southwest,Diabetes,High blood pressure,Never,Unemployed,Premium,14277.00227351701,26-41,25 - 30
+female,0,yes,southeast,Heart disease,Heart disease,Frequently,Student,Premium,28191.558360421765,26-41,40 - 54
+male,2,no,northwest,Diabetes,Heart disease,Never,Blue collar,Premium,20261.848134628668,41-56,35 - 40
+male,2,yes,southwest,Diabetes,Diabetes,Never,White collar,Standard,18393.660914549448,26-41,30 - 35
+female,4,yes,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,19335.003915587404,>56,18.5 - 25
+male,0,yes,southwest,Heart disease,Heart disease,Occasionally,White collar,Premium,28811.141240469264,26-41,35 - 40
+female,5,yes,southeast,Heart disease,Heart disease,Rarely,Blue collar,Basic,22932.61455321894,41-56,30 - 35
+male,4,no,northeast,Heart disease,High blood pressure,Occasionally,White collar,Premium,21777.59171644508,41-56,35 - 40
+male,5,no,northwest,Diabetes,High blood pressure,Never,Blue collar,Basic,11337.759095715484,26-41,30 - 35
+male,3,yes,southeast,Heart disease,Heart disease,Occasionally,Unemployed,Basic,21996.08310395052,26-41,18.5 - 25
+male,3,no,southeast,Heart disease,Heart disease,Never,White collar,Standard,20812.13905501832,18-26,40 - 54
+female,5,no,northeast,Heart disease,Heart disease,Frequently,Student,Standard,21326.27199542745,18-26,35 - 40
+female,1,no,northwest,Diabetes,Diabetes,Frequently,Blue collar,Premium,18154.0588710402,>56,25 - 30
+male,3,yes,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Basic,20334.323373508632,18-26,35 - 40
+male,3,yes,southeast,High blood pressure,Diabetes,Frequently,Student,Standard,18863.95900553203,26-41,30 - 35
+male,0,no,northwest,Diabetes,Heart disease,Rarely,Student,Premium,18726.55511219289,>56,25 - 30
+male,5,yes,northwest,High blood pressure,Diabetes,Never,Blue collar,Standard,18059.289540015383,41-56,18.5 - 25
+female,2,yes,northeast,Heart disease,Diabetes,Rarely,Blue collar,Basic,19273.297815077392,>56,18.5 - 25
+female,2,yes,northeast,Diabetes,Heart disease,Never,White collar,Premium,25545.280424952423,41-56,40 - 54
+male,1,yes,southeast,High blood pressure,Diabetes,Frequently,White collar,Premium,22102.14100435436,18-26,25 - 30
+female,2,yes,northwest,Heart disease,High blood pressure,Rarely,Unemployed,Premium,21557.043112276704,>56,30 - 35
+male,4,yes,northeast,Heart disease,Diabetes,Rarely,Unemployed,Basic,19276.70093480641,26-41,30 - 35
+female,4,yes,southeast,High blood pressure,Diabetes,Occasionally,White collar,Basic,16261.658162895252,>56,25 - 30
+female,5,no,southwest,Diabetes,Heart disease,Occasionally,Blue collar,Premium,20083.657587413403,18-26,25 - 30
+male,2,yes,northeast,Heart disease,High blood pressure,Rarely,Unemployed,Premium,23451.621631217466,>56,25 - 30
+male,2,no,southwest,High blood pressure,Diabetes,Occasionally,Unemployed,Standard,11976.134960422882,26-41,35 - 40
+male,0,no,northwest,Heart disease,Diabetes,Rarely,Unemployed,Standard,15854.662912791837,>56,40 - 54
+male,4,yes,northeast,Diabetes,Diabetes,Occasionally,Unemployed,Basic,17458.880808294172,41-56,40 - 54
+male,4,yes,northeast,High blood pressure,Diabetes,Frequently,Blue collar,Standard,20964.587526297888,18-26,40 - 54
+male,5,yes,southwest,Heart disease,High blood pressure,Rarely,Blue collar,Standard,21912.59330768636,>56,25 - 30
+male,4,no,northeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Premium,16913.08103708767,26-41,40 - 54
+male,3,no,southwest,High blood pressure,High blood pressure,Frequently,Blue collar,Premium,17289.62728620001,>56,40 - 54
+female,2,no,northwest,Diabetes,Heart disease,Occasionally,Student,Basic,13809.79683185937,26-41,35 - 40
+male,1,no,northeast,Heart disease,Heart disease,Frequently,Student,Standard,21464.183866179883,41-56,40 - 54
+male,1,yes,northwest,Diabetes,Diabetes,Rarely,Unemployed,Standard,17876.721114833934,41-56,40 - 54
+male,2,yes,northwest,Diabetes,Diabetes,Never,White collar,Premium,22779.85408803744,18-26,40 - 54
+female,3,yes,northeast,Heart disease,Heart disease,Frequently,Unemployed,Basic,23482.4156624348,18-26,40 - 54
+male,2,yes,northwest,High blood pressure,High blood pressure,Frequently,White collar,Standard,19048.18675979953,26-41,25 - 30
+male,3,yes,southwest,High blood pressure,Heart disease,Frequently,Unemployed,Premium,24965.84785250526,18-26,40 - 54
+male,0,no,southeast,High blood pressure,High blood pressure,Occasionally,Unemployed,Standard,11851.483103902076,>56,30 - 35
+female,0,yes,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Basic,16162.549187077491,18-26,40 - 54
+female,1,yes,northeast,Heart disease,Diabetes,Occasionally,Unemployed,Basic,18970.012795950523,>56,18.5 - 25
+male,2,yes,southeast,Diabetes,Heart disease,Rarely,Blue collar,Standard,21838.251157350594,26-41,18.5 - 25
+female,0,no,northeast,Heart disease,High blood pressure,Rarely,White collar,Premium,19190.79348336836,26-41,40 - 54
+female,4,no,northwest,Diabetes,High blood pressure,Never,White collar,Basic,9769.81156483966,18-26,25 - 30
+male,2,no,northwest,Diabetes,Heart disease,Never,Student,Standard,15354.624566823471,41-56,30 - 35
+male,1,yes,northeast,High blood pressure,Heart disease,Frequently,Blue collar,Premium,26217.13378561533,18-26,30 - 35
+female,5,no,southwest,Heart disease,Diabetes,Rarely,White collar,Standard,16732.56944218402,26-41,18.5 - 25
+male,1,yes,southwest,High blood pressure,Heart disease,Rarely,Student,Premium,22668.94211990726,26-41,25 - 30
+male,4,no,southeast,High blood pressure,Diabetes,Rarely,White collar,Basic,11906.968900821676,26-41,25 - 30
+female,3,yes,southwest,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,20660.45355541997,>56,40 - 54
+male,0,no,northeast,Diabetes,High blood pressure,Never,White collar,Basic,11942.24217348627,>56,40 - 54
+male,2,yes,southeast,Heart disease,High blood pressure,Rarely,Student,Basic,18838.86742775165,26-41,40 - 54
+female,1,yes,northwest,Heart disease,High blood pressure,Never,Student,Premium,21994.201870529963,26-41,40 - 54
+male,5,yes,southwest,Heart disease,High blood pressure,Frequently,Blue collar,Basic,21375.81954715805,26-41,30 - 35
+female,0,no,southeast,Heart disease,Heart disease,Frequently,White collar,Basic,19354.70001724955,41-56,30 - 35
+female,2,yes,southeast,Heart disease,Diabetes,Frequently,White collar,Standard,23729.181836561835,41-56,40 - 54
+female,2,no,northeast,Diabetes,Diabetes,Frequently,Blue collar,Basic,14390.733346770068,>56,40 - 54
+female,5,yes,northwest,Diabetes,High blood pressure,Occasionally,Unemployed,Basic,15251.206827012167,41-56,25 - 30
+male,5,no,southeast,Heart disease,High blood pressure,Frequently,Unemployed,Basic,14748.432955134698,41-56,25 - 30
+female,1,no,southeast,Diabetes,Heart disease,Never,Student,Basic,11784.675870541305,18-26,25 - 30
+male,1,yes,southeast,Diabetes,High blood pressure,Frequently,Student,Basic,17006.168923530655,41-56,40 - 54
+female,2,no,southeast,Heart disease,Heart disease,Rarely,Unemployed,Standard,17167.75831826424,18-26,30 - 35
+female,3,no,northeast,Diabetes,Heart disease,Frequently,Unemployed,Premium,20787.815153834534,41-56,30 - 35
+male,0,no,northwest,High blood pressure,Diabetes,Rarely,White collar,Standard,13294.949357853657,41-56,25 - 30
+female,5,no,southeast,High blood pressure,High blood pressure,Rarely,White collar,Premium,15845.490250634855,41-56,35 - 40
+female,4,no,northwest,Diabetes,Diabetes,Frequently,Unemployed,Standard,14107.646524012443,>56,25 - 30
+male,0,yes,southeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,15998.598753366014,41-56,30 - 35
+female,3,yes,southwest,Diabetes,Diabetes,Rarely,White collar,Premium,22790.36975372493,26-41,40 - 54
+male,1,yes,northwest,Diabetes,Heart disease,Never,White collar,Basic,19122.712895442262,26-41,25 - 30
+female,5,yes,northwest,Heart disease,High blood pressure,Occasionally,Blue collar,Premium,23734.83758385224,41-56,25 - 30
+female,3,no,northeast,High blood pressure,High blood pressure,Occasionally,White collar,Basic,10524.242439649106,26-41,18.5 - 25
+male,5,yes,southeast,High blood pressure,Diabetes,Occasionally,Student,Premium,21267.134078276737,26-41,25 - 30
+female,1,no,northwest,High blood pressure,Diabetes,Frequently,Unemployed,Standard,11322.583197596692,41-56,25 - 30
+male,0,no,northeast,Heart disease,Diabetes,Never,Unemployed,Basic,13116.566405647156,26-41,25 - 30
+female,1,yes,northeast,Heart disease,Heart disease,Frequently,Blue collar,Premium,29223.550750398263,41-56,30 - 35
+female,3,yes,southwest,Heart disease,Diabetes,Never,Unemployed,Standard,19655.29898184872,26-41,35 - 40
+female,0,no,northwest,High blood pressure,Diabetes,Never,Blue collar,Standard,11921.996290699875,>56,25 - 30
+female,1,no,southwest,Heart disease,Heart disease,Occasionally,Student,Premium,21783.003692885228,41-56,30 - 35
+female,2,yes,southwest,Heart disease,Diabetes,Rarely,White collar,Standard,21962.256095483343,18-26,40 - 54
+female,1,no,southeast,Diabetes,High blood pressure,Frequently,White collar,Standard,13868.00819915476,41-56,25 - 30
+male,1,no,southwest,Heart disease,High blood pressure,Occasionally,White collar,Standard,15708.744807997047,26-41,18.5 - 25
+male,5,yes,northwest,High blood pressure,High blood pressure,Occasionally,Unemployed,Standard,16154.247168490549,>56,18.5 - 25
+male,1,no,northwest,High blood pressure,Diabetes,Never,Student,Standard,11313.52505814526,41-56,30 - 35
+male,5,yes,southeast,High blood pressure,Heart disease,Rarely,Student,Standard,20182.06008367815,41-56,18.5 - 25
+male,5,no,southeast,High blood pressure,Diabetes,Never,Blue collar,Standard,12300.125499268332,18-26,18.5 - 25
+male,3,yes,northeast,High blood pressure,High blood pressure,Frequently,White collar,Premium,23761.316805043138,26-41,40 - 54
+female,2,yes,northwest,Diabetes,Heart disease,Occasionally,Unemployed,Basic,18197.39596220072,18-26,40 - 54
+male,1,yes,northeast,Heart disease,High blood pressure,Never,Blue collar,Basic,19527.21544542033,41-56,25 - 30
+male,5,no,southwest,High blood pressure,High blood pressure,Never,Blue collar,Basic,9604.20154602132,26-41,18.5 - 25
+female,3,no,northeast,High blood pressure,Diabetes,Frequently,Blue collar,Basic,13822.223127364425,>56,40 - 54
+female,0,yes,southwest,Diabetes,Diabetes,Occasionally,Student,Standard,17269.019972481816,18-26,40 - 54
+male,5,yes,northwest,Heart disease,Heart disease,Occasionally,Blue collar,Premium,30116.14516873739,26-41,40 - 54
+male,0,yes,southwest,Diabetes,Diabetes,Never,Unemployed,Premium,18765.441979925137,26-41,18.5 - 25
+male,1,yes,northeast,High blood pressure,Diabetes,Occasionally,Blue collar,Standard,18130.366204889822,18-26,18.5 - 25
+male,1,no,southeast,Diabetes,High blood pressure,Occasionally,White collar,Premium,16545.48747361335,>56,18.5 - 25
+female,0,yes,northeast,High blood pressure,Heart disease,Never,Unemployed,Standard,18118.57393299192,41-56,25 - 30
+male,5,yes,northwest,Heart disease,High blood pressure,Occasionally,Blue collar,Standard,21458.4814466682,26-41,18.5 - 25
+male,4,yes,southeast,Diabetes,High blood pressure,Occasionally,White collar,Premium,23263.23831320652,41-56,35 - 40
+female,1,no,southwest,Diabetes,High blood pressure,Rarely,Student,Basic,8438.501242062093,41-56,25 - 30
+female,3,yes,northeast,Heart disease,Diabetes,Frequently,Unemployed,Premium,26117.638667007603,>56,35 - 40
+female,4,no,southwest,Heart disease,Diabetes,Frequently,Student,Premium,19787.85670296472,>56,18.5 - 25
+female,2,yes,northeast,Heart disease,High blood pressure,Frequently,Blue collar,Standard,22319.63110498181,26-41,25 - 30
+female,2,no,southeast,Diabetes,High blood pressure,Rarely,White collar,Premium,16360.19971190494,>56,30 - 35
+male,5,yes,southeast,Heart disease,High blood pressure,Frequently,Unemployed,Basic,19640.6041928915,26-41,18.5 - 25
+female,5,no,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Standard,13834.847394194208,41-56,40 - 54
+male,3,no,northeast,High blood pressure,Diabetes,Frequently,Unemployed,Premium,16819.222721597882,>56,18.5 - 25
+male,5,no,southeast,Heart disease,Heart disease,Occasionally,Student,Premium,22373.92643099018,26-41,18.5 - 25
+female,1,no,northeast,High blood pressure,Heart disease,Occasionally,Unemployed,Basic,13389.891349461312,18-26,40 - 54
+male,3,no,southeast,Diabetes,Heart disease,Never,Student,Standard,16528.59487813977,>56,40 - 54
+male,4,yes,northeast,High blood pressure,Diabetes,Frequently,Blue collar,Standard,22031.46736938056,>56,40 - 54
+female,0,no,northwest,Diabetes,Diabetes,Occasionally,Blue collar,Standard,11917.190085512742,26-41,18.5 - 25
+male,0,yes,southeast,Diabetes,Heart disease,Never,White collar,Premium,24966.427065733977,26-41,30 - 35
+female,4,no,southeast,High blood pressure,Diabetes,Never,Blue collar,Basic,9021.297683340586,18-26,18.5 - 25
+male,1,yes,southeast,Diabetes,Heart disease,Occasionally,White collar,Premium,26491.21351706615,26-41,30 - 35
+male,1,yes,northwest,Heart disease,Heart disease,Occasionally,Student,Premium,27976.28794646953,>56,30 - 35
+male,0,yes,southeast,High blood pressure,Heart disease,Never,White collar,Standard,20861.41232388666,18-26,40 - 54
+male,4,no,southeast,High blood pressure,Heart disease,Never,Student,Premium,18382.973916610663,26-41,25 - 30
+male,4,yes,southeast,Diabetes,Heart disease,Frequently,Blue collar,Premium,27478.1694415718,26-41,30 - 35
+female,2,yes,northwest,Diabetes,High blood pressure,Never,Unemployed,Premium,18311.217293915543,18-26,40 - 54
+female,3,no,northwest,Diabetes,Diabetes,Never,Student,Basic,10260.318484526557,41-56,35 - 40
+female,3,no,northwest,High blood pressure,High blood pressure,Never,White collar,Basic,9417.06492458151,41-56,25 - 30
+male,1,yes,northeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,22626.33504646161,26-41,25 - 30
+male,3,no,southwest,Heart disease,Heart disease,Occasionally,Student,Standard,18889.80222861152,26-41,25 - 30
+male,5,no,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Basic,12521.025491559674,41-56,40 - 54
+female,4,yes,northwest,Heart disease,Heart disease,Frequently,Student,Standard,25062.79363704103,18-26,40 - 54
+female,1,yes,southwest,High blood pressure,Heart disease,Rarely,Unemployed,Premium,21867.909344500284,41-56,35 - 40
+female,1,no,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Basic,8196.690352834812,26-41,18.5 - 25
+male,1,no,southeast,High blood pressure,High blood pressure,Frequently,White collar,Standard,14600.629677437337,26-41,40 - 54
+female,3,yes,northwest,High blood pressure,Diabetes,Rarely,White collar,Basic,14921.554315913292,18-26,18.5 - 25
+male,5,no,southwest,Diabetes,High blood pressure,Rarely,Student,Premium,16218.052294173069,18-26,40 - 54
+female,1,yes,southwest,Heart disease,Diabetes,Frequently,White collar,Premium,25327.880768683168,41-56,25 - 30
+male,4,yes,northwest,Diabetes,Heart disease,Never,White collar,Premium,25963.45222284537,18-26,40 - 54
+male,1,yes,northwest,High blood pressure,Diabetes,Never,Student,Premium,19718.486979015244,41-56,40 - 54
+female,4,yes,southeast,High blood pressure,Diabetes,Frequently,Student,Standard,18518.19187112464,26-41,35 - 40
+male,5,no,southeast,Heart disease,Heart disease,Frequently,White collar,Premium,26615.14920994226,>56,40 - 54
+female,1,yes,southwest,High blood pressure,High blood pressure,Occasionally,Blue collar,Basic,14952.651236070791,26-41,40 - 54
+male,5,yes,southeast,Heart disease,Diabetes,Rarely,Unemployed,Standard,22370.71238874786,41-56,40 - 54
+male,3,no,southwest,Heart disease,Heart disease,Rarely,Blue collar,Standard,21159.53286082499,41-56,40 - 54
+female,1,yes,southeast,Heart disease,Diabetes,Never,Blue collar,Premium,23718.81289043021,26-41,35 - 40
+male,3,no,northeast,High blood pressure,High blood pressure,Occasionally,Student,Standard,13079.69432252254,>56,30 - 35
+male,2,no,southeast,High blood pressure,Diabetes,Never,Blue collar,Standard,14355.174278959052,>56,40 - 54
+female,2,no,northwest,Heart disease,High blood pressure,Occasionally,White collar,Standard,16975.490026950218,>56,40 - 54
+female,3,yes,northwest,Heart disease,Heart disease,Frequently,White collar,Standard,26097.99928130661,41-56,18.5 - 25
+female,5,yes,northeast,Heart disease,Heart disease,Rarely,White collar,Standard,26029.21897561212,41-56,25 - 30
+female,4,yes,southeast,Diabetes,Diabetes,Never,Blue collar,Standard,19288.735755341782,>56,40 - 54
+female,0,no,southwest,Diabetes,Heart disease,Never,Student,Standard,13984.559041010223,41-56,25 - 30
+male,0,yes,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Basic,21371.931454173435,41-56,40 - 54
+male,1,no,northwest,Heart disease,High blood pressure,Never,White collar,Basic,15246.754083784606,41-56,40 - 54
+male,3,yes,northeast,Diabetes,High blood pressure,Occasionally,Student,Standard,17938.887441829236,41-56,18.5 - 25
+male,1,yes,northeast,High blood pressure,High blood pressure,Never,Student,Basic,14563.339736310829,26-41,40 - 54
+female,5,yes,northeast,Heart disease,Heart disease,Never,Blue collar,Basic,23705.62185761717,26-41,40 - 54
+male,5,yes,southeast,Heart disease,Diabetes,Never,White collar,Premium,26685.09123601745,>56,30 - 35
+female,5,no,southeast,Heart disease,High blood pressure,Rarely,Unemployed,Standard,13525.467137121072,18-26,18.5 - 25
+female,3,no,northwest,Diabetes,Heart disease,Occasionally,White collar,Basic,16867.51437395677,>56,40 - 54
+female,3,no,northeast,Diabetes,Diabetes,Never,White collar,Premium,17104.398882494595,26-41,40 - 54
+female,1,no,southwest,High blood pressure,Heart disease,Frequently,Unemployed,Basic,12084.904746996344,26-41,18.5 - 25
+male,4,no,northeast,Diabetes,Diabetes,Occasionally,White collar,Basic,15243.984247631272,>56,40 - 54
+male,1,no,southeast,Diabetes,High blood pressure,Never,Blue collar,Basic,10824.089987270538,>56,25 - 30
+female,3,yes,southeast,Heart disease,Diabetes,Occasionally,White collar,Standard,23347.63234355419,41-56,40 - 54
+female,1,no,northwest,High blood pressure,High blood pressure,Occasionally,White collar,Premium,14415.06306297522,>56,18.5 - 25
+female,3,no,northwest,Diabetes,High blood pressure,Occasionally,Unemployed,Premium,14025.224662437044,26-41,30 - 35
+female,0,yes,southeast,High blood pressure,Heart disease,Never,Student,Basic,16529.09276086972,41-56,18.5 - 25
+female,2,yes,southwest,High blood pressure,Heart disease,Never,Unemployed,Basic,16111.58690392774,41-56,30 - 35
+female,3,yes,southeast,High blood pressure,Diabetes,Never,Student,Premium,19806.276054476737,41-56,40 - 54
+male,3,yes,northwest,Diabetes,Diabetes,Frequently,White collar,Basic,19218.8266309626,41-56,18.5 - 25
+male,4,yes,southeast,High blood pressure,Diabetes,Frequently,Unemployed,Premium,22883.32348561191,>56,40 - 54
+female,5,no,southeast,Heart disease,High blood pressure,Frequently,Blue collar,Basic,15081.414318367477,41-56,30 - 35
+male,3,no,northwest,Heart disease,High blood pressure,Occasionally,Student,Standard,15552.352396556602,41-56,18.5 - 25
+male,2,yes,southeast,Heart disease,Heart disease,Rarely,Student,Standard,25276.31709957251,41-56,40 - 54
+female,2,no,southwest,Diabetes,Diabetes,Rarely,White collar,Premium,17216.72959449459,41-56,40 - 54
+female,4,no,northwest,Heart disease,Diabetes,Frequently,Unemployed,Basic,15105.668229180514,26-41,40 - 54
+female,1,no,southeast,Diabetes,Heart disease,Frequently,Student,Basic,14170.161492094116,18-26,35 - 40
+female,3,yes,southeast,Heart disease,Heart disease,Frequently,Student,Standard,24202.79206492779,26-41,18.5 - 25
+male,5,yes,southwest,High blood pressure,Diabetes,Frequently,Student,Basic,17100.750281950386,26-41,30 - 35
+male,3,yes,northwest,High blood pressure,Diabetes,Frequently,White collar,Basic,18281.30481317336,41-56,30 - 35
+female,5,no,northwest,Heart disease,Diabetes,Never,Unemployed,Premium,17568.72042377171,41-56,25 - 30
+male,1,no,southwest,High blood pressure,Diabetes,Never,Unemployed,Standard,10863.442915673098,18-26,40 - 54
+male,3,no,northeast,High blood pressure,High blood pressure,Frequently,Blue collar,Premium,16971.37288542135,26-41,30 - 35
+male,2,no,northeast,Heart disease,Heart disease,Rarely,Student,Premium,23319.611364471755,41-56,40 - 54
+female,2,yes,southwest,High blood pressure,Heart disease,Rarely,Unemployed,Premium,22369.611965782387,>56,35 - 40
+male,0,no,southwest,Diabetes,Diabetes,Occasionally,White collar,Basic,12016.026809745395,26-41,18.5 - 25
+female,3,no,northwest,Diabetes,Diabetes,Frequently,White collar,Premium,17624.60921180802,26-41,18.5 - 25
+female,4,yes,southwest,Heart disease,Diabetes,Rarely,Unemployed,Basic,18856.333621323945,41-56,40 - 54
+male,4,yes,northeast,High blood pressure,Heart disease,Rarely,Blue collar,Premium,25304.685990294605,41-56,25 - 30
+male,4,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,17063.589186824334,>56,25 - 30
+female,0,no,northwest,High blood pressure,Heart disease,Rarely,Student,Standard,14406.772388902487,18-26,40 - 54
+male,2,yes,northeast,Diabetes,High blood pressure,Rarely,White collar,Standard,18878.40709546248,26-41,< 18.5
+female,5,yes,northwest,Heart disease,High blood pressure,Occasionally,Unemployed,Basic,17497.375622272088,18-26,40 - 54
+female,4,yes,northwest,Diabetes,High blood pressure,Never,White collar,Basic,16779.25126675449,41-56,40 - 54
+female,0,yes,southwest,Heart disease,Diabetes,Occasionally,Student,Basic,18943.187665833528,>56,30 - 35
+male,0,no,northeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Standard,11989.120578943706,26-41,18.5 - 25
+female,0,no,southwest,High blood pressure,High blood pressure,Never,White collar,Premium,13618.503452378389,41-56,30 - 35
+male,1,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,13804.82794209431,41-56,18.5 - 25
+female,4,no,northeast,Diabetes,Heart disease,Occasionally,White collar,Basic,16172.86519034507,41-56,18.5 - 25
+male,0,yes,northwest,High blood pressure,Diabetes,Occasionally,White collar,Basic,18174.54534225361,>56,40 - 54
+female,5,no,southeast,High blood pressure,Heart disease,Never,Student,Premium,16965.88235082954,26-41,35 - 40
+female,5,yes,northwest,High blood pressure,Diabetes,Never,White collar,Premium,21760.628363572963,41-56,40 - 54
+female,0,no,northeast,High blood pressure,High blood pressure,Frequently,Blue collar,Basic,11097.128008138956,26-41,30 - 35
+female,5,yes,northeast,Diabetes,High blood pressure,Occasionally,Student,Premium,21017.037918582708,41-56,30 - 35
+female,5,no,southeast,High blood pressure,High blood pressure,Occasionally,White collar,Premium,16315.395370813376,26-41,40 - 54
+female,4,no,northeast,High blood pressure,Diabetes,Rarely,Unemployed,Premium,14166.24775775411,>56,18.5 - 25
+female,2,no,northwest,Heart disease,Heart disease,Never,Blue collar,Basic,17353.820881949545,26-41,40 - 54
+male,1,no,northwest,Heart disease,Heart disease,Rarely,Unemployed,Standard,18159.179756734145,26-41,25 - 30
+male,5,no,southwest,High blood pressure,Diabetes,Never,Unemployed,Basic,10300.830683871378,>56,40 - 54
+male,3,no,northwest,Diabetes,Heart disease,Frequently,White collar,Basic,16727.930760620664,18-26,30 - 35
+male,3,no,southeast,High blood pressure,High blood pressure,Frequently,Unemployed,Basic,9899.1011637321,18-26,25 - 30
+female,3,yes,southwest,Diabetes,Heart disease,Occasionally,Unemployed,Premium,23220.328267866225,>56,18.5 - 25
+female,1,yes,northwest,Diabetes,Diabetes,Rarely,Student,Standard,16880.06325734954,26-41,35 - 40
+female,2,no,northeast,High blood pressure,High blood pressure,Frequently,White collar,Premium,17537.526228529718,41-56,40 - 54
+male,2,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Basic,17278.536448285835,>56,40 - 54
+female,0,yes,southeast,Heart disease,Heart disease,Rarely,White collar,Premium,27394.71458876979,>56,35 - 40
+female,5,yes,southeast,Heart disease,High blood pressure,Never,Unemployed,Premium,22603.08456825413,>56,40 - 54
+female,4,no,northwest,High blood pressure,Heart disease,Never,White collar,Basic,14121.182339613972,>56,40 - 54
+male,3,yes,southwest,High blood pressure,Heart disease,Frequently,Unemployed,Standard,21809.550109958906,18-26,40 - 54
+female,0,yes,southwest,High blood pressure,High blood pressure,Frequently,Unemployed,Basic,14593.997469709377,26-41,40 - 54
+male,4,no,northeast,Heart disease,Heart disease,Occasionally,Student,Basic,19167.17594212503,>56,35 - 40
+male,4,no,northeast,Diabetes,High blood pressure,Never,White collar,Standard,14401.338435115733,41-56,30 - 35
+female,1,yes,southwest,High blood pressure,Heart disease,Frequently,Blue collar,Premium,23208.85833806146,26-41,25 - 30
+female,1,yes,southeast,Diabetes,High blood pressure,Occasionally,Blue collar,Premium,21133.471320010125,18-26,40 - 54
+male,0,no,northwest,Heart disease,Diabetes,Never,Blue collar,Premium,18926.142664268365,41-56,18.5 - 25
+male,4,no,northwest,High blood pressure,High blood pressure,Never,Student,Standard,10863.205670317178,41-56,35 - 40
+female,5,no,southwest,Diabetes,Diabetes,Never,White collar,Premium,15783.386375505705,26-41,18.5 - 25
+male,3,yes,southwest,Diabetes,Diabetes,Never,Unemployed,Premium,19884.179142478253,18-26,40 - 54
+female,5,no,northwest,High blood pressure,Diabetes,Frequently,White collar,Premium,18757.94003750774,26-41,40 - 54
+male,2,no,southeast,Heart disease,Diabetes,Frequently,Student,Standard,17551.40797993717,26-41,30 - 35
+male,4,no,northeast,High blood pressure,Heart disease,Occasionally,Unemployed,Basic,15075.452218930492,41-56,30 - 35
+female,4,no,southwest,High blood pressure,Diabetes,Rarely,White collar,Premium,16304.86596858385,26-41,40 - 54
+male,3,no,southeast,Diabetes,Diabetes,Frequently,Unemployed,Standard,14541.201967310955,18-26,40 - 54
+male,5,no,northwest,Diabetes,Diabetes,Never,Student,Standard,14024.991732259308,41-56,40 - 54
+male,5,no,southeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,10056.76164273314,41-56,40 - 54
+female,3,no,northwest,High blood pressure,High blood pressure,Never,White collar,Premium,15287.467090700073,26-41,40 - 54
+male,3,no,southeast,Diabetes,Diabetes,Frequently,Blue collar,Basic,14021.585810801937,26-41,35 - 40
+female,3,yes,northeast,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,20130.19247865256,41-56,40 - 54
+male,1,no,northeast,High blood pressure,Heart disease,Rarely,Blue collar,Standard,16605.58475817969,>56,30 - 35
+male,0,no,northwest,High blood pressure,Diabetes,Never,White collar,Premium,16419.1161478102,41-56,35 - 40
+male,2,no,northeast,High blood pressure,Diabetes,Rarely,Unemployed,Premium,14678.135456300624,41-56,18.5 - 25
+female,1,no,southwest,Heart disease,Diabetes,Never,Blue collar,Premium,18285.60397820432,18-26,30 - 35
+male,4,yes,northeast,High blood pressure,Diabetes,Never,Unemployed,Premium,20803.94317918504,26-41,40 - 54
+male,4,yes,northeast,Diabetes,High blood pressure,Occasionally,Unemployed,Standard,17314.937754472983,18-26,18.5 - 25
+male,0,yes,northeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,22777.55240138264,18-26,40 - 54
+male,4,yes,northeast,Diabetes,High blood pressure,Rarely,Unemployed,Standard,18529.953950703177,41-56,35 - 40
+female,0,yes,southeast,Diabetes,Heart disease,Frequently,White collar,Basic,20159.89934170348,26-41,18.5 - 25
+female,3,yes,southwest,Diabetes,High blood pressure,Occasionally,Unemployed,Standard,15623.284864210871,41-56,25 - 30
+female,1,no,northeast,High blood pressure,High blood pressure,Never,White collar,Basic,10940.939018648258,41-56,40 - 54
+male,3,no,northeast,Diabetes,Heart disease,Occasionally,Blue collar,Basic,16275.45352925561,18-26,30 - 35
+female,2,yes,northeast,High blood pressure,Diabetes,Never,Unemployed,Standard,16197.677380636344,26-41,30 - 35
+male,5,no,southeast,High blood pressure,Heart disease,Frequently,White collar,Standard,18830.3157794114,26-41,40 - 54
+female,5,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Basic,15947.187217198072,26-41,40 - 54
+female,0,no,northeast,Heart disease,High blood pressure,Never,White collar,Premium,17140.75220621882,18-26,18.5 - 25
+female,0,yes,southwest,Diabetes,Diabetes,Rarely,Blue collar,Premium,20928.42104559745,41-56,25 - 30
+female,4,no,southwest,Diabetes,Heart disease,Never,White collar,Standard,17751.667320781722,>56,40 - 54
+male,0,yes,southeast,Diabetes,Heart disease,Occasionally,Blue collar,Premium,25608.82906301945,>56,18.5 - 25
+female,4,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Basic,15782.127944168167,>56,18.5 - 25
+male,3,no,southwest,High blood pressure,Heart disease,Frequently,Blue collar,Standard,17064.110377745576,18-26,35 - 40
+male,1,no,northeast,Diabetes,Heart disease,Never,Blue collar,Standard,15810.161606874502,26-41,18.5 - 25
+male,4,no,southwest,Diabetes,Diabetes,Rarely,Blue collar,Basic,12269.175707502653,41-56,25 - 30
+male,3,yes,southeast,Heart disease,Heart disease,Occasionally,White collar,Standard,25832.049397249222,26-41,18.5 - 25
+male,0,no,northeast,Heart disease,High blood pressure,Occasionally,Unemployed,Premium,19333.19033890296,41-56,40 - 54
+female,4,no,southeast,Heart disease,Heart disease,Rarely,Student,Basic,16465.01357627558,>56,25 - 30
+female,2,no,northwest,Diabetes,Diabetes,Never,Blue collar,Standard,11960.442317445268,41-56,18.5 - 25
+male,3,yes,northwest,Diabetes,High blood pressure,Never,Student,Standard,17331.71133093865,41-56,30 - 35
+male,3,no,northeast,High blood pressure,High blood pressure,Rarely,White collar,Standard,13456.997839632986,18-26,35 - 40
+female,0,yes,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Premium,23445.739331131124,26-41,35 - 40
+female,2,yes,northeast,Heart disease,High blood pressure,Never,Blue collar,Basic,18957.729423185945,26-41,35 - 40
+female,3,yes,southeast,Diabetes,Heart disease,Frequently,White collar,Basic,22386.83947643311,41-56,40 - 54
+male,1,yes,northwest,Heart disease,Diabetes,Never,Student,Premium,24232.862197544066,>56,40 - 54
+female,2,yes,northwest,Heart disease,Diabetes,Frequently,Student,Premium,23635.25758723656,18-26,18.5 - 25
+male,4,yes,southeast,Diabetes,Diabetes,Frequently,Student,Basic,19557.80258260016,>56,40 - 54
+male,4,yes,northeast,High blood pressure,Heart disease,Never,White collar,Basic,20804.80402691832,26-41,40 - 54
+male,3,yes,southwest,Heart disease,Diabetes,Never,Student,Basic,17851.979342173647,26-41,18.5 - 25
+female,5,yes,southwest,Heart disease,Heart disease,Occasionally,Unemployed,Standard,23256.86733888457,41-56,25 - 30
+male,4,yes,northeast,Heart disease,Heart disease,Frequently,White collar,Standard,29190.49183981448,41-56,40 - 54
+female,2,no,southeast,High blood pressure,Diabetes,Rarely,Blue collar,Standard,12156.609879205596,26-41,30 - 35
+male,5,yes,southwest,High blood pressure,Diabetes,Never,White collar,Basic,16195.82499245762,41-56,30 - 35
+male,5,yes,southwest,Diabetes,Diabetes,Occasionally,Unemployed,Premium,22347.748413161964,26-41,40 - 54
+male,4,no,northeast,Diabetes,High blood pressure,Occasionally,Unemployed,Premium,15725.105257130965,41-56,18.5 - 25
+female,4,no,northeast,High blood pressure,High blood pressure,Occasionally,Student,Basic,9646.777734109415,26-41,30 - 35
+female,1,no,southeast,Heart disease,High blood pressure,Occasionally,Student,Premium,18572.72862920375,41-56,40 - 54
+female,0,no,southeast,Heart disease,Diabetes,Never,White collar,Standard,16250.356524319017,41-56,30 - 35
+male,2,yes,northwest,Diabetes,High blood pressure,Rarely,Unemployed,Premium,19118.94256660866,26-41,25 - 30
+male,1,yes,southeast,High blood pressure,High blood pressure,Occasionally,Unemployed,Premium,19596.96349912503,>56,35 - 40
+male,3,yes,northwest,Diabetes,Diabetes,Rarely,Unemployed,Premium,20984.218012334943,26-41,35 - 40
+female,0,yes,southeast,Heart disease,Diabetes,Rarely,Unemployed,Premium,22133.389771940874,26-41,35 - 40
+male,2,yes,northeast,Diabetes,Heart disease,Never,Blue collar,Premium,24173.52740847819,18-26,25 - 30
+female,0,yes,northeast,Heart disease,Heart disease,Never,White collar,Basic,23012.79988727448,41-56,40 - 54
+female,4,no,northeast,High blood pressure,Heart disease,Rarely,Unemployed,Standard,14196.876345897075,41-56,18.5 - 25
+male,0,no,southeast,Heart disease,Heart disease,Frequently,Student,Standard,19805.093199090374,18-26,35 - 40
+female,3,no,northwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,15391.249302205058,41-56,40 - 54
+male,1,no,northwest,Heart disease,Diabetes,Never,Student,Basic,13827.529594117706,>56,30 - 35
+male,1,yes,southwest,Diabetes,Heart disease,Rarely,White collar,Standard,21752.395163068777,26-41,< 18.5
+male,0,yes,southwest,Heart disease,Diabetes,Frequently,Unemployed,Standard,22171.599650960343,41-56,30 - 35
+male,1,no,southwest,Diabetes,Heart disease,Rarely,Blue collar,Standard,16583.427352867588,41-56,18.5 - 25
+female,5,no,northwest,Heart disease,Heart disease,Occasionally,White collar,Standard,21023.59339373344,41-56,30 - 35
+female,5,yes,northwest,Heart disease,Diabetes,Frequently,Unemployed,Standard,22904.04227785489,41-56,40 - 54
+female,2,yes,northwest,Heart disease,Heart disease,Occasionally,Blue collar,Standard,24359.524934849185,26-41,18.5 - 25
+male,1,no,southwest,Diabetes,Heart disease,Rarely,Student,Premium,19257.99324520259,26-41,40 - 54
+male,5,yes,southeast,Diabetes,Heart disease,Frequently,White collar,Basic,22616.77757621865,41-56,30 - 35
+female,1,no,southwest,Diabetes,Diabetes,Occasionally,White collar,Basic,12582.666841013885,41-56,40 - 54
+male,2,no,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Basic,8684.395893731009,41-56,< 18.5
+female,2,no,southeast,Heart disease,Diabetes,Rarely,Student,Premium,18328.768121266265,26-41,40 - 54
+male,4,yes,northwest,Diabetes,Diabetes,Frequently,Unemployed,Premium,22797.451625488386,41-56,35 - 40
+female,3,yes,northeast,Heart disease,High blood pressure,Rarely,Unemployed,Basic,17104.27520751009,41-56,25 - 30
+male,0,no,southeast,Heart disease,High blood pressure,Frequently,Student,Premium,20136.186857552675,>56,40 - 54
+female,3,yes,northeast,Heart disease,High blood pressure,Occasionally,Unemployed,Premium,23701.850817656457,>56,30 - 35
+female,5,no,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Basic,12912.104095517325,>56,40 - 54
+female,0,yes,southwest,Diabetes,Diabetes,Rarely,Unemployed,Standard,16356.248944656158,41-56,30 - 35
+male,2,yes,northeast,High blood pressure,Heart disease,Rarely,Student,Premium,24052.176974050344,>56,30 - 35
+female,1,no,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Basic,8632.441007801435,26-41,30 - 35
+male,3,yes,northwest,High blood pressure,Diabetes,Frequently,White collar,Standard,20487.98373895725,18-26,30 - 35
+male,2,yes,northwest,Heart disease,Heart disease,Frequently,Blue collar,Standard,26063.433115132804,26-41,18.5 - 25
+female,0,yes,northeast,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,19813.874406322782,>56,35 - 40
+male,1,no,northwest,Diabetes,Heart disease,Rarely,Student,Standard,16706.520147271956,26-41,40 - 54
+male,3,no,southwest,High blood pressure,Heart disease,Rarely,Student,Standard,15023.878436910049,18-26,35 - 40
+male,2,no,southwest,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,18407.51156457233,26-41,35 - 40
+male,1,yes,southeast,Diabetes,Diabetes,Frequently,Student,Premium,22459.854221695383,41-56,30 - 35
+female,0,no,northwest,High blood pressure,Diabetes,Rarely,White collar,Premium,15662.098631577484,41-56,25 - 30
+female,1,yes,southwest,High blood pressure,Diabetes,Occasionally,Student,Standard,17228.648454982987,41-56,40 - 54
+male,3,yes,northeast,Diabetes,Diabetes,Occasionally,Unemployed,Basic,17464.944761356783,26-41,40 - 54
+male,3,yes,southeast,High blood pressure,Diabetes,Never,Blue collar,Standard,17531.76792007777,26-41,18.5 - 25
+female,3,yes,southwest,Heart disease,High blood pressure,Rarely,Blue collar,Basic,18234.68034193877,41-56,30 - 35
+male,3,no,southeast,Heart disease,High blood pressure,Frequently,White collar,Standard,18738.7659933051,26-41,25 - 30
+male,4,yes,southeast,High blood pressure,High blood pressure,Never,Blue collar,Standard,17629.77020550462,26-41,40 - 54
+female,3,yes,southeast,Heart disease,High blood pressure,Frequently,Blue collar,Premium,25773.537206436577,>56,35 - 40
+male,0,yes,southwest,Diabetes,Heart disease,Rarely,White collar,Basic,20098.24351322261,>56,18.5 - 25
+female,5,yes,northeast,High blood pressure,Diabetes,Occasionally,Blue collar,Premium,22310.52673802338,41-56,25 - 30
+female,5,yes,northeast,Diabetes,Heart disease,Never,Student,Standard,21995.812904095303,>56,40 - 54
+male,2,yes,southwest,Heart disease,Diabetes,Never,Student,Premium,24232.26502588935,18-26,40 - 54
+female,3,yes,northwest,Diabetes,Diabetes,Rarely,Unemployed,Basic,14908.668365211242,18-26,40 - 54
+male,4,no,northeast,Diabetes,High blood pressure,Rarely,White collar,Standard,15232.4750611016,>56,25 - 30
+female,5,yes,northwest,Diabetes,Diabetes,Occasionally,White collar,Basic,18546.66602235297,41-56,40 - 54
+male,5,no,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Standard,12267.185209583737,26-41,30 - 35
+female,3,no,northeast,High blood pressure,High blood pressure,Occasionally,Unemployed,Standard,10530.742422394633,18-26,35 - 40
+female,2,no,southwest,Diabetes,Diabetes,Never,White collar,Premium,16513.169357402374,41-56,25 - 30
+female,0,no,northeast,Diabetes,Diabetes,Never,Blue collar,Premium,16969.404239666324,>56,40 - 54
+female,3,yes,southeast,Heart disease,Diabetes,Never,Unemployed,Basic,17273.327403917687,41-56,18.5 - 25
+male,5,yes,southeast,Heart disease,Heart disease,Rarely,Blue collar,Premium,28758.12507873338,18-26,35 - 40
+female,3,yes,northeast,Diabetes,High blood pressure,Occasionally,Blue collar,Standard,18301.755690721904,18-26,40 - 54
+female,5,no,southeast,High blood pressure,Diabetes,Rarely,Student,Premium,15191.587753137675,26-41,40 - 54
+male,2,yes,southeast,High blood pressure,Diabetes,Frequently,White collar,Basic,17850.551815542556,26-41,18.5 - 25
+male,5,no,southeast,High blood pressure,Heart disease,Occasionally,Unemployed,Standard,15150.90428943523,18-26,18.5 - 25
+male,1,no,southeast,Heart disease,High blood pressure,Frequently,Student,Basic,15291.033673705724,41-56,40 - 54
+female,2,no,northeast,Heart disease,Heart disease,Rarely,Student,Basic,15884.74787577768,26-41,18.5 - 25
+female,0,yes,northwest,Heart disease,High blood pressure,Frequently,Student,Premium,23280.236284252474,41-56,35 - 40
+female,3,no,northwest,Heart disease,Heart disease,Rarely,Blue collar,Standard,18460.04082181729,18-26,< 18.5
+male,4,yes,northeast,Heart disease,High blood pressure,Never,Unemployed,Basic,19227.46077081264,26-41,40 - 54
+female,2,yes,northeast,Diabetes,Diabetes,Frequently,White collar,Premium,24376.93248737457,41-56,40 - 54
+male,1,yes,southwest,Diabetes,Heart disease,Rarely,Unemployed,Premium,23361.22407381224,18-26,40 - 54
+female,4,yes,southeast,High blood pressure,Diabetes,Never,Unemployed,Standard,16450.050553892288,41-56,35 - 40
+female,5,yes,northeast,High blood pressure,Diabetes,Never,Student,Basic,15583.809384428612,41-56,40 - 54
+male,3,no,northeast,Diabetes,Diabetes,Frequently,Unemployed,Standard,15823.19215055857,41-56,40 - 54
+male,1,no,southeast,Heart disease,High blood pressure,Rarely,Blue collar,Premium,18820.9381698926,26-41,25 - 30
+male,4,no,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,16069.162482881056,>56,35 - 40
+male,2,no,northwest,Heart disease,Diabetes,Occasionally,Unemployed,Basic,14463.874677263882,41-56,40 - 54
+female,4,yes,northwest,Diabetes,Heart disease,Frequently,Student,Basic,19517.29529422885,41-56,18.5 - 25
+male,5,no,southwest,Heart disease,Heart disease,Occasionally,Blue collar,Premium,24998.09972217136,41-56,40 - 54
+male,2,yes,southwest,High blood pressure,High blood pressure,Never,Unemployed,Basic,14229.700719973029,>56,40 - 54
+male,5,yes,northeast,Diabetes,High blood pressure,Frequently,White collar,Basic,20016.68958056104,26-41,35 - 40
+male,2,no,northwest,High blood pressure,Heart disease,Occasionally,Student,Premium,19065.000270992816,>56,35 - 40
+male,1,yes,southwest,Heart disease,High blood pressure,Rarely,Student,Standard,19671.509960475945,26-41,30 - 35
+male,5,no,northeast,Heart disease,Heart disease,Frequently,White collar,Premium,25951.93429966392,26-41,18.5 - 25
+male,0,no,southeast,High blood pressure,High blood pressure,Never,Blue collar,Basic,10215.541504340636,>56,40 - 54
+male,2,yes,northeast,Heart disease,Diabetes,Frequently,White collar,Basic,24054.83620744828,>56,35 - 40
+female,1,yes,northeast,Diabetes,Diabetes,Frequently,Unemployed,Basic,16008.74054905616,>56,18.5 - 25
+male,3,no,southwest,Diabetes,High blood pressure,Frequently,Student,Standard,13560.850407428574,41-56,18.5 - 25
+male,2,yes,northeast,Heart disease,Diabetes,Rarely,White collar,Premium,26674.81138572732,>56,30 - 35
+female,0,yes,southwest,Diabetes,High blood pressure,Occasionally,White collar,Premium,19494.798002040297,18-26,18.5 - 25
+male,5,no,southeast,Diabetes,Heart disease,Rarely,Student,Basic,14731.826428244283,41-56,30 - 35
+male,5,no,southwest,High blood pressure,Diabetes,Frequently,Unemployed,Standard,14461.260340312048,18-26,40 - 54
+female,0,no,northwest,Heart disease,Diabetes,Never,Unemployed,Premium,16655.481868821447,41-56,25 - 30
+male,5,yes,northwest,Diabetes,Heart disease,Frequently,Unemployed,Standard,23460.64380960399,26-41,40 - 54
+male,1,no,southeast,Diabetes,Diabetes,Occasionally,Student,Standard,13532.809253694744,>56,18.5 - 25
+male,4,yes,southwest,High blood pressure,High blood pressure,Never,White collar,Standard,17659.352846307942,18-26,40 - 54
+female,4,no,northeast,Diabetes,Diabetes,Occasionally,Blue collar,Premium,18497.697951491744,41-56,40 - 54
+male,1,yes,northwest,High blood pressure,Diabetes,Frequently,Blue collar,Premium,21971.966579915857,26-41,18.5 - 25
+female,5,yes,southeast,Diabetes,High blood pressure,Never,Blue collar,Basic,15375.599946231789,41-56,40 - 54
+female,4,no,southeast,High blood pressure,High blood pressure,Occasionally,White collar,Premium,16343.817174127076,18-26,40 - 54
+male,0,yes,southwest,High blood pressure,High blood pressure,Never,White collar,Basic,14502.316937676138,18-26,40 - 54
+male,1,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,18062.74610919241,26-41,18.5 - 25
+male,4,no,southwest,Diabetes,High blood pressure,Never,White collar,Premium,15948.690796006254,41-56,25 - 30
+male,1,yes,southwest,Heart disease,Heart disease,Never,Blue collar,Basic,21919.21811729938,18-26,40 - 54
+male,1,yes,southeast,Heart disease,High blood pressure,Never,Unemployed,Basic,17454.637089742144,41-56,30 - 35
+male,3,no,southwest,High blood pressure,High blood pressure,Frequently,White collar,Basic,12070.01174462822,41-56,25 - 30
+male,1,yes,southwest,Diabetes,Diabetes,Rarely,Student,Premium,20616.29966229572,18-26,30 - 35
+female,5,no,northeast,High blood pressure,Diabetes,Never,Unemployed,Standard,11691.365613680588,>56,18.5 - 25
+male,3,yes,northeast,Diabetes,High blood pressure,Occasionally,Student,Standard,18387.84053211153,18-26,30 - 35
+female,4,no,southeast,High blood pressure,Diabetes,Rarely,Unemployed,Standard,10286.801019877646,41-56,18.5 - 25
+female,4,yes,southwest,High blood pressure,High blood pressure,Occasionally,Student,Premium,19798.66846222268,41-56,40 - 54
+male,1,no,northeast,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,17026.893910438295,41-56,40 - 54
+female,0,no,northwest,Diabetes,High blood pressure,Occasionally,Student,Premium,14445.97916416582,26-41,40 - 54
+male,3,no,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,16289.652451642964,26-41,18.5 - 25
+male,0,yes,southwest,Heart disease,High blood pressure,Occasionally,Student,Standard,20173.046362741625,26-41,25 - 30
+female,3,no,northeast,High blood pressure,Heart disease,Never,Unemployed,Premium,16182.53133460468,26-41,25 - 30
+female,0,yes,northwest,Diabetes,Heart disease,Frequently,Unemployed,Premium,24345.72646571692,41-56,35 - 40
+male,5,no,southwest,Heart disease,Diabetes,Rarely,White collar,Basic,16317.73426127089,>56,30 - 35
+female,1,yes,northwest,Diabetes,Diabetes,Never,White collar,Basic,17205.221046206272,>56,40 - 54
+male,2,yes,northeast,High blood pressure,Heart disease,Frequently,Unemployed,Basic,18332.9793927119,18-26,18.5 - 25
+female,4,yes,southwest,High blood pressure,High blood pressure,Never,Unemployed,Basic,12976.277671928668,>56,40 - 54
+male,3,no,northwest,High blood pressure,Diabetes,Rarely,Unemployed,Standard,12503.729080387233,41-56,30 - 35
+female,1,no,southeast,Heart disease,Heart disease,Occasionally,Blue collar,Standard,19593.072158258245,26-41,30 - 35
+female,1,yes,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,13689.032426834932,26-41,40 - 54
+male,3,no,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Basic,14110.217041453689,26-41,18.5 - 25
+female,3,no,southeast,Diabetes,Diabetes,Rarely,Unemployed,Premium,15530.414264757175,>56,25 - 30
+male,3,no,northwest,High blood pressure,Diabetes,Frequently,Student,Premium,15292.596905819864,18-26,18.5 - 25
+female,4,no,southeast,Heart disease,High blood pressure,Rarely,Blue collar,Premium,18081.49254430996,26-41,25 - 30
+female,2,no,southeast,Diabetes,High blood pressure,Occasionally,White collar,Standard,12966.59097061862,18-26,30 - 35
+male,4,no,southeast,High blood pressure,Diabetes,Never,Unemployed,Premium,15038.800956227486,41-56,30 - 35
+male,2,yes,southeast,High blood pressure,High blood pressure,Frequently,Student,Basic,15179.714362727736,>56,18.5 - 25
+male,2,yes,northeast,Heart disease,Diabetes,Frequently,Student,Standard,22860.99188539748,41-56,18.5 - 25
+female,4,yes,southeast,Heart disease,Heart disease,Frequently,Student,Premium,27790.941149671176,26-41,30 - 35
+female,2,yes,southwest,Diabetes,Diabetes,Rarely,Student,Standard,17869.43956425701,26-41,40 - 54
+female,0,no,northwest,Diabetes,Diabetes,Rarely,Student,Standard,11541.11170406214,41-56,25 - 30
+female,3,yes,southwest,High blood pressure,Heart disease,Occasionally,White collar,Premium,24346.63912726557,41-56,25 - 30
+female,1,no,northwest,High blood pressure,High blood pressure,Frequently,Unemployed,Standard,10173.4951933127,18-26,30 - 35
+male,2,yes,southeast,Heart disease,Diabetes,Never,Student,Standard,21634.72472517798,26-41,40 - 54
+female,0,yes,southeast,Heart disease,Diabetes,Never,White collar,Standard,21116.41750101472,26-41,30 - 35
+male,2,no,southwest,Heart disease,Diabetes,Frequently,Student,Basic,14537.204504264297,26-41,18.5 - 25
+male,3,yes,southwest,High blood pressure,Heart disease,Frequently,Unemployed,Basic,19836.84679694401,>56,40 - 54
+female,4,yes,northwest,Diabetes,Diabetes,Rarely,Student,Premium,21035.708811281605,41-56,30 - 35
+female,4,yes,northwest,High blood pressure,High blood pressure,Never,Unemployed,Standard,14191.298099590544,26-41,35 - 40
+female,2,yes,southeast,High blood pressure,High blood pressure,Occasionally,White collar,Basic,15226.143117743544,18-26,25 - 30
+female,0,yes,northeast,Heart disease,Diabetes,Rarely,White collar,Premium,24806.48832542512,>56,25 - 30
+male,2,yes,northwest,Diabetes,Diabetes,Rarely,White collar,Basic,17928.71255875439,>56,25 - 30
+male,1,no,northwest,Diabetes,High blood pressure,Frequently,White collar,Premium,18614.747906167035,>56,40 - 54
+male,1,yes,northwest,High blood pressure,High blood pressure,Never,White collar,Premium,19389.38121645853,18-26,18.5 - 25
+male,5,no,southeast,High blood pressure,Heart disease,Rarely,Blue collar,Standard,15979.512242868375,26-41,18.5 - 25
+female,2,no,southeast,Diabetes,High blood pressure,Occasionally,Student,Premium,15528.280197590766,>56,40 - 54
+male,5,no,southwest,Diabetes,Diabetes,Frequently,Unemployed,Standard,14202.913437438294,26-41,30 - 35
+male,5,no,southeast,Heart disease,Diabetes,Never,Blue collar,Basic,15777.680777899865,>56,18.5 - 25
+female,4,yes,southeast,Heart disease,Diabetes,Rarely,Blue collar,Basic,19894.282845850583,18-26,40 - 54
+female,0,no,northwest,Diabetes,Heart disease,Frequently,Student,Premium,19507.497329753107,>56,30 - 35
+female,1,no,southeast,Diabetes,Diabetes,Frequently,Blue collar,Basic,12880.621526640638,41-56,35 - 40
+female,2,no,northeast,High blood pressure,Heart disease,Rarely,Unemployed,Basic,12460.590959245004,41-56,30 - 35
+male,4,no,northwest,Heart disease,Heart disease,Never,Student,Standard,18505.353637170487,18-26,18.5 - 25
+male,3,no,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Premium,20714.164724926184,41-56,40 - 54
+male,3,yes,southwest,High blood pressure,Heart disease,Occasionally,Unemployed,Standard,19388.163621465723,41-56,18.5 - 25
+female,4,yes,northwest,Heart disease,Heart disease,Occasionally,Unemployed,Premium,26744.615731362715,26-41,35 - 40
+male,2,no,southwest,Heart disease,Diabetes,Rarely,White collar,Basic,15040.57128974885,26-41,30 - 35
+male,4,no,southeast,High blood pressure,High blood pressure,Frequently,Blue collar,Basic,12621.872954413964,26-41,40 - 54
+female,0,yes,southeast,Diabetes,Diabetes,Frequently,White collar,Standard,19906.05619664577,26-41,40 - 54
+female,3,no,northwest,Diabetes,High blood pressure,Rarely,Student,Basic,9348.40899288213,41-56,30 - 35
+female,1,no,southeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,16913.555720255852,>56,40 - 54
+female,0,yes,southwest,Diabetes,Diabetes,Never,Student,Standard,15411.984797635476,26-41,25 - 30
+female,4,yes,southwest,Heart disease,Heart disease,Frequently,White collar,Premium,29726.62678231149,18-26,40 - 54
+male,5,no,southwest,Diabetes,Heart disease,Frequently,Unemployed,Premium,20626.28748938329,26-41,25 - 30
+male,3,yes,northwest,High blood pressure,Heart disease,Frequently,Unemployed,Basic,19146.785730197887,41-56,30 - 35
+male,2,no,southeast,Heart disease,High blood pressure,Frequently,Student,Basic,15666.80051836846,41-56,40 - 54
+female,0,no,northwest,High blood pressure,Diabetes,Frequently,White collar,Standard,13404.858216354374,18-26,30 - 35
+female,4,yes,northeast,High blood pressure,Diabetes,Rarely,Student,Premium,20694.189408584203,>56,35 - 40
+female,0,no,southeast,Diabetes,Diabetes,Frequently,White collar,Premium,17919.994252260483,26-41,40 - 54
+male,4,no,northeast,Diabetes,Heart disease,Rarely,Unemployed,Basic,14555.59761190024,18-26,40 - 54
+male,1,no,southeast,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,14766.1396742651,>56,18.5 - 25
+male,4,yes,southeast,High blood pressure,High blood pressure,Occasionally,Unemployed,Basic,15259.97935024929,>56,30 - 35
+male,5,no,northwest,High blood pressure,Diabetes,Never,Unemployed,Standard,12587.289648278836,41-56,40 - 54
+male,1,yes,southeast,High blood pressure,Diabetes,Occasionally,White collar,Basic,17870.75747589234,>56,30 - 35
+female,2,no,northwest,Heart disease,Diabetes,Never,White collar,Premium,20292.4757241642,26-41,40 - 54
+female,3,no,southeast,Diabetes,High blood pressure,Rarely,White collar,Premium,16063.646601228553,41-56,35 - 40
+male,4,yes,southwest,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,21965.73533284145,18-26,40 - 54
+female,5,no,southwest,Diabetes,High blood pressure,Occasionally,Student,Standard,12372.731040729625,41-56,35 - 40
+male,2,yes,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Standard,22169.599228743013,41-56,30 - 35
+female,0,yes,southwest,High blood pressure,High blood pressure,Rarely,White collar,Standard,16073.635459748872,26-41,18.5 - 25
+female,1,no,northeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,7959.542204709719,18-26,40 - 54
+male,2,yes,southwest,Diabetes,Heart disease,Frequently,Student,Premium,25591.77870225488,41-56,35 - 40
+female,5,yes,southeast,Heart disease,Heart disease,Frequently,Student,Standard,25975.10834684846,41-56,40 - 54
+male,0,yes,southwest,Diabetes,Heart disease,Frequently,Blue collar,Basic,22171.127504920343,26-41,40 - 54
+male,2,yes,northeast,High blood pressure,Diabetes,Occasionally,White collar,Standard,19269.287753946115,26-41,25 - 30
+male,5,yes,northwest,High blood pressure,High blood pressure,Frequently,Blue collar,Basic,17167.202463624064,26-41,35 - 40
+female,1,no,southwest,High blood pressure,Heart disease,Never,White collar,Basic,12970.008234942305,26-41,40 - 54
+male,3,yes,southeast,High blood pressure,Heart disease,Occasionally,White collar,Standard,22281.41802864152,26-41,35 - 40
+male,3,no,southwest,High blood pressure,Diabetes,Frequently,White collar,Standard,15773.443583141458,41-56,35 - 40
+female,3,no,southwest,High blood pressure,High blood pressure,Rarely,Blue collar,Basic,10299.334922424625,>56,35 - 40
+male,0,no,southwest,High blood pressure,Heart disease,Never,Unemployed,Premium,16192.726053584129,18-26,25 - 30
+female,2,yes,southeast,Diabetes,Diabetes,Rarely,White collar,Standard,19500.59218776036,41-56,40 - 54
+male,5,yes,southeast,High blood pressure,High blood pressure,Rarely,White collar,Standard,19630.61558370557,41-56,40 - 54
+male,0,yes,northwest,Diabetes,Diabetes,Rarely,White collar,Basic,17998.45135405681,>56,35 - 40
+female,2,yes,northwest,Diabetes,Diabetes,Frequently,Blue collar,Premium,22660.63174102565,41-56,30 - 35
+female,5,yes,northeast,Diabetes,High blood pressure,Occasionally,White collar,Basic,18759.19995016444,41-56,40 - 54
+male,0,yes,northwest,Diabetes,Diabetes,Never,Blue collar,Standard,17912.350626979536,18-26,35 - 40
+male,5,yes,southwest,Diabetes,Heart disease,Frequently,Unemployed,Standard,23291.868918327247,18-26,40 - 54
+female,2,yes,northwest,Heart disease,Heart disease,Never,Blue collar,Basic,21383.73135038325,26-41,25 - 30
+male,0,yes,southwest,Diabetes,Heart disease,Occasionally,White collar,Basic,20315.03427531721,26-41,25 - 30
+male,5,no,southwest,Diabetes,Heart disease,Frequently,Blue collar,Basic,18702.82700746184,>56,40 - 54
+male,2,yes,southeast,Heart disease,Heart disease,Rarely,White collar,Premium,28904.92030998528,41-56,25 - 30
+female,0,yes,southeast,Diabetes,Heart disease,Occasionally,Student,Premium,24170.04286870656,26-41,40 - 54
+female,3,yes,southeast,High blood pressure,High blood pressure,Rarely,Unemployed,Basic,11959.88413066575,41-56,18.5 - 25
+female,1,yes,northeast,Diabetes,Heart disease,Rarely,White collar,Basic,20223.80132479986,41-56,30 - 35
+female,0,no,southwest,Heart disease,Diabetes,Frequently,Student,Standard,16647.793176450938,18-26,40 - 54
+male,0,yes,northeast,Diabetes,High blood pressure,Rarely,Student,Standard,17958.175497530847,26-41,40 - 54
+female,0,no,southwest,Diabetes,Diabetes,Never,White collar,Standard,13137.14620964631,26-41,40 - 54
+male,3,yes,southeast,Heart disease,Diabetes,Occasionally,Unemployed,Basic,19540.75159004976,18-26,35 - 40
+male,2,no,southwest,Diabetes,High blood pressure,Frequently,Unemployed,Premium,15558.303382075384,26-41,30 - 35
+male,3,no,southeast,Heart disease,Diabetes,Rarely,Student,Basic,15221.785316191752,>56,35 - 40
+female,5,no,southeast,Heart disease,Diabetes,Occasionally,Blue collar,Basic,15808.633751615887,41-56,35 - 40
+female,0,yes,northwest,Heart disease,High blood pressure,Occasionally,Student,Basic,16584.908692344437,26-41,25 - 30
+male,2,no,southwest,Heart disease,Heart disease,Rarely,Blue collar,Basic,18762.00164273696,26-41,40 - 54
+male,3,yes,northeast,High blood pressure,Diabetes,Occasionally,Blue collar,Standard,19694.92892461227,41-56,35 - 40
+female,4,yes,southeast,Diabetes,High blood pressure,Occasionally,White collar,Premium,21934.93416714549,18-26,35 - 40
+male,1,no,northeast,Heart disease,Diabetes,Frequently,White collar,Basic,18117.60063310201,26-41,40 - 54
+male,1,no,northwest,Heart disease,Diabetes,Never,Student,Premium,18544.936583242143,41-56,25 - 30
+female,5,no,southwest,Heart disease,High blood pressure,Rarely,Student,Premium,17018.04927170867,41-56,18.5 - 25
+male,4,yes,southeast,Heart disease,Heart disease,Rarely,Unemployed,Premium,27527.985782491407,26-41,40 - 54
+male,5,yes,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,23870.976483579765,26-41,40 - 54
+male,2,no,northwest,Diabetes,High blood pressure,Never,Blue collar,Standard,11411.13646596971,26-41,18.5 - 25
+male,3,yes,northeast,Diabetes,Diabetes,Never,Unemployed,Premium,20429.183936131863,26-41,25 - 30
+male,5,yes,northeast,High blood pressure,Heart disease,Occasionally,Student,Basic,20305.32040600268,18-26,40 - 54
+female,1,no,northwest,Heart disease,Diabetes,Rarely,White collar,Standard,16716.787533369326,>56,18.5 - 25
+female,2,yes,northwest,High blood pressure,High blood pressure,Frequently,White collar,Basic,16150.355844035224,>56,30 - 35
+female,1,no,southwest,Diabetes,Heart disease,Frequently,Student,Premium,19295.546304978365,26-41,40 - 54
+male,1,yes,northwest,High blood pressure,Diabetes,Never,Blue collar,Premium,21969.74924091344,>56,40 - 54
+female,2,yes,southwest,High blood pressure,Diabetes,Frequently,Student,Premium,22170.80920142088,>56,40 - 54
+female,5,no,northwest,Diabetes,Diabetes,Occasionally,White collar,Basic,14407.257369580848,>56,40 - 54
+male,5,yes,northwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,20543.302802891263,41-56,18.5 - 25
+male,3,yes,northeast,Diabetes,Diabetes,Never,White collar,Premium,23624.685480882905,26-41,35 - 40
+male,4,no,northeast,Diabetes,Heart disease,Occasionally,Blue collar,Premium,21200.72423077608,26-41,18.5 - 25
+male,5,yes,southwest,High blood pressure,Heart disease,Frequently,Blue collar,Basic,21180.45704936925,41-56,35 - 40
+male,3,no,southwest,Diabetes,Diabetes,Occasionally,Unemployed,Standard,12775.075501884943,26-41,30 - 35
+male,4,yes,southwest,High blood pressure,High blood pressure,Rarely,Unemployed,Standard,16530.044307838405,>56,35 - 40
+female,1,yes,southeast,Heart disease,Heart disease,Occasionally,White collar,Premium,28119.56896748975,>56,30 - 35
+female,0,yes,southwest,Diabetes,High blood pressure,Rarely,Student,Premium,17974.967971799964,26-41,18.5 - 25
+female,0,no,northeast,Diabetes,Heart disease,Rarely,Student,Standard,15907.95379548892,18-26,40 - 54
+male,4,no,southwest,Diabetes,Heart disease,Frequently,Student,Basic,15169.40688405709,26-41,< 18.5
+female,5,yes,southwest,Diabetes,Diabetes,Frequently,Student,Basic,17202.209620435973,26-41,40 - 54
+female,4,yes,southeast,High blood pressure,High blood pressure,Frequently,Unemployed,Standard,16939.331204075115,26-41,35 - 40
+male,4,no,northwest,Diabetes,Heart disease,Rarely,Student,Basic,14711.233742575929,41-56,40 - 54
+female,0,yes,northwest,Diabetes,Heart disease,Occasionally,Unemployed,Basic,18143.680885372625,41-56,40 - 54
+female,3,no,northwest,High blood pressure,High blood pressure,Never,Student,Standard,10432.976915593648,>56,40 - 54
+male,0,yes,northeast,High blood pressure,High blood pressure,Never,White collar,Basic,15030.149346256789,41-56,18.5 - 25
+male,1,no,northeast,Diabetes,Diabetes,Rarely,Student,Standard,13136.641390378269,18-26,30 - 35
+female,1,yes,southwest,Diabetes,Heart disease,Never,Blue collar,Basic,17890.827518959442,18-26,18.5 - 25
+male,1,no,northwest,Diabetes,Diabetes,Occasionally,White collar,Standard,13782.132245251489,26-41,18.5 - 25
+female,2,yes,southeast,Heart disease,High blood pressure,Never,Student,Premium,21844.980383722865,26-41,25 - 30
+female,1,yes,northwest,Diabetes,Heart disease,Rarely,Unemployed,Standard,19858.42952834001,18-26,40 - 54
+male,3,yes,northwest,Diabetes,Heart disease,Occasionally,Unemployed,Standard,22658.848962587705,41-56,40 - 54
+female,5,yes,southeast,High blood pressure,Diabetes,Frequently,Student,Premium,22911.18562891928,>56,40 - 54
+female,3,yes,northeast,Heart disease,High blood pressure,Never,Student,Standard,20200.90607586432,26-41,35 - 40
+female,1,no,southeast,Diabetes,Diabetes,Rarely,Unemployed,Standard,11709.69429279716,>56,< 18.5
+male,4,yes,southeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Basic,17216.291581817964,>56,40 - 54
+male,1,yes,southeast,Heart disease,Diabetes,Never,Unemployed,Standard,20302.326421815786,26-41,40 - 54
+female,3,yes,southeast,Heart disease,Diabetes,Never,Unemployed,Premium,23281.754765108737,>56,40 - 54
+male,3,no,southwest,High blood pressure,Heart disease,Never,Blue collar,Basic,13220.95964864628,18-26,35 - 40
+female,5,no,southwest,Heart disease,Heart disease,Frequently,Unemployed,Standard,19256.57610195881,41-56,25 - 30
+male,5,yes,southwest,Heart disease,Heart disease,Never,Blue collar,Premium,29197.339440242555,26-41,40 - 54
+male,4,yes,northwest,Diabetes,Heart disease,Frequently,White collar,Basic,22016.002093285697,41-56,18.5 - 25
+male,2,no,northeast,Diabetes,Diabetes,Frequently,White collar,Premium,19531.37667978152,26-41,35 - 40
+female,0,yes,southwest,Diabetes,Diabetes,Frequently,Blue collar,Premium,22891.788455390368,>56,40 - 54
+female,1,no,northeast,Diabetes,Heart disease,Frequently,White collar,Premium,21775.988007299296,>56,30 - 35
+male,5,yes,southwest,Diabetes,Diabetes,Occasionally,White collar,Basic,18999.479079823588,41-56,30 - 35
+female,4,no,southeast,High blood pressure,High blood pressure,Never,Blue collar,Premium,14234.541600876024,>56,18.5 - 25
+male,5,no,northwest,Diabetes,High blood pressure,Rarely,Blue collar,Standard,13198.428506590442,26-41,18.5 - 25
+male,5,yes,northwest,High blood pressure,Heart disease,Frequently,White collar,Standard,23496.783074529005,26-41,18.5 - 25
+male,0,no,northwest,High blood pressure,Heart disease,Frequently,Student,Premium,19536.33654933024,26-41,40 - 54
+male,0,no,southeast,Heart disease,Diabetes,Never,Unemployed,Standard,14516.166541785513,18-26,18.5 - 25
+female,1,yes,southwest,Heart disease,Diabetes,Frequently,Blue collar,Standard,23729.49926328455,>56,40 - 54
+female,1,no,northeast,Heart disease,Heart disease,Occasionally,White collar,Standard,21106.97701537118,26-41,40 - 54
+male,5,no,southeast,Diabetes,Diabetes,Never,Student,Basic,10957.951177839328,26-41,25 - 30
+male,4,yes,southeast,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,24620.86459880219,>56,35 - 40
+female,3,yes,northwest,Heart disease,High blood pressure,Never,White collar,Standard,20366.261185326497,41-56,30 - 35
+female,3,yes,southeast,Heart disease,High blood pressure,Never,White collar,Premium,23574.77414072628,>56,25 - 30
+female,5,no,southwest,Heart disease,High blood pressure,Frequently,Student,Basic,14582.63623040612,41-56,40 - 54
+male,0,no,northeast,Heart disease,Diabetes,Never,Student,Standard,14963.84415218367,26-41,< 18.5
+female,1,no,northwest,High blood pressure,Heart disease,Frequently,Blue collar,Standard,16523.688241628974,41-56,18.5 - 25
+male,4,no,southeast,Diabetes,Heart disease,Never,Student,Basic,13246.80248589905,18-26,18.5 - 25
+female,3,no,northeast,Diabetes,Diabetes,Occasionally,Unemployed,Basic,9939.886527726894,18-26,25 - 30
+female,2,no,southeast,High blood pressure,Diabetes,Frequently,White collar,Basic,12599.485169846426,18-26,40 - 54
+male,5,yes,southwest,High blood pressure,High blood pressure,Frequently,Unemployed,Premium,21121.896507233243,26-41,40 - 54
+female,1,yes,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Basic,19918.444171564468,41-56,35 - 40
+male,3,no,northeast,High blood pressure,Heart disease,Never,Unemployed,Premium,16888.011215928043,18-26,< 18.5
+male,2,yes,northeast,Heart disease,Heart disease,Occasionally,White collar,Basic,25138.27255523748,>56,30 - 35
+male,1,no,northeast,High blood pressure,Diabetes,Never,White collar,Premium,16733.385586660705,41-56,30 - 35
+female,2,yes,northwest,High blood pressure,Heart disease,Occasionally,Student,Basic,18138.980936893466,26-41,40 - 54
+female,4,yes,northwest,Heart disease,High blood pressure,Occasionally,Blue collar,Premium,24581.379750612658,41-56,40 - 54
+male,4,yes,northeast,Diabetes,High blood pressure,Occasionally,White collar,Premium,22742.775046757743,18-26,30 - 35
+female,1,yes,northeast,Heart disease,Heart disease,Rarely,Blue collar,Basic,22665.406784769104,>56,25 - 30
+female,1,no,northeast,Heart disease,Diabetes,Occasionally,Blue collar,Standard,16459.788782415224,26-41,25 - 30
+female,4,yes,northwest,High blood pressure,Heart disease,Never,White collar,Basic,19154.82271158222,41-56,35 - 40
+female,1,no,southwest,High blood pressure,Heart disease,Occasionally,Student,Premium,16592.711356419724,41-56,18.5 - 25
+female,5,no,southeast,Heart disease,Diabetes,Occasionally,White collar,Standard,17851.753466888924,26-41,25 - 30
+female,5,no,southeast,High blood pressure,High blood pressure,Frequently,Student,Basic,10657.61014551794,>56,18.5 - 25
+female,2,yes,southeast,Heart disease,High blood pressure,Never,White collar,Basic,18484.07438016952,18-26,40 - 54
+male,4,no,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Premium,16763.02920425759,41-56,25 - 30
+female,1,yes,northeast,High blood pressure,High blood pressure,Occasionally,Blue collar,Premium,19571.79968493132,18-26,30 - 35
+male,0,no,northwest,High blood pressure,Diabetes,Never,Student,Standard,10185.507014816696,26-41,18.5 - 25
+male,5,no,northwest,High blood pressure,Diabetes,Never,White collar,Standard,13592.893017747156,18-26,40 - 54
+male,5,yes,northeast,Heart disease,Heart disease,Occasionally,White collar,Basic,24623.17790009936,26-41,18.5 - 25
+male,2,yes,northwest,High blood pressure,Diabetes,Frequently,White collar,Premium,24135.31393563424,>56,40 - 54
+female,1,yes,northeast,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,21242.055482906933,18-26,18.5 - 25
+female,4,yes,southwest,Diabetes,Heart disease,Rarely,Student,Standard,20775.63983691112,>56,30 - 35
+male,1,yes,southeast,Diabetes,Heart disease,Never,Student,Standard,20202.85844611949,41-56,18.5 - 25
+female,3,no,northwest,Diabetes,High blood pressure,Never,Unemployed,Standard,10134.349934144042,26-41,25 - 30
+male,0,no,northeast,Diabetes,High blood pressure,Rarely,Student,Basic,10504.706466368936,41-56,30 - 35
+male,1,yes,southwest,High blood pressure,Heart disease,Never,Unemployed,Basic,17790.98160935426,41-56,40 - 54
+male,2,yes,southwest,Heart disease,Diabetes,Occasionally,Unemployed,Premium,24800.080218691703,26-41,40 - 54
+male,4,yes,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Basic,16549.442944601695,26-41,18.5 - 25
+male,3,yes,southwest,Diabetes,Diabetes,Occasionally,Student,Standard,19004.99486167762,18-26,40 - 54
+male,3,no,northeast,Heart disease,Heart disease,Rarely,Blue collar,Basic,19162.28542634256,26-41,30 - 35
+female,0,no,northwest,Heart disease,High blood pressure,Rarely,White collar,Basic,12925.2409665388,26-41,30 - 35
+male,1,no,northeast,Heart disease,High blood pressure,Frequently,White collar,Standard,20127.67253031011,>56,40 - 54
+female,5,no,northeast,High blood pressure,Heart disease,Rarely,Unemployed,Basic,11730.496919290745,26-41,18.5 - 25
+male,4,yes,northwest,Diabetes,Diabetes,Rarely,Blue collar,Premium,21995.51442561357,41-56,25 - 30
+female,5,no,northwest,High blood pressure,Diabetes,Never,Unemployed,Premium,13993.752781354124,41-56,40 - 54
+male,2,no,southeast,Diabetes,High blood pressure,Rarely,White collar,Standard,14257.776024659544,26-41,30 - 35
+female,5,yes,northeast,Heart disease,High blood pressure,Never,Unemployed,Premium,22905.47021731049,>56,30 - 35
+female,2,yes,southeast,Heart disease,High blood pressure,Never,White collar,Standard,19415.56693025718,18-26,18.5 - 25
+male,1,yes,northeast,High blood pressure,Diabetes,Frequently,Student,Basic,16221.120142742304,18-26,25 - 30
+male,3,yes,northeast,Diabetes,High blood pressure,Rarely,Student,Basic,15065.548920561369,26-41,18.5 - 25
+male,5,yes,southwest,Diabetes,Heart disease,Never,Student,Standard,21587.79091319854,>56,30 - 35
+female,2,no,southwest,High blood pressure,High blood pressure,Occasionally,Unemployed,Standard,9880.905047145368,26-41,25 - 30
+female,1,no,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Basic,9938.31741164722,>56,25 - 30
+female,4,no,southeast,High blood pressure,Heart disease,Occasionally,Student,Basic,13526.001870570934,41-56,30 - 35
+female,0,yes,northwest,High blood pressure,High blood pressure,Occasionally,White collar,Premium,19377.25153889561,41-56,25 - 30
+female,5,yes,southeast,Diabetes,Heart disease,Occasionally,Blue collar,Premium,24627.336911157072,18-26,18.5 - 25
+female,4,no,northeast,High blood pressure,Diabetes,Occasionally,Unemployed,Basic,10468.410526393536,41-56,30 - 35
+male,5,yes,northwest,Heart disease,Diabetes,Frequently,White collar,Standard,23547.41501542448,26-41,18.5 - 25
+female,2,no,northwest,Diabetes,Heart disease,Frequently,Student,Basic,14312.498008254805,26-41,25 - 30
+female,5,no,southwest,Heart disease,High blood pressure,Occasionally,White collar,Basic,14639.81883795066,18-26,35 - 40
+male,3,no,northeast,Heart disease,Diabetes,Occasionally,Student,Standard,18102.97774001044,41-56,25 - 30
+male,0,yes,southeast,High blood pressure,High blood pressure,Frequently,Blue collar,Premium,21657.012677478524,41-56,35 - 40
+male,5,no,southeast,High blood pressure,Diabetes,Never,Blue collar,Basic,12239.106548801596,>56,30 - 35
+male,4,no,northwest,Heart disease,Diabetes,Frequently,Blue collar,Premium,23521.87501318168,41-56,40 - 54
+male,4,yes,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,22586.888705705474,>56,25 - 30
+female,5,no,southwest,Diabetes,High blood pressure,Never,Blue collar,Basic,11788.854649064437,>56,40 - 54
+female,2,yes,southwest,Heart disease,High blood pressure,Frequently,White collar,Standard,21792.638375630544,41-56,18.5 - 25
+female,1,no,southeast,Heart disease,Heart disease,Occasionally,Blue collar,Premium,22573.398722314512,26-41,35 - 40
+male,4,yes,northwest,Heart disease,Heart disease,Never,Blue collar,Basic,22702.46783897851,26-41,30 - 35
+female,0,no,southeast,Diabetes,Diabetes,Never,White collar,Standard,13634.648484014995,41-56,40 - 54
+male,4,no,northeast,Heart disease,Heart disease,Never,Blue collar,Standard,21011.36532967918,26-41,40 - 54
+male,2,yes,northwest,High blood pressure,Heart disease,Never,Blue collar,Basic,19517.10669284153,26-41,40 - 54
+male,2,yes,southwest,High blood pressure,Heart disease,Rarely,Blue collar,Standard,22596.557620638403,>56,40 - 54
+female,2,yes,northeast,Heart disease,Heart disease,Frequently,Student,Basic,23001.639954940187,>56,18.5 - 25
+female,1,yes,southeast,Diabetes,Diabetes,Never,Blue collar,Standard,17770.10585225508,>56,25 - 30
+male,2,no,northeast,High blood pressure,Diabetes,Occasionally,Unemployed,Standard,13317.364204016958,41-56,40 - 54
+male,1,yes,southeast,Heart disease,Diabetes,Never,Unemployed,Basic,18758.373572735327,41-56,40 - 54
+female,4,yes,northeast,Diabetes,Heart disease,Rarely,Student,Premium,25008.86404414193,>56,40 - 54
+male,3,no,northwest,High blood pressure,Diabetes,Rarely,Student,Premium,15277.676386804937,41-56,30 - 35
+male,4,yes,northwest,High blood pressure,Diabetes,Occasionally,White collar,Premium,21797.3655640125,26-41,18.5 - 25
+female,5,yes,southwest,Diabetes,Heart disease,Never,White collar,Standard,22732.032044514635,>56,35 - 40
+male,3,yes,northeast,Heart disease,Heart disease,Never,Unemployed,Basic,21022.099865541066,18-26,18.5 - 25
+female,0,no,southwest,Heart disease,High blood pressure,Occasionally,White collar,Premium,19817.1711852942,41-56,40 - 54
+male,5,no,southwest,High blood pressure,High blood pressure,Never,Unemployed,Standard,11103.57574368017,>56,18.5 - 25
+female,2,yes,northwest,Heart disease,Diabetes,Occasionally,Student,Standard,21907.197427422307,41-56,40 - 54
+male,1,no,northwest,Diabetes,High blood pressure,Never,Unemployed,Premium,13926.336456880326,41-56,35 - 40
+female,1,no,southwest,Diabetes,High blood pressure,Frequently,White collar,Standard,13238.217480824364,26-41,25 - 30
+female,3,yes,northwest,Heart disease,Heart disease,Rarely,Student,Standard,23681.361565910007,>56,18.5 - 25
+male,4,yes,northwest,Diabetes,Diabetes,Rarely,Student,Basic,15940.098679072016,41-56,< 18.5
+female,2,yes,southeast,High blood pressure,Heart disease,Occasionally,White collar,Basic,18786.419879674548,26-41,30 - 35
+female,2,yes,northwest,Heart disease,Diabetes,Occasionally,Student,Standard,20187.10692190316,26-41,35 - 40
+female,5,no,northwest,Heart disease,High blood pressure,Never,Student,Basic,12114.54634901021,41-56,18.5 - 25
+female,1,yes,southwest,Heart disease,Diabetes,Never,Student,Premium,22601.29262369934,26-41,40 - 54
+female,5,no,southeast,Diabetes,Diabetes,Rarely,Blue collar,Premium,17465.717929019487,41-56,40 - 54
+male,4,yes,southeast,High blood pressure,Heart disease,Never,Blue collar,Basic,18340.70782119819,26-41,18.5 - 25
+male,5,no,northwest,High blood pressure,Heart disease,Occasionally,Unemployed,Standard,16396.933556407592,26-41,40 - 54
+male,5,no,southwest,Diabetes,High blood pressure,Frequently,Student,Standard,15038.622480489092,41-56,40 - 54
+male,2,yes,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Basic,20976.918328492768,>56,40 - 54
+female,4,no,southeast,Diabetes,Diabetes,Rarely,Unemployed,Premium,14417.28132812,>56,18.5 - 25
+female,3,yes,southeast,Diabetes,Heart disease,Frequently,Unemployed,Standard,22442.24869085593,41-56,40 - 54
+female,5,yes,northeast,Heart disease,Diabetes,Never,Unemployed,Premium,24617.22952647026,41-56,40 - 54
+female,5,yes,southeast,Diabetes,Heart disease,Rarely,Blue collar,Standard,21946.095817125104,41-56,18.5 - 25
+male,3,no,southwest,Heart disease,High blood pressure,Occasionally,Blue collar,Standard,17111.343171522443,>56,40 - 54
+male,2,yes,southeast,Heart disease,High blood pressure,Never,Student,Premium,23157.65000164855,>56,35 - 40
+male,2,no,southeast,Heart disease,Diabetes,Occasionally,Blue collar,Basic,16107.629135032596,>56,35 - 40
+male,0,yes,southeast,Heart disease,Heart disease,Occasionally,White collar,Standard,25226.20132691552,41-56,18.5 - 25
+male,4,yes,northwest,Heart disease,High blood pressure,Frequently,Blue collar,Standard,22009.590385977583,18-26,18.5 - 25
+male,4,yes,southwest,Heart disease,Diabetes,Frequently,Blue collar,Standard,24550.35458981652,41-56,40 - 54
+male,5,yes,southwest,High blood pressure,High blood pressure,Rarely,Unemployed,Premium,18656.999932471423,18-26,35 - 40
+male,0,no,southeast,Diabetes,Heart disease,Frequently,White collar,Premium,22605.627766481128,41-56,40 - 54
+female,4,yes,northwest,High blood pressure,High blood pressure,Rarely,Blue collar,Premium,20931.69662259268,>56,40 - 54
+female,5,yes,southeast,Diabetes,Diabetes,Rarely,Unemployed,Standard,17958.42813076708,41-56,30 - 35
+male,4,yes,southeast,Diabetes,Heart disease,Frequently,Blue collar,Premium,26945.28330093604,41-56,30 - 35
+male,1,no,northwest,Heart disease,Diabetes,Never,Student,Basic,12036.523209119958,18-26,18.5 - 25
+male,1,yes,northwest,Heart disease,Diabetes,Rarely,Unemployed,Basic,17052.499552422814,18-26,18.5 - 25
+female,5,yes,southeast,Diabetes,Heart disease,Frequently,Blue collar,Standard,23328.433586022376,>56,30 - 35
+female,1,yes,northeast,Diabetes,High blood pressure,Occasionally,Unemployed,Premium,18975.04210178197,18-26,18.5 - 25
+female,3,no,northeast,Heart disease,High blood pressure,Never,Student,Basic,12585.352093943357,41-56,30 - 35
+male,0,yes,southeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,20319.195469917307,26-41,25 - 30
+male,1,yes,northeast,Heart disease,Diabetes,Never,Blue collar,Standard,22214.73179766868,26-41,35 - 40
+male,2,no,southwest,High blood pressure,Diabetes,Frequently,White collar,Premium,18267.89400576308,26-41,25 - 30
+male,1,no,northwest,Heart disease,Heart disease,Frequently,Blue collar,Standard,21761.23204526544,41-56,30 - 35
+female,5,yes,northwest,High blood pressure,Diabetes,Never,Student,Premium,18512.877307030405,26-41,18.5 - 25
+female,2,no,southeast,Diabetes,Heart disease,Occasionally,White collar,Premium,21102.72888467929,41-56,35 - 40
+male,0,no,southwest,High blood pressure,Diabetes,Never,Unemployed,Premium,13462.183005829684,26-41,35 - 40
+female,2,yes,northwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,19979.85663958336,26-41,40 - 54
+female,2,yes,southwest,Heart disease,Heart disease,Frequently,White collar,Standard,25036.467902739536,26-41,18.5 - 25
+female,1,yes,northwest,Heart disease,Diabetes,Never,Unemployed,Standard,18684.98069429388,41-56,18.5 - 25
+female,1,no,northwest,Heart disease,Heart disease,Rarely,Unemployed,Premium,20448.202749925,>56,30 - 35
+male,2,no,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Premium,17028.454345662154,>56,25 - 30
+female,4,yes,southwest,Diabetes,Diabetes,Frequently,Blue collar,Standard,20411.08987519627,>56,35 - 40
+female,2,no,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Premium,19299.64548271744,26-41,18.5 - 25
+female,4,no,southeast,Diabetes,Heart disease,Occasionally,Blue collar,Basic,15030.952388677471,18-26,35 - 40
+female,3,no,southwest,High blood pressure,Diabetes,Never,Student,Basic,8305.14881573917,18-26,35 - 40
+female,0,no,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Standard,11998.246518539125,18-26,18.5 - 25
+male,0,no,southwest,Heart disease,High blood pressure,Occasionally,Unemployed,Premium,18241.55853630922,41-56,40 - 54
+male,3,no,northwest,Heart disease,Diabetes,Rarely,White collar,Premium,21347.179248610595,18-26,40 - 54
+female,4,yes,northwest,Diabetes,High blood pressure,Rarely,Blue collar,Standard,17689.172248976567,26-41,40 - 54
+male,3,no,northeast,Heart disease,Heart disease,Frequently,White collar,Basic,22326.890755961427,26-41,40 - 54
+male,1,yes,northwest,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,22446.8885414916,41-56,40 - 54
+male,3,no,northwest,High blood pressure,Heart disease,Occasionally,White collar,Standard,18127.128099383342,41-56,40 - 54
+female,4,no,northeast,High blood pressure,Diabetes,Frequently,White collar,Basic,12667.121421047304,41-56,18.5 - 25
+male,4,no,northwest,Heart disease,Diabetes,Never,Unemployed,Basic,13509.525612848423,>56,18.5 - 25
+male,1,yes,northwest,Heart disease,Diabetes,Occasionally,White collar,Standard,23389.821477104488,26-41,40 - 54
+female,1,no,southeast,Heart disease,High blood pressure,Rarely,White collar,Standard,16032.384080025671,26-41,40 - 54
+female,3,yes,northeast,High blood pressure,Heart disease,Rarely,Blue collar,Standard,21655.521937508696,41-56,30 - 35
+male,4,yes,southwest,Diabetes,Heart disease,Frequently,Student,Basic,21197.44507038228,>56,30 - 35
+female,2,no,northeast,High blood pressure,Heart disease,Never,Blue collar,Basic,12964.0557963928,26-41,18.5 - 25
+female,2,no,southeast,Heart disease,Heart disease,Occasionally,Unemployed,Standard,18557.01550679615,>56,18.5 - 25
+male,0,no,northeast,High blood pressure,High blood pressure,Occasionally,Student,Premium,14491.936602420708,26-41,18.5 - 25
+female,1,yes,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Standard,20170.00334733384,18-26,18.5 - 25
+female,4,yes,southwest,Heart disease,Diabetes,Rarely,Blue collar,Basic,20528.545722132465,41-56,40 - 54
+female,0,no,northeast,High blood pressure,Diabetes,Frequently,White collar,Basic,12809.454098622802,41-56,40 - 54
+male,2,yes,southeast,High blood pressure,Heart disease,Never,Student,Premium,23330.58136073099,>56,25 - 30
+male,5,yes,northwest,Heart disease,Heart disease,Occasionally,Blue collar,Standard,26676.31134499067,41-56,40 - 54
+male,0,yes,southwest,High blood pressure,High blood pressure,Occasionally,Student,Basic,15041.282609943057,26-41,40 - 54
+female,3,no,northeast,High blood pressure,High blood pressure,Never,Blue collar,Premium,15122.5889016716,>56,40 - 54
+female,3,yes,northeast,Diabetes,Heart disease,Rarely,Student,Premium,24037.678107148466,26-41,25 - 30
+female,5,yes,southeast,Heart disease,Heart disease,Frequently,Blue collar,Standard,27236.56088657459,26-41,40 - 54
+female,2,no,northwest,Heart disease,Heart disease,Never,Student,Standard,16849.169423494906,26-41,18.5 - 25
+female,1,no,northwest,High blood pressure,Diabetes,Frequently,Student,Standard,12541.227107622572,26-41,25 - 30
+female,1,no,southwest,High blood pressure,Heart disease,Occasionally,Blue collar,Basic,13021.067465081403,41-56,30 - 35
+female,5,yes,southeast,High blood pressure,High blood pressure,Frequently,Blue collar,Standard,19483.82185161384,>56,40 - 54
+male,1,yes,southeast,High blood pressure,High blood pressure,Frequently,Student,Basic,15692.6395587732,41-56,25 - 30
+female,2,yes,southeast,Diabetes,Diabetes,Rarely,Unemployed,Standard,16927.69496874058,18-26,40 - 54
+female,0,no,northwest,High blood pressure,High blood pressure,Rarely,Student,Standard,8992.83466623186,26-41,25 - 30
+female,5,yes,northwest,Diabetes,High blood pressure,Occasionally,White collar,Premium,22392.748229119938,41-56,30 - 35
+male,0,yes,northwest,Diabetes,Diabetes,Occasionally,Blue collar,Basic,17481.26064172349,26-41,30 - 35
+female,5,no,southwest,High blood pressure,Heart disease,Never,Student,Standard,13357.022216683768,41-56,18.5 - 25
+male,2,yes,northeast,Diabetes,Diabetes,Frequently,White collar,Basic,18681.532082138947,18-26,18.5 - 25
+female,5,no,northeast,Diabetes,Heart disease,Never,Unemployed,Standard,14802.741724887628,26-41,25 - 30
+male,0,yes,northwest,Diabetes,Diabetes,Never,Student,Basic,15657.215267935131,41-56,30 - 35
+male,4,no,southeast,Heart disease,High blood pressure,Occasionally,Student,Standard,15949.370434363716,18-26,25 - 30
+female,3,yes,northeast,High blood pressure,Heart disease,Occasionally,White collar,Premium,25339.47575584393,26-41,40 - 54
+female,5,yes,northeast,Heart disease,High blood pressure,Never,White collar,Premium,24918.7467529624,26-41,40 - 54
+female,5,no,southeast,Heart disease,Heart disease,Occasionally,White collar,Standard,20028.60245350617,18-26,25 - 30
+female,4,no,southwest,Diabetes,Diabetes,Never,Student,Basic,10779.358776375862,26-41,40 - 54
+female,3,yes,northwest,High blood pressure,Diabetes,Rarely,Student,Basic,14341.35031872488,>56,18.5 - 25
+female,0,yes,northwest,Heart disease,Heart disease,Rarely,Blue collar,Premium,26301.44806931248,41-56,< 18.5
+male,2,yes,southwest,Diabetes,High blood pressure,Frequently,White collar,Basic,18603.25912545996,41-56,35 - 40
+male,5,yes,northeast,High blood pressure,High blood pressure,Never,Unemployed,Premium,19363.50741619019,>56,25 - 30
+male,2,no,southwest,Heart disease,Heart disease,Occasionally,Blue collar,Standard,21071.38309147735,41-56,40 - 54
+male,1,yes,northwest,Diabetes,Diabetes,Never,White collar,Premium,22073.958088927942,26-41,35 - 40
+male,0,no,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Standard,16620.18278650291,26-41,30 - 35
+male,4,no,southeast,Diabetes,Heart disease,Occasionally,Student,Premium,21081.049247949493,26-41,40 - 54
+female,5,no,northeast,High blood pressure,Heart disease,Frequently,Student,Standard,17048.720310643384,41-56,18.5 - 25
+male,0,no,northeast,Heart disease,Heart disease,Frequently,Unemployed,Premium,23631.29591752069,41-56,30 - 35
+female,4,yes,southeast,Diabetes,High blood pressure,Frequently,Student,Standard,19494.83543647313,41-56,40 - 54
+male,3,no,southwest,Heart disease,Heart disease,Never,White collar,Standard,19879.42510325432,41-56,25 - 30
+male,4,yes,northeast,Diabetes,Diabetes,Rarely,White collar,Premium,23452.095775204,18-26,30 - 35
+female,4,yes,northwest,High blood pressure,Heart disease,Never,Blue collar,Basic,18629.264897838013,26-41,40 - 54
+female,3,yes,northwest,Heart disease,Heart disease,Never,Blue collar,Basic,21869.80601613316,>56,25 - 30
+female,1,no,northwest,High blood pressure,High blood pressure,Frequently,Student,Basic,9819.524349149657,41-56,40 - 54
+female,3,no,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,16361.615359141735,41-56,18.5 - 25
+male,3,yes,northeast,Heart disease,High blood pressure,Rarely,White collar,Premium,25223.14801433965,41-56,30 - 35
+female,0,no,southeast,Diabetes,Heart disease,Frequently,White collar,Standard,18435.152546534115,26-41,40 - 54
+female,1,yes,northwest,High blood pressure,High blood pressure,Never,White collar,Standard,16219.509968037632,41-56,35 - 40
+female,3,no,northwest,Heart disease,Diabetes,Occasionally,Blue collar,Basic,14151.960437686825,41-56,18.5 - 25
+female,5,no,northeast,High blood pressure,High blood pressure,Frequently,Student,Basic,10485.63216743884,26-41,18.5 - 25
+male,0,no,northwest,Heart disease,Heart disease,Rarely,Student,Standard,19215.093442182268,41-56,35 - 40
+female,5,no,southeast,High blood pressure,Diabetes,Never,Unemployed,Premium,13241.897078953729,18-26,30 - 35
+male,0,yes,northwest,Diabetes,Heart disease,Occasionally,Student,Standard,21915.518391971986,41-56,40 - 54
+male,5,yes,northeast,Diabetes,High blood pressure,Never,White collar,Basic,17610.98258759075,>56,18.5 - 25
+female,5,no,northwest,Diabetes,High blood pressure,Occasionally,Student,Premium,14453.062897133492,18-26,18.5 - 25
+male,3,no,northeast,Diabetes,High blood pressure,Occasionally,Blue collar,Standard,15072.048807674284,41-56,35 - 40
+male,1,no,northeast,Diabetes,Heart disease,Never,Blue collar,Standard,17260.420462296483,41-56,25 - 30
+male,0,no,northeast,Diabetes,High blood pressure,Rarely,Blue collar,Basic,12224.340689933344,>56,35 - 40
+male,1,yes,northeast,Heart disease,High blood pressure,Never,Unemployed,Premium,21815.127734994312,18-26,18.5 - 25
+male,1,yes,northwest,High blood pressure,Diabetes,Never,White collar,Premium,21395.418222198416,41-56,30 - 35
+female,2,yes,northeast,Diabetes,High blood pressure,Rarely,Student,Premium,19305.70349528617,26-41,18.5 - 25
+male,2,no,southwest,Heart disease,Diabetes,Never,Student,Standard,17036.212025177538,41-56,40 - 54
+female,5,no,southwest,Heart disease,High blood pressure,Rarely,White collar,Premium,19317.00445648668,26-41,40 - 54
+male,1,yes,northeast,Diabetes,High blood pressure,Rarely,Student,Basic,15553.074478761171,41-56,30 - 35
+male,0,no,southwest,High blood pressure,Heart disease,Rarely,Unemployed,Basic,12180.057123858092,26-41,40 - 54
+female,3,no,southeast,Heart disease,High blood pressure,Never,Unemployed,Basic,13112.197098233302,>56,40 - 54
+female,0,no,southwest,Diabetes,High blood pressure,Frequently,White collar,Standard,13851.393937064831,26-41,40 - 54
+female,4,no,southwest,High blood pressure,Diabetes,Occasionally,Student,Premium,14507.336490472167,18-26,25 - 30
+female,0,no,southeast,High blood pressure,High blood pressure,Rarely,Student,Standard,11223.67444056734,>56,40 - 54
+female,3,yes,northeast,High blood pressure,Diabetes,Frequently,Blue collar,Standard,19330.936017579552,18-26,35 - 40
+female,0,yes,southeast,High blood pressure,High blood pressure,Never,Blue collar,Basic,13766.018246639738,>56,18.5 - 25
+male,4,no,northwest,Heart disease,High blood pressure,Never,White collar,Premium,19504.323779735227,41-56,30 - 35
+female,2,no,northwest,Diabetes,Diabetes,Occasionally,Unemployed,Standard,11866.607038671023,26-41,30 - 35
+male,2,no,northeast,Heart disease,High blood pressure,Frequently,White collar,Basic,17308.99272292608,41-56,40 - 54
+female,2,yes,northeast,Diabetes,High blood pressure,Frequently,Student,Standard,18324.760748444893,41-56,30 - 35
+male,2,no,northwest,Heart disease,High blood pressure,Rarely,Unemployed,Basic,12931.303674752133,26-41,40 - 54
+male,1,no,southeast,Diabetes,Heart disease,Occasionally,Unemployed,Basic,14544.851647615462,18-26,40 - 54
+female,0,no,northeast,High blood pressure,High blood pressure,Never,Student,Premium,13144.486405945128,>56,35 - 40
+female,1,no,southwest,Diabetes,High blood pressure,Frequently,Student,Premium,14753.993104246205,26-41,30 - 35
+female,5,yes,southeast,Heart disease,Heart disease,Never,Blue collar,Standard,25549.189777255026,41-56,40 - 54
+female,4,no,northwest,High blood pressure,Diabetes,Never,White collar,Standard,12382.89223111795,18-26,40 - 54
+female,1,no,southwest,Diabetes,Diabetes,Rarely,Unemployed,Basic,10650.75865504834,>56,40 - 54
+male,0,no,southwest,Heart disease,Diabetes,Frequently,Blue collar,Premium,20432.817789196524,26-41,30 - 35
+female,5,yes,northwest,Heart disease,Diabetes,Occasionally,Unemployed,Basic,19249.49005614552,26-41,40 - 54
+male,1,no,northwest,High blood pressure,Heart disease,Occasionally,Student,Basic,13893.74057388502,41-56,30 - 35
+female,5,yes,southeast,Diabetes,Diabetes,Rarely,Unemployed,Standard,17761.218536421882,18-26,40 - 54
+male,3,yes,northwest,High blood pressure,Heart disease,Occasionally,Unemployed,Premium,23779.286614387904,>56,35 - 40
+female,4,yes,northwest,High blood pressure,High blood pressure,Occasionally,White collar,Standard,18125.6862451226,>56,35 - 40
+female,1,yes,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,22062.927387884964,26-41,40 - 54
+female,1,no,southwest,Diabetes,Diabetes,Rarely,Student,Standard,11945.810255264894,26-41,35 - 40
+female,5,yes,southeast,High blood pressure,High blood pressure,Occasionally,Student,Standard,16795.051502939335,18-26,40 - 54
+female,4,yes,southeast,Heart disease,High blood pressure,Occasionally,White collar,Standard,21592.299809935896,26-41,30 - 35
+male,3,yes,southwest,Heart disease,High blood pressure,Frequently,White collar,Standard,23433.36994805201,41-56,40 - 54
+male,1,no,southeast,Heart disease,Heart disease,Never,Blue collar,Premium,22189.672586110988,26-41,25 - 30
+female,0,no,southeast,Diabetes,Diabetes,Never,Unemployed,Standard,11431.75937329243,41-56,35 - 40
+male,5,yes,northwest,Heart disease,Diabetes,Frequently,White collar,Standard,24924.33553379776,41-56,35 - 40
+male,3,no,southeast,Diabetes,Heart disease,Frequently,Unemployed,Premium,20429.349836568224,41-56,35 - 40
+female,4,yes,southeast,Heart disease,Diabetes,Frequently,Student,Standard,23053.30153555448,>56,35 - 40
+male,4,no,southwest,Diabetes,High blood pressure,Occasionally,Student,Standard,11482.092538786304,18-26,18.5 - 25
+male,3,yes,northwest,Diabetes,Heart disease,Frequently,Unemployed,Basic,20495.369324955165,41-56,30 - 35
+female,1,yes,northwest,High blood pressure,Diabetes,Never,White collar,Premium,20687.230353647785,41-56,35 - 40
+male,2,yes,northwest,Diabetes,Diabetes,Never,Blue collar,Standard,18588.00683180233,26-41,30 - 35
+female,3,no,northwest,High blood pressure,High blood pressure,Never,Blue collar,Standard,11195.55704883678,>56,25 - 30
+male,1,no,southeast,Heart disease,Heart disease,Frequently,White collar,Basic,21159.846126447665,>56,40 - 54
+male,4,yes,northeast,Heart disease,High blood pressure,Occasionally,Unemployed,Standard,21379.87145960956,41-56,25 - 30
+female,4,yes,northwest,High blood pressure,Diabetes,Rarely,White collar,Basic,15497.248241632797,>56,< 18.5
+male,4,no,southeast,High blood pressure,Heart disease,Occasionally,Blue collar,Standard,17212.65184962747,>56,18.5 - 25
+male,1,no,southwest,Heart disease,High blood pressure,Occasionally,White collar,Premium,20966.96939585485,>56,40 - 54
+male,4,no,northeast,Heart disease,High blood pressure,Frequently,Unemployed,Premium,20165.89315790189,26-41,40 - 54
+male,1,yes,southwest,Diabetes,Heart disease,Occasionally,Blue collar,Basic,20956.6944575094,26-41,35 - 40
+male,3,yes,northeast,Diabetes,Heart disease,Occasionally,Unemployed,Premium,24885.300663113085,26-41,30 - 35
+male,5,yes,northwest,Diabetes,Diabetes,Never,Student,Basic,16637.325958144236,41-56,35 - 40
+female,5,no,southwest,Diabetes,High blood pressure,Frequently,White collar,Standard,14893.363202341869,41-56,35 - 40
+female,5,no,northwest,High blood pressure,Heart disease,Rarely,Student,Premium,18020.973408516045,41-56,25 - 30
+male,2,yes,southwest,Heart disease,Diabetes,Never,White collar,Premium,24461.079490940927,41-56,25 - 30
+male,0,no,southwest,Diabetes,Heart disease,Occasionally,Blue collar,Standard,16878.989602410413,>56,18.5 - 25
+female,5,no,northwest,Heart disease,High blood pressure,Never,Unemployed,Premium,17239.192950788314,18-26,40 - 54
+female,0,no,northwest,Heart disease,High blood pressure,Frequently,Student,Basic,14157.991508701596,>56,35 - 40
+male,1,no,southwest,Heart disease,High blood pressure,Frequently,Student,Basic,14739.546725635564,>56,25 - 30
+male,5,yes,northwest,Diabetes,High blood pressure,Rarely,Student,Premium,20578.591974439976,41-56,18.5 - 25
+female,4,yes,northwest,Heart disease,High blood pressure,Never,Student,Premium,21720.89381502116,41-56,25 - 30
+female,1,no,southeast,Heart disease,Heart disease,Rarely,Unemployed,Premium,19769.82456482003,26-41,< 18.5
+female,2,yes,northwest,Heart disease,High blood pressure,Frequently,Unemployed,Standard,20567.56723357102,>56,18.5 - 25
+male,0,yes,southwest,Diabetes,High blood pressure,Frequently,Unemployed,Premium,20371.649927132054,41-56,18.5 - 25
+male,4,yes,northwest,Heart disease,Heart disease,Frequently,Blue collar,Premium,30236.82373251506,41-56,40 - 54
+female,0,yes,southwest,Heart disease,Heart disease,Rarely,Unemployed,Premium,25279.261284679105,>56,18.5 - 25
+female,5,no,northeast,Heart disease,High blood pressure,Occasionally,Blue collar,Standard,16968.62788321602,41-56,25 - 30
+male,0,yes,southwest,Diabetes,High blood pressure,Never,Unemployed,Standard,16366.923367834968,26-41,40 - 54
+male,0,yes,northwest,Heart disease,High blood pressure,Never,White collar,Standard,21461.612644051565,>56,40 - 54
+male,4,yes,southeast,Diabetes,High blood pressure,Occasionally,Student,Standard,19518.2689794444,>56,40 - 54
+male,5,no,northeast,Heart disease,Diabetes,Rarely,Unemployed,Basic,15231.68118175648,26-41,35 - 40
+female,3,no,northwest,High blood pressure,Heart disease,Occasionally,Unemployed,Standard,14618.678352546684,18-26,40 - 54
+female,2,no,northwest,Heart disease,High blood pressure,Never,Unemployed,Basic,10637.146671196697,26-41,18.5 - 25
+female,1,yes,northwest,Diabetes,Diabetes,Occasionally,Blue collar,Premium,21268.573068146303,>56,18.5 - 25
+female,1,yes,southwest,Heart disease,Heart disease,Never,Unemployed,Premium,26075.485179390467,41-56,40 - 54
+male,2,no,southwest,Diabetes,Diabetes,Rarely,Student,Standard,13943.42549287331,>56,30 - 35
+female,3,no,southwest,Heart disease,High blood pressure,Occasionally,Student,Premium,17525.709799086933,26-41,35 - 40
+male,5,yes,northwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,21121.46469500244,18-26,35 - 40
+female,5,no,northeast,Heart disease,Heart disease,Occasionally,White collar,Standard,20982.587960012104,41-56,< 18.5
+male,1,no,southwest,Diabetes,High blood pressure,Never,Student,Standard,10650.026332458618,26-41,25 - 30
+male,5,yes,northeast,Heart disease,Diabetes,Rarely,Blue collar,Standard,23536.388656060924,26-41,35 - 40
+male,4,yes,northeast,Heart disease,Heart disease,Rarely,White collar,Basic,25232.03921258814,>56,35 - 40
+female,0,no,southwest,Diabetes,Diabetes,Occasionally,Blue collar,Standard,12328.208597181614,18-26,25 - 30
+male,5,yes,southeast,Heart disease,High blood pressure,Never,White collar,Premium,25317.56458434656,18-26,35 - 40
+female,0,no,southwest,Diabetes,High blood pressure,Frequently,White collar,Standard,13070.928577729444,26-41,25 - 30
+female,3,no,southeast,High blood pressure,High blood pressure,Rarely,Blue collar,Basic,9609.871231214333,41-56,30 - 35
+female,0,yes,northeast,Heart disease,Heart disease,Occasionally,Blue collar,Basic,22726.047064703413,41-56,< 18.5
+female,4,yes,southeast,Heart disease,High blood pressure,Occasionally,Unemployed,Standard,19909.874518144097,41-56,35 - 40
+female,2,yes,northwest,High blood pressure,Heart disease,Never,Blue collar,Basic,17237.274774542162,>56,18.5 - 25
+male,2,no,northeast,Diabetes,Diabetes,Rarely,Blue collar,Premium,16754.45788901395,18-26,25 - 30
+female,4,yes,northeast,High blood pressure,Heart disease,Frequently,Student,Standard,22134.77647922638,>56,35 - 40
+male,4,no,northeast,Diabetes,High blood pressure,Frequently,Unemployed,Standard,13346.132505255173,18-26,18.5 - 25
+male,5,no,northwest,Diabetes,High blood pressure,Rarely,Student,Standard,12834.20510954253,41-56,25 - 30
+male,0,no,southeast,Diabetes,Diabetes,Occasionally,Blue collar,Standard,14267.889882538424,41-56,30 - 35
+male,3,no,northeast,Diabetes,Heart disease,Frequently,White collar,Basic,17665.08562710166,26-41,18.5 - 25
+female,3,yes,southwest,High blood pressure,Diabetes,Occasionally,Unemployed,Premium,18785.25119316446,26-41,25 - 30
+female,3,yes,southwest,High blood pressure,High blood pressure,Occasionally,White collar,Premium,20507.834458488847,41-56,30 - 35
+female,5,no,northwest,Diabetes,Diabetes,Never,Blue collar,Premium,16944.036871871256,41-56,40 - 54

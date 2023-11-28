@@ -1,6 +1,6 @@
 import pandas as pd
 from ID3 import ID3
-from trees import trees
+from trees import trees2
 import importlib
 
 
@@ -18,7 +18,7 @@ def gb(dff, op, l_r):
 
     tmp_df.drop(columns=op, inplace=True)
 
-    open('./trees/trees.py', 'w').close()
+    open('./trees/trees2.py', 'w').close()
 
     for resi in range(100):
 
@@ -38,10 +38,12 @@ def gb(dff, op, l_r):
 
         tmp_df["latest_pred"] = tp_lat
 
-        importlib.reload(trees)
+        importlib.reload(trees2)
 
         for i in tmp_df.index:
-            tmp_df.loc[i,"latest_pred"] = tmp_df.loc[i,"latest_pred"] + l_r * getattr(trees, f"tree_{resi}")(tmp_df.loc[i].to_dict())
+            # print(f"record:\n", tmp_df.loc[i])
+            qrs = getattr(trees2, f"tree_{resi}")(tmp_df.loc[i].to_dict())
+            tmp_df.loc[i,"latest_pred"] = tmp_df.loc[i,"latest_pred"] + l_r * qrs
 
         print(f"Tree {resi} Completed:\n {tmp_df}")
 

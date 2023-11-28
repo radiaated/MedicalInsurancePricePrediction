@@ -2,4955 +2,5357 @@
 def tree_0(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 922.4907899528728
-		elif tree_dict['age'] == '26-41':
-			return -6935.7027130639335
+			return 1095.7319152924176
 		elif tree_dict['age'] == '41-56':
-			return -2460.077873639336
+			return -2167.956698683681
 		elif tree_dict['age'] == '18-26':
-			return -9220.945923010091
+			return -9189.292525501842
+		elif tree_dict['age'] == '26-41':
+			return -6748.755020476531
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 30322.19600105371
-		elif tree_dict['bmi'] == '30 - 35':
-			return 26642.11474075011
+		if tree_dict['bmi'] == '30 - 35':
+			return 26000.950451952423
 		elif tree_dict['bmi'] == '25 - 30':
-			return 9624.894249938096
+			return 8395.911891179738
+		elif tree_dict['bmi'] == '35 - 40':
+			return 29955.866557190522
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 6523.867045238588
+			return 6734.7231611287425
 		elif tree_dict['bmi'] == '40 - 54':
-			return 31497.25784474652
+			return 32036.91351651825
 		elif tree_dict['bmi'] == '< 18.5':
-			return 5610.010922524301
+			return 7235.060410047661
 
 def tree_1(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 830.2417109575844
-		elif tree_dict['age'] == '26-41':
-			return -6242.132441757541
+			return 986.1587237631758
 		elif tree_dict['age'] == '41-56':
-			return -2214.070086275402
+			return -1951.1610288153129
 		elif tree_dict['age'] == '18-26':
-			return -8298.85133070908
+			return -8270.36327295166
+		elif tree_dict['age'] == '26-41':
+			return -6073.879518428878
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 27289.976400948337
-		elif tree_dict['bmi'] == '30 - 35':
-			return 23977.903266675097
+		if tree_dict['bmi'] == '30 - 35':
+			return 23400.855406757175
 		elif tree_dict['bmi'] == '25 - 30':
-			return 8662.404824944286
+			return 7556.320702061765
+		elif tree_dict['bmi'] == '35 - 40':
+			return 26960.279901471466
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 5871.480340714729
+			return 6061.250845015868
 		elif tree_dict['bmi'] == '40 - 54':
-			return 28347.532060271868
+			return 28833.222164866427
 		elif tree_dict['bmi'] == '< 18.5':
-			return 5049.009830271871
+			return 6511.554369042895
 
 def tree_2(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 747.2175398618267
-		elif tree_dict['age'] == '26-41':
-			return -5617.919197581786
+			return 887.5428513868577
 		elif tree_dict['age'] == '41-56':
-			return -1992.6630776478617
+			return -1756.044925933781
 		elif tree_dict['age'] == '18-26':
-			return -7468.966197638174
+			return -7443.326945656493
+		elif tree_dict['age'] == '26-41':
+			return -5466.491566585991
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 24560.978760853508
-		elif tree_dict['bmi'] == '30 - 35':
-			return 21580.112940007584
+		if tree_dict['bmi'] == '30 - 35':
+			return 21060.769866081464
 		elif tree_dict['bmi'] == '25 - 30':
-			return 7796.164342449856
+			return 6800.688631855586
+		elif tree_dict['bmi'] == '35 - 40':
+			return 24264.251911324318
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 5284.332306643255
+			return 5455.12576051428
 		elif tree_dict['bmi'] == '40 - 54':
-			return 25512.778854244683
+			return 25949.89994837978
 		elif tree_dict['bmi'] == '< 18.5':
-			return 4544.108847244683
+			return 5860.398932138607
 
 def tree_3(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 672.4957858756434
-		elif tree_dict['age'] == '26-41':
-			return -5056.127277823609
+			return 798.7885662481713
 		elif tree_dict['age'] == '41-56':
-			return -1793.3967698830752
+			return -1580.4404333404032
 		elif tree_dict['age'] == '18-26':
-			return -6722.069577874355
+			return -6698.994251090842
+		elif tree_dict['age'] == '26-41':
+			return -4919.842409927392
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 22104.880884768154
-		elif tree_dict['bmi'] == '30 - 35':
-			return 19422.101646006828
+		if tree_dict['bmi'] == '30 - 35':
+			return 18954.69287947332
 		elif tree_dict['bmi'] == '25 - 30':
-			return 7016.547908204871
+			return 6120.619768670028
+		elif tree_dict['bmi'] == '35 - 40':
+			return 21837.826720191886
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 4755.89907597893
+			return 4909.613184462854
 		elif tree_dict['bmi'] == '40 - 54':
-			return 22961.500968820215
+			return 23354.909953541806
 		elif tree_dict['bmi'] == '< 18.5':
-			return 4089.697962520215
+			return 5274.359038924745
 
 def tree_4(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 605.2462072880799
-		elif tree_dict['age'] == '26-41':
-			return -4550.514550041246
+			return 718.9097096233546
 		elif tree_dict['age'] == '41-56':
-			return -1614.0570928947675
+			return -1422.3963900063623
 		elif tree_dict['age'] == '18-26':
-			return -6049.862620086919
+			return -6029.094825981759
+		elif tree_dict['age'] == '26-41':
+			return -4427.858168934653
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 19894.39279629134
-		elif tree_dict['bmi'] == '30 - 35':
-			return 17479.891481406146
+		if tree_dict['bmi'] == '30 - 35':
+			return 17059.223591525984
 		elif tree_dict['bmi'] == '25 - 30':
-			return 6314.893117384384
+			return 5508.557791803026
+		elif tree_dict['bmi'] == '35 - 40':
+			return 19654.044048172702
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 4280.309168381038
+			return 4418.651866016568
 		elif tree_dict['bmi'] == '40 - 54':
-			return 20665.350871938197
+			return 21019.418958187627
 		elif tree_dict['bmi'] == '< 18.5':
-			return 3680.7281662681926
+			return 4746.923135032271
 
 def tree_5(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 544.7215865592725
-		elif tree_dict['age'] == '26-41':
-			return -4095.4630950371225
+			return 647.0187386610196
 		elif tree_dict['age'] == '41-56':
-			return -1452.6513836052911
+			return -1280.156751005726
 		elif tree_dict['age'] == '18-26':
-			return -5444.876358078229
+			return -5426.185343383583
+		elif tree_dict['age'] == '26-41':
+			return -3985.072352041188
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 17904.953516662208
-		elif tree_dict['bmi'] == '30 - 35':
-			return 15731.90233326553
+		if tree_dict['bmi'] == '30 - 35':
+			return 15353.301232373386
 		elif tree_dict['bmi'] == '25 - 30':
-			return 5683.403805645945
+			return 4957.702012622724
+		elif tree_dict['bmi'] == '35 - 40':
+			return 17688.63964335543
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 3852.2782515429344
+			return 3976.7866794149118
 		elif tree_dict['bmi'] == '40 - 54':
-			return 18598.815784744376
+			return 18917.47706236886
 		elif tree_dict['bmi'] == '< 18.5':
-			return 3312.6553496413726
+			return 4272.230821529044
 
 def tree_6(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 490.2494279033447
-		elif tree_dict['age'] == '26-41':
-			return -3685.9167855334103
+			return 582.3168647949171
 		elif tree_dict['age'] == '41-56':
-			return -1307.3862452447613
+			return -1152.1410759051535
 		elif tree_dict['age'] == '18-26':
-			return -4900.388722270404
+			return -4883.5668090452245
+		elif tree_dict['age'] == '26-41':
+			return -3586.5651168370687
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 16114.458164995987
-		elif tree_dict['bmi'] == '30 - 35':
-			return 14158.712099938977
+		if tree_dict['bmi'] == '30 - 35':
+			return 13817.97110913605
 		elif tree_dict['bmi'] == '25 - 30':
-			return 5115.063425081352
+			return 4461.931811360453
+		elif tree_dict['bmi'] == '35 - 40':
+			return 15919.775679019886
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 3467.0504263886396
+			return 3579.10801147342
 		elif tree_dict['bmi'] == '40 - 54':
-			return 16738.93420626994
+			return 17025.729356131975
 		elif tree_dict['bmi'] == '< 18.5':
-			return 2981.389814677236
+			return 3845.0077393761417
 
 def tree_7(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 441.22448511300996
-		elif tree_dict['age'] == '26-41':
-			return -3317.3251069800694
+			return 524.0851783154251
 		elif tree_dict['age'] == '41-56':
-			return -1176.647620720285
+			return -1036.9269683146388
 		elif tree_dict['age'] == '18-26':
-			return -4410.349850043365
+			return -4395.210128140703
+		elif tree_dict['age'] == '26-41':
+			return -3227.9086051533627
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 14503.012348496388
-		elif tree_dict['bmi'] == '30 - 35':
-			return 12742.840889945079
+		if tree_dict['bmi'] == '30 - 35':
+			return 12436.173998222443
 		elif tree_dict['bmi'] == '25 - 30':
-			return 4603.557082573216
+			return 4015.738630224408
+		elif tree_dict['bmi'] == '35 - 40':
+			return 14327.798111117901
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 3120.345383749777
+			return 3221.197210326078
 		elif tree_dict['bmi'] == '40 - 54':
-			return 15065.040785642943
+			return 15323.15642051878
 		elif tree_dict['bmi'] == '< 18.5':
-			return 2683.2508332095117
+			return 3460.506965438529
 
 def tree_8(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 397.10203660170833
-		elif tree_dict['age'] == '26-41':
-			return -2985.592596282062
+			return 471.67666048388315
 		elif tree_dict['age'] == '41-56':
-			return -1058.9828586482565
+			return -933.2342714831751
 		elif tree_dict['age'] == '18-26':
-			return -3969.3148650390285
+			return -3955.6891153266315
+		elif tree_dict['age'] == '26-41':
+			return -2905.117744638025
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 13052.71111364675
-		elif tree_dict['bmi'] == '30 - 35':
-			return 11468.55680095057
+		if tree_dict['bmi'] == '30 - 35':
+			return 11192.556598400202
 		elif tree_dict['bmi'] == '25 - 30':
-			return 4143.201374315896
+			return 3614.164767201968
+		elif tree_dict['bmi'] == '35 - 40':
+			return 12895.01830000611
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 2808.310845374799
+			return 2899.0774892934724
 		elif tree_dict['bmi'] == '40 - 54':
-			return 13558.536707078647
+			return 13790.840778466902
 		elif tree_dict['bmi'] == '< 18.5':
-			return 2414.92574988856
+			return 3114.4562688946744
 
 def tree_9(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 357.39183294153827
-		elif tree_dict['age'] == '26-41':
-			return -2687.0333366538557
+			return 424.508994435495
 		elif tree_dict['age'] == '41-56':
-			return -953.0845727834314
+			return -839.9108443348571
 		elif tree_dict['age'] == '18-26':
-			return -3572.383378535125
+			return -3560.1202037939674
+		elif tree_dict['age'] == '26-41':
+			return -2614.6059701742224
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 11747.440002282074
-		elif tree_dict['bmi'] == '30 - 35':
-			return 10321.701120855512
+		if tree_dict['bmi'] == '30 - 35':
+			return 10073.300938560182
 		elif tree_dict['bmi'] == '25 - 30':
-			return 3728.881236884305
+			return 3252.74829048177
+		elif tree_dict['bmi'] == '35 - 40':
+			return 11605.516470005496
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 2527.479760837319
+			return 2609.1697403641238
 		elif tree_dict['bmi'] == '40 - 54':
-			return 12202.683036370781
+			return 12411.75670062021
 		elif tree_dict['bmi'] == '< 18.5':
-			return 2173.433174899703
+			return 2803.010642005206
 
 def tree_10(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 321.65264964738464
-		elif tree_dict['age'] == '26-41':
-			return -2418.33000298847
+			return 382.05809499194606
 		elif tree_dict['age'] == '41-56':
-			return -857.7761155050886
+			return -755.9197599013708
 		elif tree_dict['age'] == '18-26':
-			return -3215.145040681612
+			return -3204.1081834145716
+		elif tree_dict['age'] == '26-41':
+			return -2353.1453731568013
 	elif tree_dict['smoker'] == 'yes':
 		if tree_dict['age'] == '56-64':
-			return 13004.09749950975
-		elif tree_dict['age'] == '26-41':
-			return 4623.741970548508
+			return 13503.894718707581
 		elif tree_dict['age'] == '41-56':
-			return 9135.57976592928
+			return 9269.853606542263
 		elif tree_dict['age'] == '18-26':
-			return 2186.606667586632
+			return 2111.445271881782
+		elif tree_dict['age'] == '26-41':
+			return 4682.9664440978595
 
 def tree_11(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['age'] == '56-64':
-			return 289.48738468264594
-		elif tree_dict['age'] == '26-41':
-			return -2176.497002689622
-		elif tree_dict['age'] == '41-56':
-			return -771.9985039545793
-		elif tree_dict['age'] == '18-26':
-			return -2893.630536613452
+		if tree_dict['children'] == 3:
+			return -384.17392581548995
+		elif tree_dict['children'] == 1:
+			return -1529.8867852770857
+		elif tree_dict['children'] == 0:
+			return -2251.5643221346972
+		elif tree_dict['children'] == 2:
+			return -492.67610569751054
+		elif tree_dict['children'] == 4:
+			return 3709.210742538856
+		elif tree_dict['children'] == 5:
+			return -1025.6639897172279
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 9823.44412744688
-		elif tree_dict['bmi'] == '30 - 35':
-			return 8634.065170227153
+		if tree_dict['bmi'] == '30 - 35':
+			return 8404.159359980107
 		elif tree_dict['bmi'] == '25 - 30':
-			return 2694.364756248445
+			return 2299.141761474689
+		elif tree_dict['bmi'] == '35 - 40':
+			return 9718.028971242402
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 1616.5609418494173
+			return 1690.4776469981346
 		elif tree_dict['bmi'] == '40 - 54':
-			return 10294.097552866859
+			return 10510.176034894967
 		elif tree_dict['bmi'] == '< 18.5':
-			return 1554.6440429289296
+			return 2054.4129333948977
 
 def tree_12(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -2090.126663544326
+		if tree_dict['children'] == 3:
+			return -345.7565332339414
 		elif tree_dict['children'] == 1:
-			return -1519.1912012285213
+			return -1376.8981067493771
+		elif tree_dict['children'] == 0:
+			return -2026.407889921228
 		elif tree_dict['children'] == 2:
-			return -442.0083830737661
-		elif tree_dict['children'] == 3:
-			return -190.0625464409635
+			return -443.40849512775884
 		elif tree_dict['children'] == 4:
-			return 2000.473971385217
+			return 3338.2896682849705
 		elif tree_dict['children'] == 5:
-			return -983.3717667561257
+			return -923.0975907455047
 	elif tree_dict['smoker'] == 'yes':
 		if tree_dict['age'] == '56-64':
-			return 11054.944433211942
-		elif tree_dict['age'] == '26-41':
-			return 3616.0617922470437
+			return 11508.966844120274
 		elif tree_dict['age'] == '41-56':
-			return 7593.9897414159095
+			return 7730.392450255595
 		elif tree_dict['age'] == '18-26':
-			return 1350.2265179067106
+			return 1313.2627404862658
+		elif tree_dict['age'] == '26-41':
+			return 3655.8868212948387
 
 def tree_13(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -1881.1139971898936
-		elif tree_dict['children'] == 1:
-			return -1367.2720811056695
-		elif tree_dict['children'] == 2:
-			return -397.8075447663893
-		elif tree_dict['children'] == 3:
-			return -171.05629179686673
-		elif tree_dict['children'] == 4:
-			return 1800.4265742466953
-		elif tree_dict['children'] == 5:
-			return -885.0345900805135
+		if tree_dict['age'] == '56-64':
+			return 682.8753014965789
+		elif tree_dict['age'] == '41-56':
+			return -441.4023213503395
+		elif tree_dict['age'] == '18-26':
+			return -2543.2265822924364
+		elif tree_dict['age'] == '26-41':
+			return -1898.1497687455656
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 8227.448450261709
-		elif tree_dict['bmi'] == '30 - 35':
-			return 7241.292191497304
+		if tree_dict['bmi'] == '30 - 35':
+			return 7027.738798972951
 		elif tree_dict['bmi'] == '25 - 30':
-			return 1889.8959121067426
+			return 1563.011254759451
+		elif tree_dict['bmi'] == '35 - 40':
+			return 8151.423330127313
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 922.1051645578423
+			return 988.6484265811097
 		elif tree_dict['bmi'] == '40 - 54':
-			return 8706.570437780025
+			return 8924.534427802642
 		elif tree_dict['bmi'] == '< 18.5':
-			return 1094.2193412698407
+			return 1483.3829579259245
 
 def tree_14(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['age'] == '56-64':
-			return 573.2258629183817
-		elif tree_dict['age'] == '26-41':
-			return -1745.6683285058605
-		elif tree_dict['age'] == '41-56':
-			return -472.7525360105998
-		elif tree_dict['age'] == '18-26':
-			return -2294.2210926792213
+		if tree_dict['children'] == 3:
+			return -203.36298111533276
+		elif tree_dict['children'] == 1:
+			return -1120.8654247870738
+		elif tree_dict['children'] == 0:
+			return -1707.951842943685
+		elif tree_dict['children'] == 2:
+			return -281.1544137889419
+		elif tree_dict['children'] == 4:
+			return 3137.1116204635327
+		elif tree_dict['children'] == 5:
+			return -682.0407043309563
 	elif tree_dict['smoker'] == 'yes':
 		if tree_dict['age'] == '56-64':
-			return 9421.006733427243
-		elif tree_dict['age'] == '26-41':
-			return 2817.2422944210166
+			return 9832.079469110635
 		elif tree_dict['age'] == '41-56':
-			return 6324.1554027216125
+			return 6459.992488346801
 		elif tree_dict['age'] == '18-26':
-			return 713.2542678037554
+			return 706.7964787792693
+		elif tree_dict['age'] == '26-41':
+			return 2840.311544813076
 
 def tree_15(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -1589.052368987651
+		if tree_dict['children'] == 3:
+			return -183.02668300379958
 		elif tree_dict['children'] == 1:
-			return -1118.2093489025606
+			return -1008.7788823083664
+		elif tree_dict['children'] == 0:
+			return -1537.156658649316
 		elif tree_dict['children'] == 2:
-			return -247.45508896697166
-		elif tree_dict['children'] == 3:
-			return -49.17451585174695
+			return -253.03897241004768
 		elif tree_dict['children'] == 4:
-			return 1729.687769290764
+			return 2823.40045841718
 		elif tree_dict['children'] == 5:
-			return -648.4720280484986
+			return -613.8366338978607
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 6901.58138039534
-		elif tree_dict['bmi'] == '30 - 35':
-			return 6089.797722653414
+		if tree_dict['bmi'] == '30 - 35':
+			return 5890.877970988095
 		elif tree_dict['bmi'] == '25 - 30':
-			return 1268.3345356041275
+			return 999.1286585323616
+		elif tree_dict['bmi'] == '35 - 40':
+			return 6849.108349506168
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return 398.54992212387737
+			return 458.2315741603568
 		elif tree_dict['bmi'] == '40 - 54':
-			return 7383.395311163638
+			return 7599.3343002916645
 		elif tree_dict['bmi'] == '< 18.5':
-			return 755.6728783661856
+			return 1051.0135076520228
 
 def tree_16(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 638.6136948574301
-		elif tree_dict['age'] == '26-41':
-			return -1491.1637707314903
+			return 867.2072357277517
 		elif tree_dict['age'] == '41-56':
-			return -341.6946608951526
+			return -225.96085718654368
 		elif tree_dict['age'] == '18-26':
-			return -1943.3070839677641
+			return -2035.3142934693024
+		elif tree_dict['age'] == '26-41':
+			return -1552.6223529043878
 	elif tree_dict['smoker'] == 'yes':
 		if tree_dict['age'] == '56-64':
-			return 8048.29096108982
-		elif tree_dict['age'] == '26-41':
-			return 2185.3603061153917
+			return 8419.34796872025
 		elif tree_dict['age'] == '41-56':
-			return 5276.763140492054
+			return 5410.033681077681
 		elif tree_dict['age'] == '18-26':
-			return 233.8788078864402
+			return 251.549272736129
+		elif tree_dict['age'] == '26-41':
+			return 2194.125155273464
 
 def tree_17(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -1347.1742733781211
+		if tree_dict['children'] == 3:
+			return -86.23182905335226
 		elif tree_dict['children'] == 1:
-			return -914.4578676867782
+			return -820.0237743111048
+		elif tree_dict['children'] == 0:
+			return -1301.0483273406594
 		elif tree_dict['children'] == 2:
-			return -132.18392056116184
-		elif tree_dict['children'] == 3:
-			return 41.04317759458671
+			return -139.86258986351243
 		elif tree_dict['children'] == 4:
-			return 1645.427086261997
+			return 2642.4042932919574
 		elif tree_dict['children'] == 5:
-			return -459.4426520138577
+			return -437.38540996461796
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 5798.450198231945
-		elif tree_dict['bmi'] == '30 - 35':
-			return 5135.94668707003
-		elif tree_dict['bmi'] == '25 - 30':
-			return 791.8478072843517
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return 9.449571275185683
-		elif tree_dict['bmi'] == '40 - 54':
-			return 6278.1882133589725
-		elif tree_dict['bmi'] == '< 18.5':
-			return 510.3565973737532
+		if tree_dict['age'] == '56-64':
+			return 7577.413171848225
+		elif tree_dict['age'] == '41-56':
+			return 4869.030312969911
+		elif tree_dict['age'] == '18-26':
+			return 226.39434546251636
+		elif tree_dict['age'] == '26-41':
+			return 1974.7126397461188
 
 def tree_18(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -1212.4568460403093
+		if tree_dict['children'] == 3:
+			return -77.60864614801669
 		elif tree_dict['children'] == 1:
-			return -823.0120809181004
+			return -738.0213968799945
+		elif tree_dict['children'] == 0:
+			return -1170.9434946065933
 		elif tree_dict['children'] == 2:
-			return -118.9655285050455
-		elif tree_dict['children'] == 3:
-			return 36.93885983512843
+			return -125.87633087716091
 		elif tree_dict['children'] == 4:
-			return 1480.8843776357978
+			return 2378.163863962761
 		elif tree_dict['children'] == 5:
-			return -413.49838681247184
+			return -393.6468689681559
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['age'] == '56-64':
-			return 6892.42459389689
-		elif tree_dict['age'] == '26-41':
-			return 1686.7384367282352
-		elif tree_dict['age'] == '41-56':
-			return 4411.612437594568
-		elif tree_dict['age'] == '18-26':
-			return -121.38408704353715
+		if tree_dict['bmi'] == '30 - 35':
+			return 4633.896369500983
+		elif tree_dict['bmi'] == '25 - 30':
+			return 276.1351766184901
+		elif tree_dict['bmi'] == '35 - 40':
+			return 5405.2407139721745
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -251.7720746724234
+		elif tree_dict['bmi'] == '40 - 54':
+			return 6173.95672573896
+		elif tree_dict['bmi'] == '< 18.5':
+			return 529.0283773848632
 
 def tree_19(tree_dict):
 	if tree_dict['smoker'] == 'no':
 		if tree_dict['age'] == '56-64':
-			return 768.3941292475071
-		elif tree_dict['age'] == '26-41':
-			return -1222.267209436534
+			return 969.2627561909966
 		elif tree_dict['age'] == '41-56':
-			return -181.04857758885825
+			return -80.91340433481625
 		elif tree_dict['age'] == '18-26':
-			return -1557.585644410042
+			return -1642.4111149184087
+		elif tree_dict['age'] == '26-41':
+			return -1287.55411734433
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 4879.209293196568
-		elif tree_dict['bmi'] == '30 - 35':
-			return 4344.185112550109
-		elif tree_dict['bmi'] == '25 - 30':
-			return 430.1060870681467
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -274.30529665536574
-		elif tree_dict['bmi'] == '40 - 54':
-			return 5352.9747055590915
-		elif tree_dict['bmi'] == '< 18.5':
-			return 335.8501570578492
+		if tree_dict['age'] == '56-64':
+			return 6500.701503860088
+		elif tree_dict['age'] == '41-56':
+			return 4085.8187897685057
+		elif tree_dict['age'] == '18-26':
+			return -76.13943709805821
+		elif tree_dict['age'] == '26-41':
+			return 1517.1705120055103
 
 def tree_20(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -1032.9800311555625
+		if tree_dict['children'] == 3:
+			return -12.603490986532998
 		elif tree_dict['children'] == 1:
-			return -671.9849754836696
+			return -598.5986622157427
+		elif tree_dict['children'] == 0:
+			return -995.7775476855803
 		elif tree_dict['children'] == 2:
-			return -39.29284874180669
-		elif tree_dict['children'] == 3:
-			return 96.30168114018632
+			return -47.36185731608526
 		elif tree_dict['children'] == 4:
-			return 1397.7699130935343
+			return 2218.5675130113523
 		elif tree_dict['children'] == 5:
-			return -274.2212058219569
+			return -264.32954558864566
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['age'] == '56-64':
-			return 5916.897686486472
-		elif tree_dict['age'] == '26-41':
-			return 1294.3438996801733
-		elif tree_dict['age'] == '41-56':
-			return 3695.912958555357
-		elif tree_dict['age'] == '18-26':
-			return -379.3114501061315
+		if tree_dict['bmi'] == '30 - 35':
+			return 3914.34826883396
+		elif tree_dict['bmi'] == '25 - 30':
+			return 11.233223518342987
+		elif tree_dict['bmi'] == '35 - 40':
+			return 4569.6002563429665
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -481.4610785987519
+		elif tree_dict['bmi'] == '40 - 54':
+			return 5301.513605091327
+		elif tree_dict['bmi'] == '< 18.5':
+			return 324.40848844582706
 
 def tree_21(tree_dict):
-	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -929.6820280400057
+	if tree_dict['age'] == '56-64':
+		if tree_dict['children'] == 3:
+			return 2591.8252706120034
 		elif tree_dict['children'] == 1:
-			return -604.786477935303
+			return 2809.590371516988
+		elif tree_dict['children'] == 0:
+			return 889.0408250506201
 		elif tree_dict['children'] == 2:
-			return -35.363563867626056
-		elif tree_dict['children'] == 3:
-			return 86.67151302616742
+			return 3129.3669946448417
 		elif tree_dict['children'] == 4:
-			return 1257.9929217841818
+			return 20481.896144909402
 		elif tree_dict['children'] == 5:
-			return -246.79908523976098
-	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 4111.988712778059
-		elif tree_dict['bmi'] == '30 - 35':
-			return 3685.524702853664
-		elif tree_dict['bmi'] == '25 - 30':
-			return 158.82517833238234
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -475.9249932325156
-		elif tree_dict['bmi'] == '40 - 54':
-			return 4576.63516005915
-		elif tree_dict['bmi'] == '< 18.5':
-			return 214.6721351287033
+			return 0
+	elif tree_dict['age'] == '41-56':
+		if tree_dict['smoker'] == 'no':
+			return -26.924680498070572
+		elif tree_dict['smoker'] == 'yes':
+			return 3436.386463824905
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -130.42305634590235
+		elif tree_dict['children'] == 1:
+			return -1808.5626315202135
+		elif tree_dict['children'] == 0:
+			return -1732.1825136613395
+		elif tree_dict['children'] == 2:
+			return 2569.257114888863
+		elif tree_dict['children'] == 4:
+			return 2649.662743547345
+		elif tree_dict['children'] == 5:
+			return -829.7708936342988
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -752.9326661460235
+		elif tree_dict['children'] == 1:
+			return -55.39946844689042
+		elif tree_dict['children'] == 0:
+			return -1496.9105512185995
+		elif tree_dict['children'] == 2:
+			return -685.7356385123808
+		elif tree_dict['children'] == 4:
+			return 2536.5789426038746
+		elif tree_dict['children'] == 5:
+			return -421.77664931329326
 
 def tree_22(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 785.1821374117577
+		if tree_dict['children'] == 3:
+			return 2332.642743550802
 		elif tree_dict['children'] == 1:
-			return 3134.3077363190364
+			return 2528.6313343652896
+		elif tree_dict['children'] == 0:
+			return 800.1367425455586
 		elif tree_dict['children'] == 2:
-			return 2728.093301704499
-		elif tree_dict['children'] == 3:
-			return 3247.929117146147
+			return 2816.430295180359
 		elif tree_dict['children'] == 4:
-			return 6170.248160380327
+			return 18433.70653041846
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 1082.8169351194558
-		elif tree_dict['bmi'] == '30 - 35':
-			return -338.12315902942794
-		elif tree_dict['bmi'] == '25 - 30':
-			return -1261.5510510776105
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1249.1324012737127
-		elif tree_dict['bmi'] == '40 - 54':
-			return -328.7065564453686
-		elif tree_dict['bmi'] == '< 18.5':
-			return 332.7931756842594
 	elif tree_dict['age'] == '41-56':
 		if tree_dict['smoker'] == 'no':
-			return -72.82879235685031
+			return -24.232212448263724
 		elif tree_dict['smoker'] == 'yes':
-			return 3102.9019844404897
+			return 3092.747817442416
 	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -1481.6183809772733
+		if tree_dict['children'] == 3:
+			return -117.38075071131249
 		elif tree_dict['children'] == 1:
-			return -1836.1719455638608
+			return -1627.7063683681918
+		elif tree_dict['children'] == 0:
+			return -1558.964262295206
 		elif tree_dict['children'] == 2:
-			return 1515.7830635799376
-		elif tree_dict['children'] == 3:
-			return -381.00238581282247
+			return 2312.331403399976
 		elif tree_dict['children'] == 4:
-			return 30.243224797393122
+			return 2384.696469192611
 		elif tree_dict['children'] == 5:
-			return -748.019225501359
+			return -746.7938042708693
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -677.6393995314213
+		elif tree_dict['children'] == 1:
+			return -49.859521602200736
+		elif tree_dict['children'] == 0:
+			return -1347.219496096739
+		elif tree_dict['children'] == 2:
+			return -617.1620746611424
+		elif tree_dict['children'] == 4:
+			return 2282.9210483434863
+		elif tree_dict['children'] == 5:
+			return -379.5989843819637
 
 def tree_23(tree_dict):
 	if tree_dict['age'] == '56-64':
 		if tree_dict['smoker'] == 'no':
-			return 679.3111688696417
+			return 635.2870334577409
 		elif tree_dict['smoker'] == 'yes':
-			return 4905.385469149271
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 974.5352416075099
-		elif tree_dict['bmi'] == '30 - 35':
-			return -304.31084312648534
-		elif tree_dict['bmi'] == '25 - 30':
-			return -1135.3959459698492
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1124.2191611463418
-		elif tree_dict['bmi'] == '40 - 54':
-			return -295.83590080083167
-		elif tree_dict['bmi'] == '< 18.5':
-			return 299.51385811583316
+			return 5224.750330266752
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 581.0447269493692
-		elif tree_dict['bmi'] == '30 - 35':
-			return 435.21613030280946
-		elif tree_dict['bmi'] == '25 - 30':
-			return 884.1563706378392
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -337.7577120139779
-		elif tree_dict['bmi'] == '40 - 54':
-			return 617.956560313261
-		elif tree_dict['bmi'] == '< 18.5':
-			return -448.4399298767512
+		if tree_dict['smoker'] == 'no':
+			return -21.808991203437742
+		elif tree_dict['smoker'] == 'yes':
+			return 2783.473035698172
 	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -1333.4565428795459
+		if tree_dict['children'] == 3:
+			return -105.64267564018161
 		elif tree_dict['children'] == 1:
-			return -1652.5547510074741
+			return -1464.935731531373
+		elif tree_dict['children'] == 0:
+			return -1403.067836065686
 		elif tree_dict['children'] == 2:
-			return 1364.204757221943
-		elif tree_dict['children'] == 3:
-			return -342.9021472315398
+			return 2081.098263059979
 		elif tree_dict['children'] == 4:
-			return 27.218902317653555
+			return 2146.2268222733505
 		elif tree_dict['children'] == 5:
-			return -673.2173029512232
+			return -672.1144238437828
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -609.8754595782794
+		elif tree_dict['children'] == 1:
+			return -44.87356944198068
+		elif tree_dict['children'] == 0:
+			return -1212.4975464870656
+		elif tree_dict['children'] == 2:
+			return -555.4458671950275
+		elif tree_dict['children'] == 4:
+			return 2054.6289435091376
+		elif tree_dict['children'] == 5:
+			return -341.63908594376744
 
 def tree_24(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -764.0325437033772
+		if tree_dict['children'] == 3:
+			return -1.3355991954238153
 		elif tree_dict['children'] == 1:
-			return -498.4815135857071
+			return -507.3643078611534
+		elif tree_dict['children'] == 0:
+			return -715.39777739742
 		elif tree_dict['children'] == 2:
-			return -68.26829174440769
-		elif tree_dict['children'] == 3:
-			return 65.11118167684134
+			return -110.39243542628812
 		elif tree_dict['children'] == 4:
-			return 1061.2518223405743
+			return 1318.936529048491
 		elif tree_dict['children'] == 5:
-			return -119.7470009170955
+			return -136.91268842918453
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 3375.902855629806
-		elif tree_dict['bmi'] == '30 - 35':
-			return 3165.7615019407667
+		if tree_dict['bmi'] == '30 - 35':
+			return 3230.2474340680756
 		elif tree_dict['bmi'] == '25 - 30':
-			return 60.33279291995407
+			return -171.0016434480106
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3669.95926901986
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -435.15487743269136
+			return -652.6979340579279
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3928.721577513383
+			return 4388.496067603909
 		elif tree_dict['bmi'] == '< 18.5':
-			return 73.78219856077703
+			return 459.9187761198573
 
 def tree_25(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 617.502688940408
+		if tree_dict['children'] == 3:
+			return 1910.5965138151068
 		elif tree_dict['children'] == 1:
-			return 2591.8367638708123
+			return 2066.8215871958837
+		elif tree_dict['children'] == 0:
+			return 652.9150145480952
 		elif tree_dict['children'] == 2:
-			return 2251.6759651385723
-		elif tree_dict['children'] == 3:
-			return 2671.0321160374033
+			return 2257.131475295731
 		elif tree_dict['children'] == 4:
-			return 5379.167045221272
+			return 16394.913521125993
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 813.4485548765853
-		elif tree_dict['bmi'] == '30 - 35':
-			return -308.40696370588915
-		elif tree_dict['bmi'] == '25 - 30':
-			return -993.2746123220278
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -977.8167291195006
-		elif tree_dict['bmi'] == '40 - 54':
-			return -279.71208350619946
-		elif tree_dict['bmi'] == '< 18.5':
-			return 281.7815570995599
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 488.9860552090357
-		elif tree_dict['bmi'] == '30 - 35':
-			return 366.0955620952319
-		elif tree_dict['bmi'] == '25 - 30':
-			return 824.1108710463966
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -265.6840959944982
-		elif tree_dict['bmi'] == '40 - 54':
-			return 448.9078308075924
-		elif tree_dict['bmi'] == '< 18.5':
-			return -327.19268251873837
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -1174.7053592860414
+		if tree_dict['children'] == 3:
+			return 1766.575122832165
 		elif tree_dict['children'] == 1:
-			return -1466.0485349183448
+			return -168.5790617684003
+		elif tree_dict['children'] == 0:
+			return 713.6888808489883
 		elif tree_dict['children'] == 2:
-			return 1142.4437959470652
-		elif tree_dict['children'] == 3:
-			return -364.40507841037805
+			return 326.9388748745606
 		elif tree_dict['children'] == 4:
-			return -61.60978955975643
+			return -2609.2330073796543
 		elif tree_dict['children'] == 5:
-			return -593.9208725643912
+			return 236.2553230198073
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -156.16440344560272
+		elif tree_dict['children'] == 1:
+			return -1283.3364388919172
+		elif tree_dict['children'] == 0:
+			return -1239.0431278464812
+		elif tree_dict['children'] == 2:
+			return 1780.5802273972033
+		elif tree_dict['children'] == 4:
+			return 1799.7104871411661
+		elif tree_dict['children'] == 5:
+			return -591.2117126164858
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -571.4338628322961
+		elif tree_dict['children'] == 1:
+			return -28.302372536818687
+		elif tree_dict['children'] == 0:
+			return -1075.2098766172303
+		elif tree_dict['children'] == 2:
+			return -530.8174929865781
+		elif tree_dict['children'] == 4:
+			return 1712.5904770031173
+		elif tree_dict['children'] == 5:
+			return -303.7310995822895
 
 def tree_26(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 555.7524200463673
+		if tree_dict['children'] == 3:
+			return 1719.536862433596
 		elif tree_dict['children'] == 1:
-			return 2332.6530874837313
+			return 1860.1394284762957
+		elif tree_dict['children'] == 0:
+			return 587.6235130932862
 		elif tree_dict['children'] == 2:
-			return 2026.5083686247158
-		elif tree_dict['children'] == 3:
-			return 2403.928904433663
+			return 2031.4183277661568
 		elif tree_dict['children'] == 4:
-			return 4841.250340699146
+			return 14755.422169013393
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 732.1036993889261
-		elif tree_dict['bmi'] == '30 - 35':
-			return -277.56626733530055
-		elif tree_dict['bmi'] == '25 - 30':
-			return -893.9471510898253
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -880.0350562075499
-		elif tree_dict['bmi'] == '40 - 54':
-			return -251.7408751555796
-		elif tree_dict['bmi'] == '< 18.5':
-			return 253.60340138960345
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 440.0874496881317
-		elif tree_dict['bmi'] == '30 - 35':
-			return 329.48600588570883
-		elif tree_dict['bmi'] == '25 - 30':
-			return 741.6997839417575
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -239.11568639504853
-		elif tree_dict['bmi'] == '40 - 54':
-			return 404.017047726834
-		elif tree_dict['bmi'] == '< 18.5':
-			return -294.473414266864
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -1057.234823357437
+		if tree_dict['children'] == 3:
+			return 1589.9176105489491
 		elif tree_dict['children'] == 1:
-			return -1319.44368142651
+			return -151.72115559156077
+		elif tree_dict['children'] == 0:
+			return 642.3199927640893
 		elif tree_dict['children'] == 2:
-			return 1028.199416352359
-		elif tree_dict['children'] == 3:
-			return -327.9645705693404
+			return 294.2449873871048
 		elif tree_dict['children'] == 4:
-			return -55.44881060378084
+			return -2348.309706641688
 		elif tree_dict['children'] == 5:
-			return -534.5287853079517
+			return 212.62979071782593
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -140.5479631010429
+		elif tree_dict['children'] == 1:
+			return -1155.0027950027252
+		elif tree_dict['children'] == 0:
+			return -1115.1388150618336
+		elif tree_dict['children'] == 2:
+			return 1602.5222046574827
+		elif tree_dict['children'] == 4:
+			return 1619.7394384270497
+		elif tree_dict['children'] == 5:
+			return -532.0905413548371
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -514.2904765490662
+		elif tree_dict['children'] == 1:
+			return -25.472135283136513
+		elif tree_dict['children'] == 0:
+			return -967.6888889555077
+		elif tree_dict['children'] == 2:
+			return -477.7357436879199
+		elif tree_dict['children'] == 4:
+			return 1541.3314293028054
+		elif tree_dict['children'] == 5:
+			return -273.35798962406034
 
 def tree_27(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -640.2254839019353
+		if tree_dict['children'] == 3:
+			return -131.7595172730348
 		elif tree_dict['children'] == 1:
-			return -448.69831536492336
+			return -439.14547681903554
+		elif tree_dict['children'] == 0:
+			return -584.3422874311877
 		elif tree_dict['children'] == 2:
-			return -121.49518652689787
-		elif tree_dict['children'] == 3:
-			return 12.108384821931319
+			return -163.43427656761938
 		elif tree_dict['children'] == 4:
-			return 810.8799944575028
+			return 947.1830407082376
 		elif tree_dict['children'] == 5:
-			return -42.092868910222585
+			return -91.98579438965766
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 2895.521518984864
-		elif tree_dict['bmi'] == '30 - 35':
-			return 2833.5719684508344
+		if tree_dict['bmi'] == '30 - 35':
+			return 2888.07413543575
 		elif tree_dict['bmi'] == '25 - 30':
-			return 74.3644624433587
+			return -127.76787460766488
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3209.698315836639
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -275.02540313376704
+			return -525.3467697209774
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3495.772762710261
+			return 3921.135192048443
 		elif tree_dict['bmi'] == '< 18.5':
-			return -28.015973489472344
+			return 503.99561848861777
 
 def tree_28(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 534.7265314986887
-		elif tree_dict['children'] == 1:
-			return 2064.793333491022
-		elif tree_dict['children'] == 2:
-			return 1779.8251718774259
-		elif tree_dict['children'] == 3:
-			return 2117.9602576427137
-		elif tree_dict['children'] == 4:
-			return 4276.037307183481
-		elif tree_dict['children'] == 5:
-			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 606.8775787842125
-		elif tree_dict['bmi'] == '30 - 35':
-			return -279.8995959174531
-		elif tree_dict['bmi'] == '25 - 30':
-			return -778.4199734534456
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -763.5143613487197
-		elif tree_dict['bmi'] == '40 - 54':
-			return -237.28209820450212
-		elif tree_dict['bmi'] == '< 18.5':
-			return 245.15843306858787
+		if tree_dict['smoker'] == 'no':
+			return 444.51680766258943
+		elif tree_dict['smoker'] == 'yes':
+			return 4046.100527523298
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 369.2722971523714
-		elif tree_dict['bmi'] == '30 - 35':
-			return 274.36593287690937
-		elif tree_dict['bmi'] == '25 - 30':
-			return 693.4302700354539
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -182.775051279943
-		elif tree_dict['bmi'] == '40 - 54':
-			return 269.2056817154235
-		elif tree_dict['bmi'] == '< 18.5':
-			return -201.00352444998316
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -932.4705683511518
+		if tree_dict['children'] == 3:
+			return 1384.4460308126477
 		elif tree_dict['children'] == 1:
-			return -1168.6676001566348
+			return -117.57011682877626
+		elif tree_dict['children'] == 0:
+			return 593.1121242035251
 		elif tree_dict['children'] == 2:
-			return 854.5864964728547
-		elif tree_dict['children'] == 3:
-			return -340.74151195931796
+			return 235.00248363314017
 		elif tree_dict['children'] == 4:
-			return -116.26161834886989
+			return -2208.1970400483438
 		elif tree_dict['children'] == 5:
-			return -476.8666198861347
+			return 200.56539108500965
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -171.99914271274736
+		elif tree_dict['children'] == 1:
+			return -1009.7407621405766
+		elif tree_dict['children'] == 0:
+			return -987.1451519806084
+		elif tree_dict['children'] == 2:
+			return 1365.1794419211399
+		elif tree_dict['children'] == 4:
+			return 1363.0471905135214
+		elif tree_dict['children'] == 5:
+			return -469.6829077803877
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -473.43154415899676
+		elif tree_dict['children'] == 1:
+			return -13.19662047646621
+		elif tree_dict['children'] == 0:
+			return -860.9913250214823
+		elif tree_dict['children'] == 2:
+			return -452.5711807944007
+		elif tree_dict['children'] == 4:
+			return 1282.8584247526826
+		elif tree_dict['children'] == 5:
+			return -246.75663477065973
 
 def tree_29(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 481.25387834881997
+		if tree_dict['children'] == 3:
+			return 1411.0048839783747
 		elif tree_dict['children'] == 1:
-			return 1858.31400014192
+			return 1511.3687062224496
+		elif tree_dict['children'] == 0:
+			return 481.9672067879328
 		elif tree_dict['children'] == 2:
-			return 1601.8426546896835
-		elif tree_dict['children'] == 3:
-			return 1906.1642318784423
+			return 1611.786525101589
 		elif tree_dict['children'] == 4:
-			return 3848.4335764651346
+			return 13140.709967274972
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 546.1898209057917
-		elif tree_dict['bmi'] == '30 - 35':
-			return -251.90963632570814
-		elif tree_dict['bmi'] == '25 - 30':
-			return -700.577976108101
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -687.1629252138481
-		elif tree_dict['bmi'] == '40 - 54':
-			return -213.5538883840514
-		elif tree_dict['bmi'] == '< 18.5':
-			return 220.64258976173022
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 332.3450674371352
-		elif tree_dict['bmi'] == '30 - 35':
-			return 246.92933958921802
-		elif tree_dict['bmi'] == '25 - 30':
-			return 624.0872430319079
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -164.4975461519483
-		elif tree_dict['bmi'] == '40 - 54':
-			return 242.28511354388166
-		elif tree_dict['bmi'] == '< 18.5':
-			return -180.9031720049843
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -839.2235115160365
+		if tree_dict['children'] == 3:
+			return 1246.0014277313835
 		elif tree_dict['children'] == 1:
-			return -1051.8008401409716
+			return -105.81310514589848
+		elif tree_dict['children'] == 0:
+			return 533.8009117831725
 		elif tree_dict['children'] == 2:
-			return 769.1278468255693
-		elif tree_dict['children'] == 3:
-			return -306.6673607633853
+			return 211.50223526982586
 		elif tree_dict['children'] == 4:
-			return -104.63545651398272
+			return -1987.3773360435093
 		elif tree_dict['children'] == 5:
-			return -429.1799578975215
+			return 180.5088519765095
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -154.79922844147274
+		elif tree_dict['children'] == 1:
+			return -908.7666859265194
+		elif tree_dict['children'] == 0:
+			return -888.4306367825474
+		elif tree_dict['children'] == 2:
+			return 1228.6614977290262
+		elif tree_dict['children'] == 4:
+			return 1226.7424714621698
+		elif tree_dict['children'] == 5:
+			return -422.71461700234886
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['region'] == 'northwest':
+			return -124.85321779290342
+		elif tree_dict['region'] == 'southeast':
+			return -1234.8443828166012
+		elif tree_dict['region'] == 'southwest':
+			return -420.3432604905288
+		elif tree_dict['region'] == 'northeast':
+			return 630.2787570598317
 
 def tree_30(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -540.7161081157811
+		if tree_dict['children'] == 3:
+			return -214.08777255234426
 		elif tree_dict['children'] == 1:
-			return -403.4256862727383
+			return -360.4463558507724
+		elif tree_dict['children'] == 0:
+			return -485.75056743716596
 		elif tree_dict['children'] == 2:
-			return -155.09774872432328
-		elif tree_dict['children'] == 3:
-			return -23.920238403882028
+			return -179.69432724809602
 		elif tree_dict['children'] == 4:
-			return 617.8442694096767
+			return 818.3895147638177
 		elif tree_dict['children'] == 5:
-			return 14.528224004833437
+			return -35.70623172371798
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 2495.932943260955
-		elif tree_dict['bmi'] == '30 - 35':
-			return 2540.7246119940296
+		if tree_dict['bmi'] == '30 - 35':
+			return 2537.942414841406
 		elif tree_dict['bmi'] == '25 - 30':
-			return 79.8008233583945
+			return -131.63784292829672
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2785.1659689900657
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -158.5385834379042
+			return -462.20424967718094
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3122.723139925105
+			return 3491.2892965470874
 		elif tree_dict['bmi'] == '< 18.5':
-			return -100.74231143526049
+			return 475.82378517269626
 
 def tree_31(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 461.1747035480504
+		if tree_dict['children'] == 3:
+			return 1256.3974834331998
 		elif tree_dict['children'] == 1:
-			return 1642.607394260267
+			return 1330.6133915431426
+		elif tree_dict['children'] == 0:
+			return 466.70291463343256
 		elif tree_dict['children'] == 2:
-			return 1407.1813906888428
-		elif tree_dict['children'] == 3:
-			return 1676.888049266984
+			return 1390.3404674343244
 		elif tree_dict['children'] == 4:
-			return 3401.8057918776517
+			return 11744.800019071095
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['children'] == 0:
-			return -1160.0804680949832
-		elif tree_dict['children'] == 1:
-			return -31.157572782888508
-		elif tree_dict['children'] == 2:
-			return 15.025606083195953
-		elif tree_dict['children'] == 3:
-			return -462.492111415227
-		elif tree_dict['children'] == 4:
-			return 1721.0025484590453
-		elif tree_dict['children'] == 5:
-			return 656.5361091583708
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 277.86646193115973
-		elif tree_dict['bmi'] == '30 - 35':
-			return 202.90129651187675
-		elif tree_dict['bmi'] == '25 - 30':
-			return 585.3037154384605
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -120.42034348791123
-		elif tree_dict['bmi'] == '40 - 54':
-			return 134.4681590390781
-		elif tree_dict['bmi'] == '< 18.5':
-			return -108.7412439929085
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -741.0397811202968
+		if tree_dict['children'] == 3:
+			return 1087.9783233651817
 		elif tree_dict['children'] == 1:
-			return -929.9450869707673
+			return -80.57573514090213
+		elif tree_dict['children'] == 0:
+			return 491.5776283796953
 		elif tree_dict['children'] == 2:
-			return 633.0420402739741
-		elif tree_dict['children'] == 3:
-			return -313.5179784914661
+			return 166.76255276294043
 		elif tree_dict['children'] == 4:
-			return -145.19546888252734
+			return -1870.4785539155414
 		elif tree_dict['children'] == 5:
-			return -387.7147845082527
+			return 166.02858995123188
+	elif tree_dict['age'] == '18-26':
+		if tree_dict['children'] == 3:
+			return -172.08686568945296
+		elif tree_dict['children'] == 1:
+			return -793.8074633135627
+		elif tree_dict['children'] == 0:
+			return -787.249018934356
+		elif tree_dict['children'] == 2:
+			return 1040.8908817258205
+		elif tree_dict['children'] == 4:
+			return 1022.229272839571
+		elif tree_dict['children'] == 5:
+			return -376.87253212974247
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -404.0725787029503
+		elif tree_dict['children'] == 1:
+			return 28.314242014664988
+		elif tree_dict['children'] == 0:
+			return -728.964261686644
+		elif tree_dict['children'] == 2:
+			return -385.39299529838746
+		elif tree_dict['children'] == 4:
+			return 1088.637306873889
+		elif tree_dict['children'] == 5:
+			return -144.27646623747265
 
 def tree_32(tree_dict):
 	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -458.61424393724764
+		if tree_dict['children'] == 3:
+			return -233.23483643440608
 		elif tree_dict['children'] == 1:
-			return -374.6525758448932
+			return -321.74074036201597
+		elif tree_dict['children'] == 0:
+			return -418.5832823710011
 		elif tree_dict['children'] == 2:
-			return -170.72700670575782
-		elif tree_dict['children'] == 3:
-			return -27.774674412236976
+			return -178.13799981636316
 		elif tree_dict['children'] == 4:
-			return 442.29103301750786
+			return 656.1683836655036
 		elif tree_dict['children'] == 5:
-			return -17.391733379138504
+			return -23.91760241801997
 	elif tree_dict['smoker'] == 'yes':
-		if tree_dict['bmi'] == '35 - 40':
-			return 2223.481960898618
-		elif tree_dict['bmi'] == '30 - 35':
-			return 2289.1675471795884
-		elif tree_dict['bmi'] == '25 - 30':
-			return 68.10151417243763
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -111.01304019834387
-		elif tree_dict['bmi'] == '40 - 54':
-			return 2810.2036848687185
-		elif tree_dict['bmi'] == '< 18.5':
-			return -107.62105175482066
+		if tree_dict['age'] == '56-64':
+			return 3287.1531494400165
+		elif tree_dict['age'] == '41-56':
+			return 1752.987806633108
+		elif tree_dict['age'] == '18-26':
+			return -188.8273463557697
+		elif tree_dict['age'] == '26-41':
+			return 1129.0163301528278
 
 def tree_33(tree_dict):
 	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 437.8747458230445
+		if tree_dict['children'] == 3:
+			return 1088.0739439981762
 		elif tree_dict['children'] == 1:
-			return 1452.5496108661687
+			return 1143.1126730697824
+		elif tree_dict['children'] == 0:
+			return 418.0958844857874
 		elif tree_dict['children'] == 2:
-			return 1238.2339992336965
-		elif tree_dict['children'] == 3:
-			return 1474.8564285480238
+			return 1172.8621331931868
 		elif tree_dict['children'] == 4:
-			return 3017.396109388135
+			return 10504.703178797437
 		elif tree_dict['children'] == 5:
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['children'] == 0:
-			return -1035.906557635841
-		elif tree_dict['children'] == 1:
-			return -18.760265614451537
-		elif tree_dict['children'] == 2:
-			return 9.635925739807327
-		elif tree_dict['children'] == 3:
-			return -433.90631065297964
-		elif tree_dict['children'] == 4:
-			return 1486.264602869928
-		elif tree_dict['children'] == 5:
-			return 592.6216715804475
 	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 232.0486210196343
-		elif tree_dict['bmi'] == '30 - 35':
-			return 165.4260097522638
+		if tree_dict['bmi'] == '30 - 35':
+			return -40.34505421008909
 		elif tree_dict['bmi'] == '25 - 30':
-			return 548.7242125839206
+			return 591.129427668796
+		elif tree_dict['bmi'] == '35 - 40':
+			return 913.5643283452993
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -83.7888392853017
+			return -601.1608468925746
 		elif tree_dict['bmi'] == '40 - 54':
-			return 46.60812761412781
+			return 655.7633684107627
 		elif tree_dict['bmi'] == '< 18.5':
-			return -52.005695199894035
+			return -660.4163574838349
 	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -656.3918647630411
+		if tree_dict['children'] == 3:
+			return -132.9424295420245
 		elif tree_dict['children'] == 1:
-			return -821.0349832972607
+			return -684.2974643922549
+		elif tree_dict['children'] == 0:
+			return -671.4240478337217
 		elif tree_dict['children'] == 2:
-			return 518.841180004555
-		elif tree_dict['children'] == 3:
-			return -315.2662135509994
+			return 954.9148952379787
 		elif tree_dict['children'] == 4:
-			return -167.42123491912426
+			return 854.3895071890634
 		elif tree_dict['children'] == 5:
-			return -347.20413271951384
+			return -336.7935186749655
+	elif tree_dict['age'] == '26-41':
+		if tree_dict['children'] == 3:
+			return -371.56009309017196
+		elif tree_dict['children'] == 1:
+			return 32.92807814744256
+		elif tree_dict['children'] == 0:
+			return -650.7259026325657
+		elif tree_dict['children'] == 2:
+			return -354.4567855363132
+		elif tree_dict['children'] == 4:
+			return 903.6490056757868
+		elif tree_dict['children'] == 5:
+			return -146.67262491477126
 
 def tree_34(tree_dict):
-	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 394.08727124073965
-		elif tree_dict['children'] == 1:
-			return 1307.2946497795508
-		elif tree_dict['children'] == 2:
-			return 1114.4105993103276
-		elif tree_dict['children'] == 3:
-			return 1327.3707856932217
-		elif tree_dict['children'] == 4:
-			return 2715.656498449321
-		elif tree_dict['children'] == 5:
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 1227.0910384573845
+		elif tree_dict['region'] == 'southeast':
+			return 962.2001197101682
+		elif tree_dict['region'] == 'southwest':
+			return -893.2836309188621
+		elif tree_dict['region'] == 'northeast':
+			return -340.95455925392696
+	elif tree_dict['children'] == 1:
+		if tree_dict['bmi'] == '30 - 35':
+			return -410.24157283769256
+		elif tree_dict['bmi'] == '25 - 30':
+			return -511.6683476378852
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1352.901779215808
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 202.06898733289154
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1015.3351306546546
+		elif tree_dict['bmi'] == '< 18.5':
+			return -1492.3891366368898
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 376.28629603720816
+		elif tree_dict['age'] == '41-56':
+			return 417.0865589996738
+		elif tree_dict['age'] == '18-26':
+			return -604.2816430503495
+		elif tree_dict['age'] == '26-41':
+			return -585.6533123693094
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1073.0275837960385
+		elif tree_dict['region'] == 'southeast':
+			return -1437.477139800345
+		elif tree_dict['region'] == 'southwest':
+			return 235.5449694043259
+		elif tree_dict['region'] == 'northeast':
+			return 1195.7618642676791
+	elif tree_dict['children'] == 4:
+		if tree_dict['age'] == '56-64':
+			return 9454.232860917695
+		elif tree_dict['age'] == '41-56':
+			return -1774.2705421582905
+		elif tree_dict['age'] == '18-26':
+			return 768.9505564701572
+		elif tree_dict['age'] == '26-41':
+			return 813.2841051082089
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 464.97450506832365
-		elif tree_dict['bmi'] == '30 - 35':
-			return -211.2679809636673
-		elif tree_dict['bmi'] == '25 - 30':
-			return -525.8673378800544
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -502.1932605241395
-		elif tree_dict['bmi'] == '40 - 54':
-			return -135.2339009579632
-		elif tree_dict['bmi'] == '< 18.5':
-			return 279.5300526954019
-	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 208.84375891767036
-		elif tree_dict['bmi'] == '30 - 35':
-			return 148.88340877703743
-		elif tree_dict['bmi'] == '25 - 30':
-			return 493.85179132552804
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -75.40995535677187
-		elif tree_dict['bmi'] == '40 - 54':
-			return 41.94731485271397
-		elif tree_dict['bmi'] == '< 18.5':
-			return -46.80512567990445
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -590.752678286737
-		elif tree_dict['children'] == 1:
-			return -738.9314849675347
-		elif tree_dict['children'] == 2:
-			return 466.95706200410007
-		elif tree_dict['children'] == 3:
-			return -283.73959219589904
-		elif tree_dict['children'] == 4:
-			return -150.67911142721186
-		elif tree_dict['children'] == 5:
-			return -312.4837194475622
+		elif tree_dict['region'] == 'southeast':
+			return 959.7628921250122
+		elif tree_dict['region'] == 'southwest':
+			return -598.8643853942414
+		elif tree_dict['region'] == 'northeast':
+			return -1120.0053696048863
 
 def tree_35(tree_dict):
-	if tree_dict['smoker'] == 'no':
-		if tree_dict['children'] == 0:
-			return -378.0434234119511
-		elif tree_dict['children'] == 1:
-			return -347.41224011181106
-		elif tree_dict['children'] == 2:
-			return -194.67546431252077
-		elif tree_dict['children'] == 3:
-			return -39.59697179681295
-		elif tree_dict['children'] == 4:
-			return 264.11618063615333
-		elif tree_dict['children'] == 5:
-			return -24.392498866188852
-	elif tree_dict['smoker'] == 'yes':
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 1104.381934611646
+		elif tree_dict['region'] == 'southeast':
+			return 865.9801077391514
+		elif tree_dict['region'] == 'southwest':
+			return -803.955267826976
+		elif tree_dict['region'] == 'northeast':
+			return -306.8591033285341
+	elif tree_dict['children'] == 1:
+		if tree_dict['bmi'] == '30 - 35':
+			return -369.2174155539231
+		elif tree_dict['bmi'] == '25 - 30':
+			return -460.50151287409653
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1217.6116012942268
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 181.86208859960198
+		elif tree_dict['bmi'] == '40 - 54':
+			return 913.8016175891887
+		elif tree_dict['bmi'] == '< 18.5':
+			return -1343.150222973201
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 2963.27938386567
-		elif tree_dict['age'] == '26-41':
-			return 824.9774913978989
+			return 338.65766643348667
 		elif tree_dict['age'] == '41-56':
-			return 1899.88513498467
+			return 375.37790309970666
 		elif tree_dict['age'] == '18-26':
-			return -604.8696943158541
+			return -543.8534787453149
+		elif tree_dict['age'] == '26-41':
+			return -527.0879811323779
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 965.7248254164343
+		elif tree_dict['region'] == 'southeast':
+			return -1293.729425820311
+		elif tree_dict['region'] == 'southwest':
+			return 211.99047246389446
+		elif tree_dict['region'] == 'northeast':
+			return 1076.1856778409106
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -1145.373626622677
+		elif tree_dict['region'] == 'southeast':
+			return -809.1798370338815
+		elif tree_dict['region'] == 'southwest':
+			return -1672.488507121451
+		elif tree_dict['region'] == 'northeast':
+			return 6301.018914717163
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 863.7866029125108
+		elif tree_dict['region'] == 'southwest':
+			return -538.9779468548171
+		elif tree_dict['region'] == 'northeast':
+			return -1008.004832644398
 
 def tree_36(tree_dict):
-	if tree_dict['age'] == '56-64':
-		if tree_dict['children'] == 0:
-			return 341.76637956168315
-		elif tree_dict['children'] == 1:
-			return 1116.7152195562774
-		elif tree_dict['children'] == 2:
-			return 963.2254324072052
-		elif tree_dict['children'] == 3:
-			return 1106.1972087447355
-		elif tree_dict['children'] == 4:
-			return 2417.679230540774
-		elif tree_dict['children'] == 5:
+	if tree_dict['children'] == 3:
+		if tree_dict['age'] == '56-64':
+			return 893.2471226070661
+		elif tree_dict['age'] == '41-56':
+			return 846.12002346157
+		elif tree_dict['age'] == '18-26':
+			return -146.12491268897713
+		elif tree_dict['age'] == '26-41':
+			return -391.39707862256887
+	elif tree_dict['children'] == 1:
+		if tree_dict['bmi'] == '30 - 35':
+			return -332.2956739985306
+		elif tree_dict['bmi'] == '25 - 30':
+			return -414.45136158668686
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1095.8504411648048
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 163.6758797396418
+		elif tree_dict['bmi'] == '40 - 54':
+			return 822.42145583027
+		elif tree_dict['bmi'] == '< 18.5':
+			return -1208.835200675881
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 304.7918997901382
+		elif tree_dict['age'] == '41-56':
+			return 337.84011278973566
+		elif tree_dict['age'] == '18-26':
+			return -489.46813087078345
+		elif tree_dict['age'] == '26-41':
+			return -474.3791830191401
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 869.1523428747909
+		elif tree_dict['region'] == 'southeast':
+			return -1164.3564832382795
+		elif tree_dict['region'] == 'southwest':
+			return 190.79142521750546
+		elif tree_dict['region'] == 'northeast':
+			return 968.5671100568189
+	elif tree_dict['children'] == 4:
+		if tree_dict['age'] == '56-64':
+			return 8589.727558529314
+		elif tree_dict['age'] == '41-56':
+			return -1627.4155542887918
+		elif tree_dict['age'] == '18-26':
+			return 417.4635469389773
+		elif tree_dict['age'] == '26-41':
+			return 706.5663409288265
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
 			return 0
-	elif tree_dict['age'] == '26-41':
-		if tree_dict['bmi'] == '35 - 40':
-			return 414.9719944350079
-		elif tree_dict['bmi'] == '30 - 35':
-			return -185.746096217423
-		elif tree_dict['bmi'] == '25 - 30':
-			return -464.77108738244397
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -454.29076680620364
-		elif tree_dict['bmi'] == '40 - 54':
-			return -107.04196709879874
-		elif tree_dict['bmi'] == '< 18.5':
-			return 213.5327756964758
-	elif tree_dict['age'] == '41-56':
-		if tree_dict['bmi'] == '35 - 40':
-			return 174.4289749145547
-		elif tree_dict['bmi'] == '30 - 35':
-			return 121.76834520837076
-		elif tree_dict['bmi'] == '25 - 30':
-			return 433.67334062028
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -87.59965835113991
-		elif tree_dict['bmi'] == '40 - 54':
-			return -8.194426869007511
-		elif tree_dict['bmi'] == '< 18.5':
-			return -4.320270770718707
-	elif tree_dict['age'] == '18-26':
-		if tree_dict['children'] == 0:
-			return -489.2772417129331
-		elif tree_dict['children'] == 1:
-			return -625.6760812302966
-		elif tree_dict['children'] == 2:
-			return 452.35026315812223
-		elif tree_dict['children'] == 3:
-			return -238.36118066157297
-		elif tree_dict['children'] == 4:
-			return -144.64310084906592
-		elif tree_dict['children'] == 5:
-			return -278.79609761618667
+		elif tree_dict['region'] == 'southeast':
+			return 777.4079426212594
+		elif tree_dict['region'] == 'southwest':
+			return -485.0801521693352
+		elif tree_dict['region'] == 'northeast':
+			return -907.2043493799579
 
 def tree_37(tree_dict):
-	if tree_dict['children'] == 0:
-		if tree_dict['age'] == '56-64':
-			return 307.5897416055146
-		elif tree_dict['age'] == '26-41':
-			return -864.4237501155003
-		elif tree_dict['age'] == '41-56':
-			return 508.5918036678675
-		elif tree_dict['age'] == '18-26':
-			return -440.34951754163984
-	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 910.1119881414371
-		elif tree_dict['bmi'] == '30 - 35':
-			return -462.44413744489674
+	if tree_dict['smoker'] == 'no':
+		if tree_dict['children'] == 3:
+			return -300.5270954740496
+		elif tree_dict['children'] == 1:
+			return -290.17094290658684
+		elif tree_dict['children'] == 0:
+			return -320.880781617327
+		elif tree_dict['children'] == 2:
+			return -228.9335060463716
+		elif tree_dict['children'] == 4:
+			return 289.47385673586507
+		elif tree_dict['children'] == 5:
+			return -7.4056200615925265
+	elif tree_dict['smoker'] == 'yes':
+		if tree_dict['bmi'] == '30 - 35':
+			return 2197.3349126666603
 		elif tree_dict['bmi'] == '25 - 30':
-			return -283.0123933391264
+			return -153.4171879717365
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2160.216041432356
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -77.96813216105178
+			return -497.8673503534291
 		elif tree_dict['bmi'] == '40 - 54':
-			return 906.9427138063406
+			return 3081.825308433581
 		elif tree_dict['bmi'] == '< 18.5':
-			return -1003.7171198999777
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -919.3529048837381
-		elif tree_dict['region'] == 'northeast':
-			return 922.1998144300977
-		elif tree_dict['region'] == 'northwest':
-			return 523.264407868536
-		elif tree_dict['region'] == 'southwest':
-			return -383.34573603272224
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 1464.5198083965356
-		elif tree_dict['region'] == 'northeast':
-			return -319.44862857306754
-		elif tree_dict['region'] == 'northwest':
-			return 1766.9698235043388
-		elif tree_dict['region'] == 'southwest':
-			return -849.994624059836
-	elif tree_dict['children'] == 4:
-		if tree_dict['age'] == '56-64':
-			return 2175.911307486696
-		elif tree_dict['age'] == '26-41':
-			return 1365.4662183659364
-		elif tree_dict['age'] == '41-56':
-			return -2018.1126280991123
-		elif tree_dict['age'] == '18-26':
-			return -130.17879076415974
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 640.2099501057207
-		elif tree_dict['region'] == 'northeast':
-			return -778.5479379022594
-		elif tree_dict['region'] == 'northwest':
-			return 2191.0200364091834
-		elif tree_dict['region'] == 'southwest':
-			return -778.8552705647533
+			return 183.95194518155677
 
 def tree_38(tree_dict):
-	if tree_dict['children'] == 0:
-		if tree_dict['age'] == '56-64':
-			return 276.83076744496327
-		elif tree_dict['age'] == '26-41':
-			return -777.9813751039494
-		elif tree_dict['age'] == '41-56':
-			return 457.7326233010812
-		elif tree_dict['age'] == '18-26':
-			return -396.31456578747617
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 951.3054310393959
+		elif tree_dict['region'] == 'southeast':
+			return 723.860537596629
+		elif tree_dict['region'] == 'southwest':
+			return -721.6156173879301
+		elif tree_dict['region'] == 'northeast':
+			return -309.51205931045763
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 819.1007893272937
-		elif tree_dict['bmi'] == '30 - 35':
-			return -416.19972370040705
+		if tree_dict['bmi'] == '30 - 35':
+			return -306.0998218090801
 		elif tree_dict['bmi'] == '25 - 30':
-			return -254.71115400521404
+			return -346.34695449830457
+		elif tree_dict['bmi'] == '35 - 40':
+			return 958.7350993926998
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -70.1713189449465
+			return 179.60480301602388
 		elif tree_dict['bmi'] == '40 - 54':
-			return 816.2484424257065
+			return 717.3195391326685
 		elif tree_dict['bmi'] == '< 18.5':
-			return -903.3454079099797
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -827.4176143953649
-		elif tree_dict['region'] == 'northeast':
-			return 829.9798329870878
-		elif tree_dict['region'] == 'northwest':
-			return 470.9379670816825
-		elif tree_dict['region'] == 'southwest':
-			return -345.01116242945045
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 1318.0678275568823
-		elif tree_dict['region'] == 'northeast':
-			return -287.5037657157607
-		elif tree_dict['region'] == 'northwest':
-			return 1590.2728411539056
-		elif tree_dict['region'] == 'southwest':
-			return -764.9951616538524
-	elif tree_dict['children'] == 4:
+			return -1058.9345863176338
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 1958.3201767380244
-		elif tree_dict['age'] == '26-41':
-			return 1228.9195965293436
+			return 294.7095899163064
 		elif tree_dict['age'] == '41-56':
-			return -1816.3013652892007
+			return 307.11110309676536
 		elif tree_dict['age'] == '18-26':
-			return -117.160911687744
+			return -437.06043770983086
+		elif tree_dict['age'] == '26-41':
+			return -427.1794131915799
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 791.1187460156526
+		elif tree_dict['region'] == 'southeast':
+			return -1082.4557863469345
+		elif tree_dict['region'] == 'southwest':
+			return 122.62470414702733
+		elif tree_dict['region'] == 'northeast':
+			return 879.593981479206
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -960.0784558887826
+		elif tree_dict['region'] == 'southeast':
+			return -959.3677863067869
+		elif tree_dict['region'] == 'southwest':
+			return -1597.7416621876594
+		elif tree_dict['region'] == 'northeast':
+			return 5636.890120709164
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -867.5601016021104
-		elif tree_dict['sex'] == 'female':
-			return 1003.3041855149281
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 700.4077103652927
+		elif tree_dict['region'] == 'southwest':
+			return -438.22354451178137
+		elif tree_dict['region'] == 'northeast':
+			return -815.743352435803
 
 def tree_39(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 249.14769070046623
-		elif tree_dict['age'] == '26-41':
-			return -700.1832375935552
+			return 768.8171152883358
 		elif tree_dict['age'] == '41-56':
-			return 411.9593609709727
+			return 713.9021963587941
 		elif tree_dict['age'] == '18-26':
-			return -356.6831092087287
+			return -158.38976733768146
+		elif tree_dict['age'] == '26-41':
+			return -363.4665321864201
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 737.1907103945646
-		elif tree_dict['bmi'] == '30 - 35':
-			return -374.579751330366
+		if tree_dict['bmi'] == '30 - 35':
+			return -275.48983962817175
 		elif tree_dict['bmi'] == '25 - 30':
-			return -229.24003860469273
+			return -311.7122590484741
+		elif tree_dict['bmi'] == '35 - 40':
+			return 862.861589453429
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -63.15418705045204
+			return 161.64432271442135
 		elif tree_dict['bmi'] == '40 - 54':
-			return 734.6235981831354
+			return 645.5875852194011
 		elif tree_dict['bmi'] == '< 18.5':
-			return -813.0108671189819
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -744.6758529558283
-		elif tree_dict['region'] == 'northeast':
-			return 746.981849688379
-		elif tree_dict['region'] == 'northwest':
-			return 423.8441703735138
-		elif tree_dict['region'] == 'southwest':
-			return -310.5100461865056
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 1186.2610448011944
-		elif tree_dict['region'] == 'northeast':
-			return -258.7533891441848
-		elif tree_dict['region'] == 'northwest':
-			return 1431.2455570385143
-		elif tree_dict['region'] == 'southwest':
-			return -688.4956454884666
-	elif tree_dict['children'] == 4:
+			return -953.0411276858705
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 1762.4881590642228
-		elif tree_dict['age'] == '26-41':
-			return 1106.0276368764096
+			return 265.23863092467536
 		elif tree_dict['age'] == '41-56':
-			return -1634.6712287602807
+			return 276.3999927870895
 		elif tree_dict['age'] == '18-26':
-			return -105.44482051896975
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 550.6931080283372
-		elif tree_dict['region'] == 'northeast':
-			return -613.9371339518226
-		elif tree_dict['region'] == 'northwest':
-			return 1871.5876142167726
+			return -393.35439393884815
+		elif tree_dict['age'] == '26-41':
+			return -384.4614718724222
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 712.0068714140875
+		elif tree_dict['region'] == 'southeast':
+			return -974.2102077122419
 		elif tree_dict['region'] == 'southwest':
-			return -707.756947703919
+			return 110.36223373232511
+		elif tree_dict['region'] == 'northeast':
+			return 791.6345833312855
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -864.0706102999042
+		elif tree_dict['region'] == 'southeast':
+			return -863.4310076761076
+		elif tree_dict['region'] == 'southwest':
+			return -1437.9674959688934
+		elif tree_dict['region'] == 'northeast':
+			return 5073.201108638248
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 630.3669393287638
+		elif tree_dict['region'] == 'southwest':
+			return -394.40119006060297
+		elif tree_dict['region'] == 'northeast':
+			return -734.1690171922228
 
 def tree_40(tree_dict):
-	if tree_dict['children'] == 0:
-		if tree_dict['age'] == '56-64':
-			return 224.23292163041938
-		elif tree_dict['age'] == '26-41':
-			return -630.1649138342001
-		elif tree_dict['age'] == '41-56':
-			return 370.76342487387535
-		elif tree_dict['age'] == '18-26':
-			return -321.0147982878557
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 831.5408815275475
+		elif tree_dict['region'] == 'southeast':
+			return 623.0554427389665
+		elif tree_dict['region'] == 'southwest':
+			return -670.9429341278634
+		elif tree_dict['region'] == 'northeast':
+			return -288.05744241141605
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 663.471639355108
-		elif tree_dict['bmi'] == '30 - 35':
-			return -337.1217761973291
+		if tree_dict['bmi'] == '30 - 35':
+			return -247.94085566535406
 		elif tree_dict['bmi'] == '25 - 30':
-			return -206.31603474422334
+			return -280.5410331436269
+		elif tree_dict['bmi'] == '35 - 40':
+			return 776.5754305080857
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -56.838768345406606
+			return 145.47989044297944
 		elif tree_dict['bmi'] == '40 - 54':
-			return 661.1612383648213
+			return 581.0288266974611
 		elif tree_dict['bmi'] == '< 18.5':
-			return -731.7097804070836
+			return -857.7370149172834
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 238.7147678322084
+		elif tree_dict['age'] == '41-56':
+			return 248.7599935083809
+		elif tree_dict['age'] == '18-26':
+			return -354.018954544963
+		elif tree_dict['age'] == '26-41':
+			return -346.01532468518036
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -670.2082676602452
-		elif tree_dict['region'] == 'northeast':
-			return 672.2836647195409
-		elif tree_dict['region'] == 'northwest':
-			return 381.45975333616224
+		if tree_dict['region'] == 'northwest':
+			return 640.8061842726785
+		elif tree_dict['region'] == 'southeast':
+			return -876.7891869410179
 		elif tree_dict['region'] == 'southwest':
-			return -279.45904156785474
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 1067.6349403210747
+			return 99.32601035909344
 		elif tree_dict['region'] == 'northeast':
-			return -232.87805022976622
-		elif tree_dict['region'] == 'northwest':
-			return 1288.1210013346638
-		elif tree_dict['region'] == 'southwest':
-			return -619.6460809396195
+			return 712.4711249981574
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 1586.2393431577996
-		elif tree_dict['age'] == '26-41':
-			return 995.424873188769
+			return 7884.087296401089
 		elif tree_dict['age'] == '41-56':
-			return -1471.2041058842517
+			return -1537.6870874301098
 		elif tree_dict['age'] == '18-26':
-			return -94.90033846707283
+			return -97.59481519673182
+		elif tree_dict['age'] == '26-41':
+			return 561.855000951652
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -750.0049617103765
-		elif tree_dict['sex'] == 'female':
-			return 867.8378829152031
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 567.3302453958878
+		elif tree_dict['region'] == 'southwest':
+			return -354.9610710545426
+		elif tree_dict['region'] == 'northeast':
+			return -660.7521154730007
 
 def tree_41(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 201.80962946737688
-		elif tree_dict['age'] == '26-41':
-			return -567.1484224507799
+			return 664.4605256862858
 		elif tree_dict['age'] == '41-56':
-			return 333.68708238648776
+			return 618.7516947374169
 		elif tree_dict['age'] == '18-26':
-			return -288.91331845906984
+			return -148.15623343410522
+		elif tree_dict['age'] == '26-41':
+			return -343.87197504879276
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 597.1244754195969
-		elif tree_dict['bmi'] == '30 - 35':
-			return -303.4095985775966
+		if tree_dict['bmi'] == '30 - 35':
+			return -223.14677009881882
 		elif tree_dict['bmi'] == '25 - 30':
-			return -185.68443126980046
+			return -252.48692982926434
+		elif tree_dict['bmi'] == '35 - 40':
+			return 698.9178874572766
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -51.15489151086604
+			return 130.9319013986815
 		elif tree_dict['bmi'] == '40 - 54':
-			return 595.0451145283396
+			return 522.9259440277164
 		elif tree_dict['bmi'] == '< 18.5':
-			return -658.5388023663754
+			return -771.963313425555
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 214.84329104898768
+		elif tree_dict['age'] == '41-56':
+			return 223.88399415754353
+		elif tree_dict['age'] == '18-26':
+			return -318.6170590904668
+		elif tree_dict['age'] == '26-41':
+			return -311.41379221666216
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -603.1874408942202
-		elif tree_dict['region'] == 'northeast':
-			return 605.0552982475871
-		elif tree_dict['region'] == 'northwest':
-			return 343.3137780025456
+		if tree_dict['region'] == 'northwest':
+			return 576.7255658454106
+		elif tree_dict['region'] == 'southeast':
+			return -789.1102682469159
 		elif tree_dict['region'] == 'southwest':
-			return -251.51313741106947
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 960.8714462889671
+			return 89.39340932318484
 		elif tree_dict['region'] == 'northeast':
-			return -209.59024520678923
-		elif tree_dict['region'] == 'northwest':
-			return 1159.3089012011974
-		elif tree_dict['region'] == 'southwest':
-			return -557.6814728456576
+			return 641.2240124983413
 	elif tree_dict['children'] == 4:
-		if tree_dict['bmi'] == '35 - 40':
-			return 3681.6906807232854
-		elif tree_dict['bmi'] == '30 - 35':
-			return 2286.7379301476894
-		elif tree_dict['bmi'] == '25 - 30':
-			return -1701.772998482112
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return -355.4145454313584
-		elif tree_dict['bmi'] == '40 - 54':
-			return -1217.277725137401
-		elif tree_dict['bmi'] == '< 18.5':
-			return 0
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 473.5537227190065
-		elif tree_dict['region'] == 'northeast':
-			return -477.5429243856027
-		elif tree_dict['region'] == 'northwest':
-			return 1597.6450645035757
+		if tree_dict['region'] == 'northwest':
+			return -693.8795768062955
+		elif tree_dict['region'] == 'southeast':
+			return -947.3544167766445
 		elif tree_dict['region'] == 'southwest':
-			return -642.8728989937683
+			return -1315.363878327472
+		elif tree_dict['region'] == 'northeast':
+			return 4578.670295292513
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 251.76948896181602
+		elif tree_dict['bmi'] == '25 - 30':
+			return 88.96137935436923
+		elif tree_dict['bmi'] == '35 - 40':
+			return -69.08848829677572
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -478.44367544639704
+		elif tree_dict['bmi'] == '40 - 54':
+			return 327.27193494560925
+		elif tree_dict['bmi'] == '< 18.5':
+			return -716.0943473799125
 
 def tree_42(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 181.62866652063954
-		elif tree_dict['age'] == '26-41':
-			return -510.43358020570196
+			return 598.0144731176573
 		elif tree_dict['age'] == '41-56':
-			return 300.31837414783854
+			return 556.8765252636747
 		elif tree_dict['age'] == '18-26':
-			return -260.0219866131626
+			return -133.3406100906946
+		elif tree_dict['age'] == '26-41':
+			return -309.484777543913
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 537.4120278776363
-		elif tree_dict['bmi'] == '30 - 35':
-			return -273.0686387198372
+		if tree_dict['bmi'] == '30 - 35':
+			return -200.83209308893694
 		elif tree_dict['bmi'] == '25 - 30':
-			return -167.1159881428204
+			return -227.23823684633822
+		elif tree_dict['bmi'] == '35 - 40':
+			return 629.0260987115488
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -46.03940235977939
+			return 117.83871125881308
 		elif tree_dict['bmi'] == '40 - 54':
-			return 535.5406030755055
+			return 470.6333496249435
 		elif tree_dict['bmi'] == '< 18.5':
-			return -592.684922129738
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -542.8686968047978
-		elif tree_dict['region'] == 'northeast':
-			return 544.5497684228283
-		elif tree_dict['region'] == 'northwest':
-			return 308.982400202291
-		elif tree_dict['region'] == 'southwest':
-			return -226.3618236699621
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 864.7843016600706
-		elif tree_dict['region'] == 'northeast':
-			return -188.6312206861106
-		elif tree_dict['region'] == 'northwest':
-			return 1043.3780110810774
-		elif tree_dict['region'] == 'southwest':
-			return -501.913325561092
-	elif tree_dict['children'] == 4:
+			return -694.7669820829996
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 1331.891980114912
-		elif tree_dict['age'] == '26-41':
-			return 948.9100031201635
+			return 193.35896194408937
 		elif tree_dict['age'] == '41-56':
-			return -1340.6202010181266
+			return 201.49559474178886
 		elif tree_dict['age'] == '18-26':
-			return -154.54366048994234
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 426.1983504471058
-		elif tree_dict['region'] == 'northeast':
-			return -429.78863194704235
-		elif tree_dict['region'] == 'northwest':
-			return 1437.880558053218
+			return -286.7553531814202
+		elif tree_dict['age'] == '26-41':
+			return -280.27241299499633
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 519.0530092608698
+		elif tree_dict['region'] == 'southeast':
+			return -710.1992414222236
 		elif tree_dict['region'] == 'southwest':
-			return -578.5856090943917
+			return 80.45406839086671
+		elif tree_dict['region'] == 'northeast':
+			return 577.1016112485073
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1925.4474576549196
+		elif tree_dict['bmi'] == '25 - 30':
+			return -1052.5333851362234
+		elif tree_dict['bmi'] == '35 - 40':
+			return 5333.392967946209
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -384.98078252537925
+		elif tree_dict['bmi'] == '40 - 54':
+			return -1029.5425151469262
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 511.2158051674517
+		elif tree_dict['region'] == 'southwest':
+			return -307.151138899672
+		elif tree_dict['region'] == 'northeast':
+			return -611.7134473415099
 
 def tree_43(tree_dict):
-	if tree_dict['children'] == 0:
-		if tree_dict['age'] == '56-64':
-			return 163.4657998685752
-		elif tree_dict['age'] == '26-41':
-			return -459.3902221851315
-		elif tree_dict['age'] == '41-56':
-			return 270.28653673305433
-		elif tree_dict['age'] == '18-26':
-			return -234.01978795184627
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 709.9878275696313
+		elif tree_dict['region'] == 'southeast':
+			return 516.0865955990552
+		elif tree_dict['region'] == 'southwest':
+			return -637.0283470246565
+		elif tree_dict['region'] == 'northeast':
+			return -272.0117895939031
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 483.6708250898724
-		elif tree_dict['bmi'] == '30 - 35':
-			return -245.76177484785364
+		if tree_dict['bmi'] == '30 - 35':
+			return -180.74888378004368
 		elif tree_dict['bmi'] == '25 - 30':
-			return -150.40438932853843
+			return -204.51441316170423
+		elif tree_dict['bmi'] == '35 - 40':
+			return 566.1234888403941
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -41.43546212380115
+			return 106.0548401329321
 		elif tree_dict['bmi'] == '40 - 54':
-			return 481.9865427679554
+			return 423.57001466245015
 		elif tree_dict['bmi'] == '< 18.5':
-			return -533.4164299167642
+			return -625.2902838746994
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 174.02306574968054
+		elif tree_dict['age'] == '41-56':
+			return 181.34603526760975
+		elif tree_dict['age'] == '18-26':
+			return -258.07981786327804
+		elif tree_dict['age'] == '26-41':
+			return -252.2451716954968
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -488.58182712431784
-		elif tree_dict['region'] == 'northeast':
-			return 490.09479158054586
-		elif tree_dict['region'] == 'northwest':
-			return 278.08416018206157
+		if tree_dict['region'] == 'northwest':
+			return 467.1477083347824
+		elif tree_dict['region'] == 'southeast':
+			return -639.1793172800014
 		elif tree_dict['region'] == 'southwest':
-			return -203.72564130296644
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 778.3058714940638
+			return 72.40866155177963
 		elif tree_dict['region'] == 'northeast':
-			return -169.7680986174999
-		elif tree_dict['region'] == 'northwest':
-			return 939.0402099729696
-		elif tree_dict['region'] == 'southwest':
-			return -451.72199300498266
+			return 519.3914501236565
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 1198.7027821034196
-		elif tree_dict['age'] == '26-41':
-			return 854.0190028081468
+			return 6997.869262673154
 		elif tree_dict['age'] == '41-56':
-			return -1206.5581809163148
+			return -1371.059200812603
 		elif tree_dict['age'] == '18-26':
-			return -139.08929444094792
+			return -461.94587336834275
+		elif tree_dict['age'] == '26-41':
+			return 496.44290157857336
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -626.9272149844525
-		elif tree_dict['sex'] == 'female':
-			return 726.1896808590359
+		if tree_dict['bmi'] == '30 - 35':
+			return 224.00336446329152
+		elif tree_dict['bmi'] == '25 - 30':
+			return 97.93523941826788
+		elif tree_dict['bmi'] == '35 - 40':
+			return -31.4645255771311
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -440.8025412151462
+		elif tree_dict['bmi'] == '40 - 54':
+			return 284.34150813765973
+		elif tree_dict['bmi'] == '< 18.5':
+			return -613.7697987519532
 
 def tree_44(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 147.11921988171795
-		elif tree_dict['age'] == '26-41':
-			return -413.45119996661884
+			return 516.9427026434679
 		elif tree_dict['age'] == '41-56':
-			return 243.25788305974902
+			return 483.2719040764589
 		elif tree_dict['age'] == '18-26':
-			return -210.61780915666174
+			return -121.9373205537969
+		elif tree_dict['age'] == '26-41':
+			return -290.4328527115992
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 435.30374258088546
-		elif tree_dict['bmi'] == '30 - 35':
-			return -221.1855973630685
+		if tree_dict['bmi'] == '30 - 35':
+			return -162.6739954020393
 		elif tree_dict['bmi'] == '25 - 30':
-			return -135.36395039568418
+			return -184.0629718455337
+		elif tree_dict['bmi'] == '35 - 40':
+			return 509.51113995635507
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -37.29191591142062
+			return 95.44935611963922
 		elif tree_dict['bmi'] == '40 - 54':
-			return 433.78788849115944
+			return 381.21301319620454
 		elif tree_dict['bmi'] == '< 18.5':
-			return -480.07478692508766
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -439.72364441188654
-		elif tree_dict['region'] == 'northeast':
-			return 441.0853124224909
-		elif tree_dict['region'] == 'northwest':
-			return 250.27574416385536
-		elif tree_dict['region'] == 'southwest':
-			return -183.35307717266994
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 700.4752843446569
-		elif tree_dict['region'] == 'northeast':
-			return -152.79128875575026
-		elif tree_dict['region'] == 'northwest':
-			return 845.1361889756732
-		elif tree_dict['region'] == 'southwest':
-			return -406.54979370448484
-	elif tree_dict['children'] == 4:
+			return -562.7612554872293
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 1078.8325038930768
-		elif tree_dict['age'] == '26-41':
-			return 768.6171025273322
+			return 156.62075917471242
 		elif tree_dict['age'] == '41-56':
-			return -1085.902362824684
+			return 163.21143174084816
 		elif tree_dict['age'] == '18-26':
-			return -125.18036499685331
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 365.08422315023125
-		elif tree_dict['region'] == 'northeast':
-			return -324.1170472538931
-		elif tree_dict['region'] == 'northwest':
-			return 1221.4735341619926
+			return -232.27183607695042
+		elif tree_dict['age'] == '26-41':
+			return -227.0206545259475
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 420.43293750130437
+		elif tree_dict['region'] == 'southeast':
+			return -575.2613855520016
 		elif tree_dict['region'] == 'southwest':
-			return -525.690171478682
+			return 65.16779539660227
+		elif tree_dict['region'] == 'northeast':
+			return 467.4523051112906
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -467.40054636382655
+		elif tree_dict['region'] == 'southeast':
+			return -1038.3721277264158
+		elif tree_dict['region'] == 'southwest':
+			return -1196.3594351921445
+		elif tree_dict['region'] == 'northeast':
+			return 4012.9619061556405
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 201.60302801696253
+		elif tree_dict['bmi'] == '25 - 30':
+			return 88.1417154764406
+		elif tree_dict['bmi'] == '35 - 40':
+			return -28.31807301941808
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -396.72228709363185
+		elif tree_dict['bmi'] == '40 - 54':
+			return 255.90735732389385
+		elif tree_dict['bmi'] == '< 18.5':
+			return -552.3928188767568
 
 def tree_45(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 132.40729789354643
-		elif tree_dict['age'] == '26-41':
-			return -372.10607996995725
+			return 465.248432379121
 		elif tree_dict['age'] == '41-56':
-			return 218.93209475377444
+			return 434.9447136688125
 		elif tree_dict['age'] == '18-26':
-			return -189.55602824099554
+			return -109.74358849841758
+		elif tree_dict['age'] == '26-41':
+			return -261.38956744043907
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 391.77336832279707
-		elif tree_dict['bmi'] == '30 - 35':
-			return -199.06703762676145
+		if tree_dict['bmi'] == '30 - 35':
+			return -146.40659586183492
 		elif tree_dict['bmi'] == '25 - 30':
-			return -121.82755535611582
+			return -165.65667466098023
+		elif tree_dict['bmi'] == '35 - 40':
+			return 458.5600259607191
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -33.562724320278676
+			return 85.9044205076749
 		elif tree_dict['bmi'] == '40 - 54':
-			return 390.40909964204434
+			return 343.0917118765848
 		elif tree_dict['bmi'] == '< 18.5':
-			return -432.06730823257885
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -395.75127997069853
-		elif tree_dict['region'] == 'northeast':
-			return 396.97678118024186
-		elif tree_dict['region'] == 'northwest':
-			return 225.24816974746935
-		elif tree_dict['region'] == 'southwest':
-			return -165.01776945540317
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 630.427755910191
-		elif tree_dict['region'] == 'northeast':
-			return -137.5121598801751
-		elif tree_dict['region'] == 'northwest':
-			return 760.6225700781066
-		elif tree_dict['region'] == 'southwest':
-			return -365.894814334036
-	elif tree_dict['children'] == 4:
+			return -506.48512993850625
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 970.9492535037704
-		elif tree_dict['age'] == '26-41':
-			return 691.755392274599
+			return 140.95868325724123
 		elif tree_dict['age'] == '41-56':
-			return -977.3121265422147
+			return 146.89028856676256
 		elif tree_dict['age'] == '18-26':
-			return -112.66232849716835
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 328.57580083520827
-		elif tree_dict['region'] == 'northeast':
-			return -291.70534252850365
-		elif tree_dict['region'] == 'northwest':
-			return 1099.326180745793
+			return -209.04465246925488
+		elif tree_dict['age'] == '26-41':
+			return -204.31858907335302
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 378.38964375117433
+		elif tree_dict['region'] == 'southeast':
+			return -517.7352469968012
 		elif tree_dict['region'] == 'southwest':
-			return -473.1211543308136
+			return 58.651015856941335
+		elif tree_dict['region'] == 'northeast':
+			return 420.7070746001615
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1638.045511949008
+		elif tree_dict['bmi'] == '25 - 30':
+			return -995.2644779687234
+		elif tree_dict['bmi'] == '35 - 40':
+			return 4349.113190378168
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -162.63672955519905
+		elif tree_dict['bmi'] == '40 - 54':
+			return -714.1937098464614
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 461.71940883905336
+		elif tree_dict['region'] == 'southwest':
+			return -256.8987036958097
+		elif tree_dict['region'] == 'northeast':
+			return -581.1262699761073
 
 def tree_46(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 119.16656810419155
-		elif tree_dict['age'] == '26-41':
-			return -334.8954719729616
+			return 418.72358914120935
 		elif tree_dict['age'] == '41-56':
-			return 197.03888527839663
+			return 391.45024230193144
 		elif tree_dict['age'] == '18-26':
-			return -170.6004254168962
+			return -98.76922964857647
+		elif tree_dict['age'] == '26-41':
+			return -235.25061069639517
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 352.5960314905168
-		elif tree_dict['bmi'] == '30 - 35':
-			return -179.16033386408583
+		if tree_dict['bmi'] == '30 - 35':
+			return -131.76593627565148
 		elif tree_dict['bmi'] == '25 - 30':
-			return -109.64479982050435
+			return -149.09100719488222
+		elif tree_dict['bmi'] == '35 - 40':
+			return 412.70402336464736
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -30.206451888250875
+			return 77.31397845690722
 		elif tree_dict['bmi'] == '40 - 54':
-			return 351.3681896778397
+			return 308.7825406889267
 		elif tree_dict['bmi'] == '< 18.5':
-			return -388.86057740932074
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -356.17615197362824
-		elif tree_dict['region'] == 'northeast':
-			return 357.27910306221776
-		elif tree_dict['region'] == 'northwest':
-			return 202.72335277272265
-		elif tree_dict['region'] == 'southwest':
-			return -148.51599250986303
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 567.3849803191719
-		elif tree_dict['region'] == 'northeast':
-			return -123.7609438921576
-		elif tree_dict['region'] == 'northwest':
-			return 684.5603130702955
-		elif tree_dict['region'] == 'southwest':
-			return -329.30533290063227
-	elif tree_dict['children'] == 4:
+			return -455.8366169446556
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 873.8543281533917
-		elif tree_dict['age'] == '26-41':
-			return 622.57985304714
+			return 126.86281493151633
 		elif tree_dict['age'] == '41-56':
-			return -879.5809138879928
+			return 132.20125971008667
 		elif tree_dict['age'] == '18-26':
-			return -101.39609564745115
+			return -188.14018722232973
+		elif tree_dict['age'] == '26-41':
+			return -183.88673016601754
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 340.55067937605673
+		elif tree_dict['region'] == 'southeast':
+			return -465.9617222971208
+		elif tree_dict['region'] == 'southwest':
+			return 52.785914271246696
+		elif tree_dict['region'] == 'northeast':
+			return 378.63636714014547
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1474.240960754107
+		elif tree_dict['bmi'] == '25 - 30':
+			return -895.7380301718508
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3914.2018713403504
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -146.37305659967933
+		elif tree_dict['bmi'] == '40 - 54':
+			return -642.7743388618155
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -529.1234967289313
-		elif tree_dict['sex'] == 'female':
-			return 613.5014271857139
+		if tree_dict['bmi'] == '30 - 35':
+			return 179.30737911511142
+		elif tree_dict['bmi'] == '25 - 30':
+			return 95.15765064201241
+		elif tree_dict['bmi'] == '35 - 40':
+			return 0.20360465210433176
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -367.29109364143073
+		elif tree_dict['bmi'] == '40 - 54':
+			return 220.07558633434246
+		elif tree_dict['bmi'] == '< 18.5':
+			return -471.46366661950015
 
 def tree_47(tree_dict):
-	if tree_dict['children'] == 0:
-		if tree_dict['age'] == '56-64':
-			return 107.24991129377233
-		elif tree_dict['age'] == '26-41':
-			return -301.4059247756652
-		elif tree_dict['age'] == '41-56':
-			return 177.33499675055705
-		elif tree_dict['age'] == '18-26':
-			return -153.54038287520632
+	if tree_dict['children'] == 3:
+		if tree_dict['region'] == 'northwest':
+			return 598.5070030657421
+		elif tree_dict['region'] == 'southeast':
+			return 417.02135802399374
+		elif tree_dict['region'] == 'southwest':
+			return -607.9780639590894
+		elif tree_dict['region'] == 'northeast':
+			return -255.97607169535695
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 317.3364283414643
-		elif tree_dict['bmi'] == '30 - 35':
-			return -161.24430047767763
+		if tree_dict['bmi'] == '30 - 35':
+			return -118.5893426480864
 		elif tree_dict['bmi'] == '25 - 30':
-			return -98.6803198384541
+			return -134.18190647539433
+		elif tree_dict['bmi'] == '35 - 40':
+			return 371.4336210281833
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -27.185806699425665
+			return 69.58258061121643
 		elif tree_dict['bmi'] == '40 - 54':
-			return 316.2313707100565
+			return 277.90428662003364
 		elif tree_dict['bmi'] == '< 18.5':
-			return -349.97451966838844
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -320.55853677626504
-		elif tree_dict['region'] == 'northeast':
-			return 321.55119275599634
-		elif tree_dict['region'] == 'northwest':
-			return 182.4510174954505
-		elif tree_dict['region'] == 'southwest':
-			return -133.6643932588772
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 510.64648228725474
-		elif tree_dict['region'] == 'northeast':
-			return -111.38484950294145
-		elif tree_dict['region'] == 'northwest':
-			return 616.1042817632659
-		elif tree_dict['region'] == 'southwest':
-			return -296.3747996105689
-	elif tree_dict['children'] == 4:
+			return -410.25295525019
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 786.4688953380524
-		elif tree_dict['age'] == '26-41':
-			return 560.3218677424263
+			return 114.17653343836442
 		elif tree_dict['age'] == '41-56':
-			return -791.6228224991943
+			return 118.98113373907786
 		elif tree_dict['age'] == '18-26':
-			return -91.25648608270603
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 280.0730749897024
-		elif tree_dict['region'] == 'northeast':
-			return -209.62245860275956
-		elif tree_dict['region'] == 'northwest':
-			return 928.0434199526426
+			return -169.32616850009694
+		elif tree_dict['age'] == '26-41':
+			return -165.49805714941562
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 306.49561143845125
+		elif tree_dict['region'] == 'southeast':
+			return -419.365550067408
 		elif tree_dict['region'] == 'southwest':
-			return -430.0279354205711
+			return 47.50732284412269
+		elif tree_dict['region'] == 'northeast':
+			return 340.772730426131
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -302.094480293986
+		elif tree_dict['region'] == 'southeast':
+			return -1008.9499746677093
+		elif tree_dict['region'] == 'southwest':
+			return -1054.3995402203284
+		elif tree_dict['region'] == 'northeast':
+			return 3421.825802586565
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 416.55970448975285
+		elif tree_dict['region'] == 'southwest':
+			return -223.50703354476934
+		elif tree_dict['region'] == 'northeast':
+			return -536.7368944663531
 
 def tree_48(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 96.52492016439575
-		elif tree_dict['age'] == '26-41':
-			return -271.26533229809854
+			return 361.3151089865547
 		elif tree_dict['age'] == '41-56':
-			return 159.6014970755009
+			return 339.80051534102313
 		elif tree_dict['age'] == '18-26':
-			return -138.18634458768537
+			return -87.40970121371748
+		elif tree_dict['age'] == '26-41':
+			return -219.1398483966598
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 285.60278550731863
-		elif tree_dict['bmi'] == '30 - 35':
-			return -145.11987042990933
+		if tree_dict['bmi'] == '30 - 35':
+			return -106.73040838327752
 		elif tree_dict['bmi'] == '25 - 30':
-			return -88.81228785460851
+			return -120.76371582785525
+		elif tree_dict['bmi'] == '35 - 40':
+			return 334.2902589253643
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -24.467226029483708
+			return 62.62432255009454
 		elif tree_dict['bmi'] == '40 - 54':
-			return 284.6082336390503
+			return 250.11385795803037
 		elif tree_dict['bmi'] == '< 18.5':
-			return -314.97706770154946
+			return -369.22765972517107
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 102.7588800945277
+		elif tree_dict['age'] == '41-56':
+			return 107.08302036517075
+		elif tree_dict['age'] == '18-26':
+			return -152.39355165008703
+		elif tree_dict['age'] == '26-41':
+			return -148.94825143447454
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -288.50268309863804
-		elif tree_dict['region'] == 'northeast':
-			return 289.396073480397
-		elif tree_dict['region'] == 'northwest':
-			return 164.20591574590512
+		if tree_dict['region'] == 'northwest':
+			return 275.84605029460573
+		elif tree_dict['region'] == 'southeast':
+			return -377.4289950606677
 		elif tree_dict['region'] == 'southwest':
-			return -120.29795393298942
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 459.5818340585292
+			return 42.75659055971094
 		elif tree_dict['region'] == 'northeast':
-			return -100.24636455264766
-		elif tree_dict['region'] == 'northwest':
-			return 554.4938535869393
-		elif tree_dict['region'] == 'southwest':
-			return -266.73731964951224
+			return 306.6954573835187
 	elif tree_dict['children'] == 4:
-		if tree_dict['bmi'] == '35 - 40':
-			return 3405.291281959394
-		elif tree_dict['bmi'] == '30 - 35':
-			return 1937.0124027103573
-		elif tree_dict['bmi'] == '25 - 30':
-			return -1703.4726931478838
-		elif tree_dict['bmi'] == '18.5 - 25':
-			return 308.28656988062903
-		elif tree_dict['bmi'] == '40 - 54':
-			return -467.3902918548083
-		elif tree_dict['bmi'] == '< 18.5':
-			return 0
+		if tree_dict['age'] == '56-64':
+			return 6191.585899374935
+		elif tree_dict['age'] == '41-56':
+			return -1229.8743739035654
+		elif tree_dict['age'] == '18-26':
+			return -996.353213619223
+		elif tree_dict['age'] == '26-41':
+			return 458.60364043396396
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 252.06576749073193
-		elif tree_dict['region'] == 'northeast':
-			return -188.66021274248365
-		elif tree_dict['region'] == 'northwest':
-			return 835.239077957378
-		elif tree_dict['region'] == 'southwest':
-			return -387.02514187851443
+		if tree_dict['bmi'] == '30 - 35':
+			return 159.55475417939124
+		elif tree_dict['bmi'] == '25 - 30':
+			return 99.82166700446464
+		elif tree_dict['bmi'] == '35 - 40':
+			return 22.533947541370253
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -340.21461782453684
+		elif tree_dict['bmi'] == '40 - 54':
+			return 188.41539415365833
+		elif tree_dict['bmi'] == '< 18.5':
+			return -401.9665966030734
 
 def tree_49(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 86.87242814795646
-		elif tree_dict['age'] == '26-41':
-			return -244.13879906828913
+			return 325.18359808790024
 		elif tree_dict['age'] == '41-56':
-			return 143.6413473679503
+			return 305.82046380692
 		elif tree_dict['age'] == '18-26':
-			return -124.36771012891697
+			return -78.66873109234592
+		elif tree_dict['age'] == '26-41':
+			return -197.22586355699357
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 257.042506956587
-		elif tree_dict['bmi'] == '30 - 35':
-			return -130.60788338691808
+		if tree_dict['bmi'] == '30 - 35':
+			return -96.05736754494933
 		elif tree_dict['bmi'] == '25 - 30':
-			return -79.93105906914747
+			return -108.68734424507004
+		elif tree_dict['bmi'] == '35 - 40':
+			return 300.8612330328276
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -22.020503426535424
+			return 56.36189029508518
 		elif tree_dict['bmi'] == '40 - 54':
-			return 256.14741027514486
+			return 225.10247216222763
 		elif tree_dict['bmi'] == '< 18.5':
-			return -283.4793609313947
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -259.65241478877454
-		elif tree_dict['region'] == 'northeast':
-			return 260.4564661323574
-		elif tree_dict['region'] == 'northwest':
-			return 147.7853241713147
-		elif tree_dict['region'] == 'southwest':
-			return -108.26815853969099
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 413.6236506526756
-		elif tree_dict['region'] == 'northeast':
-			return -90.22172809738277
-		elif tree_dict['region'] == 'northwest':
-			return 499.04446822824485
-		elif tree_dict['region'] == 'southwest':
-			return -240.0635876845612
-	elif tree_dict['children'] == 4:
+			return -332.3048937526539
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 635.470268728488
-		elif tree_dict['age'] == '26-41':
-			return 565.2713368959028
+			return 92.48299208507432
 		elif tree_dict['age'] == '41-56':
-			return -742.0647831892715
+			return 96.37471832865363
 		elif tree_dict['age'] == '18-26':
-			return -130.21267391114216
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 226.85919074165886
-		elif tree_dict['region'] == 'northeast':
-			return -169.79419146823543
-		elif tree_dict['region'] == 'northwest':
-			return 751.7151701616403
+			return -137.15419648507816
+		elif tree_dict['age'] == '26-41':
+			return -134.05342629102665
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 248.2614452651451
+		elif tree_dict['region'] == 'southeast':
+			return -339.68609555460057
 		elif tree_dict['region'] == 'southwest':
-			return -348.32262769066324
+			return 38.48093150373942
+		elif tree_dict['region'] == 'northeast':
+			return 276.02591164516645
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1272.3621544491486
+		elif tree_dict['bmi'] == '25 - 30':
+			return -847.3562283854694
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3134.738739904262
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 21.461134480043256
+		elif tree_dict['bmi'] == '40 - 54':
+			return -389.9572448371928
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 376.12177847631347
+		elif tree_dict['region'] == 'southwest':
+			return -194.7532251606823
+		elif tree_dict['region'] == 'northeast':
+			return -496.03202607891035
 
 def tree_50(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 78.18518533316016
-		elif tree_dict['age'] == '26-41':
-			return -219.72491916146015
+			return 292.66523827911055
 		elif tree_dict['age'] == '41-56':
-			return 129.2772126311546
+			return 275.2384174262285
 		elif tree_dict['age'] == '18-26':
-			return -111.93093911602519
+			return -70.80185798311157
+		elif tree_dict['age'] == '26-41':
+			return -177.50327720129428
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 231.33825626092886
-		elif tree_dict['bmi'] == '30 - 35':
-			return -117.5470950482266
+		if tree_dict['bmi'] == '30 - 35':
+			return -86.4516307904551
 		elif tree_dict['bmi'] == '25 - 30':
-			return -71.93795316223296
+			return -97.81860982056295
+		elif tree_dict['bmi'] == '35 - 40':
+			return 270.77510972954417
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -19.81845308388165
+			return 50.725701265576795
 		elif tree_dict['bmi'] == '40 - 54':
-			return 230.53266924763025
+			return 202.59222494600448
 		elif tree_dict['bmi'] == '< 18.5':
-			return -255.13142483825504
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -233.6871733098967
-		elif tree_dict['region'] == 'northeast':
-			return 234.41081951912133
-		elif tree_dict['region'] == 'northwest':
-			return 133.00679175418287
-		elif tree_dict['region'] == 'southwest':
-			return -97.44134268572141
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 372.2612855874082
-		elif tree_dict['region'] == 'northeast':
-			return -81.19955528764422
-		elif tree_dict['region'] == 'northwest':
-			return 449.1400214054209
-		elif tree_dict['region'] == 'southwest':
-			return -216.05722891610495
-	elif tree_dict['children'] == 4:
+			return -299.07440437738865
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 571.9232418556385
-		elif tree_dict['age'] == '26-41':
-			return 508.7442032063134
+			return 83.23469287656665
 		elif tree_dict['age'] == '41-56':
-			return -667.8583048703443
+			return 86.73724649578756
 		elif tree_dict['age'] == '18-26':
-			return -117.19140652002716
+			return -123.43877683657054
+		elif tree_dict['age'] == '26-41':
+			return -120.64808366192409
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 223.43530073863056
+		elif tree_dict['region'] == 'southeast':
+			return -305.717485999141
+		elif tree_dict['region'] == 'southwest':
+			return 34.632838353365656
+		elif tree_dict['region'] == 'northeast':
+			return 248.4233204806489
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -164.65178406072846
+		elif tree_dict['region'] == 'southeast':
+			return -1051.3392968999829
+		elif tree_dict['region'] == 'southwest':
+			return -952.6003065920058
+		elif tree_dict['region'] == 'northeast':
+			return 3044.5590190547177
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -440.2542051706704
-		elif tree_dict['sex'] == 'female':
-			return 511.1306118378349
+		if tree_dict['bmi'] == '30 - 35':
+			return 142.06282111862606
+		elif tree_dict['bmi'] == '25 - 30':
+			return 102.57491775211679
+		elif tree_dict['bmi'] == '35 - 40':
+			return 39.755875303301764
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -315.2615837078647
+		elif tree_dict['bmi'] == '40 - 54':
+			return 160.50542707251088
+		elif tree_dict['bmi'] == '< 18.5':
+			return -342.2946144266971
 
 def tree_51(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 70.36666679984367
-		elif tree_dict['age'] == '26-41':
-			return -197.7524272453141
+			return 263.39871445119957
 		elif tree_dict['age'] == '41-56':
-			return 116.34949136803982
+			return 247.71457568360591
 		elif tree_dict['age'] == '18-26':
-			return -100.73784520442318
+			return -63.72167218480075
+		elif tree_dict['age'] == '26-41':
+			return -159.7529494811647
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 208.2044306348356
-		elif tree_dict['bmi'] == '30 - 35':
-			return -105.79238554340388
+		if tree_dict['bmi'] == '30 - 35':
+			return -77.8064677114095
 		elif tree_dict['bmi'] == '25 - 30':
-			return -64.74415784600974
+			return -88.03674883850634
+		elif tree_dict['bmi'] == '35 - 40':
+			return 243.6975987565904
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -17.836607775493167
+			return 45.653131139018974
 		elif tree_dict['bmi'] == '40 - 54':
-			return 207.47940232286732
+			return 182.3330024514043
 		elif tree_dict['bmi'] == '< 18.5':
-			return -229.61828235442954
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -210.31845597890717
-		elif tree_dict['region'] == 'northeast':
-			return 210.96973756720936
-		elif tree_dict['region'] == 'northwest':
-			return 119.70611257876479
-		elif tree_dict['region'] == 'southwest':
-			return -87.69720841714941
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 335.03515702866787
-		elif tree_dict['region'] == 'northeast':
-			return -73.0795997588794
-		elif tree_dict['region'] == 'northwest':
-			return 404.226019264879
-		elif tree_dict['region'] == 'southwest':
-			return -194.45150602449428
-	elif tree_dict['children'] == 4:
+			return -269.1669639396498
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 514.7309176700741
-		elif tree_dict['age'] == '26-41':
-			return 457.8697828856823
+			return 74.9112235889106
 		elif tree_dict['age'] == '41-56':
-			return -601.0724743833092
+			return 78.06352184620847
 		elif tree_dict['age'] == '18-26':
-			return -105.47226586802444
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 191.11560316404993
-		elif tree_dict['region'] == 'northeast':
-			return -108.78935180434503
-		elif tree_dict['region'] == 'northwest':
-			return 625.4305919616927
+			return -111.09489915291384
+		elif tree_dict['age'] == '26-41':
+			return -108.5832752957315
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 201.091770664767
+		elif tree_dict['region'] == 'southeast':
+			return -275.1457373992274
 		elif tree_dict['region'] == 'southwest':
-			return -317.0341852549552
+			return 31.169554518029326
+		elif tree_dict['region'] == 'northeast':
+			return 223.58098843258375
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1164.3923427628188
+		elif tree_dict['bmi'] == '25 - 30':
+			return -775.9046771816804
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2516.8089640083635
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 35.780199438111595
+		elif tree_dict['bmi'] == '40 - 54':
+			return -290.161966305438
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['sex'] == 'female':
+			return 371.6469195501773
+		elif tree_dict['sex'] == 'male':
+			return -315.46104163837987
 
 def tree_52(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 63.330000119859946
-		elif tree_dict['age'] == '26-41':
-			return -177.9771845207829
+			return 237.0588430060801
 		elif tree_dict['age'] == '41-56':
-			return 104.71454223123601
+			return 222.94311811524483
 		elif tree_dict['age'] == '18-26':
-			return -90.66406068398105
+			return -57.34950496632126
+		elif tree_dict['age'] == '26-41':
+			return -143.77765453304838
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 187.38398757135155
-		elif tree_dict['bmi'] == '30 - 35':
-			return -95.21314698906366
+		if tree_dict['bmi'] == '30 - 35':
+			return -70.02582094026825
 		elif tree_dict['bmi'] == '25 - 30':
-			return -58.26974206140857
+			return -79.23307395465565
+		elif tree_dict['bmi'] == '35 - 40':
+			return 219.32783888093044
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -16.05294699794363
+			return 41.087818025117315
 		elif tree_dict['bmi'] == '40 - 54':
-			return 186.731462090581
+			return 164.09970220626388
 		elif tree_dict['bmi'] == '< 18.5':
-			return -206.6564541189864
+			return -242.25026754568466
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 67.42010123001914
+		elif tree_dict['age'] == '41-56':
+			return 70.25716966158734
+		elif tree_dict['age'] == '18-26':
+			return -99.98540923762263
+		elif tree_dict['age'] == '26-41':
+			return -97.72494776615821
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -189.28661038101632
-		elif tree_dict['region'] == 'northeast':
-			return 189.87276381048824
-		elif tree_dict['region'] == 'northwest':
-			return 107.73550132088816
+		if tree_dict['region'] == 'northwest':
+			return 180.98259359829012
+		elif tree_dict['region'] == 'southeast':
+			return -247.63116365930486
 		elif tree_dict['region'] == 'southwest':
-			return -78.92748757543393
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 301.53164132580093
+			return 28.05259906622541
 		elif tree_dict['region'] == 'northeast':
-			return -65.77163978299183
-		elif tree_dict['region'] == 'northwest':
-			return 363.8034173383911
-		elif tree_dict['region'] == 'southwest':
-			return -175.00635542204512
+			return 201.22288958932512
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 463.2578259030682
-		elif tree_dict['age'] == '26-41':
-			return 412.0828045971141
+			return 5433.885789406242
 		elif tree_dict['age'] == '41-56':
-			return -540.9652269449783
+			return -1111.323183527588
 		elif tree_dict['age'] == '18-26':
-			return -94.92503928122278
+			return -1240.0543280862344
+		elif tree_dict['age'] == '26-41':
+			return 447.9032620978657
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 172.00404284764463
-		elif tree_dict['region'] == 'northeast':
-			return -97.91041662391035
-		elif tree_dict['region'] == 'northwest':
-			return 562.8875327655242
-		elif tree_dict['region'] == 'southwest':
-			return -285.3307667294598
+		if tree_dict['bmi'] == '30 - 35':
+			return 125.04724511117342
+		elif tree_dict['bmi'] == '25 - 30':
+			return 106.68583111102862
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.3844041820457278
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -269.36702020295434
+		elif tree_dict['bmi'] == '40 - 54':
+			return 141.64559046966951
+		elif tree_dict['bmi'] == '< 18.5':
+			return -345.2298449390473
 
 def tree_53(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 56.99700010787386
-		elif tree_dict['age'] == '26-41':
-			return -160.17946606870422
+			return 213.35295870547122
 		elif tree_dict['age'] == '41-56':
-			return 94.24308800811286
+			return 200.64880630372136
 		elif tree_dict['age'] == '18-26':
-			return -81.59765461558273
+			return -51.614554469688585
+		elif tree_dict['age'] == '26-41':
+			return -129.39988907974353
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 168.64558881421567
-		elif tree_dict['bmi'] == '30 - 35':
-			return -85.69183229015763
+		if tree_dict['bmi'] == '30 - 35':
+			return -63.02323884624133
 		elif tree_dict['bmi'] == '25 - 30':
-			return -52.44276785526782
+			return -71.30976655919054
+		elif tree_dict['bmi'] == '35 - 40':
+			return 197.39505499283777
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -14.447652298149023
+			return 36.97903622260566
 		elif tree_dict['bmi'] == '40 - 54':
-			return 168.0583158815223
+			return 147.68973198563674
 		elif tree_dict['bmi'] == '< 18.5':
-			return -185.99080870708758
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -170.35794934291434
-		elif tree_dict['region'] == 'northeast':
-			return 170.88548742943922
-		elif tree_dict['region'] == 'northwest':
-			return 96.96195118879957
-		elif tree_dict['region'] == 'southwest':
-			return -71.03473881789061
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 271.3784771932209
-		elif tree_dict['region'] == 'northeast':
-			return -59.194475804692956
-		elif tree_dict['region'] == 'northwest':
-			return 327.42307560455174
-		elif tree_dict['region'] == 'southwest':
-			return -157.50571987984043
-	elif tree_dict['children'] == 4:
+			return -218.0252407911163
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 416.9320433127626
-		elif tree_dict['age'] == '26-41':
-			return 370.87452413740243
+			return 60.67809110701733
 		elif tree_dict['age'] == '41-56':
-			return -486.868704250481
+			return 63.23145269542913
 		elif tree_dict['age'] == '18-26':
-			return -85.43253535310032
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 154.80363856288022
-		elif tree_dict['region'] == 'northeast':
-			return -88.1193749615195
-		elif tree_dict['region'] == 'northwest':
-			return 506.59877948897156
+			return -89.98686831386013
+		elif tree_dict['age'] == '26-41':
+			return -87.95245298954245
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 162.8843342384614
+		elif tree_dict['region'] == 'southeast':
+			return -222.86804729337413
 		elif tree_dict['region'] == 'southwest':
-			return -256.79769005651406
+			return 25.247339159603104
+		elif tree_dict['region'] == 'northeast':
+			return 181.1006006303932
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return -54.68562068777768
+		elif tree_dict['region'] == 'southeast':
+			return -1066.0336067582043
+		elif tree_dict['region'] == 'southwest':
+			return -863.229594328816
+		elif tree_dict['region'] == 'northeast':
+			return 2723.2575930245016
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 112.54252060005592
+		elif tree_dict['bmi'] == '25 - 30':
+			return 96.01724799992598
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.245963763841246
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -242.430318182659
+		elif tree_dict['bmi'] == '40 - 54':
+			return 127.48103142270247
+		elif tree_dict['bmi'] == '< 18.5':
+			return -310.7068604451415
 
 def tree_54(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 51.29730009708622
-		elif tree_dict['age'] == '26-41':
-			return -144.1615194618337
+			return 192.0176628349244
 		elif tree_dict['age'] == '41-56':
-			return 84.81877920730183
+			return 180.58392567334886
 		elif tree_dict['age'] == '18-26':
-			return -73.43788915402412
+			return -46.4530990227193
+		elif tree_dict['age'] == '26-41':
+			return -116.45990017176928
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 151.78102993279325
-		elif tree_dict['bmi'] == '30 - 35':
-			return -77.12264906114154
+		if tree_dict['bmi'] == '30 - 35':
+			return -56.72091496161765
 		elif tree_dict['bmi'] == '25 - 30':
-			return -47.198491069741166
+			return -64.17878990327128
+		elif tree_dict['bmi'] == '35 - 40':
+			return 177.65554949355496
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -13.002887068334076
+			return 33.2811326003451
 		elif tree_dict['bmi'] == '40 - 54':
-			return 151.25248429337066
+			return 132.92075878707294
 		elif tree_dict['bmi'] == '< 18.5':
-			return -167.39172783637878
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -153.32215440862257
-		elif tree_dict['region'] == 'northeast':
-			return 153.7969386864952
-		elif tree_dict['region'] == 'northwest':
-			return 87.26575606991979
-		elif tree_dict['region'] == 'southwest':
-			return -63.93126493610123
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 244.24062947389857
-		elif tree_dict['region'] == 'northeast':
-			return -53.27502822422369
-		elif tree_dict['region'] == 'northwest':
-			return 294.68076804409674
-		elif tree_dict['region'] == 'southwest':
-			return -141.75514789185615
-	elif tree_dict['children'] == 4:
+			return -196.22271671200474
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 375.23883898148534
-		elif tree_dict['age'] == '26-41':
-			return 333.7870717236626
+			return 54.61028199631539
 		elif tree_dict['age'] == '41-56':
-			return -438.18183382543276
+			return 56.90830742588601
 		elif tree_dict['age'] == '18-26':
-			return -76.8892818177901
+			return -80.98818148247423
+		elif tree_dict['age'] == '26-41':
+			return -79.1572076905881
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 146.59590081461516
+		elif tree_dict['region'] == 'southeast':
+			return -200.5812425640364
+		elif tree_dict['region'] == 'southwest':
+			return 22.722605243642647
+		elif tree_dict['region'] == 'northeast':
+			return 162.9905405673537
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1024.8513404334465
+		elif tree_dict['bmi'] == '25 - 30':
+			return -734.5251748690771
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1948.0119820952896
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 148.80305991583737
+		elif tree_dict['bmi'] == '40 - 54':
+			return -93.97748994983613
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
 	elif tree_dict['children'] == 5:
-		if tree_dict['sex'] == 'male':
-			return -373.84398258071724
-		elif tree_dict['sex'] == 'female':
-			return 434.5115260897501
+		if tree_dict['bmi'] == '30 - 35':
+			return 101.28826854005047
+		elif tree_dict['bmi'] == '25 - 30':
+			return 86.41552319993275
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.1213673874572123
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -218.18728636439323
+		elif tree_dict['bmi'] == '40 - 54':
+			return 114.73292828043213
+		elif tree_dict['bmi'] == '< 18.5':
+			return -279.6361744006281
 
 def tree_55(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 46.16757008737769
-		elif tree_dict['age'] == '26-41':
-			return -129.74536751565012
+			return 172.81589655143148
 		elif tree_dict['age'] == '41-56':
-			return 76.33690128657135
+			return 162.52553310601434
 		elif tree_dict['age'] == '18-26':
-			return -66.09410023862183
+			return -41.807789120447694
+		elif tree_dict['age'] == '26-41':
+			return -104.8139101545928
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 136.6029269395133
-		elif tree_dict['bmi'] == '30 - 35':
-			return -69.41038415502739
+		if tree_dict['bmi'] == '30 - 35':
+			return -51.04882346545557
 		elif tree_dict['bmi'] == '25 - 30':
-			return -42.47864196276673
+			return -57.760910912944034
+		elif tree_dict['bmi'] == '35 - 40':
+			return 159.8899945441989
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -11.702598361500531
+			return 29.953019340310675
 		elif tree_dict['bmi'] == '40 - 54':
-			return 136.12723586403385
+			return 119.62868290836523
 		elif tree_dict['bmi'] == '< 18.5':
-			return -150.6525550527408
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -137.98993896776096
-		elif tree_dict['region'] == 'northeast':
-			return 138.4172448178453
-		elif tree_dict['region'] == 'northwest':
-			return 78.53918046292769
-		elif tree_dict['region'] == 'southwest':
-			return -57.5381384424907
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 219.81656652650818
-		elif tree_dict['region'] == 'northeast':
-			return -47.94752540180124
-		elif tree_dict['region'] == 'northwest':
-			return 265.2126912396872
-		elif tree_dict['region'] == 'southwest':
-			return -127.57963310267077
-	elif tree_dict['children'] == 4:
+			return -176.60044504080417
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 337.71495508333584
-		elif tree_dict['age'] == '26-41':
-			return 300.40836455129715
+			return 49.149253796683546
 		elif tree_dict['age'] == '41-56':
-			return -394.36365044288897
+			return 51.2174766832965
 		elif tree_dict['age'] == '18-26':
-			return -69.2003536360111
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 128.2063424444359
-		elif tree_dict['region'] == 'northeast':
-			return -41.92303920729622
-		elif tree_dict['region'] == 'northwest':
-			return 412.4877489310984
+			return -72.88936333422677
+		elif tree_dict['age'] == '26-41':
+			return -71.24148692152941
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 131.93631073315396
+		elif tree_dict['region'] == 'southeast':
+			return -180.52311830763324
 		elif tree_dict['region'] == 'southwest':
-			return -234.1512982263148
+			return 20.450344719279382
+		elif tree_dict['region'] == 'northeast':
+			return 146.69148651061846
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 922.3662063901013
+		elif tree_dict['bmi'] == '25 - 30':
+			return -661.0726573821696
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1753.2107838857592
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 133.9227539242529
+		elif tree_dict['bmi'] == '40 - 54':
+			return -84.57974095485315
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['region'] == 'northwest':
+			return 0
+		elif tree_dict['region'] == 'southeast':
+			return 338.90951021421824
+		elif tree_dict['region'] == 'southwest':
+			return -159.04141031000393
+		elif tree_dict['region'] == 'northeast':
+			return -458.51443807882697
 
 def tree_56(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 41.55081307863975
-		elif tree_dict['age'] == '26-41':
-			return -116.77083076408518
+			return 155.53430689628817
 		elif tree_dict['age'] == '41-56':
-			return 68.70321115791405
+			return 146.27297979541254
 		elif tree_dict['age'] == '18-26':
-			return -59.484690214759766
+			return -37.627010208403306
+		elif tree_dict['age'] == '26-41':
+			return -94.33251913913357
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 122.94263424556128
-		elif tree_dict['bmi'] == '30 - 35':
-			return -62.469345739524066
+		if tree_dict['bmi'] == '30 - 35':
+			return -45.94394111890965
 		elif tree_dict['bmi'] == '25 - 30':
-			return -38.230777766489695
+			return -51.98481982164923
+		elif tree_dict['bmi'] == '35 - 40':
+			return 143.90099508977912
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -10.532338525350315
+			return 26.957717406279006
 		elif tree_dict['bmi'] == '40 - 54':
-			return 122.51451227763012
+			return 107.66581461752831
 		elif tree_dict['bmi'] == '< 18.5':
-			return -135.58729954746696
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -124.19094507098542
-		elif tree_dict['region'] == 'northeast':
-			return 124.57552033606096
-		elif tree_dict['region'] == 'northwest':
-			return 70.68526241663507
-		elif tree_dict['region'] == 'southwest':
-			return -51.78432459824228
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 197.83490987385738
-		elif tree_dict['region'] == 'northeast':
-			return -43.15277286162077
-		elif tree_dict['region'] == 'northwest':
-			return 238.69142211571778
-		elif tree_dict['region'] == 'southwest':
-			return -114.82166979240372
-	elif tree_dict['children'] == 4:
+			return -158.9404005367238
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 303.9434595750038
-		elif tree_dict['age'] == '26-41':
-			return 270.36752809616723
+			return 44.23432841701572
 		elif tree_dict['age'] == '41-56':
-			return -354.92728539860065
+			return 46.095729014966004
 		elif tree_dict['age'] == '18-26':
-			return -62.280318272409566
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 115.38570819999259
-		elif tree_dict['region'] == 'northeast':
-			return -37.730735286566414
-		elif tree_dict['region'] == 'northwest':
-			return 371.23897403798946
+			return -65.6004270008041
+		elif tree_dict['age'] == '26-41':
+			return -64.1173382293771
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 118.74267965983775
+		elif tree_dict['region'] == 'southeast':
+			return -162.4708064768702
 		elif tree_dict['region'] == 'southwest':
-			return -210.73616840368322
+			return 18.405310247351007
+		elif tree_dict['region'] == 'northeast':
+			return 132.0223378595563
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 830.1295857510913
+		elif tree_dict['bmi'] == '25 - 30':
+			return -594.9653916439522
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1577.8897054971821
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 120.53047853182761
+		elif tree_dict['bmi'] == '40 - 54':
+			return -76.12176685936811
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 89.65286238505564
+		elif tree_dict['bmi'] == '25 - 30':
+			return 88.71616459205416
+		elif tree_dict['bmi'] == '35 - 40':
+			return 14.8949103822888
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -205.36196272316488
+		elif tree_dict['bmi'] == '40 - 54':
+			return 94.26623045717861
+		elif tree_dict['bmi'] == '< 18.5':
+			return -235.76841592956407
 
 def tree_57(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 37.395731770775
-		elif tree_dict['age'] == '26-41':
-			return -105.09374768767663
+			return 139.98087620665956
 		elif tree_dict['age'] == '41-56':
-			return 61.832890042122315
+			return 131.64568181587163
 		elif tree_dict['age'] == '18-26':
-			return -53.53622119328394
+			return -33.86430918756315
+		elif tree_dict['age'] == '26-41':
+			return -84.89926722522016
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 110.64837082100557
-		elif tree_dict['bmi'] == '30 - 35':
-			return -56.222411165571735
+		if tree_dict['bmi'] == '30 - 35':
+			return -41.349547007018735
 		elif tree_dict['bmi'] == '25 - 30':
-			return -34.407699989840715
+			return -46.786337839484325
+		elif tree_dict['bmi'] == '35 - 40':
+			return 129.51089558080136
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -9.479104672815538
+			return 24.261945665651158
 		elif tree_dict['bmi'] == '40 - 54':
-			return 110.26306104986709
+			return 96.89923315577555
 		elif tree_dict['bmi'] == '< 18.5':
-			return -122.02856959272003
+			return -143.04636048305133
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 39.81089557531354
+		elif tree_dict['age'] == '41-56':
+			return 41.48615611346987
+		elif tree_dict['age'] == '18-26':
+			return -59.040384300723474
+		elif tree_dict['age'] == '26-41':
+			return -57.70560440643877
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -111.77185056388768
-		elif tree_dict['region'] == 'northeast':
-			return 112.11796830245493
-		elif tree_dict['region'] == 'northwest':
-			return 63.616736174971656
+		if tree_dict['region'] == 'northwest':
+			return 106.86841169385328
+		elif tree_dict['region'] == 'southeast':
+			return -146.22372582918376
 		elif tree_dict['region'] == 'southwest':
-			return -46.605892138417595
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 178.05141888647194
+			return 16.564779222616824
 		elif tree_dict['region'] == 'northeast':
-			return -38.83749557545862
-		elif tree_dict['region'] == 'northwest':
-			return 214.82227990414532
-		elif tree_dict['region'] == 'southwest':
-			return -103.33950281316373
+			return 118.8201040735998
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 273.54911361750175
-		elif tree_dict['age'] == '26-41':
-			return 243.33077528654962
+			return 4719.365857883975
 		elif tree_dict['age'] == '41-56':
-			return -319.4345568587399
+			return -1027.4969722965338
 		elif tree_dict['age'] == '18-26':
-			return -56.05228644516865
+			return -1476.6448078483913
+		elif tree_dict['age'] == '26-41':
+			return 468.3111022909084
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 103.84713737999337
-		elif tree_dict['region'] == 'northeast':
-			return -33.95766175790959
-		elif tree_dict['region'] == 'northwest':
-			return 334.1150766341907
-		elif tree_dict['region'] == 'southwest':
-			return -189.66255156331476
+		if tree_dict['sex'] == 'female':
+			return 334.51022013702186
+		elif tree_dict['sex'] == 'male':
+			return -274.2058944238423
 
 def tree_58(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 33.65615859369772
-		elif tree_dict['age'] == '26-41':
-			return -94.58437291890924
+			return 125.98278858599338
 		elif tree_dict['age'] == '41-56':
-			return 55.64960103791052
+			return 118.4811136342839
 		elif tree_dict['age'] == '18-26':
-			return -48.1825990739555
+			return -30.477878268806705
+		elif tree_dict['age'] == '26-41':
+			return -76.40934050269834
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 99.58353373890523
-		elif tree_dict['bmi'] == '30 - 35':
-			return -50.60017004901475
+		if tree_dict['bmi'] == '30 - 35':
+			return -37.21459230631673
 		elif tree_dict['bmi'] == '25 - 30':
-			return -30.966929990856933
+			return -42.10770405553648
+		elif tree_dict['bmi'] == '35 - 40':
+			return 116.55980602272066
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -8.531194205533803
+			return 21.835751099086195
 		elif tree_dict['bmi'] == '40 - 54':
-			return 99.23675494488104
+			return 87.2093098401984
 		elif tree_dict['bmi'] == '< 18.5':
-			return -109.82571263344789
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -100.59466550749855
-		elif tree_dict['region'] == 'northeast':
-			return 100.9061714722088
-		elif tree_dict['region'] == 'northwest':
-			return 57.255062557474695
-		elif tree_dict['region'] == 'southwest':
-			return -41.94530292457648
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 160.24627699782448
-		elif tree_dict['region'] == 'northeast':
-			return -34.9537460179128
-		elif tree_dict['region'] == 'northwest':
-			return 193.34005191373134
-		elif tree_dict['region'] == 'southwest':
-			return -93.00555253184757
-	elif tree_dict['children'] == 4:
+			return -128.7417244347464
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 246.1942022557499
-		elif tree_dict['age'] == '26-41':
-			return 218.99769775789423
+			return 35.82980601778174
 		elif tree_dict['age'] == '41-56':
-			return -287.49110117286574
+			return 37.33754050212227
 		elif tree_dict['age'] == '18-26':
-			return -50.44705780065251
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 93.46242364199406
-		elif tree_dict['region'] == 'northeast':
-			return -30.56189558211857
-		elif tree_dict['region'] == 'northwest':
-			return 300.7035689707718
+			return -53.13634587065086
+		elif tree_dict['age'] == '26-41':
+			return -51.935043965795025
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 96.18157052446827
+		elif tree_dict['region'] == 'southeast':
+			return -131.60135324626515
 		elif tree_dict['region'] == 'southwest':
-			return -170.6962964069835
+			return 14.908301300355703
+		elif tree_dict['region'] == 'northeast':
+			return 106.93809366623958
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return 65.0719004339838
+		elif tree_dict['region'] == 'southeast':
+			return -1109.2549266703832
+		elif tree_dict['region'] == 'southwest':
+			return -758.681633374708
+		elif tree_dict['region'] == 'northeast':
+			return 2388.2364942045674
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 77.67235986089077
+		elif tree_dict['bmi'] == '25 - 30':
+			return 92.04723471121156
+		elif tree_dict['bmi'] == '35 - 40':
+			return -20.045602669641994
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -172.62307987248573
+		elif tree_dict['bmi'] == '40 - 54':
+			return 81.82439112580187
+		elif tree_dict['bmi'] == '< 18.5':
+			return -245.64259635030976
 
 def tree_59(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 30.290542734328028
-		elif tree_dict['age'] == '26-41':
-			return -85.12593562701852
+			return 113.38450972739429
 		elif tree_dict['age'] == '41-56':
-			return 50.08464093411973
+			return 106.63300227085627
 		elif tree_dict['age'] == '18-26':
-			return -43.36433916655961
+			return -27.43009044192678
+		elif tree_dict['age'] == '26-41':
+			return -68.76840645242866
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 89.62518036501507
-		elif tree_dict['bmi'] == '30 - 35':
-			return -45.54015304411342
+		if tree_dict['bmi'] == '30 - 35':
+			return -33.493133075684554
 		elif tree_dict['bmi'] == '25 - 30':
-			return -27.870236991771094
+			return -37.89693364998276
+		elif tree_dict['bmi'] == '35 - 40':
+			return 104.9038254204487
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -7.6780747849803905
+			return 19.652175989177497
 		elif tree_dict['bmi'] == '40 - 54':
-			return 89.31307945039296
+			return 78.48837885617853
 		elif tree_dict['bmi'] == '< 18.5':
-			return -98.84314137010324
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -90.53519895674802
-		elif tree_dict['region'] == 'northeast':
-			return 90.81555432498776
-		elif tree_dict['region'] == 'northwest':
-			return 51.52955630172736
-		elif tree_dict['region'] == 'southwest':
-			return -37.7507726321187
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 144.22164929804157
-		elif tree_dict['region'] == 'northeast':
-			return -31.45837141612147
-		elif tree_dict['region'] == 'northwest':
-			return 174.00604672235778
-		elif tree_dict['region'] == 'southwest':
-			return -83.7049972786628
-	elif tree_dict['children'] == 4:
+			return -115.86755199127185
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 221.5747820301743
-		elif tree_dict['age'] == '26-41':
-			return 197.09792798210515
+			return 32.24682541600421
 		elif tree_dict['age'] == '41-56':
-			return -258.74199105557847
+			return 33.60378645191005
 		elif tree_dict['age'] == '18-26':
-			return -45.40235202058648
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 84.11618127779457
-		elif tree_dict['region'] == 'northeast':
-			return -27.50570602390629
-		elif tree_dict['region'] == 'northwest':
-			return 270.6332120736952
+			return -47.82271128358547
+		elif tree_dict['age'] == '26-41':
+			return -46.74153956921565
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 86.56341347202063
+		elif tree_dict['region'] == 'southeast':
+			return -118.44121792163796
 		elif tree_dict['region'] == 'southwest':
-			return -153.62666676628487
+			return 13.417471170319448
+		elif tree_dict['region'] == 'northeast':
+			return 96.24428429961621
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 749.9315522500647
+		elif tree_dict['bmi'] == '25 - 30':
+			return -572.3219046347281
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1134.4459752979164
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 204.7199378649002
+		elif tree_dict['bmi'] == '40 - 54':
+			return 86.44925836804214
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 69.90512387480157
+		elif tree_dict['bmi'] == '25 - 30':
+			return 82.84251124009074
+		elif tree_dict['bmi'] == '35 - 40':
+			return -18.041042402677704
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -155.36077188523745
+		elif tree_dict['bmi'] == '40 - 54':
+			return 73.64195201322127
+		elif tree_dict['bmi'] == '< 18.5':
+			return -221.07833671527987
 
 def tree_60(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 27.26148846089544
-		elif tree_dict['age'] == '26-41':
-			return -76.61334206431683
+			return 102.04605875465404
 		elif tree_dict['age'] == '41-56':
-			return 45.076176840706765
+			return 95.96970204377048
 		elif tree_dict['age'] == '18-26':
-			return -39.02790524990333
+			return -24.68708139773406
+		elif tree_dict['age'] == '26-41':
+			return -61.89156580718569
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 80.66266232851278
-		elif tree_dict['bmi'] == '30 - 35':
-			return -40.98613773970189
+		if tree_dict['bmi'] == '30 - 35':
+			return -30.143819768116444
 		elif tree_dict['bmi'] == '25 - 30':
-			return -25.083213292593918
+			return -34.10724028498447
+		elif tree_dict['bmi'] == '35 - 40':
+			return 94.41344287840352
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -6.910267306482547
+			return 17.686958390259836
 		elif tree_dict['bmi'] == '40 - 54':
-			return 80.38177150535492
+			return 70.63954097056019
 		elif tree_dict['bmi'] == '< 18.5':
-			return -88.95882723309296
+			return -104.28079679214466
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 29.02214287440372
+		elif tree_dict['age'] == '41-56':
+			return 30.243407806718814
+		elif tree_dict['age'] == '18-26':
+			return -43.04044015522694
+		elif tree_dict['age'] == '26-41':
+			return -42.06738561229465
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -81.48167906107386
-		elif tree_dict['region'] == 'northeast':
-			return 81.7339988924892
-		elif tree_dict['region'] == 'northwest':
-			return 46.376600671554506
+		if tree_dict['region'] == 'northwest':
+			return 77.90707212481911
+		elif tree_dict['region'] == 'southeast':
+			return -106.59709612947385
 		elif tree_dict['region'] == 'southwest':
-			return -33.975695368906564
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 129.79948436823767
+			return 12.075724053287093
 		elif tree_dict['region'] == 'northeast':
-			return -28.312534274509048
-		elif tree_dict['region'] == 'northwest':
-			return 156.60544205012258
-		elif tree_dict['region'] == 'southwest':
-			return -75.33449755079695
+			return 86.61985586965524
 	elif tree_dict['children'] == 4:
-		if tree_dict['age'] == '56-64':
-			return 199.4173038271559
-		elif tree_dict['age'] == '26-41':
-			return 177.38813518389475
-		elif tree_dict['age'] == '41-56':
-			return -232.86779195002086
-		elif tree_dict['age'] == '18-26':
-			return -40.862116818528555
-	elif tree_dict['children'] == 5:
-		if tree_dict['age'] == '56-64':
+		if tree_dict['bmi'] == '30 - 35':
+			return 674.9383970250581
+		elif tree_dict['bmi'] == '25 - 30':
+			return -515.0897141712544
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1021.0013777681233
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 184.24794407841
+		elif tree_dict['bmi'] == '40 - 54':
+			return 77.80433253123738
+		elif tree_dict['bmi'] == '< 18.5':
 			return 0
-		elif tree_dict['age'] == '26-41':
-			return 277.6579728128266
-		elif tree_dict['age'] == '41-56':
-			return -544.7458722582473
-		elif tree_dict['age'] == '18-26':
-			return 169.26898404975327
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 62.91461148732128
+		elif tree_dict['bmi'] == '25 - 30':
+			return 74.55826011608201
+		elif tree_dict['bmi'] == '35 - 40':
+			return -16.236938162410297
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -139.82469469671378
+		elif tree_dict['bmi'] == '40 - 54':
+			return 66.27775681189905
+		elif tree_dict['bmi'] == '< 18.5':
+			return -198.9705030437508
 
 def tree_61(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 24.53533961480577
-		elif tree_dict['age'] == '26-41':
-			return -68.9520078578853
+			return 91.84145287918886
 		elif tree_dict['age'] == '41-56':
-			return 40.56855915663615
+			return 86.37273183939313
 		elif tree_dict['age'] == '18-26':
-			return -35.12511472491306
+			return -22.218373257960764
+		elif tree_dict['age'] == '26-41':
+			return -55.70240922646743
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 72.59639609566125
-		elif tree_dict['bmi'] == '30 - 35':
-			return -36.887523965731944
+		if tree_dict['bmi'] == '30 - 35':
+			return -27.12943779130494
 		elif tree_dict['bmi'] == '25 - 30':
-			return -22.574891963334093
+			return -30.696516256485978
+		elif tree_dict['bmi'] == '35 - 40':
+			return 84.97209859056267
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -6.219240575834101
+			return 15.918262551233942
 		elif tree_dict['bmi'] == '40 - 54':
-			return 72.34359435481919
+			return 63.575586873503475
 		elif tree_dict['bmi'] == '< 18.5':
-			return -80.06294450978385
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -73.33351115496592
-		elif tree_dict['region'] == 'northeast':
-			return 73.56059900324024
-		elif tree_dict['region'] == 'northwest':
-			return 41.73894060439891
-		elif tree_dict['region'] == 'southwest':
-			return -30.57812583201557
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 116.81953593141387
-		elif tree_dict['region'] == 'northeast':
-			return -25.481280847058127
-		elif tree_dict['region'] == 'northwest':
-			return 140.94489784510944
-		elif tree_dict['region'] == 'southwest':
-			return -67.80104779571761
-	elif tree_dict['children'] == 4:
+			return -93.85271711293012
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 179.4755734444419
-		elif tree_dict['age'] == '26-41':
-			return 159.6493216655051
+			return 26.119928586963614
 		elif tree_dict['age'] == '41-56':
-			return -209.5810127550179
+			return 27.219067026047078
 		elif tree_dict['age'] == '18-26':
-			return -36.77590513667565
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 80.83491967157534
-		elif tree_dict['region'] == 'northeast':
-			return -21.494504908326842
-		elif tree_dict['region'] == 'northwest':
-			return 215.8040935850422
+			return -38.736396139704105
+		elif tree_dict['age'] == '26-41':
+			return -37.860647051065285
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 70.11636491233725
+		elif tree_dict['region'] == 'southeast':
+			return -95.93738651652616
 		elif tree_dict['region'] == 'southwest':
-			return -140.05025180600842
+			return 10.868151647958701
+		elif tree_dict['region'] == 'northeast':
+			return 77.95787028269037
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return 76.37104858936618
+		elif tree_dict['region'] == 'southeast':
+			return -1046.4939807694327
+		elif tree_dict['region'] == 'southwest':
+			return -657.8150270926739
+		elif tree_dict['region'] == 'northeast':
+			return 2114.2754931658806
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 56.623150338589085
+		elif tree_dict['bmi'] == '25 - 30':
+			return 67.10243410447379
+		elif tree_dict['bmi'] == '35 - 40':
+			return -14.613244346169267
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -125.84222522704226
+		elif tree_dict['bmi'] == '40 - 54':
+			return 59.649981130708966
+		elif tree_dict['bmi'] == '< 18.5':
+			return -179.07345273937608
 
 def tree_62(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 22.081805653324473
-		elif tree_dict['age'] == '26-41':
-			return -62.0568070720967
+			return 82.65730759127064
 		elif tree_dict['age'] == '41-56':
-			return 36.511703240972864
+			return 77.73545865545366
 		elif tree_dict['age'] == '18-26':
-			return -31.61260325242136
+			return -19.99653593216493
+		elif tree_dict['age'] == '26-41':
+			return -50.13216830382081
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 65.33675648609402
-		elif tree_dict['bmi'] == '30 - 35':
-			return -33.198771569159334
+		if tree_dict['bmi'] == '30 - 35':
+			return -24.41649401217456
 		elif tree_dict['bmi'] == '25 - 30':
-			return -20.317402767000644
+			return -27.626864630837023
+		elif tree_dict['bmi'] == '35 - 40':
+			return 76.47488873150556
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -5.597316518250727
+			return 14.326436296110316
 		elif tree_dict['bmi'] == '40 - 54':
-			return 65.10923491933757
+			return 57.21802818615344
 		elif tree_dict['bmi'] == '< 18.5':
-			return -72.05665005880564
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -66.00016003946867
-		elif tree_dict['region'] == 'northeast':
-			return 66.20453910291569
-		elif tree_dict['region'] == 'northwest':
-			return 37.56504654395907
-		elif tree_dict['region'] == 'southwest':
-			return -27.520313248813903
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 105.1375823382723
-		elif tree_dict['region'] == 'northeast':
-			return -22.93315276235203
-		elif tree_dict['region'] == 'northwest':
-			return 126.85040806059835
-		elif tree_dict['region'] == 'southwest':
-			return -61.020943016146
-	elif tree_dict['children'] == 4:
+			return -84.46744540163695
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 161.52801609999855
-		elif tree_dict['age'] == '26-41':
-			return 143.6843894989545
+			return 23.50793572826756
 		elif tree_dict['age'] == '41-56':
-			return -188.6229114795154
+			return 24.49716032344222
 		elif tree_dict['age'] == '18-26':
-			return -33.098314623008264
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 72.75142770441744
-		elif tree_dict['region'] == 'northeast':
-			return -19.345054417494186
-		elif tree_dict['region'] == 'northwest':
-			return 194.22368422653744
+			return -34.86275652573354
+		elif tree_dict['age'] == '26-41':
+			return -34.07458234595889
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 63.10472842110379
+		elif tree_dict['region'] == 'southeast':
+			return -86.34364786487363
 		elif tree_dict['region'] == 'southwest':
-			return -126.04522662540785
+			return 9.781336483163148
+		elif tree_dict['region'] == 'northeast':
+			return 70.16208325442052
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 633.3314077737193
+		elif tree_dict['bmi'] == '25 - 30':
+			return -471.42034207639085
+		elif tree_dict['bmi'] == '35 - 40':
+			return 707.4736906747239
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 158.1860448116313
+		elif tree_dict['bmi'] == '40 - 54':
+			return 118.53004588711701
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 50.96083530473015
+		elif tree_dict['bmi'] == '25 - 30':
+			return 60.39219069402657
+		elif tree_dict['bmi'] == '35 - 40':
+			return -13.151919911552795
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -113.25800270433797
+		elif tree_dict['bmi'] == '40 - 54':
+			return 53.68498301763793
+		elif tree_dict['bmi'] == '< 18.5':
+			return -161.16610746543665
 
 def tree_63(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 19.873625087991773
-		elif tree_dict['age'] == '26-41':
-			return -55.85112636488715
+			return 74.39157683214376
 		elif tree_dict['age'] == '41-56':
-			return 32.86053291687524
+			return 69.96191278990787
 		elif tree_dict['age'] == '18-26':
-			return -28.45134292717907
+			return -17.99688233894875
+		elif tree_dict['age'] == '26-41':
+			return -45.118951473438905
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 58.80308083748583
-		elif tree_dict['bmi'] == '30 - 35':
-			return -29.87889441224398
+		if tree_dict['bmi'] == '30 - 35':
+			return -21.97484461095733
 		elif tree_dict['bmi'] == '25 - 30':
-			return -18.285662490300464
+			return -24.864178167753128
+		elif tree_dict['bmi'] == '35 - 40':
+			return 68.82739985835462
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -5.037584866425595
+			return 12.89379266649937
 		elif tree_dict['bmi'] == '40 - 54':
-			return 58.59831142740253
+			return 51.49622536753745
 		elif tree_dict['bmi'] == '< 18.5':
-			return -64.8509850529249
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -59.40014403552152
-		elif tree_dict['region'] == 'northeast':
-			return 59.58408519262438
-		elif tree_dict['region'] == 'northwest':
-			return 33.80854188956333
-		elif tree_dict['region'] == 'southwest':
-			return -24.768281923932403
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 94.62382410444515
-		elif tree_dict['region'] == 'northeast':
-			return -20.63983748611725
-		elif tree_dict['region'] == 'northwest':
-			return 114.16536725453905
-		elif tree_dict['region'] == 'southwest':
-			return -54.91884871453168
-	elif tree_dict['children'] == 4:
+			return -76.0207008614733
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 145.37521449000027
-		elif tree_dict['age'] == '26-41':
-			return 129.3159505490587
+			return 21.1571421554409
 		elif tree_dict['age'] == '41-56':
-			return -169.760620331563
+			return 22.04744429109778
 		elif tree_dict['age'] == '18-26':
-			return -29.78848316070671
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 65.4762849339755
-		elif tree_dict['region'] == 'northeast':
-			return -17.41054897574486
-		elif tree_dict['region'] == 'northwest':
-			return 174.80131580388297
+			return -31.376480873159704
+		elif tree_dict['age'] == '26-41':
+			return -30.667124111363545
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 56.79425557899253
+		elif tree_dict['region'] == 'southeast':
+			return -77.70928307838703
 		elif tree_dict['region'] == 'southwest':
-			return -113.44070396286679
+			return 8.803202834847939
+		elif tree_dict['region'] == 'northeast':
+			return 63.14587492897839
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 569.9982669963474
+		elif tree_dict['bmi'] == '25 - 30':
+			return -424.27830786875097
+		elif tree_dict['bmi'] == '35 - 40':
+			return 636.7263216072497
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 142.36744033046853
+		elif tree_dict['bmi'] == '40 - 54':
+			return 106.67704129840604
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 45.86475177425723
+		elif tree_dict['bmi'] == '25 - 30':
+			return 54.35297162462439
+		elif tree_dict['bmi'] == '35 - 40':
+			return -11.836727920397607
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -101.93220243390397
+		elif tree_dict['bmi'] == '40 - 54':
+			return 48.316484715874594
+		elif tree_dict['bmi'] == '< 18.5':
+			return -145.04949671889335
 
 def tree_64(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 17.88626257919298
-		elif tree_dict['age'] == '26-41':
-			return -50.26601372839849
+			return 66.9524191489295
 		elif tree_dict['age'] == '41-56':
-			return 29.574479625187433
+			return 62.96572151091721
 		elif tree_dict['age'] == '18-26':
-			return -25.60620863446157
+			return -16.19719410505428
+		elif tree_dict['age'] == '26-41':
+			return -40.607056326094835
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 52.922772753738435
-		elif tree_dict['bmi'] == '30 - 35':
-			return -26.891004971019306
+		if tree_dict['bmi'] == '30 - 35':
+			return -19.777360149861448
 		elif tree_dict['bmi'] == '25 - 30':
-			return -16.457096241270133
+			return -22.377760350978264
+		elif tree_dict['bmi'] == '35 - 40':
+			return 61.94465987251981
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -4.5338263797828855
+			return 11.6044133998497
 		elif tree_dict['bmi'] == '40 - 54':
-			return 52.738480284662074
+			return 46.3466028307842
 		elif tree_dict['bmi'] == '< 18.5':
-			return -58.36588654763227
+			return -68.41863077532605
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 19.041427939896742
+		elif tree_dict['age'] == '41-56':
+			return 19.84269986198851
+		elif tree_dict['age'] == '18-26':
+			return -28.238832785843986
+		elif tree_dict['age'] == '26-41':
+			return -27.600411700227774
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -53.46012963196894
-		elif tree_dict['region'] == 'northeast':
-			return 53.62567667336242
-		elif tree_dict['region'] == 'northwest':
-			return 30.427687700606775
+		if tree_dict['region'] == 'northwest':
+			return 51.11483002109366
+		elif tree_dict['region'] == 'southeast':
+			return -69.93835477054887
 		elif tree_dict['region'] == 'southwest':
-			return -22.291453731539644
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 85.16144169400131
+			return 7.922882551363859
 		elif tree_dict['region'] == 'northeast':
-			return -18.575853737505735
-		elif tree_dict['region'] == 'northwest':
-			return 102.74883052908542
-		elif tree_dict['region'] == 'southwest':
-			return -49.42696384307856
+			return 56.831287436080885
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 130.83769304099891
-		elif tree_dict['age'] == '26-41':
-			return 116.38435549415249
+			return 4200.184200435044
 		elif tree_dict['age'] == '41-56':
-			return -152.78455829840672
+			return -991.2809629880601
 		elif tree_dict['age'] == '18-26':
-			return -26.809634844636093
+			return -1709.1384434646038
+		elif tree_dict['age'] == '26-41':
+			return 508.6543273715666
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 58.92865644057802
-		elif tree_dict['region'] == 'northeast':
-			return -15.669494078170525
-		elif tree_dict['region'] == 'northwest':
-			return 157.32118422349413
-		elif tree_dict['region'] == 'southwest':
-			return -102.09663356658007
+		if tree_dict['bmi'] == '30 - 35':
+			return 41.27827659683112
+		elif tree_dict['bmi'] == '25 - 30':
+			return 48.917674462161585
+		elif tree_dict['bmi'] == '35 - 40':
+			return -10.653055128357664
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -91.73898219051375
+		elif tree_dict['bmi'] == '40 - 54':
+			return 43.48483624428718
+		elif tree_dict['bmi'] == '< 18.5':
+			return -130.54454704700402
 
 def tree_65(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 16.09763632127345
-		elif tree_dict['age'] == '26-41':
-			return -45.23941235555884
+			return 60.25717723403591
 		elif tree_dict['age'] == '41-56':
-			return 26.61703166266895
+			return 56.66914935982539
 		elif tree_dict['age'] == '18-26':
-			return -23.045587771015096
+			return -14.57747469454938
+		elif tree_dict['age'] == '26-41':
+			return -36.54635069348516
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 47.6304954783648
-		elif tree_dict['bmi'] == '30 - 35':
-			return -24.201904473916883
+		if tree_dict['bmi'] == '30 - 35':
+			return -17.79962413487501
 		elif tree_dict['bmi'] == '25 - 30':
-			return -14.811386617142775
+			return -20.13998431588033
+		elif tree_dict['bmi'] == '35 - 40':
+			return 55.75019388526767
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -4.0804437418050385
+			return 10.443972059864768
 		elif tree_dict['bmi'] == '40 - 54':
-			return 47.46463225619588
+			return 41.711942547705526
 		elif tree_dict['bmi'] == '< 18.5':
-			return -52.52929789286918
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -48.11411666877135
-		elif tree_dict['region'] == 'northeast':
-			return 48.26310900602619
-		elif tree_dict['region'] == 'northwest':
-			return 27.384918930546387
-		elif tree_dict['region'] == 'southwest':
-			return -20.062308358385962
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 76.64529752460139
-		elif tree_dict['region'] == 'northeast':
-			return -16.718268363755456
-		elif tree_dict['region'] == 'northwest':
-			return 92.47394747617643
-		elif tree_dict['region'] == 'southwest':
-			return -44.484267458771065
-	elif tree_dict['children'] == 4:
+			return -61.57676769779346
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 117.7539237368995
-		elif tree_dict['age'] == '26-41':
-			return 104.7459199447369
+			return 17.13728514590687
 		elif tree_dict['age'] == '41-56':
-			return -137.5061024685659
+			return 17.85842987579017
 		elif tree_dict['age'] == '18-26':
-			return -24.128671360171758
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 53.03579079652009
-		elif tree_dict['region'] == 'northeast':
-			return -14.102544670353078
-		elif tree_dict['region'] == 'northwest':
-			return 141.5890658011449
+			return -25.41494950725923
+		elif tree_dict['age'] == '26-41':
+			return -24.840370530204314
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 46.00334701898459
+		elif tree_dict['region'] == 'southeast':
+			return -62.94451929349369
 		elif tree_dict['region'] == 'southwest':
-			return -91.88697020992208
+			return 7.130594296227992
+		elif tree_dict['region'] == 'northeast':
+			return 51.148158692472464
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 507.01282673892547
+		elif tree_dict['bmi'] == '25 - 30':
+			return -413.96671868953695
+		elif tree_dict['bmi'] == '35 - 40':
+			return 522.1882567093708
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 227.25879259622707
+		elif tree_dict['bmi'] == '40 - 54':
+			return 195.137433467371
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 37.15044893714821
+		elif tree_dict['bmi'] == '25 - 30':
+			return 44.025907015945904
+		elif tree_dict['bmi'] == '35 - 40':
+			return -9.587749615521716
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -82.56508397146217
+		elif tree_dict['bmi'] == '40 - 54':
+			return 39.136352619858826
+		elif tree_dict['bmi'] == '< 18.5':
+			return -117.4900923423047
 
 def tree_66(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 14.4878726891467
-		elif tree_dict['age'] == '26-41':
-			return -40.715471120002796
+			return 54.23145951063225
 		elif tree_dict['age'] == '41-56':
-			return 23.9553284964024
+			return 51.00223442384344
 		elif tree_dict['age'] == '18-26':
-			return -20.74102899391316
+			return -13.11972722509455
+		elif tree_dict['age'] == '26-41':
+			return -32.891715624136395
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 42.8674459305278
-		elif tree_dict['bmi'] == '30 - 35':
-			return -21.781714026525428
+		if tree_dict['bmi'] == '30 - 35':
+			return -16.019661721387656
 		elif tree_dict['bmi'] == '25 - 30':
-			return -13.330247955428492
+			return -18.125985884292476
+		elif tree_dict['bmi'] == '35 - 40':
+			return 50.17517449674135
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -3.6723993676245756
+			return 9.399574853878557
 		elif tree_dict['bmi'] == '40 - 54':
-			return 42.71816903057702
+			return 37.54074829293495
 		elif tree_dict['bmi'] == '< 18.5':
-			return -47.27636810358217
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -43.30270500189355
-		elif tree_dict['region'] == 'northeast':
-			return 43.436798105423634
-		elif tree_dict['region'] == 'northwest':
-			return 24.646427037491645
-		elif tree_dict['region'] == 'southwest':
-			return -18.056077522546996
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 68.98076777214109
-		elif tree_dict['region'] == 'northeast':
-			return -15.046441527379852
-		elif tree_dict['region'] == 'northwest':
-			return 83.22655272855907
-		elif tree_dict['region'] == 'southwest':
-			return -40.0358407128938
-	elif tree_dict['children'] == 4:
+			return -55.41909092801404
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 105.9785313632104
-		elif tree_dict['age'] == '26-41':
-			return 94.2713279502625
+			return 15.423556631316123
 		elif tree_dict['age'] == '41-56':
-			return -123.75549222170987
+			return 16.07258688821097
 		elif tree_dict['age'] == '18-26':
-			return -21.715804224155363
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 47.73221171686837
-		elif tree_dict['region'] == 'northeast':
-			return -12.692290203318104
-		elif tree_dict['region'] == 'northwest':
-			return 127.43015922103041
+			return -22.873454556533474
+		elif tree_dict['age'] == '26-41':
+			return -22.35633347718377
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 41.4030123170863
+		elif tree_dict['region'] == 'southeast':
+			return -56.650067364143794
 		elif tree_dict['region'] == 'southwest':
-			return -82.69827318892953
+			return 6.417534866604253
+		elif tree_dict['region'] == 'northeast':
+			return 46.03334282322556
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return 129.91448269203042
+		elif tree_dict['region'] == 'southeast':
+			return -1055.3391646022437
+		elif tree_dict['region'] == 'southwest':
+			return -587.6004277558905
+		elif tree_dict['region'] == 'northeast':
+			return 1920.990711811257
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 33.43540404343344
+		elif tree_dict['bmi'] == '25 - 30':
+			return 39.62331631435109
+		elif tree_dict['bmi'] == '35 - 40':
+			return -8.628974653969635
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -74.30857557431636
+		elif tree_dict['bmi'] == '40 - 54':
+			return 35.222717357872625
+		elif tree_dict['bmi'] == '< 18.5':
+			return -105.74108310807424
 
 def tree_67(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 13.039085420231848
-		elif tree_dict['age'] == '26-41':
-			return -36.64392400800262
+			return 48.80831355956934
 		elif tree_dict['age'] == '41-56':
-			return 21.559795646762964
+			return 45.902010981458155
 		elif tree_dict['age'] == '18-26':
-			return -18.66692609452165
+			return -11.807754502584487
+		elif tree_dict['age'] == '26-41':
+			return -29.60254406172271
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 38.580701337474636
-		elif tree_dict['bmi'] == '30 - 35':
-			return -19.60354262387288
+		if tree_dict['bmi'] == '30 - 35':
+			return -14.417695549249329
 		elif tree_dict['bmi'] == '25 - 30':
-			return -11.997223159885527
+			return -16.31338729586353
+		elif tree_dict['bmi'] == '35 - 40':
+			return 45.15765704706633
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -3.3051594308618406
+			return 8.459617368490136
 		elif tree_dict['bmi'] == '40 - 54':
-			return 38.446352127520036
+			return 33.78667346364112
 		elif tree_dict['bmi'] == '< 18.5':
-			return -42.54873129322414
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -38.97243450170352
-		elif tree_dict['region'] == 'northeast':
-			return 39.093118294881045
-		elif tree_dict['region'] == 'northwest':
-			return 22.181784333742403
-		elif tree_dict['region'] == 'southwest':
-			return -16.250469770292096
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 62.08269099492673
-		elif tree_dict['region'] == 'northeast':
-			return -13.541797374641968
-		elif tree_dict['region'] == 'northwest':
-			return 74.90389745570276
-		elif tree_dict['region'] == 'southwest':
-			return -36.03225664160457
-	elif tree_dict['children'] == 4:
+			return -49.877181835212696
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 95.38067822688875
-		elif tree_dict['age'] == '26-41':
-			return 84.8441951552361
+			return 13.881200968184103
 		elif tree_dict['age'] == '41-56':
-			return -111.37994299953819
+			return 14.46532819939046
 		elif tree_dict['age'] == '18-26':
-			return -19.544223801739825
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 42.95899054518177
-		elif tree_dict['region'] == 'northeast':
-			return -11.423061182985899
-		elif tree_dict['region'] == 'northwest':
-			return 114.68714329892646
+			return -20.5861091008801
+		elif tree_dict['age'] == '26-41':
+			return -20.120700129465114
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 37.26271108537797
+		elif tree_dict['region'] == 'southeast':
+			return -50.98506062772922
 		elif tree_dict['region'] == 'southwest':
-			return -74.42844587003697
+			return 5.77578137994348
+		elif tree_dict['region'] == 'northeast':
+			return 41.43000854090242
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 483.6093135231329
+		elif tree_dict['bmi'] == '25 - 30':
+			return -379.6469847041926
+		elif tree_dict['bmi'] == '35 - 40':
+			return 277.87035985730836
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 191.54146506740108
+		elif tree_dict['bmi'] == '40 - 54':
+			return 221.89492421614432
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 30.091863639090434
+		elif tree_dict['bmi'] == '25 - 30':
+			return 35.66098468291557
+		elif tree_dict['bmi'] == '35 - 40':
+			return -7.7660771885730355
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -66.87771801688473
+		elif tree_dict['bmi'] == '40 - 54':
+			return 31.70044562208568
+		elif tree_dict['bmi'] == '< 18.5':
+			return -95.16697479726645
 
 def tree_68(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 11.735176878209261
-		elif tree_dict['age'] == '26-41':
-			return -32.979531607202254
+			return 43.927482203612726
 		elif tree_dict['age'] == '41-56':
-			return 19.403816082086134
+			return 41.31180988331256
 		elif tree_dict['age'] == '18-26':
-			return -16.800233485069647
+			return -10.62697905232568
+		elif tree_dict['age'] == '26-41':
+			return -26.642289655550446
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 34.72263120372714
-		elif tree_dict['bmi'] == '30 - 35':
-			return -17.643188361485198
+		if tree_dict['bmi'] == '30 - 35':
+			return -12.975925994324001
 		elif tree_dict['bmi'] == '25 - 30':
-			return -10.79750084389668
+			return -14.682048566277121
+		elif tree_dict['bmi'] == '35 - 40':
+			return 40.64189134235867
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -2.974643487775893
+			return 7.613655631640636
 		elif tree_dict['bmi'] == '40 - 54':
-			return 34.601716914768026
+			return 30.40800611727781
 		elif tree_dict['bmi'] == '< 18.5':
-			return -38.29385816390186
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -35.07519105153331
-		elif tree_dict['region'] == 'northeast':
-			return 35.18380646539316
-		elif tree_dict['region'] == 'northwest':
-			return 19.963605900368616
-		elif tree_dict['region'] == 'southwest':
-			return -14.625422793262564
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 55.874421895434075
-		elif tree_dict['region'] == 'northeast':
-			return -12.18761763717783
-		elif tree_dict['region'] == 'northwest':
-			return 67.41350771013227
-		elif tree_dict['region'] == 'southwest':
-			return -32.42903097744402
-	elif tree_dict['children'] == 4:
+			return -44.88946365169147
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 85.84261040419854
-		elif tree_dict['age'] == '26-41':
-			return 76.35977563971232
+			return 12.493080871365368
 		elif tree_dict['age'] == '41-56':
-			return -100.2419486995844
+			return 13.018795379451985
 		elif tree_dict['age'] == '18-26':
-			return -17.589801421565426
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 38.663091490663646
-		elif tree_dict['region'] == 'northeast':
-			return -10.280755064687582
-		elif tree_dict['region'] == 'northwest':
-			return 103.218428969034
+			return -18.5274981907915
+		elif tree_dict['age'] == '26-41':
+			return -18.10863011651822
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 33.53643997683988
+		elif tree_dict['region'] == 'southeast':
+			return -45.886554564956455
 		elif tree_dict['region'] == 'southwest':
-			return -66.98560128303347
+			return 5.198203241949775
+		elif tree_dict['region'] == 'northeast':
+			return 37.28700768681245
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 435.24838217081907
+		elif tree_dict['bmi'] == '25 - 30':
+			return -341.6822862337731
+		elif tree_dict['bmi'] == '35 - 40':
+			return 250.0833238715786
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 172.3873185606608
+		elif tree_dict['bmi'] == '40 - 54':
+			return 199.70543179453034
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 27.082677275181595
+		elif tree_dict['bmi'] == '25 - 30':
+			return 32.094886214624466
+		elif tree_dict['bmi'] == '35 - 40':
+			return -6.989469469715914
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -60.189946215196414
+		elif tree_dict['bmi'] == '40 - 54':
+			return 28.530401059877477
+		elif tree_dict['bmi'] == '< 18.5':
+			return -85.65027731754162
 
 def tree_69(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 10.561659190388257
-		elif tree_dict['age'] == '26-41':
-			return -29.68157844648248
+			return 39.5347339832515
 		elif tree_dict['age'] == '41-56':
-			return 17.46343447387717
+			return 37.18062889498033
 		elif tree_dict['age'] == '18-26':
-			return -15.12021013656283
+			return -9.564281147093482
+		elif tree_dict['age'] == '26-41':
+			return -23.978060689995647
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 31.250368083354925
-		elif tree_dict['bmi'] == '30 - 35':
-			return -15.878869525336617
+		if tree_dict['bmi'] == '30 - 35':
+			return -11.67833339489161
 		elif tree_dict['bmi'] == '25 - 30':
-			return -9.717750759506886
+			return -13.213843709649103
+		elif tree_dict['bmi'] == '35 - 40':
+			return 36.57770220812176
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -2.6771791389984174
+			return 6.8522900684761225
 		elif tree_dict['bmi'] == '40 - 54':
-			return 31.14154522329131
+			return 27.367205505549254
 		elif tree_dict['bmi'] == '< 18.5':
-			return -34.46447234751167
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -31.56767194638045
-		elif tree_dict['region'] == 'northeast':
-			return 31.66542581885369
-		elif tree_dict['region'] == 'northwest':
-			return 17.967245310331823
-		elif tree_dict['region'] == 'southwest':
-			return -13.162880513936253
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 50.28697970589047
-		elif tree_dict['region'] == 'northeast':
-			return -10.968855873460491
-		elif tree_dict['region'] == 'northwest':
-			return 60.672156939118864
-		elif tree_dict['region'] == 'southwest':
-			return -29.186127879699978
-	elif tree_dict['children'] == 4:
+			return -40.400517286522245
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 77.25834936377699
-		elif tree_dict['age'] == '26-41':
-			return 68.7237980757402
+			return 11.243772784228316
 		elif tree_dict['age'] == '41-56':
-			return -90.2177538296258
+			return 11.716915841506923
 		elif tree_dict['age'] == '18-26':
-			return -15.830821279409065
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 34.7967823415971
-		elif tree_dict['region'] == 'northeast':
-			return -9.252679558218915
-		elif tree_dict['region'] == 'northwest':
-			return 92.89658607213096
+			return -16.674748371712166
+		elif tree_dict['age'] == '26-41':
+			return -16.29776710486593
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 30.18279597915629
+		elif tree_dict['region'] == 'southeast':
+			return -41.297899108461415
 		elif tree_dict['region'] == 'southwest':
-			return -60.28704115473033
+			return 4.678382917754293
+		elif tree_dict['region'] == 'northeast':
+			return 33.55830691813082
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 391.72354395373713
+		elif tree_dict['bmi'] == '25 - 30':
+			return -307.51405761039587
+		elif tree_dict['bmi'] == '35 - 40':
+			return 225.07499148442002
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 155.14858670459398
+		elif tree_dict['bmi'] == '40 - 54':
+			return 179.73488861507667
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 24.37440954766339
+		elif tree_dict['bmi'] == '25 - 30':
+			return 28.885397593162452
+		elif tree_dict['bmi'] == '35 - 40':
+			return -6.290522522744141
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -54.17095159367682
+		elif tree_dict['bmi'] == '40 - 54':
+			return 25.677360953890002
+		elif tree_dict['bmi'] == '< 18.5':
+			return -77.0852495857871
 
 def tree_70(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 9.505493271349678
-		elif tree_dict['age'] == '26-41':
-			return -26.713420601834642
+			return 35.58126058492667
 		elif tree_dict['age'] == '41-56':
-			return 15.717091026488543
+			return 33.46256600548182
 		elif tree_dict['age'] == '18-26':
-			return -13.608189122906516
+			return -8.607853032383616
+		elif tree_dict['age'] == '26-41':
+			return -21.580254620996204
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 28.125331275020006
-		elif tree_dict['bmi'] == '30 - 35':
-			return -14.290982572803058
+		if tree_dict['bmi'] == '30 - 35':
+			return -10.510500055402803
 		elif tree_dict['bmi'] == '25 - 30':
-			return -8.745975683556475
+			return -11.892459338684374
+		elif tree_dict['bmi'] == '35 - 40':
+			return 32.91993198731012
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -2.409461225098903
+			return 6.167061061628685
 		elif tree_dict['bmi'] == '40 - 54':
-			return 28.027390700962265
+			return 24.630484954994316
 		elif tree_dict['bmi'] == '< 18.5':
-			return -31.01802511276037
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -28.41090475174228
-		elif tree_dict['region'] == 'northeast':
-			return 28.498883236968442
-		elif tree_dict['region'] == 'northwest':
-			return 16.17052077929858
-		elif tree_dict['region'] == 'southwest':
-			return -11.846592462542995
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 45.258281735301
-		elif tree_dict['region'] == 'northeast':
-			return -9.871970286114822
-		elif tree_dict['region'] == 'northwest':
-			return 54.604941245207065
-		elif tree_dict['region'] == 'southwest':
-			return -26.267515091730186
-	elif tree_dict['children'] == 4:
+			return -36.36046555787004
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 69.5325144274005
-		elif tree_dict['age'] == '26-41':
-			return 61.85141826816675
+			return 10.119395505804807
 		elif tree_dict['age'] == '41-56':
-			return -81.1959784466638
+			return 10.545224257356633
 		elif tree_dict['age'] == '18-26':
-			return -14.247739151468158
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 31.317104107437082
-		elif tree_dict['region'] == 'northeast':
-			return -8.327411602397055
-		elif tree_dict['region'] == 'northwest':
-			return 83.60692746491804
+			return -15.00727353454095
+		elif tree_dict['age'] == '26-41':
+			return -14.667990394379052
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 27.164516381240283
+		elif tree_dict['region'] == 'southeast':
+			return -37.16810919761501
 		elif tree_dict['region'] == 'southwest':
-			return -54.25833703925696
+			return 4.2105446259786525
+		elif tree_dict['region'] == 'northeast':
+			return 30.202476226317792
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 352.5511895583646
+		elif tree_dict['bmi'] == '25 - 30':
+			return -276.7626518493571
+		elif tree_dict['bmi'] == '35 - 40':
+			return 202.56749233597657
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 139.63372803413404
+		elif tree_dict['bmi'] == '40 - 54':
+			return 161.7613997535691
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 21.936968592896847
+		elif tree_dict['bmi'] == '25 - 30':
+			return 25.99685783384598
+		elif tree_dict['bmi'] == '35 - 40':
+			return -5.66147027047009
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -48.753856434309
+		elif tree_dict['bmi'] == '40 - 54':
+			return 23.10962485850132
+		elif tree_dict['bmi'] == '< 18.5':
+			return -69.3767246272073
 
 def tree_71(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 8.554943944214301
-		elif tree_dict['age'] == '26-41':
-			return -24.04207854165125
+			return 32.02313452643375
 		elif tree_dict['age'] == '41-56':
-			return 14.145381923839949
+			return 30.116309404934473
 		elif tree_dict['age'] == '18-26':
-			return -12.247370210616104
+			return -7.74706772914584
+		elif tree_dict['age'] == '26-41':
+			return -19.422229158896545
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 25.312798147518308
-		elif tree_dict['bmi'] == '30 - 35':
-			return -12.861884315523108
+		if tree_dict['bmi'] == '30 - 35':
+			return -9.459450049862353
 		elif tree_dict['bmi'] == '25 - 30':
-			return -7.871378115200529
+			return -10.703213404815974
+		elif tree_dict['bmi'] == '35 - 40':
+			return 29.627938788578597
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -2.1685151025886626
+			return 5.550354955465608
 		elif tree_dict['bmi'] == '40 - 54':
-			return 25.224651630866397
+			return 22.167436459494848
 		elif tree_dict['bmi'] == '< 18.5':
-			return -27.91622260148415
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -25.569814276568195
-		elif tree_dict['region'] == 'northeast':
-			return 25.648994913271356
-		elif tree_dict['region'] == 'northwest':
-			return 14.5534687013686
-		elif tree_dict['region'] == 'southwest':
-			return -10.661933216289299
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 40.73245356177141
-		elif tree_dict['region'] == 'northeast':
-			return -8.884773257503559
-		elif tree_dict['region'] == 'northwest':
-			return 49.1444471206864
-		elif tree_dict['region'] == 'southwest':
-			return -23.640763582557245
-	elif tree_dict['children'] == 4:
+			return -32.724419002083096
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 62.579262984659486
-		elif tree_dict['age'] == '26-41':
-			return 55.66627644135019
+			return 9.107455955224081
 		elif tree_dict['age'] == '41-56':
-			return -73.07638060199709
+			return 9.49070183162136
 		elif tree_dict['age'] == '18-26':
-			return -12.822965236321215
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 28.185393696693247
-		elif tree_dict['region'] == 'northeast':
-			return -7.494670442157258
-		elif tree_dict['region'] == 'northwest':
-			return 75.24623471842642
+			return -13.506546181086367
+		elif tree_dict['age'] == '26-41':
+			return -13.20119135494113
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 24.44806474311674
+		elif tree_dict['region'] == 'southeast':
+			return -33.45129827785392
 		elif tree_dict['region'] == 'southwest':
-			return -48.83250333533124
+			return 3.7894901633808837
+		elif tree_dict['region'] == 'northeast':
+			return 27.182228603685953
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 317.2960706025284
+		elif tree_dict['bmi'] == '25 - 30':
+			return -249.0863866644222
+		elif tree_dict['bmi'] == '35 - 40':
+			return 182.31074310237818
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 125.67035523072082
+		elif tree_dict['bmi'] == '40 - 54':
+			return 145.58525977821137
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 19.743271733607116
+		elif tree_dict['bmi'] == '25 - 30':
+			return 23.397172050460995
+		elif tree_dict['bmi'] == '35 - 40':
+			return -5.095323243423081
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -43.87847079087851
+		elif tree_dict['bmi'] == '40 - 54':
+			return 20.798662372651506
+		elif tree_dict['bmi'] == '< 18.5':
+			return -62.439052164485474
 
 def tree_72(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 7.699449549792656
-		elif tree_dict['age'] == '26-41':
-			return -21.63787068748583
+			return 28.82082107379074
 		elif tree_dict['age'] == '41-56':
-			return 12.730843731455897
+			return 27.10467846444153
 		elif tree_dict['age'] == '18-26':
-			return -11.02263318955472
+			return -6.9723609562316256
+		elif tree_dict['age'] == '26-41':
+			return -17.480006243007058
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 22.781518332767032
-		elif tree_dict['bmi'] == '30 - 35':
-			return -11.575695883971498
+		if tree_dict['bmi'] == '30 - 35':
+			return -8.513505044876954
 		elif tree_dict['bmi'] == '25 - 30':
-			return -7.084240303680458
+			return -9.63289206433466
+		elif tree_dict['bmi'] == '35 - 40':
+			return 26.665144909721278
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.9516635923297145
+			return 4.995319459919109
 		elif tree_dict['bmi'] == '40 - 54':
-			return 22.702186467779534
+			return 19.950692813545384
 		elif tree_dict['bmi'] == '< 18.5':
-			return -25.124600341335736
+			return -29.45197710187483
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 8.19671035970208
+		elif tree_dict['age'] == '41-56':
+			return 8.541631648459724
+		elif tree_dict['age'] == '18-26':
+			return -12.155891562977548
+		elif tree_dict['age'] == '26-41':
+			return -11.881072219447034
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -23.012832848912154
-		elif tree_dict['region'] == 'northeast':
-			return 23.08409542194455
-		elif tree_dict['region'] == 'northwest':
-			return 13.098121831232154
+		if tree_dict['region'] == 'northwest':
+			return 22.00325826880482
+		elif tree_dict['region'] == 'southeast':
+			return -30.106168450068427
 		elif tree_dict['region'] == 'southwest':
-			return -9.595739894659877
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 36.659208205593764
+			return 3.4105411470423155
 		elif tree_dict['region'] == 'northeast':
-			return -7.996295931753059
-		elif tree_dict['region'] == 'northwest':
-			return 44.23000240861748
-		elif tree_dict['region'] == 'southwest':
-			return -21.27668722430169
+			return 24.46400574331713
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 56.32133668619402
-		elif tree_dict['age'] == '26-41':
-			return 50.09964879721542
+			return 3636.9555641970073
 		elif tree_dict['age'] == '41-56':
-			return -65.76874254179741
+			return -977.6716916307869
 		elif tree_dict['age'] == '18-26':
-			return -11.54066871268933
+			return -1830.2513091333453
+		elif tree_dict['age'] == '26-41':
+			return 565.0613668946355
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 25.366854327023795
-		elif tree_dict['region'] == 'northeast':
-			return -6.745203397941623
-		elif tree_dict['region'] == 'northwest':
-			return 67.72161124658305
-		elif tree_dict['region'] == 'southwest':
-			return -43.94925300179807
+		if tree_dict['bmi'] == '30 - 35':
+			return 17.76894456024661
+		elif tree_dict['bmi'] == '25 - 30':
+			return 21.057454845414668
+		elif tree_dict['bmi'] == '35 - 40':
+			return -4.585790919080864
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -39.490623711790704
+		elif tree_dict['bmi'] == '40 - 54':
+			return 18.71879613538613
+		elif tree_dict['bmi'] == '< 18.5':
+			return -56.19514694803729
 
 def tree_73(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 6.929504594812962
-		elif tree_dict['age'] == '26-41':
-			return -19.474083618737623
+			return 25.93873896641162
 		elif tree_dict['age'] == '41-56':
-			return 11.457759358309831
+			return 24.39421061799727
 		elif tree_dict['age'] == '18-26':
-			return -9.920369870598888
+			return -6.275124860608628
+		elif tree_dict['age'] == '26-41':
+			return -15.732005618706504
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 20.503366499490834
-		elif tree_dict['bmi'] == '30 - 35':
-			return -10.418126295574742
+		if tree_dict['bmi'] == '30 - 35':
+			return -7.662154540388583
 		elif tree_dict['bmi'] == '25 - 30':
-			return -6.375816273312441
+			return -8.669602857901486
+		elif tree_dict['bmi'] == '35 - 40':
+			return 23.99863041874862
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.7564972330964792
+			return 4.495787513926906
 		elif tree_dict['bmi'] == '40 - 54':
-			return 20.431967821001713
+			return 17.95562353219031
 		elif tree_dict['bmi'] == '< 18.5':
-			return -22.612140307202026
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -20.71154956402134
-		elif tree_dict['region'] == 'northeast':
-			return 20.775685879749982
-		elif tree_dict['region'] == 'northwest':
-			return 11.788309648109005
-		elif tree_dict['region'] == 'southwest':
-			return -8.636165905193858
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 32.99328738503363
-		elif tree_dict['region'] == 'northeast':
-			return -7.19666633857779
-		elif tree_dict['region'] == 'northwest':
-			return 39.8070021677561
-		elif tree_dict['region'] == 'southwest':
-			return -19.149018501871158
-	elif tree_dict['children'] == 4:
+			return -26.50677939168736
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 50.68920301757438
-		elif tree_dict['age'] == '26-41':
-			return 45.08968391749363
+			return 7.3770393237322756
 		elif tree_dict['age'] == '41-56':
-			return -59.19186828761698
+			return 7.687468483613324
 		elif tree_dict['age'] == '18-26':
-			return -10.38660184142027
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 22.830168894321652
-		elif tree_dict['region'] == 'northeast':
-			return -6.070683058147249
-		elif tree_dict['region'] == 'northwest':
-			return 60.94945012192511
+			return -10.940302406679976
+		elif tree_dict['age'] == '26-41':
+			return -10.692964997502003
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 19.802932441924536
+		elif tree_dict['region'] == 'southeast':
+			return -27.095551605061324
 		elif tree_dict['region'] == 'southwest':
-			return -39.55432770161815
+			return 3.0694870323386265
+		elif tree_dict['region'] == 'northeast':
+			return 22.01760516898559
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 294.2896111183918
+		elif tree_dict['bmi'] == '25 - 30':
+			return -261.39972145587626
+		elif tree_dict['bmi'] == '35 - 40':
+			return 107.57353210267684
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 210.87048887072706
+		elif tree_dict['bmi'] == '40 - 54':
+			return 228.7939029634681
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 15.99205010422179
+		elif tree_dict['bmi'] == '25 - 30':
+			return 18.951709360873338
+		elif tree_dict['bmi'] == '35 - 40':
+			return -4.127211827172687
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -35.54156134061168
+		elif tree_dict['bmi'] == '40 - 54':
+			return 16.84691652184756
+		elif tree_dict['bmi'] == '< 18.5':
+			return -50.57563225323247
 
 def tree_74(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 6.236554135332036
-		elif tree_dict['age'] == '26-41':
-			return -17.526675256863815
+			return 23.34486506977032
 		elif tree_dict['age'] == '41-56':
-			return 10.311983422478933
+			return 21.954789556198083
 		elif tree_dict['age'] == '18-26':
-			return -8.928332883539197
+			return -5.647612374547236
+		elif tree_dict['age'] == '26-41':
+			return -14.158805056835641
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 18.45302984954225
-		elif tree_dict['bmi'] == '30 - 35':
-			return -9.376313666017799
+		if tree_dict['bmi'] == '30 - 35':
+			return -6.895939086349857
 		elif tree_dict['bmi'] == '25 - 30':
-			return -5.738234645980779
+			return -7.802642572111187
+		elif tree_dict['bmi'] == '35 - 40':
+			return 21.598767376874328
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.5808475097869177
+			return 4.0462087625342065
 		elif tree_dict['bmi'] == '40 - 54':
-			return 18.388771038901318
+			return 16.160061178971283
 		elif tree_dict['bmi'] == '< 18.5':
-			return -20.350926276481914
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -18.64039460761962
-		elif tree_dict['region'] == 'northeast':
-			return 18.69811729177508
-		elif tree_dict['region'] == 'northwest':
-			return 10.609478683298091
-		elif tree_dict['region'] == 'southwest':
-			return -7.772549314674772
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 29.69395864653024
-		elif tree_dict['region'] == 'northeast':
-			return -6.4769997047199945
-		elif tree_dict['region'] == 'northwest':
-			return 35.82630195098055
-		elif tree_dict['region'] == 'southwest':
-			return -17.234116651684037
-	elif tree_dict['children'] == 4:
+			return -23.8561014525186
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 45.62028271581706
-		elif tree_dict['age'] == '26-41':
-			return 40.58071552574506
+			return 6.6393353913592525
 		elif tree_dict['age'] == '41-56':
-			return -53.27268145885531
+			return 6.918721635251444
 		elif tree_dict['age'] == '18-26':
-			return -9.347941657278351
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 20.547152004889178
-		elif tree_dict['region'] == 'northeast':
-			return -5.46361475233213
-		elif tree_dict['region'] == 'northwest':
-			return 54.85450510973351
+			return -9.846272166012094
+		elif tree_dict['age'] == '26-41':
+			return -9.623668497751368
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 17.822639197732503
+		elif tree_dict['region'] == 'southeast':
+			return -24.38599644455495
 		elif tree_dict['region'] == 'southwest':
-			return -35.59889493145624
+			return 2.7625383291051246
+		elif tree_dict['region'] == 'northeast':
+			return 19.815844652086554
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 264.8606500065542
+		elif tree_dict['bmi'] == '25 - 30':
+			return -235.2597493102885
+		elif tree_dict['bmi'] == '35 - 40':
+			return 96.81617889240806
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 189.7834399836538
+		elif tree_dict['bmi'] == '40 - 54':
+			return 205.91451266712193
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 14.392845093799679
+		elif tree_dict['bmi'] == '25 - 30':
+			return 17.056538424785458
+		elif tree_dict['bmi'] == '35 - 40':
+			return -3.714490644455509
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -31.987405206550193
+		elif tree_dict['bmi'] == '40 - 54':
+			return 15.162224869663078
+		elif tree_dict['bmi'] == '< 18.5':
+			return -45.518069027908496
 
 def tree_75(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 5.612898721798307
-		elif tree_dict['age'] == '26-41':
-			return -15.774007731177038
+			return 21.01037856279322
 		elif tree_dict['age'] == '41-56':
-			return 9.280785080231295
+			return 19.7593106005785
 		elif tree_dict['age'] == '18-26':
-			return -8.035499595185529
+			return -5.0828511370925185
+		elif tree_dict['age'] == '26-41':
+			return -12.742924551152177
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 16.60772686458843
-		elif tree_dict['bmi'] == '30 - 35':
-			return -8.438682299416566
+		if tree_dict['bmi'] == '30 - 35':
+			return -6.206345177715136
 		elif tree_dict['bmi'] == '25 - 30':
-			return -5.16441118138293
+			return -7.022378314900129
+		elif tree_dict['bmi'] == '35 - 40':
+			return 19.43889063918724
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.4227627588078122
+			return 3.641587886280712
 		elif tree_dict['bmi'] == '40 - 54':
-			return 16.549893935012125
+			return 14.544055061074197
 		elif tree_dict['bmi'] == '< 18.5':
-			return -18.31583364883363
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -16.776355146856822
-		elif tree_dict['region'] == 'northeast':
-			return 16.828305562597528
-		elif tree_dict['region'] == 'northwest':
-			return 9.548530814968347
-		elif tree_dict['region'] == 'southwest':
-			return -6.995294383207313
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 26.72456278187719
-		elif tree_dict['region'] == 'northeast':
-			return -5.829299734247691
-		elif tree_dict['region'] == 'northwest':
-			return 32.24367175588292
-		elif tree_dict['region'] == 'southwest':
-			return -15.51070498651561
-	elif tree_dict['children'] == 4:
+			return -21.47049130726657
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 41.058254444234386
-		elif tree_dict['age'] == '26-41':
-			return 36.52264397317117
+			return 5.975401852223513
 		elif tree_dict['age'] == '41-56':
-			return -47.94541331296963
+			return 6.226849471726731
 		elif tree_dict['age'] == '18-26':
-			return -8.413147491550081
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 18.49243680439995
-		elif tree_dict['region'] == 'northeast':
-			return -4.9172532770987045
-		elif tree_dict['region'] == 'northwest':
-			return 49.36905459876107
+			return -8.861644949410861
+		elif tree_dict['age'] == '26-41':
+			return -8.66130164797663
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 16.040375277958997
+		elif tree_dict['region'] == 'southeast':
+			return -21.94739680009962
 		elif tree_dict['region'] == 'southwest':
-			return -32.039005438310596
+			return 2.4862844961944677
+		elif tree_dict['region'] == 'northeast':
+			return 17.834260186877973
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 238.37458500589983
+		elif tree_dict['bmi'] == '25 - 30':
+			return -211.7337743792607
+		elif tree_dict['bmi'] == '35 - 40':
+			return 87.13456100316762
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 170.80509598528806
+		elif tree_dict['bmi'] == '40 - 54':
+			return 185.32306140041055
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 12.95356058441962
+		elif tree_dict['bmi'] == '25 - 30':
+			return 15.35088458230689
+		elif tree_dict['bmi'] == '35 - 40':
+			return -3.343041580010322
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -28.788664685895583
+		elif tree_dict['bmi'] == '40 - 54':
+			return 13.646002382697134
+		elif tree_dict['bmi'] == '< 18.5':
+			return -40.9662621251191
 
 def tree_76(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 5.0516088496188525
-		elif tree_dict['age'] == '26-41':
-			return -14.196606958059546
+			return 18.909340706514513
 		elif tree_dict['age'] == '41-56':
-			return 8.352706572208225
+			return 17.78337954052047
 		elif tree_dict['age'] == '18-26':
-			return -7.231949635666906
+			return -4.574566023382715
+		elif tree_dict['age'] == '26-41':
+			return -11.468632096037217
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 14.9469541781294
-		elif tree_dict['bmi'] == '30 - 35':
-			return -7.594814069475181
+		if tree_dict['bmi'] == '30 - 35':
+			return -5.585710659944112
 		elif tree_dict['bmi'] == '25 - 30':
-			return -4.647970063244899
+			return -6.3201404834099915
+		elif tree_dict['bmi'] == '35 - 40':
+			return 17.495001575267686
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.28048648292679
+			return 3.277429097653016
 		elif tree_dict['bmi'] == '40 - 54':
-			return 14.894904541511146
+			return 13.089649554966645
 		elif tree_dict['bmi'] == '< 18.5':
-			return -16.484250283950132
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -15.09871963217105
-		elif tree_dict['region'] == 'northeast':
-			return 15.145475006338096
-		elif tree_dict['region'] == 'northwest':
-			return 8.59367773347133
-		elif tree_dict['region'] == 'southwest':
-			return -6.295764944886021
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 24.052106503689096
-		elif tree_dict['region'] == 'northeast':
-			return -5.246369760822638
-		elif tree_dict['region'] == 'northwest':
-			return 29.01930458029494
-		elif tree_dict['region'] == 'southwest':
-			return -13.959634487863784
-	elif tree_dict['children'] == 4:
+			return -19.323442176539857
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 36.95242899980925
-		elif tree_dict['age'] == '26-41':
-			return 32.870379575854486
+			return 5.377861667000781
 		elif tree_dict['age'] == '41-56':
-			return -43.15087198167233
+			return 5.604164524554061
 		elif tree_dict['age'] == '18-26':
-			return -7.571832742395418
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 16.643193123959644
-		elif tree_dict['region'] == 'northeast':
-			return -4.425527949389107
-		elif tree_dict['region'] == 'northwest':
-			return 44.43214913888551
+			return -7.975480454469672
+		elif tree_dict['age'] == '26-41':
+			return -7.7951714831787635
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 14.436337750163696
+		elif tree_dict['region'] == 'southeast':
+			return -19.75265712008996
 		elif tree_dict['region'] == 'southwest':
-			return -28.835104894479628
+			return 2.2376560465751734
+		elif tree_dict['region'] == 'northeast':
+			return 16.050834168189553
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 214.53712650531105
+		elif tree_dict['bmi'] == '25 - 30':
+			return -190.5603969413346
+		elif tree_dict['bmi'] == '35 - 40':
+			return 78.42110490284904
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 153.72458638675926
+		elif tree_dict['bmi'] == '40 - 54':
+			return 166.79075526036922
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 11.658204525977453
+		elif tree_dict['bmi'] == '25 - 30':
+			return 13.81579612407586
+		elif tree_dict['bmi'] == '35 - 40':
+			return -3.0087374220092897
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -25.909798217305934
+		elif tree_dict['bmi'] == '40 - 54':
+			return 12.281402144427375
+		elif tree_dict['bmi'] == '< 18.5':
+			return -36.86963591260792
 
 def tree_77(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 4.5464479646564415
-		elif tree_dict['age'] == '26-41':
-			return -12.776946262253649
+			return 17.01840663586222
 		elif tree_dict['age'] == '41-56':
-			return 7.517435914987781
+			return 16.005041586468725
 		elif tree_dict['age'] == '18-26':
-			return -6.50875467210011
+			return -4.117109421044745
+		elif tree_dict['age'] == '26-41':
+			return -10.321768886433611
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 13.452258760316331
-		elif tree_dict['bmi'] == '30 - 35':
-			return -6.835332662528269
+		if tree_dict['bmi'] == '30 - 35':
+			return -5.027139593949784
 		elif tree_dict['bmi'] == '25 - 30':
-			return -4.183173056920179
+			return -5.688126435069284
+		elif tree_dict['bmi'] == '35 - 40':
+			return 15.745501417740366
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.1524378346340654
+			return 2.949686187887796
 		elif tree_dict['bmi'] == '40 - 54':
-			return 13.405414087359835
+			return 11.780684599469868
 		elif tree_dict['bmi'] == '< 18.5':
-			return -14.835825255554937
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -13.588847668954422
-		elif tree_dict['region'] == 'northeast':
-			return 13.630927505704589
-		elif tree_dict['region'] == 'northwest':
-			return 7.734309960124198
-		elif tree_dict['region'] == 'southwest':
-			return -5.666188450397651
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 21.646895853320174
-		elif tree_dict['region'] == 'northeast':
-			return -4.721732784740518
-		elif tree_dict['region'] == 'northwest':
-			return 26.117374122266064
-		elif tree_dict['region'] == 'southwest':
-			return -12.563671039077763
-	elif tree_dict['children'] == 4:
+			return -17.39109795888578
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 33.2571860998299
-		elif tree_dict['age'] == '26-41':
-			return 29.583341618269287
+			return 4.840075500300538
 		elif tree_dict['age'] == '41-56':
-			return -38.83578478350531
+			return 5.043748072098378
 		elif tree_dict['age'] == '18-26':
-			return -6.814649468155767
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 14.978873811563243
-		elif tree_dict['region'] == 'northeast':
-			return -3.982975154450287
-		elif tree_dict['region'] == 'northwest':
-			return 39.98893422499714
+			return -7.1779324090226435
+		elif tree_dict['age'] == '26-41':
+			return -7.015654334861195
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 12.992703975147927
+		elif tree_dict['region'] == 'southeast':
+			return -17.777391408080316
 		elif tree_dict['region'] == 'southwest':
-			return -25.951594405031756
+			return 2.0138904419176975
+		elif tree_dict['region'] == 'northeast':
+			return 14.445750751371554
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 193.08341385477996
+		elif tree_dict['bmi'] == '25 - 30':
+			return -171.50435724720182
+		elif tree_dict['bmi'] == '35 - 40':
+			return 70.5789944125645
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 138.35212774808315
+		elif tree_dict['bmi'] == '40 - 54':
+			return 150.11167973433203
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 10.49238407337998
+		elif tree_dict['bmi'] == '25 - 30':
+			return 12.434216511668637
+		elif tree_dict['bmi'] == '35 - 40':
+			return -2.7078636798087246
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -23.318818395575136
+		elif tree_dict['bmi'] == '40 - 54':
+			return 11.053261929984274
+		elif tree_dict['bmi'] == '< 18.5':
+			return -33.182672321348946
 
 def tree_78(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 4.091803168190706
-		elif tree_dict['age'] == '26-41':
-			return -11.499251636028411
+			return 15.316565972275612
 		elif tree_dict['age'] == '41-56':
-			return 6.765692323489707
+			return 14.404537427821925
 		elif tree_dict['age'] == '18-26':
-			return -5.85787920489003
+			return -3.7053984789402534
+		elif tree_dict['age'] == '26-41':
+			return -9.289591997790467
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 12.107032884285173
-		elif tree_dict['bmi'] == '30 - 35':
-			return -6.1517993962757425
+		if tree_dict['bmi'] == '30 - 35':
+			return -4.524425634554888
 		elif tree_dict['bmi'] == '25 - 30':
-			return -3.7648557512283527
+			return -5.119313791562553
+		elif tree_dict['bmi'] == '35 - 40':
+			return 14.170951275966312
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -1.0371940511707636
+			return 2.65471756909849
 		elif tree_dict['bmi'] == '40 - 54':
-			return 12.064872678623438
+			return 10.602616139523608
 		elif tree_dict['bmi'] == '< 18.5':
-			return -13.352242729999489
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -12.22996290205916
-		elif tree_dict['region'] == 'northeast':
-			return 12.267834755133576
-		elif tree_dict['region'] == 'northwest':
-			return 6.960878964111349
-		elif tree_dict['region'] == 'southwest':
-			return -5.099569605357753
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 19.48220626798775
-		elif tree_dict['region'] == 'northeast':
-			return -4.24955950626629
-		elif tree_dict['region'] == 'northwest':
-			return 23.505636710039923
-		elif tree_dict['region'] == 'southwest':
-			return -11.307303935170033
-	elif tree_dict['children'] == 4:
+			return -15.651988162997213
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 29.931467489846302
-		elif tree_dict['age'] == '26-41':
-			return 26.625007456442063
+			return 4.3560679502699875
 		elif tree_dict['age'] == '41-56':
-			return -34.9522063051539
+			return 4.5393732648884395
 		elif tree_dict['age'] == '18-26':
-			return -6.133184521340627
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 13.480986430407029
-		elif tree_dict['region'] == 'northeast':
-			return -3.584677639005349
-		elif tree_dict['region'] == 'northwest':
-			return 35.99004080249688
+			return -6.460139168120169
+		elif tree_dict['age'] == '26-41':
+			return -6.314088901375169
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 11.693433577633872
+		elif tree_dict['region'] == 'southeast':
+			return -15.999652267272252
 		elif tree_dict['region'] == 'southwest':
-			return -23.35643496452849
+			return 1.8125013977265654
+		elif tree_dict['region'] == 'northeast':
+			return 13.001175676234705
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 173.77507246930236
+		elif tree_dict['bmi'] == '25 - 30':
+			return -154.3539215224821
+		elif tree_dict['bmi'] == '35 - 40':
+			return 63.52109497130732
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 124.51691497327556
+		elif tree_dict['bmi'] == '40 - 54':
+			return 135.10051176089928
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 9.443145666042028
+		elif tree_dict['bmi'] == '25 - 30':
+			return 11.190794860502137
+		elif tree_dict['bmi'] == '35 - 40':
+			return -2.437077311828034
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -20.986936556017554
+		elif tree_dict['bmi'] == '40 - 54':
+			return 9.947935736985528
+		elif tree_dict['bmi'] == '< 18.5':
+			return -29.864405089214415
 
 def tree_79(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 3.682622851371304
-		elif tree_dict['age'] == '26-41':
-			return -10.349326472425133
+			return 13.784909375048073
 		elif tree_dict['age'] == '41-56':
-			return 6.089123091140395
+			return 12.964083685039622
 		elif tree_dict['age'] == '18-26':
-			return -5.272091284400577
+			return -3.3348586310465294
+		elif tree_dict['age'] == '26-41':
+			return -8.36063279801082
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 10.896329595855892
-		elif tree_dict['bmi'] == '30 - 35':
-			return -5.536619456648244
+		if tree_dict['bmi'] == '30 - 35':
+			return -4.071983071099006
 		elif tree_dict['bmi'] == '25 - 30':
-			return -3.388370176105812
+			return -4.607382412406345
+		elif tree_dict['bmi'] == '35 - 40':
+			return 12.753856148369382
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.9334746460539008
+			return 2.389245812188978
 		elif tree_dict['bmi'] == '40 - 54':
-			return 10.85838541076171
+			return 9.542354525571401
 		elif tree_dict['bmi'] == '< 18.5':
-			return -12.017018456999722
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -11.006966611853532
-		elif tree_dict['region'] == 'northeast':
-			return 11.04105127962066
-		elif tree_dict['region'] == 'northwest':
-			return 6.2647910677004415
-		elif tree_dict['region'] == 'southwest':
-			return -4.5896126448219166
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 17.533985641188536
-		elif tree_dict['region'] == 'northeast':
-			return -3.8246035556393347
-		elif tree_dict['region'] == 'northwest':
-			return 21.155073039036473
-		elif tree_dict['region'] == 'southwest':
-			return -10.176573541652736
-	elif tree_dict['children'] == 4:
+			return -14.086789346697287
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 26.938320740862157
-		elif tree_dict['age'] == '26-41':
-			return 23.96250671079747
+			return 3.9204611552431743
 		elif tree_dict['age'] == '41-56':
-			return -31.45698567463872
+			return 4.085435938399369
 		elif tree_dict['age'] == '18-26':
-			return -5.519866069206546
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 12.132887787366599
-		elif tree_dict['region'] == 'northeast':
-			return -3.2262098751049657
-		elif tree_dict['region'] == 'northwest':
-			return 32.39103672224701
+			return -5.814125251308089
+		elif tree_dict['age'] == '26-41':
+			return -5.682680011238287
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 10.524090219869871
+		elif tree_dict['region'] == 'southeast':
+			return -14.399687040544888
 		elif tree_dict['region'] == 'southwest':
-			return -21.020791468075686
+			return 1.6312512579539644
+		elif tree_dict['region'] == 'northeast':
+			return 11.701058108610837
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 156.3975652223724
+		elif tree_dict['bmi'] == '25 - 30':
+			return -138.91852937023327
+		elif tree_dict['bmi'] == '35 - 40':
+			return 57.168985474178044
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 112.06522347594728
+		elif tree_dict['bmi'] == '40 - 54':
+			return 121.59046058480908
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 8.498831099437439
+		elif tree_dict['bmi'] == '25 - 30':
+			return 10.071715374451742
+		elif tree_dict['bmi'] == '35 - 40':
+			return -2.1933695806455944
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -18.888242900415662
+		elif tree_dict['bmi'] == '40 - 54':
+			return 8.953142163287339
+		elif tree_dict['bmi'] == '< 18.5':
+			return -26.877964580293337
 
 def tree_80(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 3.3143605662341025
-		elif tree_dict['age'] == '26-41':
-			return -9.314393825182748
+			return 12.406418437542811
 		elif tree_dict['age'] == '41-56':
-			return 5.48021078202686
+			return 11.667675316535352
 		elif tree_dict['age'] == '18-26':
-			return -4.744882155960369
+			return -3.0013727679418594
+		elif tree_dict['age'] == '26-41':
+			return -7.524569518210001
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 9.806696636270605
-		elif tree_dict['bmi'] == '30 - 35':
-			return -4.9829575109837
+		if tree_dict['bmi'] == '30 - 35':
+			return -3.664784763988719
 		elif tree_dict['bmi'] == '25 - 30':
-			return -3.0495331584950263
+			return -4.1466441711654936
+		elif tree_dict['bmi'] == '35 - 40':
+			return 11.478470533532882
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.8401271814483607
+			return 2.150321230969798
 		elif tree_dict['bmi'] == '40 - 54':
-			return 9.772546869685812
+			return 8.58811907301424
 		elif tree_dict['bmi'] == '< 18.5':
-			return -10.81531661129975
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -9.906269950668563
-		elif tree_dict['region'] == 'northeast':
-			return 9.936946151658741
-		elif tree_dict['region'] == 'northwest':
-			return 5.638311960930358
-		elif tree_dict['region'] == 'southwest':
-			return -4.130651380339638
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 15.780587077069512
-		elif tree_dict['region'] == 'northeast':
-			return -3.4421432000757277
-		elif tree_dict['region'] == 'northwest':
-			return 19.039565735132143
-		elif tree_dict['region'] == 'southwest':
-			return -9.158916187487897
-	elif tree_dict['children'] == 4:
+			return -12.67811041202765
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 24.244488666777517
-		elif tree_dict['age'] == '26-41':
-			return 21.566256039717473
+			return 3.5284150397184764
 		elif tree_dict['age'] == '41-56':
-			return -28.311287107175605
+			return 3.6768923445598016
 		elif tree_dict['age'] == '18-26':
-			return -4.967879462286146
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 10.919599008629485
-		elif tree_dict['region'] == 'northeast':
-			return -2.9035888875948026
-		elif tree_dict['region'] == 'northwest':
-			return 29.1519330500214
+			return -5.232712726177582
+		elif tree_dict['age'] == '26-41':
+			return -5.114412010114367
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 9.471681197882578
+		elif tree_dict['region'] == 'southeast':
+			return -12.95971833649004
 		elif tree_dict['region'] == 'southwest':
-			return -18.91871232126846
+			return 1.4681261321596342
+		elif tree_dict['region'] == 'northeast':
+			return 10.530952297750044
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 140.7578087001353
+		elif tree_dict['bmi'] == '25 - 30':
+			return -125.02667643320933
+		elif tree_dict['bmi'] == '35 - 40':
+			return 51.452086926761694
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 100.85870112835255
+		elif tree_dict['bmi'] == '40 - 54':
+			return 109.4314145263279
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 7.648947989493308
+		elif tree_dict['bmi'] == '25 - 30':
+			return 9.064543837006568
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.974032622581035
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -16.999418610374505
+		elif tree_dict['bmi'] == '40 - 54':
+			return 8.057827946958696
+		elif tree_dict['bmi'] == '< 18.5':
+			return -24.19016812226255
 
 def tree_81(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 2.9829245096106467
-		elif tree_dict['age'] == '26-41':
-			return -8.382954442664582
+			return 11.165776593789133
 		elif tree_dict['age'] == '41-56':
-			return 4.932189703824072
+			return 10.500907784881528
 		elif tree_dict['age'] == '18-26':
-			return -4.270393940364503
+			return -2.7012354911472016
+		elif tree_dict['age'] == '26-41':
+			return -6.772112566389069
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 8.826026972642357
-		elif tree_dict['bmi'] == '30 - 35':
-			return -4.484661759884704
+		if tree_dict['bmi'] == '30 - 35':
+			return -3.2983062875904436
 		elif tree_dict['bmi'] == '25 - 30':
-			return -2.7445798426457526
+			return -3.7319797540492425
+		elif tree_dict['bmi'] == '35 - 40':
+			return 10.330623480179407
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.7561144633035383
+			return 1.9352891078729761
 		elif tree_dict['bmi'] == '40 - 54':
-			return 8.79529218271667
+			return 7.72930716571346
 		elif tree_dict['bmi'] == '< 18.5':
-			return -9.733784950169593
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -8.915642955602062
-		elif tree_dict['region'] == 'northeast':
-			return 8.943251536492555
-		elif tree_dict['region'] == 'northwest':
-			return 5.074480764836998
-		elif tree_dict['region'] == 'southwest':
-			return -3.7175862423057424
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 14.2025283693628
-		elif tree_dict['region'] == 'northeast':
-			return -3.0979288800679785
-		elif tree_dict['region'] == 'northwest':
-			return 17.13560916161859
-		elif tree_dict['region'] == 'southwest':
-			return -8.243024568739495
-	elif tree_dict['children'] == 4:
+			return -11.4102993708251
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 21.82003980010025
-		elif tree_dict['age'] == '26-41':
-			return 19.409630435745612
+			return 3.1755735357459014
 		elif tree_dict['age'] == '41-56':
-			return -25.48015839645844
+			return 3.3092031101036397
 		elif tree_dict['age'] == '18-26':
-			return -4.471091516058186
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 9.827639107766482
-		elif tree_dict['region'] == 'northeast':
-			return -2.613229998835171
-		elif tree_dict['region'] == 'northwest':
-			return 26.236739745019804
+			return -4.709441453559515
+		elif tree_dict['age'] == '26-41':
+			return -4.602970809103113
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 8.524513078094351
+		elif tree_dict['region'] == 'southeast':
+			return -11.663746502840757
 		elif tree_dict['region'] == 'southwest':
-			return -17.026841089141953
+			return 1.3213135189431846
+		elif tree_dict['region'] == 'northeast':
+			return 9.477857067973915
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 126.68202783012184
+		elif tree_dict['bmi'] == '25 - 30':
+			return -112.52400878988828
+		elif tree_dict['bmi'] == '35 - 40':
+			return 46.30687823408516
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 90.77283101551802
+		elif tree_dict['bmi'] == '40 - 54':
+			return 98.48827307369447
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 6.884053190544137
+		elif tree_dict['bmi'] == '25 - 30':
+			return 8.158089453305593
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.7766293603226586
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -15.299476749336918
+		elif tree_dict['bmi'] == '40 - 54':
+			return 7.252045152262781
+		elif tree_dict['bmi'] == '< 18.5':
+			return -21.771151310036657
 
 def tree_82(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 2.684632058649121
-		elif tree_dict['age'] == '26-41':
-			return -7.544658998398
+			return 10.049198934409446
 		elif tree_dict['age'] == '41-56':
-			return 4.438970733440904
+			return 9.450817006393445
 		elif tree_dict['age'] == '18-26':
-			return -3.8433545463279017
+			return -2.431111942032942
+		elif tree_dict['age'] == '26-41':
+			return -6.094901309750185
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 7.943424275377765
-		elif tree_dict['bmi'] == '30 - 35':
-			return -4.0361955838966175
+		if tree_dict['bmi'] == '30 - 35':
+			return -2.9684756588307724
 		elif tree_dict['bmi'] == '25 - 30':
-			return -2.4701218583810016
+			return -3.3587817786443943
+		elif tree_dict['bmi'] == '35 - 40':
+			return 9.297561132160832
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.6805030169732162
+			return 1.7417601970855925
 		elif tree_dict['bmi'] == '40 - 54':
-			return 7.9157629644457
+			return 6.956376449141946
 		elif tree_dict['bmi'] == '< 18.5':
-			return -8.76040645515286
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -8.024078660041672
-		elif tree_dict['region'] == 'northeast':
-			return 8.048926382843915
-		elif tree_dict['region'] == 'northwest':
-			return 4.56703268835372
-		elif tree_dict['region'] == 'southwest':
-			return -3.3458276180753423
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 12.78227553242643
-		elif tree_dict['region'] == 'northeast':
-			return -2.7881359920609827
-		elif tree_dict['region'] == 'northwest':
-			return 15.42204824545651
-		elif tree_dict['region'] == 'southwest':
-			return -7.418722111865434
-	elif tree_dict['children'] == 4:
+			return -10.269269433742693
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 19.63803582008889
-		elif tree_dict['age'] == '26-41':
-			return 17.4686673921708
+			return 2.858016182170501
 		elif tree_dict['age'] == '41-56':
-			return -22.932142556812625
+			return 2.9782827990924985
 		elif tree_dict['age'] == '18-26':
-			return -4.023982364452058
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 8.844875196989415
-		elif tree_dict['region'] == 'northeast':
-			return -2.351906998951563
-		elif tree_dict['region'] == 'northwest':
-			return 23.613065770518006
+			return -4.2384973082038595
+		elif tree_dict['age'] == '26-41':
+			return -4.1426737281926505
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 7.672061770284755
+		elif tree_dict['region'] == 'southeast':
+			return -10.497371852557002
 		elif tree_dict['region'] == 'southwest':
-			return -15.324156980227599
+			return 1.189182167049037
+		elif tree_dict['region'] == 'northeast':
+			return 8.530071361176184
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 114.01382504711054
+		elif tree_dict['bmi'] == '25 - 30':
+			return -101.27160791089887
+		elif tree_dict['bmi'] == '35 - 40':
+			return 41.67619041067519
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 81.69554791396695
+		elif tree_dict['bmi'] == '40 - 54':
+			return 88.63944576632548
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 6.195647871489655
+		elif tree_dict['bmi'] == '25 - 30':
+			return 7.342280507975374
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.5989664242906656
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -13.769529074403636
+		elif tree_dict['bmi'] == '40 - 54':
+			return 6.526840637036912
+		elif tree_dict['bmi'] == '< 18.5':
+			return -19.594036179034447
 
 def tree_83(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 2.416168852784397
-		elif tree_dict['age'] == '26-41':
-			return -6.790193098558448
+			return 9.044279040969059
 		elif tree_dict['age'] == '41-56':
-			return 3.9950736600961747
+			return 8.505735305754243
 		elif tree_dict['age'] == '18-26':
-			return -3.4590190916948926
+			return -2.1880007478291077
+		elif tree_dict['age'] == '26-41':
+			return -5.485411178775091
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 7.149081847839936
-		elif tree_dict['bmi'] == '30 - 35':
-			return -3.6325760255065993
+		if tree_dict['bmi'] == '30 - 35':
+			return -2.671628092947217
 		elif tree_dict['bmi'] == '25 - 30':
-			return -2.2231096725428072
+			return -3.022903600780044
+		elif tree_dict['bmi'] == '35 - 40':
+			return 8.367805018944823
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.6124527152759128
+			return 1.5675841773771408
 		elif tree_dict['bmi'] == '40 - 54':
-			return 7.124186668000473
+			return 6.2607388042274925
 		elif tree_dict['bmi'] == '< 18.5':
-			return -7.884365809637529
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -7.2216707940379
-		elif tree_dict['region'] == 'northeast':
-			return 7.244033744559991
-		elif tree_dict['region'] == 'northwest':
-			return 4.110329419518166
-		elif tree_dict['region'] == 'southwest':
-			return -3.0112448562676946
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 11.504047979183824
-		elif tree_dict['region'] == 'northeast':
-			return -2.5093223928545685
-		elif tree_dict['region'] == 'northwest':
-			return 13.879843420911032
-		elif tree_dict['region'] == 'southwest':
-			return -6.676849900678726
-	elif tree_dict['children'] == 4:
+			return -9.242342490368515
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 17.674232238079032
-		elif tree_dict['age'] == '26-41':
-			return 15.721800652954016
+			return 2.572214563954152
 		elif tree_dict['age'] == '41-56':
-			return -20.638928301130665
+			return 2.680454519184
 		elif tree_dict['age'] == '18-26':
-			return -3.621584128006907
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 7.960387677290237
-		elif tree_dict['region'] == 'northeast':
-			return -2.116716299055952
-		elif tree_dict['region'] == 'northwest':
-			return 21.25175919346657
+			return -3.8146475773838793
+		elif tree_dict['age'] == '26-41':
+			return -3.7284063553731785
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 6.9048555932566265
+		elif tree_dict['region'] == 'southeast':
+			return -9.447634667301733
 		elif tree_dict['region'] == 'southwest':
-			return -13.791741282204612
+			return 1.07026395034335
+		elif tree_dict['region'] == 'northeast':
+			return 7.67706422505877
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 102.61244254240064
+		elif tree_dict['bmi'] == '25 - 30':
+			return -91.14444711980946
+		elif tree_dict['bmi'] == '35 - 40':
+			return 37.508571369606216
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 73.52599312257007
+		elif tree_dict['bmi'] == '40 - 54':
+			return 79.77550118969248
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 5.57608308434078
+		elif tree_dict['bmi'] == '25 - 30':
+			return 6.608052457177337
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.43906978186169
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -12.392576166963181
+		elif tree_dict['bmi'] == '40 - 54':
+			return 5.874156573333494
+		elif tree_dict['bmi'] == '< 18.5':
+			return -17.634632561130275
 
 def tree_84(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 2.1745519675063014
-		elif tree_dict['age'] == '26-41':
-			return -6.111173788702471
+			return 8.139851136871812
 		elif tree_dict['age'] == '41-56':
-			return 3.595566294086188
+			return 7.6551617751789305
 		elif tree_dict['age'] == '18-26':
-			return -3.1131171825256234
+			return -1.9692006730458047
+		elif tree_dict['age'] == '26-41':
+			return -4.9368700608974905
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 6.434173663056643
-		elif tree_dict['bmi'] == '30 - 35':
-			return -3.269318422956707
+		if tree_dict['bmi'] == '30 - 35':
+			return -2.4044652836529115
 		elif tree_dict['bmi'] == '25 - 30':
-			return -2.000798705288412
+			return -2.7206132407018857
+		elif tree_dict['bmi'] == '35 - 40':
+			return 7.531024517050052
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.5512074437484443
+			return 1.410825759639489
 		elif tree_dict['bmi'] == '40 - 54':
-			return 6.411768001200269
+			return 5.634664923804989
 		elif tree_dict['bmi'] == '< 18.5':
-			return -7.095929228673867
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -6.49950371463417
-		elif tree_dict['region'] == 'northeast':
-			return 6.519630370103879
-		elif tree_dict['region'] == 'northwest':
-			return 3.6992964775664143
-		elif tree_dict['region'] == 'southwest':
-			return -2.710120370641448
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 10.353643181265952
-		elif tree_dict['region'] == 'northeast':
-			return -2.2583901535688926
-		elif tree_dict['region'] == 'northwest':
-			return 12.491859078819314
-		elif tree_dict['region'] == 'southwest':
-			return -6.009164910610531
-	elif tree_dict['children'] == 4:
+			return -8.318108241331515
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 15.906809014269433
-		elif tree_dict['age'] == '26-41':
-			return 14.149620587658546
+			return 2.314993107558786
 		elif tree_dict['age'] == '41-56':
-			return -18.575035471018357
+			return 2.412409067265955
 		elif tree_dict['age'] == '18-26':
-			return -3.2594257152060893
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 7.16434890956134
-		elif tree_dict['region'] == 'northeast':
-			return -1.905044669149902
-		elif tree_dict['region'] == 'northwest':
-			return 19.126583274119184
+			return -3.4331828196455936
+		elif tree_dict['age'] == '26-41':
+			return -3.355565719835769
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 6.21437003393105
+		elif tree_dict['region'] == 'southeast':
+			return -8.502871200571368
 		elif tree_dict['region'] == 'southwest':
-			return -12.412567153984355
+			return 0.963237555309479
+		elif tree_dict['region'] == 'northeast':
+			return 6.909357802552463
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 92.35119828816187
+		elif tree_dict['bmi'] == '25 - 30':
+			return -82.03000240782899
+		elif tree_dict['bmi'] == '35 - 40':
+			return 33.7577142326445
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 66.17339381031343
+		elif tree_dict['bmi'] == '40 - 54':
+			return 71.79795107072368
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 5.018474775906498
+		elif tree_dict['bmi'] == '25 - 30':
+			return 5.947247211459626
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.295162803675339
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -11.153318550266476
+		elif tree_dict['bmi'] == '40 - 54':
+			return 5.2867409159998715
+		elif tree_dict['bmi'] == '< 18.5':
+			return -15.871169305017247
 
 def tree_85(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.9570967707556
-		elif tree_dict['age'] == '26-41':
-			return -5.500056409832363
+			return 7.32586602318429
 		elif tree_dict['age'] == '41-56':
-			return 3.2360096646780594
+			return 6.889645597660637
 		elif tree_dict['age'] == '18-26':
-			return -2.80180546427332
+			return -1.7722806057410594
+		elif tree_dict['age'] == '26-41':
+			return -4.443183054807453
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 5.790756296750571
-		elif tree_dict['bmi'] == '30 - 35':
-			return -2.942386580660948
+		if tree_dict['bmi'] == '30 - 35':
+			return -2.1640187552871146
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.8007188347593623
+			return -2.448551916631234
+		elif tree_dict['bmi'] == '35 - 40':
+			return 6.77792206534473
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.4960866993734271
+			return 1.2697431836759518
 		elif tree_dict['bmi'] == '40 - 54':
-			return 5.7705912010804035
+			return 5.071198431424748
 		elif tree_dict['bmi'] == '< 18.5':
-			return -6.386336305806708
+			return -7.48629741719833
+	elif tree_dict['children'] == 0:
+		if tree_dict['age'] == '56-64':
+			return 2.0834937968028746
+		elif tree_dict['age'] == '41-56':
+			return 2.1711681605389606
+		elif tree_dict['age'] == '18-26':
+			return -3.0898645376811364
+		elif tree_dict['age'] == '26-41':
+			return -3.0200091478520714
 	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -5.849553343170238
-		elif tree_dict['region'] == 'northeast':
-			return 5.867667333093258
-		elif tree_dict['region'] == 'northwest':
-			return 3.3293668298093246
+		if tree_dict['region'] == 'northwest':
+			return 5.592933030538847
+		elif tree_dict['region'] == 'southeast':
+			return -7.65258408051499
 		elif tree_dict['region'] == 'southwest':
-			return -2.439108333577451
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 9.318278863139232
+			return 0.8669137997778206
 		elif tree_dict['region'] == 'northeast':
-			return -2.032551138211923
-		elif tree_dict['region'] == 'northwest':
-			return 11.242673170937426
-		elif tree_dict['region'] == 'southwest':
-			return -5.4082484195494605
+			return 6.218422022296369
 	elif tree_dict['children'] == 4:
 		if tree_dict['age'] == '56-64':
-			return 14.31612811284261
-		elif tree_dict['age'] == '26-41':
-			return 12.734658528893533
+			return 3062.0864751182744
 		elif tree_dict['age'] == '41-56':
-			return -16.717531923916187
+			return -980.557870829969
 		elif tree_dict['age'] == '18-26':
-			return -2.9334831436852253
+			return -1858.399710879064
+		elif tree_dict['age'] == '26-41':
+			return 622.4045538795583
 	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 6.447914018605479
-		elif tree_dict['region'] == 'northeast':
-			return -1.7145402022351846
-		elif tree_dict['region'] == 'northwest':
-			return 17.213924946707266
-		elif tree_dict['region'] == 'southwest':
-			return -11.171310438585579
+		if tree_dict['bmi'] == '30 - 35':
+			return 4.5166272983160525
+		elif tree_dict['bmi'] == '25 - 30':
+			return 5.352522490313504
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.165646523308169
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -10.037986695239852
+		elif tree_dict['bmi'] == '40 - 54':
+			return 4.758066824399975
+		elif tree_dict['bmi'] == '< 18.5':
+			return -14.284052374514431
 
 def tree_86(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.7613870936805662
-		elif tree_dict['age'] == '26-41':
-			return -4.9500507688498105
+			return 6.593279420865088
 		elif tree_dict['age'] == '41-56':
-			return 2.9124086982107227
+			return 6.200681037894246
 		elif tree_dict['age'] == '18-26':
-			return -2.5216249178463164
+			return -1.5950525451676754
+		elif tree_dict['age'] == '26-41':
+			return -3.9988647493266853
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 5.211680667074866
-		elif tree_dict['bmi'] == '30 - 35':
-			return -2.6481479225945654
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.9476168797586584
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.6206469512835202
+			return -2.203696724968388
+		elif tree_dict['bmi'] == '35 - 40':
+			return 6.100129858809594
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.4464780294360935
+			return 1.1427688653083063
 		elif tree_dict['bmi'] == '40 - 54':
-			return 5.193532080972798
+			return 4.564078588282357
 		elif tree_dict['bmi'] == '< 18.5':
-			return -5.7477026752262645
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -5.264598008853656
-		elif tree_dict['region'] == 'northeast':
-			return 5.280900599784131
-		elif tree_dict['region'] == 'northwest':
-			return 2.9964301468285157
-		elif tree_dict['region'] == 'southwest':
-			return -2.1951975002198956
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 8.386450976825392
-		elif tree_dict['region'] == 'northeast':
-			return -1.8292960243909822
-		elif tree_dict['region'] == 'northwest':
-			return 10.11840585384392
-		elif tree_dict['region'] == 'southwest':
-			return -4.867423577594133
-	elif tree_dict['children'] == 4:
+			return -6.737667675478406
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 12.884515301558471
-		elif tree_dict['age'] == '26-41':
-			return 11.461192676004202
+			return 1.8751444171227458
 		elif tree_dict['age'] == '41-56':
-			return -15.045778731524782
+			return 1.9540513444852776
 		elif tree_dict['age'] == '18-26':
-			return -2.6401348293164117
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 5.803122616744622
-		elif tree_dict['region'] == 'northeast':
-			return -1.5430861820116963
-		elif tree_dict['region'] == 'northwest':
-			return 15.492532452037267
+			return -2.7808780839127207
+		elif tree_dict['age'] == '26-41':
+			return -2.7180082330668727
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 5.033639727485728
+		elif tree_dict['region'] == 'southeast':
+			return -6.8873256724639695
 		elif tree_dict['region'] == 'southwest':
-			return -10.054179394727043
+			return 0.7802224198001669
+		elif tree_dict['region'] == 'northeast':
+			return 5.596579820067023
+	elif tree_dict['children'] == 4:
+		if tree_dict['region'] == 'northwest':
+			return 160.6379541538287
+		elif tree_dict['region'] == 'southeast':
+			return -1188.4046192575106
+		elif tree_dict['region'] == 'southwest':
+			return -502.86954255374286
+		elif tree_dict['region'] == 'northeast':
+			return 1832.161671401177
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 4.064964568484584
+		elif tree_dict['bmi'] == '25 - 30':
+			return 4.817270241281676
+		elif tree_dict['bmi'] == '35 - 40':
+			return -1.0490818709777159
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -9.034188025715594
+		elif tree_dict['bmi'] == '40 - 54':
+			return 4.282260141960251
+		elif tree_dict['bmi'] == '< 18.5':
+			return -12.855647137064807
 
 def tree_87(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.585248384312438
-		elif tree_dict['age'] == '26-41':
-			return -4.45504569196516
+			return 5.933951478779591
 		elif tree_dict['age'] == '41-56':
-			return 2.6211678283898623
+			return 5.580612934105047
 		elif tree_dict['age'] == '18-26':
-			return -2.2694624260615086
+			return -1.435547290650618
+		elif tree_dict['age'] == '26-41':
+			return -3.5989782743939336
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 4.690512600367894
-		elif tree_dict['bmi'] == '30 - 35':
-			return -2.383333130335384
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.7528551917828248
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.4585822561553725
+			return -1.9833270524714162
+		elif tree_dict['bmi'] == '35 - 40':
+			return 5.490116872928924
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.4018302264921658
+			return 1.0284919787773585
 		elif tree_dict['bmi'] == '40 - 54':
-			return 4.674178872875978
+			return 4.107670729453975
 		elif tree_dict['bmi'] == '< 18.5':
-			return -5.172932407703684
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -4.738138207967864
-		elif tree_dict['region'] == 'northeast':
-			return 4.752810539805155
-		elif tree_dict['region'] == 'northwest':
-			return 2.6967871321457357
-		elif tree_dict['region'] == 'southwest':
-			return -1.9756777501982015
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 7.547805879142209
-		elif tree_dict['region'] == 'northeast':
-			return -1.6463664219520926
-		elif tree_dict['region'] == 'northwest':
-			return 9.10656526845921
-		elif tree_dict['region'] == 'southwest':
-			return -4.380681219834338
-	elif tree_dict['children'] == 4:
+			return -6.063900907930474
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 11.596063771402745
-		elif tree_dict['age'] == '26-41':
-			return 10.315073408404487
+			return 1.6876299754107922
 		elif tree_dict['age'] == '41-56':
-			return -13.54120085837197
+			return 1.7586462100361397
 		elif tree_dict['age'] == '18-26':
-			return -2.3761213463851165
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 5.222810355070214
-		elif tree_dict['region'] == 'northeast':
-			return -1.388777563810739
-		elif tree_dict['region'] == 'northwest':
-			return 13.943279206832813
+			return -2.5027902755211806
+		elif tree_dict['age'] == '26-41':
+			return -2.4462074097602833
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 4.53027575473768
+		elif tree_dict['region'] == 'southeast':
+			return -6.198593105218198
 		elif tree_dict['region'] == 'southwest':
-			return -9.048761455254407
+			return 0.7022001778208
+		elif tree_dict['region'] == 'northeast':
+			return 5.036921838059965
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 134.38113677557757
+		elif tree_dict['bmi'] == '25 - 30':
+			return -123.84390858967845
+		elif tree_dict['bmi'] == '35 - 40':
+			return -215.07467971869482
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 141.54804609689563
+		elif tree_dict['bmi'] == '40 - 54':
+			return 214.06227630183093
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 3.6584681116360116
+		elif tree_dict['bmi'] == '25 - 30':
+			return 4.335543217154054
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.9441736838798533
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -8.13076922314417
+		elif tree_dict['bmi'] == '40 - 54':
+			return 3.8540341277644075
+		elif tree_dict['bmi'] == '< 18.5':
+			return -11.570082423357235
 
 def tree_88(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.4267235458815517
-		elif tree_dict['age'] == '26-41':
-			return -4.009541122768761
+			return 5.340556330902132
 		elif tree_dict['age'] == '41-56':
-			return 2.359051045551273
+			return 5.022551640694255
 		elif tree_dict['age'] == '18-26':
-			return -2.0425161834556254
+			return -1.2919925615854595
+		elif tree_dict['age'] == '26-41':
+			return -3.239080446954707
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 4.221461340331433
-		elif tree_dict['bmi'] == '30 - 35':
-			return -2.1449998173019242
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.5775696726040012
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.3127240305392855
+			return -1.784994347223989
+		elif tree_dict['bmi'] == '35 - 40':
+			return 4.941105185636097
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.3616472038426764
+			return 0.9256427808995317
 		elif tree_dict['bmi'] == '40 - 54':
-			return 4.20676098558791
+			return 3.696903656509256
 		elif tree_dict['bmi'] == '< 18.5':
-			return -4.65563916693327
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -4.264324387170548
-		elif tree_dict['region'] == 'northeast':
-			return 4.2775294858247
-		elif tree_dict['region'] == 'northwest':
-			return 2.4271084189307266
-		elif tree_dict['region'] == 'southwest':
-			return -1.7781099751778886
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 6.793025291227344
-		elif tree_dict['region'] == 'northeast':
-			return -1.4817297797569742
-		elif tree_dict['region'] == 'northwest':
-			return 8.195908741613469
-		elif tree_dict['region'] == 'southwest':
-			return -3.942613097850969
-	elif tree_dict['children'] == 4:
+			return -5.457510817137518
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 10.43645739426332
-		elif tree_dict['age'] == '26-41':
-			return 9.283566067563925
+			return 1.5188669778701627
 		elif tree_dict['age'] == '41-56':
-			return -12.187080772533895
+			return 1.5827815890328327
 		elif tree_dict['age'] == '18-26':
-			return -2.1385092117463502
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 4.7005293195636115
-		elif tree_dict['region'] == 'northeast':
-			return -1.2498998074300591
-		elif tree_dict['region'] == 'northwest':
-			return 12.548951286149531
+			return -2.252511247968858
+		elif tree_dict['age'] == '26-41':
+			return -2.20158666878455
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 4.077248179264437
+		elif tree_dict['region'] == 'southeast':
+			return -5.578733794696338
 		elif tree_dict['region'] == 'southwest':
-			return -8.143885309729285
+			return 0.6319801600380237
+		elif tree_dict['region'] == 'northeast':
+			return 4.5332296542539074
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 120.94302309802097
+		elif tree_dict['bmi'] == '25 - 30':
+			return -111.45951773071079
+		elif tree_dict['bmi'] == '35 - 40':
+			return -193.5672117468239
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 127.39324148720516
+		elif tree_dict['bmi'] == '40 - 54':
+			return 192.65604867164802
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 3.2926213004723195
+		elif tree_dict['bmi'] == '25 - 30':
+			return 3.90198889543899
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.8497563154915042
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -7.317692300829549
+		elif tree_dict['bmi'] == '40 - 54':
+			return 3.468630714988194
+		elif tree_dict['bmi'] == '< 18.5':
+			return -10.413074181022239
 
 def tree_89(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.2840511912932666
-		elif tree_dict['age'] == '26-41':
-			return -3.60858701049171
+			return 4.80650069781268
 		elif tree_dict['age'] == '41-56':
-			return 2.1231459409959363
+			return 4.520296476625117
 		elif tree_dict['age'] == '18-26':
-			return -1.8382645651102578
+			return -1.16279330542676
+		elif tree_dict['age'] == '26-41':
+			return -2.9151724022592966
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 3.7993152062977393
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.9304998355715322
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.419812705343768
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.1814516274850952
+			return -1.606494912501723
+		elif tree_dict['bmi'] == '35 - 40':
+			return 4.446994667072058
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.32548248345856334
+			return 0.833078502809569
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3.786084887028614
+			return 3.3272132908577285
 		elif tree_dict['bmi'] == '< 18.5':
-			return -4.19007525024017
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -3.8378919484533003
-		elif tree_dict['region'] == 'northeast':
-			return 3.8497765372423083
-		elif tree_dict['region'] == 'northwest':
-			return 2.1843975770379336
-		elif tree_dict['region'] == 'southwest':
-			return -1.6002989776595389
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 6.11372276210406
-		elif tree_dict['region'] == 'northeast':
-			return -1.3335568017812822
-		elif tree_dict['region'] == 'northwest':
-			return 7.376317867451738
-		elif tree_dict['region'] == 'southwest':
-			return -3.54835178806623
-	elif tree_dict['children'] == 4:
+			return -4.911759735423743
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 9.39281165483529
-		elif tree_dict['age'] == '26-41':
-			return 8.355209460807373
+			return 1.3669802800827628
 		elif tree_dict['age'] == '41-56':
-			return -10.968372695281081
+			return 1.4245034301292425
 		elif tree_dict['age'] == '18-26':
-			return -1.9246582905714604
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 4.2304763876074505
-		elif tree_dict['region'] == 'northeast':
-			return -1.1249098266874473
-		elif tree_dict['region'] == 'northwest':
-			return 11.294056157534214
+			return -2.027260123172155
+		elif tree_dict['age'] == '26-41':
+			return -1.9814280019053758
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 3.669523361338917
+		elif tree_dict['region'] == 'southeast':
+			return -5.020860415226738
 		elif tree_dict['region'] == 'southwest':
-			return -7.329496778756493
+			return 0.5687821440345033
+		elif tree_dict['region'] == 'northeast':
+			return 4.079906688827926
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 108.84872078821918
+		elif tree_dict['bmi'] == '25 - 30':
+			return -100.31356595763964
+		elif tree_dict['bmi'] == '35 - 40':
+			return -174.2104905721426
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 114.65391733848446
+		elif tree_dict['bmi'] == '40 - 54':
+			return 173.39044380448286
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 2.963359170425065
+		elif tree_dict['bmi'] == '25 - 30':
+			return 3.511790005895591
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.7647806839422628
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -6.5859230707467304
+		elif tree_dict['bmi'] == '40 - 54':
+			return 3.1217676434889654
+		elif tree_dict['bmi'] == '< 18.5':
+			return -9.371766762920743
 
 def tree_90(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.1556460721642776
-		elif tree_dict['age'] == '26-41':
-			return -3.2477283094426954
+			return 4.325850628031276
 		elif tree_dict['age'] == '41-56':
-			return 1.9108313468954738
+			return 4.0682668289629875
 		elif tree_dict['age'] == '18-26':
-			return -1.6544381085996718
+			return -1.046513974884249
+		elif tree_dict['age'] == '26-41':
+			return -2.623655162033098
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 3.4193836856681696
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.7374498520138484
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.277831434809629
 		elif tree_dict['bmi'] == '25 - 30':
-			return -1.0633064647364958
+			return -1.4458454212518235
+		elif tree_dict['bmi'] == '35 - 40':
+			return 4.0022952003646655
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.2929342351127161
+			return 0.749770652528959
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3.4074763983255454
+			return 2.9944919617725576
 		elif tree_dict['bmi'] == '< 18.5':
-			return -3.7710677252161986
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -3.4541027536084363
-		elif tree_dict['region'] == 'northeast':
-			return 3.4647988835178176
-		elif tree_dict['region'] == 'northwest':
-			return 1.9659578193341727
-		elif tree_dict['region'] == 'southwest':
-			return -1.4402690798939755
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 5.5023504858934995
-		elif tree_dict['region'] == 'northeast':
-			return -1.2002011216034267
-		elif tree_dict['region'] == 'northwest':
-			return 6.6386860807061145
-		elif tree_dict['region'] == 'southwest':
-			return -3.193516609259654
-	elif tree_dict['children'] == 4:
+			return -4.420583761881403
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 8.453530489351882
-		elif tree_dict['age'] == '26-41':
-			return 7.519688514726795
+			return 1.230282252073911
 		elif tree_dict['age'] == '41-56':
-			return -9.871535425753185
+			return 1.2820530871159839
 		elif tree_dict['age'] == '18-26':
-			return -1.732192461514569
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 3.807428748846905
-		elif tree_dict['region'] == 'northeast':
-			return -1.0124188440189148
-		elif tree_dict['region'] == 'northwest':
-			return 10.164650541781157
+			return -1.8245341108551936
+		elif tree_dict['age'] == '26-41':
+			return -1.7832852017148766
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 3.3025710252054266
+		elif tree_dict['region'] == 'southeast':
+			return -4.518774373703811
 		elif tree_dict['region'] == 'southwest':
-			return -6.5965471008810255
+			return 0.5119039296308074
+		elif tree_dict['region'] == 'northeast':
+			return 3.671916019945697
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 97.96384870939637
+		elif tree_dict['bmi'] == '25 - 30':
+			return -90.28220936187586
+		elif tree_dict['bmi'] == '35 - 40':
+			return -156.7894415149276
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 103.18852560463529
+		elif tree_dict['bmi'] == '40 - 54':
+			return 156.05139942403457
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 2.6670232533824674
+		elif tree_dict['bmi'] == '25 - 30':
+			return 3.1606110053066914
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.6883026155483094
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -5.927330763672444
+		elif tree_dict['bmi'] == '40 - 54':
+			return 2.809590879139705
+		elif tree_dict['bmi'] == '< 18.5':
+			return -8.434590086628305
 
 def tree_91(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 1.0400814649480188
-		elif tree_dict['age'] == '26-41':
-			return -2.9229554784986482
+			return 3.89326556522758
 		elif tree_dict['age'] == '41-56':
-			return 1.7197482122050578
+			return 3.661440146066161
 		elif tree_dict['age'] == '18-26':
-			return -1.488994297739802
+			return -0.9418625773960798
+		elif tree_dict['age'] == '26-41':
+			return -2.361289645830008
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 3.0774453171009264
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.5637048668127642
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.1500482913286536
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.9569758182628443
+			return -1.3012608791262616
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3.6020656803284976
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.2636408116014536
+			return 0.6747935872759435
 		elif tree_dict['bmi'] == '40 - 54':
-			return 3.066728758492344
+			return 2.695042765594665
 		elif tree_dict['bmi'] == '< 18.5':
-			return -3.3939609526946697
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -3.1086924782477565
-		elif tree_dict['region'] == 'northeast':
-			return 3.118318995165932
-		elif tree_dict['region'] == 'northwest':
-			return 1.7693620374003072
-		elif tree_dict['region'] == 'southwest':
-			return -1.2962421719045853
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 4.952115437304122
-		elif tree_dict['region'] == 'northeast':
-			return -1.0801810094428541
-		elif tree_dict['region'] == 'northwest':
-			return 5.97481747263555
-		elif tree_dict['region'] == 'southwest':
-			return -2.874164948333571
-	elif tree_dict['children'] == 4:
+			return -3.978525385693274
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 7.6081774404168145
-		elif tree_dict['age'] == '26-41':
-			return 6.767719663253729
+			return 1.1072540268666753
 		elif tree_dict['age'] == '41-56':
-			return -8.884381883177715
+			return 1.1538477784034888
 		elif tree_dict['age'] == '18-26':
-			return -1.5589732153628575
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 3.4266858739623784
-		elif tree_dict['region'] == 'northeast':
-			return -0.9111769596168718
-		elif tree_dict['region'] == 'northwest':
-			return 9.148185487603769
+			return -1.6420806997696042
+		elif tree_dict['age'] == '26-41':
+			return -1.604956681542814
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 2.9723139226857453
+		elif tree_dict['region'] == 'southeast':
+			return -4.066896936333251
 		elif tree_dict['region'] == 'southwest':
-			return -5.936892390792764
+			return 0.46071353666701625
+		elif tree_dict['region'] == 'northeast':
+			return 3.3047244179508786
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 88.16746383845584
+		elif tree_dict['bmi'] == '25 - 30':
+			return -81.25398842568916
+		elif tree_dict['bmi'] == '35 - 40':
+			return -141.11049736343557
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 92.86967304417158
+		elif tree_dict['bmi'] == '40 - 54':
+			return 140.4462594816314
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 2.4003209280444935
+		elif tree_dict['bmi'] == '25 - 30':
+			return 2.8445499047754765
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.6194723539938423
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -5.334597687305177
+		elif tree_dict['bmi'] == '40 - 54':
+			return 2.528631791225962
+		elif tree_dict['bmi'] == '< 18.5':
+			return -7.5911310779665655
 
 def tree_92(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.9360733184533144
-		elif tree_dict['age'] == '26-41':
-			return -2.6306599306488585
+			return 3.5039390087047195
 		elif tree_dict['age'] == '41-56':
-			return 1.5477733909851386
+			return 3.295296131459254
 		elif tree_dict['age'] == '18-26':
-			return -1.3400948679657816
+			return -0.847676319656955
+		elif tree_dict['age'] == '26-41':
+			return -2.1251606812468253
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 2.7697007853905853
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.4073343801315634
+		if tree_dict['bmi'] == '30 - 35':
+			return -1.0350434621961104
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.8612782364366007
+			return -1.1711347912142345
+		elif tree_dict['bmi'] == '35 - 40':
+			return 3.241859112295713
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.23727673044095354
+			return 0.6073142285482199
 		elif tree_dict['bmi'] == '40 - 54':
-			return 2.760055882642872
+			return 2.425538489034807
 		elif tree_dict['bmi'] == '< 18.5':
-			return -3.054564857425248
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -2.7978232304223964
-		elif tree_dict['region'] == 'northeast':
-			return 2.8064870956493126
-		elif tree_dict['region'] == 'northwest':
-			return 1.5924258336604649
-		elif tree_dict['region'] == 'southwest':
-			return -1.1666179547146764
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 4.456903893573524
-		elif tree_dict['region'] == 'northeast':
-			return -0.9721629084981888
-		elif tree_dict['region'] == 'northwest':
-			return 5.37733572537139
-		elif tree_dict['region'] == 'southwest':
-			return -2.58674845350012
-	elif tree_dict['children'] == 4:
+			return -3.580672847124106
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 6.847359696375254
-		elif tree_dict['age'] == '26-41':
-			return 6.0909476969279694
+			return 0.9965286241801633
 		elif tree_dict['age'] == '41-56':
-			return -7.995943694859609
+			return 1.038463000562971
 		elif tree_dict['age'] == '18-26':
-			return -1.4030758938268264
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 3.084017286565904
-		elif tree_dict['region'] == 'northeast':
-			return -0.820059263655215
-		elif tree_dict['region'] == 'northwest':
-			return 8.233366938842664
+			return -1.4778726297925933
+		elif tree_dict['age'] == '26-41':
+			return -1.4444610133886109
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 2.6750825304168515
+		elif tree_dict['region'] == 'southeast':
+			return -3.6602072426996433
 		elif tree_dict['region'] == 'southwest':
-			return -5.343203151713396
+			return 0.41464218300024086
+		elif tree_dict['region'] == 'northeast':
+			return 2.9742519761554616
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 79.35071745460974
+		elif tree_dict['bmi'] == '25 - 30':
+			return -73.12858958312017
+		elif tree_dict['bmi'] == '35 - 40':
+			return -126.99944762709129
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 83.5827057397546
+		elif tree_dict['bmi'] == '40 - 54':
+			return 126.40163353346816
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 2.160288835239953
+		elif tree_dict['bmi'] == '25 - 30':
+			return 2.5600949142985883
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.5575251185946399
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -4.801137918574568
+		elif tree_dict['bmi'] == '40 - 54':
+			return 2.275768612103093
+		elif tree_dict['bmi'] == '< 18.5':
+			return -6.832017970169545
 
 def tree_93(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.8424659866074242
-		elif tree_dict['age'] == '26-41':
-			return -2.367593937583965
+			return 3.1535451078345886
 		elif tree_dict['age'] == '41-56':
-			return 1.392996051885756
+			return 2.9657665183134303
 		elif tree_dict['age'] == '18-26':
-			return -1.2060853811691392
+			return -0.7629086876912083
+		elif tree_dict['age'] == '26-41':
+			return -1.9126446131224384
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 2.4927307068522544
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.2666009421186826
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.9315391159765687
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.7751504127926218
+			return -1.0540213120924316
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2.9176732010657873
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.21354905739690366
+			return 0.5465828056936325
 		elif tree_dict['bmi'] == '40 - 54':
-			return 2.484050294379156
+			return 2.182984640131648
 		elif tree_dict['bmi'] == '< 18.5':
-			return -2.7491083716827234
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -2.518040907379737
-		elif tree_dict['region'] == 'northeast':
-			return 2.5258383860849185
-		elif tree_dict['region'] == 'northwest':
-			return 1.4331832502944704
-		elif tree_dict['region'] == 'southwest':
-			return -1.0499561592427729
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 4.011213504215843
-		elif tree_dict['region'] == 'northeast':
-			return -0.8749466176480863
-		elif tree_dict['region'] == 'northwest':
-			return 4.839602152834502
-		elif tree_dict['region'] == 'southwest':
-			return -2.328073608149944
-	elif tree_dict['children'] == 4:
+			return -3.222605562411786
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 6.162623726738578
-		elif tree_dict['age'] == '26-41':
-			return 5.481852927235423
+			return 0.896875761762137
 		elif tree_dict['age'] == '41-56':
-			return -7.196349325373679
+			return 0.9346167005061042
 		elif tree_dict['age'] == '18-26':
-			return -1.2627683044445803
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 2.775615557909441
-		elif tree_dict['region'] == 'northeast':
-			return -0.7380533372897844
-		elif tree_dict['region'] == 'northwest':
-			return 7.410030244958762
+			return -1.3300853668135149
+		elif tree_dict['age'] == '26-41':
+			return -1.3000149120499433
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 2.4075742773750464
+		elif tree_dict['region'] == 'southeast':
+			return -3.2941865184292323
 		elif tree_dict['region'] == 'southwest':
-			return -4.808882836541898
+			return 0.3731779646994558
+		elif tree_dict['region'] == 'northeast':
+			return 2.67682677854033
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 71.41564570914943
+		elif tree_dict['bmi'] == '25 - 30':
+			return -65.81573062480834
+		elif tree_dict['bmi'] == '35 - 40':
+			return -114.2995028643818
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 75.22443516577914
+		elif tree_dict['bmi'] == '40 - 54':
+			return 113.76147018012216
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.9442599517160488
+		elif tree_dict['bmi'] == '25 - 30':
+			return 2.304085422868866
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.5017726067353578
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -4.321024126717248
+		elif tree_dict['bmi'] == '40 - 54':
+			return 2.048191750892329
+		elif tree_dict['bmi'] == '< 18.5':
+			return -6.148816173154046
 
 def tree_94(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.7582193879464805
-		elif tree_dict['age'] == '26-41':
-			return -2.1308345438249403
+			return 2.838190597049902
 		elif tree_dict['age'] == '41-56':
-			return 1.253696446696991
+			return 2.6691898664815743
 		elif tree_dict['age'] == '18-26':
-			return -1.0854768430520207
+			return -0.6866178189222296
+		elif tree_dict['age'] == '26-41':
+			return -1.7213801518105356
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 2.2434576361663017
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.1399408479069026
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.8383852043789705
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.697635371513233
+			return -0.9486191808836202
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2.625905880958901
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.19219415165725878
+			return 0.49192452512450374
 		elif tree_dict['bmi'] == '40 - 54':
-			return 2.2356452649411143
+			return 1.9646861761180285
 		elif tree_dict['bmi'] == '< 18.5':
-			return -2.4741975345145875
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -2.2662368166417317
-		elif tree_dict['region'] == 'northeast':
-			return 2.2732545474765566
-		elif tree_dict['region'] == 'northwest':
-			return 1.2898649252650622
-		elif tree_dict['region'] == 'southwest':
-			return -0.9449605433182645
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 3.6100921537947372
-		elif tree_dict['region'] == 'northeast':
-			return -0.7874519558835185
-		elif tree_dict['region'] == 'northwest':
-			return 4.355641937550236
-		elif tree_dict['region'] == 'southwest':
-			return -2.095266247334885
-	elif tree_dict['children'] == 4:
+			return -2.90034500617071
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 5.546361354064477
-		elif tree_dict['age'] == '26-41':
-			return 4.933667634511266
+			return 0.8071881855866443
 		elif tree_dict['age'] == '41-56':
-			return -6.476714392836887
+			return 0.8411550304552459
 		elif tree_dict['age'] == '18-26':
-			return -1.136491474000468
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 2.4980540021182605
-		elif tree_dict['region'] == 'northeast':
-			return -0.6642480035610182
-		elif tree_dict['region'] == 'northwest':
-			return 6.669027220463249
+			return -1.197076830132455
+		elif tree_dict['age'] == '26-41':
+			return -1.1700134208450497
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 2.166816849637847
+		elif tree_dict['region'] == 'southeast':
+			return -2.964767866586687
 		elif tree_dict['region'] == 'southwest':
-			return -4.327994552887503
+			return 0.33586016822873715
+		elif tree_dict['region'] == 'northeast':
+			return 2.4091441006860483
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 64.2740811382353
+		elif tree_dict['bmi'] == '25 - 30':
+			return -59.234157562328164
+		elif tree_dict['bmi'] == '35 - 40':
+			return -102.86955257794398
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 67.70199164920086
+		elif tree_dict['bmi'] == '40 - 54':
+			return 102.38532316210967
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.7498339565443075
+		elif tree_dict['bmi'] == '25 - 30':
+			return 2.0736768805816155
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.4515953460622768
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -3.8889217140454093
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.843372575803187
+		elif tree_dict['bmi'] == '< 18.5':
+			return -5.533934555838641
 
 def tree_95(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.6823974491513971
-		elif tree_dict['age'] == '26-41':
-			return -1.9177510894423586
+			return 2.5543715373441955
 		elif tree_dict['age'] == '41-56':
-			return 1.1283268020272457
+			return 2.4022708798329404
 		elif tree_dict['age'] == '18-26':
-			return -0.9769291587469162
+			return -0.6179560370296144
+		elif tree_dict['age'] == '26-41':
+			return -1.5492421366297624
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 2.019111872550949
-		elif tree_dict['bmi'] == '30 - 35':
-			return -1.0259467631154218
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.7545466839403254
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.6278718343620424
+			return -0.853757262794862
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2.3633152928639154
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.17297473649168751
+			return 0.4427320726122879
 		elif tree_dict['bmi'] == '40 - 54':
-			return 2.0120807384467096
+			return 1.768217558505477
 		elif tree_dict['bmi'] == '< 18.5':
-			return -2.2267777810629923
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -2.0396131349771767
-		elif tree_dict['region'] == 'northeast':
-			return 2.0459290927289353
-		elif tree_dict['region'] == 'northwest':
-			return 1.1608784327384325
-		elif tree_dict['region'] == 'southwest':
-			return -0.8504644889862902
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 3.249082938414651
-		elif tree_dict['region'] == 'northeast':
-			return -0.7087067602951185
-		elif tree_dict['region'] == 'northwest':
-			return 3.9200777437949785
-		elif tree_dict['region'] == 'southwest':
-			return -1.8857396226010736
-	elif tree_dict['children'] == 4:
+			return -2.6103105055536844
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 4.991725218658151
-		elif tree_dict['age'] == '26-41':
-			return 4.440300871060344
+			return 0.7264693670278409
 		elif tree_dict['age'] == '41-56':
-			return -5.829042953553956
+			return 0.7570395274105058
 		elif tree_dict['age'] == '18-26':
-			return -1.0228423266005848
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 2.2482486019065617
-		elif tree_dict['region'] == 'northeast':
-			return -0.5978232032051286
-		elif tree_dict['region'] == 'northwest':
-			return 6.002124498416379
+			return -1.0773691471191482
+		elif tree_dict['age'] == '26-41':
+			return -1.053012078760623
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1.95013516467386
+		elif tree_dict['region'] == 'southeast':
+			return -2.6682910799283865
 		elif tree_dict['region'] == 'southwest':
-			return -3.8951950975986165
+			return 0.30227415140653746
+		elif tree_dict['region'] == 'northeast':
+			return 2.1682296906176495
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 57.846673024413214
+		elif tree_dict['bmi'] == '25 - 30':
+			return -53.310741806095166
+		elif tree_dict['bmi'] == '35 - 40':
+			return -92.58259732014994
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 60.93179248428169
+		elif tree_dict['bmi'] == '40 - 54':
+			return 92.14679084589898
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.5748505608896721
+		elif tree_dict['bmi'] == '25 - 30':
+			return 1.8663091925241133
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.40643581145650387
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -3.5000295426411867
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.6590353182227773
+		elif tree_dict['bmi'] == '< 18.5':
+			return -4.980541100256232
 
 def tree_96(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.6141577042368616
-		elif tree_dict['age'] == '26-41':
-			return -1.7259759804983226
+			return 2.298934383610117
 		elif tree_dict['age'] == '41-56':
-			return 1.015494121824211
+			return 2.16204379185001
 		elif tree_dict['age'] == '18-26':
-			return -0.8792362428726145
+			return -0.5561604333268519
+		elif tree_dict['age'] == '26-41':
+			return -1.3943179229671234
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 1.817200685294399
-		elif tree_dict['bmi'] == '30 - 35':
-			return -0.923352086804218
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.6790920155455844
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.5650846509256502
+			return -0.7683815365154396
+		elif tree_dict['bmi'] == '35 - 40':
+			return 2.1269837635770203
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.15567726284275524
+			return 0.39845886535086766
 		elif tree_dict['bmi'] == '40 - 54':
-			return 1.81087266460266
+			return 1.591395802655615
 		elif tree_dict['bmi'] == '< 18.5':
-			return -2.004100002956875
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -1.8356518214791493
-		elif tree_dict['region'] == 'northeast':
-			return 1.8413361834561026
-		elif tree_dict['region'] == 'northwest':
-			return 1.0447905894645504
-		elif tree_dict['region'] == 'southwest':
-			return -0.7654180400874869
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 2.9241746445727785
-		elif tree_dict['region'] == 'northeast':
-			return -0.6378360842659009
-		elif tree_dict['region'] == 'northwest':
-			return 3.5280699694154416
-		elif tree_dict['region'] == 'southwest':
-			return -1.6971656603412069
-	elif tree_dict['children'] == 4:
+			return -2.349279454998509
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 4.492552696793912
-		elif tree_dict['age'] == '26-41':
-			return 3.9962707839538325
+			return 0.6538224303243293
 		elif tree_dict['age'] == '41-56':
-			return -5.246138658198409
+			return 0.6813355746691208
 		elif tree_dict['age'] == '18-26':
-			return -0.9205580939404172
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 2.023423741716215
-		elif tree_dict['region'] == 'northeast':
-			return -0.5380408828844642
-		elif tree_dict['region'] == 'northwest':
-			return 5.401912048575468
+			return -0.9696322324074163
+		elif tree_dict['age'] == '26-41':
+			return -0.9477108708840635
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1.7551216482063539
+		elif tree_dict['region'] == 'southeast':
+			return -2.4014619719360186
 		elif tree_dict['region'] == 'southwest':
-			return -3.5056755878385957
+			return 0.2720467362664345
+		elif tree_dict['region'] == 'northeast':
+			return 1.9514067215556465
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 52.06200572197249
+		elif tree_dict['bmi'] == '25 - 30':
+			return -47.97966762548617
+		elif tree_dict['bmi'] == '35 - 40':
+			return -83.32433758813568
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 54.8386132358537
+		elif tree_dict['bmi'] == '40 - 54':
+			return 82.9321117613099
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.4173655048007276
+		elif tree_dict['bmi'] == '25 - 30':
+			return 1.6796782732719748
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.36579223031094443
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -3.150026588377159
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.4931317864002267
+		elif tree_dict['bmi'] == '< 18.5':
+			return -4.482486990229518
 
 def tree_97(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.5527419338128701
-		elif tree_dict['age'] == '26-41':
-			return -1.5533783824484682
+			return 2.0690409452489575
 		elif tree_dict['age'] == '41-56':
-			return 0.9139447096421445
+			return 1.9458394126653367
 		elif tree_dict['age'] == '18-26':
-			return -0.7913126185850202
+			return -0.5005443899939905
+		elif tree_dict['age'] == '26-41':
+			return -1.254886130670305
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 1.635480616764409
-		elif tree_dict['bmi'] == '30 - 35':
-			return -0.8310168781232379
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.6111828139910688
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.5085761858329564
+			return -0.6915433828641037
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1.9142853872192342
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.1401095365582478
+			return 0.35861297881611837
 		elif tree_dict['bmi'] == '40 - 54':
-			return 1.629785398142758
+			return 1.4322562223898365
 		elif tree_dict['bmi'] == '< 18.5':
-			return -1.8036900026613694
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -1.6520866393319542
-		elif tree_dict['region'] == 'northeast':
-			return 1.6572025651104403
-		elif tree_dict['region'] == 'northwest':
-			return 0.9403115305182966
-		elif tree_dict['region'] == 'southwest':
-			return -0.6888762360786131
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 2.6317571801150934
-		elif tree_dict['region'] == 'northeast':
-			return -0.5740524758389524
-		elif tree_dict['region'] == 'northwest':
-			return 3.1752629724746964
-		elif tree_dict['region'] == 'southwest':
-			return -1.527449094307456
-	elif tree_dict['children'] == 4:
+			return -2.114351509498647
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 4.043297427114642
-		elif tree_dict['age'] == '26-41':
-			return 3.5966437055583356
+			return 0.5884401872921113
 		elif tree_dict['age'] == '41-56':
-			return -4.721524792378053
+			return 0.6132020172025469
 		elif tree_dict['age'] == '18-26':
-			return -0.8285022845464483
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 1.8210813675443205
-		elif tree_dict['region'] == 'northeast':
-			return -0.48423679459574487
-		elif tree_dict['region'] == 'northwest':
-			return 4.861720843717194
+			return -0.8726690091669125
+		elif tree_dict['age'] == '26-41':
+			return -0.8529397837950343
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1.5796094833855572
+		elif tree_dict['region'] == 'southeast':
+			return -2.1613157747417437
 		elif tree_dict['region'] == 'southwest':
-			return -3.155108029054645
+			return 0.24484206263953942
+		elif tree_dict['region'] == 'northeast':
+			return 1.756266049399448
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 46.855805149776096
+		elif tree_dict['bmi'] == '25 - 30':
+			return -43.18170086293844
+		elif tree_dict['bmi'] == '35 - 40':
+			return -74.99190382932284
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 49.3547519122676
+		elif tree_dict['bmi'] == '40 - 54':
+			return 74.63890058517882
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.275628954320382
+		elif tree_dict['bmi'] == '25 - 30':
+			return 1.5117104459450275
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.32921300727957714
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -2.8350239295398296
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.3438186077605678
+		elif tree_dict['bmi'] == '< 18.5':
+			return -4.034238291205838
 
 def tree_98(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.4974677404321873
-		elif tree_dict['age'] == '26-41':
-			return -1.3980405442034363
+			return 1.8621368507241414
 		elif tree_dict['age'] == '41-56':
-			return 0.822550238677891
+			return 1.7512554713982535
 		elif tree_dict['age'] == '18-26':
-			return -0.7121813567260997
+			return -0.4504899509942675
+		elif tree_dict['age'] == '26-41':
+			return -1.1293975176029107
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 1.4719325550880658
-		elif tree_dict['bmi'] == '30 - 35':
-			return -0.747915190310424
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.550064532591438
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.4577185672497057
+			return -0.6223890445774894
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1.722856848497404
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.12609858290270495
+			return 0.3227516809344802
 		elif tree_dict['bmi'] == '40 - 54':
-			return 1.4668068583292653
+			return 1.2890306001504892
 		elif tree_dict['bmi'] == '< 18.5':
-			return -1.623321002395187
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -1.4868779753994787
-		elif tree_dict['region'] == 'northeast':
-			return 1.4914823085993183
-		elif tree_dict['region'] == 'northwest':
-			return 0.8462803774662981
-		elif tree_dict['region'] == 'southwest':
-			return -0.6199886124706305
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 2.368581462103461
-		elif tree_dict['region'] == 'northeast':
-			return -0.5166472282549234
-		elif tree_dict['region'] == 'northwest':
-			return 2.857736675226472
-		elif tree_dict['region'] == 'southwest':
-			return -1.3747041848767572
-	elif tree_dict['children'] == 4:
+			return -1.9029163585487368
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 3.6389676844022083
-		elif tree_dict['age'] == '26-41':
-			return 3.236979335003298
+			return 0.5295961685629498
 		elif tree_dict['age'] == '41-56':
-			return -4.24937231313955
+			return 0.5518818154831925
 		elif tree_dict['age'] == '18-26':
-			return -0.7456520560923309
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 1.6389732307899976
-		elif tree_dict['region'] == 'northeast':
-			return -0.43581311513571563
-		elif tree_dict['region'] == 'northwest':
-			return 4.375548759346202
+			return -0.7854021082500566
+		elif tree_dict['age'] == '26-41':
+			return -0.7676458054151114
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1.4216485350476982
+		elif tree_dict['region'] == 'southeast':
+			return -1.9451841972682689
 		elif tree_dict['region'] == 'southwest':
-			return -2.839597226149408
+			return 0.2203578563744486
+		elif tree_dict['region'] == 'northeast':
+			return 1.5806394444595004
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 42.17022463479971
+		elif tree_dict['bmi'] == '25 - 30':
+			return -38.86353077664489
+		elif tree_dict['bmi'] == '35 - 40':
+			return -67.49271344639055
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 44.41927672104066
+		elif tree_dict['bmi'] == '40 - 54':
+			return 67.17501052666103
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.1480660588886167
+		elif tree_dict['bmi'] == '25 - 30':
+			return 1.360539401350934
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.2962917065515285
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -2.551521536585824
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.2094367469844656
+		elif tree_dict['bmi'] == '< 18.5':
+			return -3.6308144620852545
 
 def tree_99(tree_dict):
-	if tree_dict['children'] == 0:
+	if tree_dict['children'] == 3:
 		if tree_dict['age'] == '56-64':
-			return 0.4477209663897546
-		elif tree_dict['age'] == '26-41':
-			return -1.2582364897831255
+			return 1.6759231656513975
 		elif tree_dict['age'] == '41-56':
-			return 0.740295214810115
+			return 1.5761299242592213
 		elif tree_dict['age'] == '18-26':
-			return -0.6409632210536336
+			return -0.4054409558955854
+		elif tree_dict['age'] == '26-41':
+			return -1.0164577658423088
 	elif tree_dict['children'] == 1:
-		if tree_dict['bmi'] == '35 - 40':
-			return 1.3247392995798712
-		elif tree_dict['bmi'] == '30 - 35':
-			return -0.6731236712794776
+		if tree_dict['bmi'] == '30 - 35':
+			return -0.4950580793321234
 		elif tree_dict['bmi'] == '25 - 30':
-			return -0.41194671052432846
+			return -0.5601501401195743
+		elif tree_dict['bmi'] == '35 - 40':
+			return 1.5505711636473372
 		elif tree_dict['bmi'] == '18.5 - 25':
-			return -0.11348872461244355
+			return 0.29047651284068515
 		elif tree_dict['bmi'] == '40 - 54':
-			return 1.3201261724967077
+			return 1.160127540135713
 		elif tree_dict['bmi'] == '< 18.5':
-			return -1.4609889021558047
-	elif tree_dict['children'] == 2:
-		if tree_dict['region'] == 'southeast':
-			return -1.3381901778591543
-		elif tree_dict['region'] == 'northeast':
-			return 1.3423340777396031
-		elif tree_dict['region'] == 'northwest':
-			return 0.761652339720188
-		elif tree_dict['region'] == 'southwest':
-			return -0.5579897512238858
-	elif tree_dict['children'] == 3:
-		if tree_dict['region'] == 'southeast':
-			return 2.1317233158935145
-		elif tree_dict['region'] == 'northeast':
-			return -0.464982505429415
-		elif tree_dict['region'] == 'northwest':
-			return 2.5719630077042845
-		elif tree_dict['region'] == 'southwest':
-			return -1.2372337663892987
-	elif tree_dict['children'] == 4:
+			return -1.7126247226938176
+	elif tree_dict['children'] == 0:
 		if tree_dict['age'] == '56-64':
-			return 3.2750709159602898
-		elif tree_dict['age'] == '26-41':
-			return 2.913281401503582
+			return 0.47663655170670777
 		elif tree_dict['age'] == '41-56':
-			return -3.8244350818261714
+			return 0.4966936339350459
 		elif tree_dict['age'] == '18-26':
-			return -0.6710868504826066
-	elif tree_dict['children'] == 5:
-		if tree_dict['region'] == 'southeast':
-			return 1.475075907711289
-		elif tree_dict['region'] == 'northeast':
-			return -0.39223180362235627
-		elif tree_dict['region'] == 'northwest':
-			return 3.937993883411764
+			return -0.7068618974251704
+		elif tree_dict['age'] == '26-41':
+			return -0.6908812248736079
+	elif tree_dict['children'] == 2:
+		if tree_dict['region'] == 'northwest':
+			return 1.2794836815430484
+		elif tree_dict['region'] == 'southeast':
+			return -1.750665777541928
 		elif tree_dict['region'] == 'southwest':
-			return -2.555637503534399
+			return 0.19832207073659447
+		elif tree_dict['region'] == 'northeast':
+			return 1.422575500013382
+	elif tree_dict['children'] == 4:
+		if tree_dict['bmi'] == '30 - 35':
+			return 37.95320217131903
+		elif tree_dict['bmi'] == '25 - 30':
+			return -34.97717769897963
+		elif tree_dict['bmi'] == '35 - 40':
+			return -60.74344210174968
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return 39.97734904893696
+		elif tree_dict['bmi'] == '40 - 54':
+			return 60.45750947399483
+		elif tree_dict['bmi'] == '< 18.5':
+			return 0
+	elif tree_dict['children'] == 5:
+		if tree_dict['bmi'] == '30 - 35':
+			return 1.0332594530000279
+		elif tree_dict['bmi'] == '25 - 30':
+			return 1.2244854612154086
+		elif tree_dict['bmi'] == '35 - 40':
+			return -0.2666625358961028
+		elif tree_dict['bmi'] == '18.5 - 25':
+			return -2.2963693829269687
+		elif tree_dict['bmi'] == '40 - 54':
+			return 1.0884930722863828
+		elif tree_dict['bmi'] == '< 18.5':
+			return -3.267733015876729

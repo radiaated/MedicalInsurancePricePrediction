@@ -1,6 +1,6 @@
 import test2
 import pandas as pd
-from trees import trees
+from trees import trees2
 from sklearn.model_selection import train_test_split
 import math
 
@@ -21,7 +21,7 @@ def predictor(dff, l_r, mean_y):
             tree_dict = dff.loc[df_i].to_dict()
 
             # print(tree_dict)
-            resi = getattr(trees, f"tree_{i}")(tree_dict)
+            resi = getattr(trees2, f"tree_{i}")(tree_dict)
 
             print(f"Resi_{i}: {resi}")
 
