@@ -1,0 +1,24 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>Signup</h3>
+
+  <form method="POST" class="slform">
+    {% csrf_token %}
+    <label>Username</label>
+    <input type="username" name="username" />
+    <label>Full Name</label>
+    <input type="text" name="full_name" />
+    <label>Age</label>
+    <input type="number" name="age" />
+    <label>Password</label>
+    <input type="password" name="pwd" />
+    <label>Confirm Password</label>
+    <input type="password" name="pwd2" />
+
+    <input type="submit" name="submit" value="Signup" />
+  </form>
+  <p>{% for message in messages %} {{ message }} {% endfor %}</p>
+</div>
+
+{% endblock %}

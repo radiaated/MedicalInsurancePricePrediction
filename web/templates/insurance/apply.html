@@ -1,0 +1,36 @@
+{% extends 'generic/base_generic.html' %}
+
+{% block content %}
+
+<form method="POST">
+    {% csrf_token %}
+
+    <label>Age</label>
+    <input type="number" value="{{ userx.age }}" name="age"/>
+    <label>Sex</label>
+    <select name="sex">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+
+    <label>BMI</label>
+    <input type="number" name="bmi"/>
+    <label>Number of children</label>
+    <input type="number" name="children"/>
+    <label>Region</label>
+    <select name="region">
+        <option value="northeast">Northeast</option>
+        <option value="northwest">Northwest</option>
+        <option value="southwest">Southwest</option>
+        <option value="southeast">Southeast</option>
+    </select>
+    <label>Smoker</label>
+    
+    <input type="checkbox" name="smoker">
+    <input type="submit" name="submit" value="submit"/>
+
+    {% if res != 0  %}<p>{{ res }}</p>{% endif %}
+    
+</form>
+
+{% endblock %}

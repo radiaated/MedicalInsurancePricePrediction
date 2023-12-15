@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static  'css/style.css' %}" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    {% block header %}
+
+    <header class="bg-white w-full py-4 drop-shadow-sm">
+      <div class="max-w-4xl w-[90%] mx-auto flex justify-between items-center">
+        <div class="text-3xl font-extrabold">Insurance Company</div>
+
+        <nav class="list-none pl-0 flex gap-8 font-normal">
+          <li>Home</li>
+          <li>Insurance</li>
+          <li>Contact</li>
+        </nav>
+        <nav class="list-none pl-0 flex gap-4 font-normal">
+          {% if user.is_authenticated %} {{ user.username }}
+          <a href="/signout">Sign out</a>
+          {% else %}
+          <a class="btn-full" href="{% url 'signin' %}">Signin</a>
+          <a class="btn-outline" href="{% url 'signup' %}">Signup</a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+
+    {% endblock %}
+
+    <div class="max-w-4xl w-[90%] mx-auto">
+      {% block content %} {% endblock %}
+    </div>
+    {% block footer %}
+
+    <div>
+      <h1>Footer</h1>
+    </div>
+
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-200;
+  }
+
+  h3 {
+    @apply font-medium text-3xl tracking-wider mb-4;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white px-8 py-6 my-8 rounded-md drop-shadow-md;
+  }
+
+  .btn-full {
+    @apply block bg-indigo-900 px-4 py-1 rounded-sm text-white border border-indigo-900 text-sm cursor-pointer;
+  }
+  .btn-outline {
+    @apply block bg-white px-4 py-1 rounded-sm border border-indigo-900 text-sm text-indigo-950 cursor-pointer;
+  }
+
+  .slform {
+    @apply flex flex-col;
+  }
+
+  .slform label {
+    @apply mb-2 text-lg;
+  }
+
+  .slform input {
+    @apply bg-zinc-100 border border-zinc-300 rounded-sm text-lg py-1 px-2 mb-2;
+  }
+  .slform input[type="submit"] {
+    @apply bg-indigo-700 border-indigo-800 text-white cursor-pointer;
+  }
+}
