@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 # from trees import trees
 
-df = pd.read_csv("./fake_ds.csv")
 
 def std(x):
     return np.std(x)

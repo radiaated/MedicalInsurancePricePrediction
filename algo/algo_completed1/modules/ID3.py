@@ -1,9 +1,6 @@
 
 import numpy as np
 import pandas as pd
-# from trees import trees
-
-df = pd.read_csv("./fake_ds.csv")
 
 def std(x):
     return np.std(x)
@@ -15,7 +12,7 @@ class ID3:
 
     tree_code = ""
 
-    def __init__(self, dff, op):
+    def __init__(self, dff, op, ):
         self.dff = dff
         self.op = op
 
@@ -87,11 +84,6 @@ class ID3:
         self.tree_code = f"\ndef {tree_name}(tree_dict):\n" + self.tree_code
         
         
-        ftree = open(f"./trees/trees_new_cv.py", "a+")
+        ftree = open(f"./trees/trees_regr.py", "a+")
         ftree.write(self.tree_code)
         ftree.close()
-
-
-# id = ID3(df,"HoursPlayed")
-# id.build_tree()
-# id.create_tree("tree1")

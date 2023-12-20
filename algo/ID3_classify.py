@@ -100,65 +100,65 @@ class ID3:
         ftree.write(self.tree_code)
         ftree.close()
 
-ftree = open(f"./trees/trees_classify.py", "w").close()
-# id = ID3(df,"HoursPlayed")
-# id.build_tree()
-# id.create_tree("tree1")
-import math
+# ftree = open(f"./trees/trees_classify.py", "w").close()
+# # id = ID3(df,"HoursPlayed")
+# # id.build_tree()
+# # id.create_tree("tree1")
+# import math
 
-dfff = pd.read_csv("fake_ds2.csv")
-dffff = dfff.copy()
+# dfff = pd.read_csv("fake_ds2.csv")
+# dffff = dfff.copy()
 
-yes_count = len(dfff[dfff["play"] == "yes"])
-no_count = len(dfff[dfff["play"] == "no"])
+# yes_count = len(dfff[dfff["play"] == "yes"])
+# no_count = len(dfff[dfff["play"] == "no"])
 
-print(yes_count)
-print(no_count)
+# print(yes_count)
+# print(no_count)
 
-te =  math.log(yes_count/no_count)
-
-
-
-prob =  math.exp(te) / ( 1+ math.exp(te))
-
-
-dfff["Prob"] = prob
-dfff["LogOdds"] = te
-for t in range(5):
-
-   
-
-    dfff["play"] = dffff["play"]
+# te =  math.log(yes_count/no_count)
 
 
 
-    for k in dfff.index:
-        if dfff.loc[k, "play"] == "yes":
-            dfff.loc[k, "Resi"] = 1 - dfff.loc[k, "Prob"]
-        elif dfff.loc[k, "play"] == "no":
-            dfff.loc[k, "Resi"] = 0 - dfff.loc[k, "Prob"]
+# prob =  math.exp(te) / ( 1+ math.exp(te))
+
+
+# dfff["Prob"] = prob
+# dfff["LogOdds"] = te
+# for t in range(5):
 
    
-    dfff = dfff.drop(columns=["play"])
 
-    print(dfff)
+#     dfff["play"] = dffff["play"]
 
-    id = ID3(dfff,"Resi")
-    id.build_tree()
-    id.create_tree(f"tree{t}")
 
-    importlib.reload(trees_classify)
 
-    for k in dfff.index:
-        q = getattr(trees_classify, f"tree{t}")(dfff.loc[k].to_dict())
-        new_te = dfff.loc[k, "LogOdds"] + 0.9 * q
+#     for k in dfff.index:
+#         if dfff.loc[k, "play"] == "yes":
+#             dfff.loc[k, "Resi"] = 1 - dfff.loc[k, "Prob"]
+#         elif dfff.loc[k, "play"] == "no":
+#             dfff.loc[k, "Resi"] = 0 - dfff.loc[k, "Prob"]
 
-        print(q)
+   
+#     dfff = dfff.drop(columns=["play"])
+
+#     print(dfff)
+
+#     id = ID3(dfff,"Resi")
+#     id.build_tree()
+#     id.create_tree(f"tree{t}")
+
+#     importlib.reload(trees_classify)
+
+#     for k in dfff.index:
+#         q = getattr(trees_classify, f"tree{t}")(dfff.loc[k].to_dict())
+#         new_te = dfff.loc[k, "LogOdds"] + 0.9 * q
+
+#         print(q)
  
-        prob = math.exp(new_te) / (1 + math.exp(new_te))
-        dfff.loc[k, "LogOdds"] = new_te
-        dfff.loc[k, "Prob"] = prob
+#         prob = math.exp(new_te) / (1 + math.exp(new_te))
+#         dfff.loc[k, "LogOdds"] = new_te
+#         dfff.loc[k, "Prob"] = prob
 
-dfff["play"] = dffff["play"]
-print(dfff)
+# dfff["play"] = dffff["play"]
+# print(dfff)
 
