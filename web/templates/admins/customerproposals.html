@@ -1,0 +1,77 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<h3 class="mt-4 w-full">Dashboard</h3>
+<div class="grid grid-cols-10 gap-8">
+  {% include 'admins/dasboardmenu.html' %}
+  <div class="card w-full col-span-8">
+    <div class="">
+      <div
+        class="flex flex-row justify-between items-center w-full border-b border-b-zinc-200 pb-3"
+      >
+        <h4 class="text-zinc-700">Proposals</h4>
+        <form method="POST" class="flex justify-between gap-4 items-center">
+          {% csrf_token %}
+
+          <div class="text-sm">
+            Reviewed:
+            <input type="checkbox" name="reviewed" 
+            {% if reviewed is True %} checked="True" {% endif %}  />
+          </div>
+          <div class="text-sm">
+            Accpeted: <input type="radio" name="status" value="accepted" 
+            {% if status == "accepted" %} checked="True" {% endif %} />
+          </div>
+          <div class="text-sm">
+            Rejected: <input type="radio" name="status" value="rejected" 
+            {% if status == "rejected" %} checked="True" {% endif %} />
+          </div>
+          <input
+            type="reset"
+            value="Reset"
+            onclick="location.reload(true)"
+            class="small-btn"
+          />
+          <input
+            type="submit"
+            value="Filter"
+            name="submit"
+            class="small-btn"
+          />
+        </form>
+      </div>
+      <div class="divide-y divide-zinc-200 w-full">
+        {% for proposal in proposals %}
+
+        <div class="flex flex-row justify-between py-2">
+          <div class="flex flex-row gap-1 items-center">
+            <div
+              class="text-xs bg-zinc-500 text-zinc-200 h-fit px-1 rounded-sm cursor-default"
+            >
+              Proposal
+            </div>
+            <div class="text-sm font-light">
+              Submitted by
+              <a
+                href="{% url 'customerprofile' username=proposal.userx.user.username %}"
+                class="text-cyan-700 font-normal hover:underline hover:underline-offset-1 cursor-pointer"
+              >
+                {{proposal.userx.full_name}}</a
+              >
+            </div>
+          </div>
+          <div class="flex flex-row gap-3">
+            <a
+              href="{% url 'customerproposalbyid' id=proposal.id%}"
+              class="block border border-zinc-700 text-sm px-4 py-1 hover:bg-zinc-100 cursor-pointer active:bg-zinc-300"
+              >View</a
+            >
+          </div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

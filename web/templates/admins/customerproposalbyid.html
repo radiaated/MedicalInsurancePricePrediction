@@ -1,0 +1,105 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>Customer proposal</h3>
+  {% if proposal.reviewed is True %}
+  <div>
+    {% if proposal.status == 'accepted' %}
+    <div
+      class="italic font-medium tracking-wider bg-green-600 text-zinc-100 text-xs w-full px-2 py-1"
+    >
+      Accepted
+    </div>
+    {% else %}
+    <div
+      class="italic font-medium tracking-wider bg-red-600 text-zinc-100 text-xs w-full px-2 py-1"
+    >
+      Rejected
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+  <div class="text-sm mb-2 mt-4">
+    Submitted by:
+    <span
+      class="text-cyan-700 font-normal hover:underline hover:underline-offset-1 cursor-pointer"
+      >{{ proposal.userx.full_name }}</span
+    >
+  </div>
+  <table class="table-customer-profile">
+    <tr>
+      <th>Plan:</th>
+      <td>{{ proposal.package.package_name }}</td>
+    </tr>
+    <tr>
+      <th>Predicted Price:</th>
+      <td>{{ proposal.predicted_amt }}</td>
+    </tr>
+  </table>
+  <div class="text-sm mb-2 mt-4">Submitted details</div>
+  <table class="table-customer-profile mb-4">
+    <!-- <tr>
+      <th>Username:</th>
+      <td>{{ proposal.userx.user.username }}</td>
+    </tr>
+    <tr>
+      <th>full_name:</th>
+      <td>{{ proposal.userx.full_name }}</td>
+    </tr>
+    <tr>
+      <th>Email:</th>
+      <td>{{ proposal.userx.user.email }}</td>
+    </tr> -->
+    <tr>
+      <th>Age:</th>
+      <td>{{ proposal.insurance_profile.age }}</td>
+    </tr>
+    <tr>
+      <th>Sex:</th>
+      <td>{{ proposal.insurance_profile.sex }}</td>
+    </tr>
+    <tr>
+      <th>Smoker:</th>
+      <td>{{ proposal.insurance_profile.smoker }}</td>
+    </tr>
+    <tr>
+      <th>Region:</th>
+      <td>{{ proposal.insurance_profile.region }}</td>
+    </tr>
+    <tr>
+      <th>Children:</th>
+      <td>{{ proposal.insurance_profile.children }}</td>
+    </tr>
+    <tr>
+      <th>Occupation:</th>
+      <td>{{ proposal.insurance_profile.occupation }}</td>
+    </tr>
+    <tr>
+      <th>BMI:</th>
+      <td>{{ proposal.insurance_profile.bmi }}</td>
+    </tr>
+    <tr>
+      <th>Medical history:</th>
+      <td>{{ proposal.insurance_profile.medical_history }}</td>
+    </tr>
+    <tr>
+      <th>Family medical history:</th>
+      <td>{{ proposal.insurance_profile.family_medical_history }}</td>
+    </tr>
+  </table>
+
+  <div>
+    <a
+      href="{% url 'reviewproposal' id=proposal.id %}?status=accepted"
+      class="bg-green-600 border border-green-400 px-4 py-1 text-zinc-100 rounded-sm text-sm hover:bg-green-600/90"
+      >Accept</a
+    >
+    <a
+      href="{% url 'reviewproposal' id=proposal.id %}?status=rejected"
+      class="bg-red-600 border border-red-400 px-4 py-1 text-zinc-100 rounded-sm text-sm hover:bg-red-600/90"
+      >Reject</a
+    >
+  </div>
+</div>
+
+{% endblock %}

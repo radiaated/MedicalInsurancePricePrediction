@@ -1,0 +1,41 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>Your proposals</h3>
+  <table class="w-full table-customer-profile">
+    <thead>
+      <tr class="grid grid-cols-11">
+        <th class="col-span-1">SN</th>
+        <th class="col-span-2">Predicted</th>
+        <th class="col-span-4">Date</th>
+        <th class="col-span-2">STATUS</th>
+        <th class="col-span-2">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for proposal in proposals %}
+      <tr class="grid grid-cols-11">
+        <td class="col-span-1">{{ forloop.counter }}</td>
+        <td class="col-span-2">{{ proposal.predicted_amt }}</td>
+        <td class="col-span-4">{{ proposal.date_created }}</td>
+
+        <td class="col-span-2">STATUS</td>
+        <td class="col-span-2 flex gap-1">
+          <a
+            href="/insurance/delete_proposal/{{ proposal.id }}/"
+            class="block text-xs bg-red-600 text-zinc-50 px-2 py-1 border border-red-800 hover:bg-red-700 rounded-sm"
+            >DELETE</a
+          >
+          <a
+            href="{% url 'userproposalbyid' id=proposal.id %}"
+            class="block text-xs bg-zinc-50 text-zinc-800 px-2 py-1 border border-zinc-800 hover:bg-zinc-100 rounded-sm"
+            >VIEW</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

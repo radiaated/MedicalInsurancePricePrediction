@@ -1,0 +1,19 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>Login</h3>
+
+  <form method="POST" class="slform">
+    {% csrf_token %}
+    <label>Username</label>
+    <input type="username" name="username" />
+
+    <label>Password</label>
+    <input type="password" name="pwd" />
+
+    <input type="submit" name="submit" value="Login" />
+  </form>
+  <p>{% for message in messages %} {{ message }} {% endfor %}</p>
+</div>
+
+{% endblock %}

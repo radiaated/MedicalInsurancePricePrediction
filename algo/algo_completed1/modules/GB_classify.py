@@ -43,18 +43,18 @@ class GB:
 
             dfff = temp_df.copy()
 
-            dfff["package_Bronze"] = dfff["package_Bronze"]
+            dfff[self.op] = self.dff[self.op]
 
 
 
             for k in dfff.index:
-                if dfff.loc[k, "package_Bronze"] == True:
+                if dfff.loc[k, self.op] == True:
                     dfff.loc[k, "Resi"] = 1 - dfff.loc[k, "Prob"]
-                elif dfff.loc[k, "package_Bronze"] == False:
+                elif dfff.loc[k, self.op] == False:
                     dfff.loc[k, "Resi"] = 0 - dfff.loc[k, "Prob"]
 
         
-            dfff = dfff.drop(columns=["package_Bronze"])
+            dfff = dfff.drop(columns=[self.op])
             
 
 

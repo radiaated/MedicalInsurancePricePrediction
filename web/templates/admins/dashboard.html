@@ -1,0 +1,47 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<h3 class="mt-4 w-full">Dashboard</h3>
+<div class="grid grid-cols-10 gap-8">
+  {% include 'admins/dasboardmenu.html' %}
+  <div class="card w-full col-span-8">
+    <div class="">
+      <div
+        class="flex flex-row justify-between items-center w-full border-b border-b-zinc-200 pb-3"
+      >
+        <h4 class="text-zinc-700">Customers Information</h4>
+        <form method="POST">
+          {% csrf_token %}
+          <input
+            type="text"
+            name="search"
+            class="border border-zinc-200 text-sm py-1 px-2 font-light tracking-wider"
+            placeholder="Search..."
+          />
+          <input type="submit" name="submit" value="Search" class="small-btn" />
+        </form>
+      </div>
+      <div class="divide-y divide-zinc-200 w-full">
+        {% for user in userx %}
+
+        <div class="flex flex-row justify-between py-2">
+          <div class="">{{user.full_name}}</div>
+          <div class="flex flex-row gap-3">
+            <a
+              href="{% url 'customerprofile' username=user.user.username %}"
+              class="block border border-zinc-700 text-sm px-4 py-1 hover:bg-zinc-200 cursor-pointer active:bg-zinc-400"
+              >View</a
+            >
+            <a
+              class="block border border-zinc-700 bg-zinc-700 text-sm text-zinc-200 px-4 py-1 hover:bg-zinc-800 cursor-pointer active:bg-zinc-900"
+              >Delete</a
+            >
+          </div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

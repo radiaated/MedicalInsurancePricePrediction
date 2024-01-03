@@ -16,7 +16,7 @@
 
 @layer components {
   .card {
-    @apply bg-white px-8 py-6 my-8 rounded-md drop-shadow-md;
+    @apply bg-white px-8 py-6 my-8 rounded-md shadow-md;
   }
 
   .btn-full {
@@ -26,8 +26,16 @@
     @apply block bg-white px-4 py-1 rounded-sm border border-indigo-900 text-sm text-indigo-950 cursor-pointer;
   }
 
+  .small-btn {
+    @apply text-sm border border-zinc-200 bg-zinc-50 text-zinc-700 font-light px-4 py-1 cursor-pointer rounded-sm shadow-sm hover:bg-zinc-100;
+  }
+
   .slform {
     @apply flex flex-col;
+  }
+
+  .slform span {
+    @apply text-xs;
   }
 
   .slform label {
@@ -39,5 +47,25 @@
   }
   .slform input[type="submit"] {
     @apply bg-indigo-700 border-indigo-800 text-white cursor-pointer;
+  }
+
+  .table-customer-profile {
+    @apply w-full;
+  }
+
+  .table-customer-profile tr th {
+    @apply text-left w-[40%];
+  }
+  .table-customer-profile tr th,
+  .table-customer-profile tr td {
+    @apply py-2 px-4;
+  }
+
+  .table-customer-profile tr:nth-child(2n + 1) {
+    @apply bg-zinc-100;
+  }
+
+  .test {
+    @apply bg-zinc-800;
   }
 }

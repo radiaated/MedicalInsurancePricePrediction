@@ -1,36 +1,75 @@
-{% extends 'generic/base_generic.html' %}
+{% extends 'generic/base_generic.html' %} {% block content %}
 
-{% block content %}
-
-<form method="POST">
+<div class="card">
+  <form method="POST" class="slform" onsubmit="">
     {% csrf_token %}
 
     <label>Age</label>
-    <input type="number" value="{{ userx.age }}" name="age"/>
+    <input type="number" name="age" />
     <label>Sex</label>
     <select name="sex">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
     </select>
 
     <label>BMI</label>
-    <input type="number" name="bmi"/>
-    <label>Number of children</label>
-    <input type="number" name="children"/>
+    <input type="number" name="bmi" />
+
+    <label>Occupation</label>
+    <select name="occupation">
+      <option value="Unemployed">Unemployed</option>
+      <option value="Student">Student</option>
+      <option value="White collar">White Collar</option>
+      <option value="Blue collar">Blue collar</option>
+    </select>
+    <label>No. of children</label>
+    <input type="number" name="children" />
+    <label>Smoker</label>
+
+    <input type="checkbox" name="smoker" />
+
     <label>Region</label>
     <select name="region">
-        <option value="northeast">Northeast</option>
-        <option value="northwest">Northwest</option>
-        <option value="southwest">Southwest</option>
-        <option value="southeast">Southeast</option>
+      <option value="northeast">Northeast</option>
+      <option value="northwest">Northwest</option>
+      <option value="southwest">Southwest</option>
+      <option value="southeast">Southeast</option>
     </select>
-    <label>Smoker</label>
-    
-    <input type="checkbox" name="smoker">
-    <input type="submit" name="submit" value="submit"/>
+    <label>Medical history</label>
+    <select name="medical_history">
+      <option value="No">None</option>
+      <option value="Heart Disease">Heart Disease</option>
+      <option value="High Blood Pressure">High Blood Pressure</option>
+      <option value="Diabetes">Diabetes</option>
+    </select>
+    <label>Familky Medical history</label>
+    <select name="family_medical_history">
+      <option value="No">None</option>
+      <option value="Heart Disease">Heart Disease</option>
+      <option value="High Blood Pressure">High Blood Pressure</option>
+      <option value="Diabetes">Diabetes</option>
+    </select>
+    <input type="submit" name="submit" value="Check" />
 
-    {% if res != 0  %}<p>{{ res }}</p>{% endif %}
-    
-</form>
+    {% if predicted_price and predicted_package and predicted_package_prob %}
+    <p>Predicted price: {{ predicted_price }}</p>
+    <p>
+      Predicted package: {{ predicted_package }} with probability:
+      <span>{{ predicted_package_prob }}</span>
+    </p>
+
+    <input name="predicted_amt" type="hidden" value="{{ predicted_price }}" />
+
+    <input
+      name="predicted_package"
+      type="hidden"
+      value="{{ predicted_package }}"
+    />
+
+    <input type="submit" name="submit" value="Submit proposal" />
+
+    {% endif %}
+  </form>
+</div>
 
 {% endblock %}
