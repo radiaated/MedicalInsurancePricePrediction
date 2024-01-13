@@ -2,13 +2,25 @@
 
 <div class="card">
   <h3>Signup</h3>
-
-  <form method="POST" class="slform">
+  {% if messages %}
+  <div class="text-sm bg-red-50 border border-red-400 p-2 mb-2">
+    {% for message in messages %} {{ message }} {% endfor %}
+  </div>
+  {% endif %}
+  <div id="msg"></div>
+  <form
+    method="POST"
+    class="slform"
+    name="userform"
+    onsubmit="return validateForm(event)"
+  >
     {% csrf_token %}
+    <label>Email</label>
+    <input type="email" name="email" value="{{ inp_data.email }}" />
     <label>Username</label>
-    <input type="username" name="username" />
+    <input type="username" name="username" value="{{ inp_data.username }}" />
     <label>Full Name</label>
-    <input type="text" name="full_name" />
+    <input type="text" name="full_name" value="{{ inp_data.full_name }}" />
 
     <label>Password</label>
     <input type="password" name="pwd" />
@@ -18,5 +30,76 @@
     <input type="submit" name="submit" value="Signup" />
   </form>
 </div>
+<script>
+  function classAdder(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.add(classname);
+    }
+  }
+  function classRemover(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.remove(classname);
+    }
+  }
+
+  function validateForm(e) {
+    console.log("hello");
+
+    var email = userform.email.value;
+    var username = userform.username.value;
+    var full_name = userform.full_name.value;
+    var pwd = userform.pwd.value;
+    var pwd2 = userform.pwd2.value;
+    var msg = document.getElementById("msg");
+
+    var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
+
+    msg.innerHTML = "";
+
+    if (email.length == 0) {
+      msg.innerHTML = "Email is empty";
+      classAdder(msg, classnames);
+      return false;
+    }
+    if (username.length == 0) {
+      msg.innerHTML = "Username is empty";
+      classAdder(msg, classnames);
+      return false;
+    } else if (username.length < 7) {
+      msg.innerHTML = "Username must be at least six characters";
+      classAdder(msg, classnames);
+      return false;
+    }
+    if (full_name.length == 0) {
+      msg.innerHTML = "Full name is empty";
+      classAdder(msg, classnames);
+      return false;
+    } else if (full_name.length < 7) {
+      msg.innerHTML = "Full name must be at least six characters";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    if (pwd.length == 0) {
+      msg.innerHTML = "Password is empty";
+      classAdder(msg, classnames);
+      return false;
+    } else if (pwd.length < 7) {
+      msg.innerHTML = "Password must be at least six characters";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    if (pwd != pwd2) {
+      msg.innerHTML = "Password does not match";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    classRemover(msg, classnames);
+
+    return true;
+  }
+</script>
 
 {% endblock %}

@@ -1,83 +1,84 @@
 {% extends 'generic/base_generic.html' %} {% block content %}
 
 <div class="card">
-  <form method="POST" class="slform">
+  <h3>Profile</h3>
+  {% if messages %}
+  <div class="text-sm bg-red-50 border border-red-400 p-2 mb-2">
+    {% for message in messages %} {{ message }} {% endfor %}
+  </div>
+  {% endif %}
+  <div id="msg"></div>
+  <form
+    method="POST"
+    class="slform"
+    name="userform"
+    onsubmit="return validateForm(event)"
+  >
     {% csrf_token %}
-    <label>Username</label>
-    <input type="username" name="username" value="{{ user.username }}" />
     <label>Email</label>
     <input type="email" name="email" value="{{ user.email }}" />
+    <label>Username</label>
+    <input type="username" name="username" value="{{ user.username }}" />
     <label>Full name</label>
     <input type="text" name="full_name" value="{{ userx.full_name }}" />
-    <label>Age</label>
-    <input type="number" name="age" value="{{ userx.age }}" />
-    <label>Sex</label>
-    {{ userx.sex }}
-    <select name="sex">
-      <option
-        value="male"
-        {% if userx.sex == 'male' %} selected {% endif %}
-      >
-        Male
-      </option>
-      <option
-        value="female"
-        {% if userx.sex == 'female' %} selected {% endif %}
-      >
-        Female
-      </option>
-    </select>
 
-    <label>BMI</label>
-    <input type="number" name="bmi" value="{{ userx.bmi }}" />
-
-    <label>Occupation</label>
-    <select name="occupation" default="{{ userx.occupation }}">
-      <option value="Unemployed"  {% if userx.occupation == 'Unemployed' %} selected {% endif %}>Unemployed</option>
-      <option value="Student"  {% if userx.occupation == 'Student' %} selected {% endif %}>Student</option>
-      <option value="White collar"  {% if userx.occupation == 'White collar' %} selected {% endif %}>White Collar</option>
-      <option value="Blue collar"  {% if userx.occupation == 'Blue collar' %} selected {% endif %}>Blue collar</option>
-    </select>
-    <label>No. of children</label>
-    <input type="number" name="children" value="{{ userx.children }}" />
-    <label>Smoker</label>
-
-    <input type="checkbox" name="smoker" {% if userx.smoker == True %} checked {% endif %}/>
-
-    <label>Region</label>
-    <select name="region" >
-      <option value="northeast"  {% if userx.region == 'northeast' %} selected {% endif %}>Northeast</option>
-      <option value="northwest"  {% if userx.region == 'northwest' %} selected {% endif %}>Northwest</option>
-      <option value="southwest" {% if userx.region == 'southwest' %} selected {% endif %}>Southwest</option>
-      <option value="southeast" {% if userx.region == 'southeast' %} selected {% endif %}>Southeast</option>
-    </select>
-    <label>Medical history</label>
-    <select name="medical_history" >
-      <option value="No" {% if userx.medical_history == 'No' %} selected {% endif %}>None</option>
-      <option value="Heart Disease" {% if userx.medical_history == 'Heart Disease' %} selected {% endif %}>Heart Disease</option>
-      <option value="High Blood Pressure" {% if userx.medical_history == 'High Blood Pressure' %} selected {% endif %}>High Blood Pressure</option>
-      <option value="Diabetes" {% if userx.medical_history == 'Diabetes' %} selected {% endif %}>Diabetes</option>
-    </select>
-    <label>Familky Medical history</label>
-    <select
-      name="family_medical_history"
-      
-    >
-      <option value="No" {% if userx.family_medical_history == 'No' %} selected {% endif %}>None</option>
-      <option value="Heart Disease" {% if userx.family_medical_history == 'Heart Disease' %} selected {% endif %}>Heart Disease</option>
-      <option value="High Blood Pressure" {% if userx.family_medical_history == 'High Blood Pressure' %} selected {% endif %}>High Blood Pressure</option>
-      <option value="Diabetes" {% if userx.family_medical_history == 'Diabetes' %} selected {% endif %}>Diabetes</option>
-  </select>
     <input type="submit" name="submit" value="submit" />
-
-    {% if res != 0 %}
-    <p>{{ res }}</p>
-    {% endif %}
   </form>
-  <!-- <form method="POST" class="slform">
-    {% csrf_token %} {{ profilefuserform }} {{ profileuserxform }}
-    <input type="submit" value="Update" />
-  </form> -->
 </div>
+
+<script>
+  function classAdder(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.add(classname);
+    }
+  }
+  function classRemover(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.remove(classname);
+    }
+  }
+
+  function validateForm(e) {
+    console.log("hello");
+
+    var email = userform.email.value;
+    var username = userform.username.value;
+    var full_name = userform.full_name.value;
+
+    var msg = document.getElementById("msg");
+
+    var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
+
+    msg.innerHTML = "";
+
+    if (email.length == 0) {
+      msg.innerHTML = "Email is empty";
+      classAdder(msg, classnames);
+      return false;
+    }
+    if (username.length == 0) {
+      msg.innerHTML = "Username is empty";
+      classAdder(msg, classnames);
+      return false;
+    } else if (username.length < 7) {
+      msg.innerHTML = "Username must be at least six characters";
+      classAdder(msg, classnames);
+      return false;
+    }
+    if (full_name.length == 0) {
+      msg.innerHTML = "Full name is empty";
+      classAdder(msg, classnames);
+      return false;
+    } else if (full_name.length < 7) {
+      msg.innerHTML = "Full name must be at least six characters";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    classRemover(msg, classnames);
+
+    return true;
+  }
+</script>
 
 {% endblock %}

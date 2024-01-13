@@ -16,48 +16,66 @@ def index(req):
 
 def signup(req):
 
-    msg=''
+    
     
 
     if req.method == "POST":
-        pass
-        post_data = req.POST
-        print(post_data['username'])
 
-        user = User.objects.create(
+        list(messages.get_messages(req))
+
+        post_data = req.POST
+
+        try:
+
+            if User.objects.filter(username=post_data['username']).exists():
+                raise Exception("Username exists")
+            if User.objects.filter(email=post_data['email']).exists():
+                raise Exception("Email exists")
+
+            user = User.objects.create(
                 username=post_data['username'],
+                email=post_data['email'],
                 
             )
-        
-        
-        user.set_password(post_data['pwd'])
 
-        print(user.password)
-        
-        userx = UserX.objects.create(
-                user=user,
-                full_name=post_data['full_name'],
-            )
-        
-        if user and userx:
-            user.save()
-            userx.save()
-            # msg = 'Signed up'
-            messages.success(req, "Signup")
+            user.set_password(post_data['pwd'])
+
+            print(user.password)
             
-            return redirect('home')
- 
-    context = {"msg": msg, }
+            userx = UserX.objects.create(
+                    user=user,
+                    full_name=post_data['full_name'],
+                )
+            
+            if user and userx:
+                user.save()
+                userx.save()
+                # msg = 'Signed up'
+                
+                return redirect('home')
+    
+        except Exception as ex:
+    
+            messages.error(req, ex)
 
-    return render(req, 'base/signup.html', context)
+
+            context = {
+                'inp_data': post_data
+            }
+
+            return render(req, 'base/signup.html', context)
+
+    return render(req, 'base/signup.html')
 
 
 def signin(req):
 
-    msg=''
     
     if req.method == "POST":
+
+        list(messages.get_messages(req))
         post_data = req.POST
+
         user = authenticate(req, username=post_data['username'], password=post_data['pwd'])
 
         print(user)
@@ -72,48 +90,60 @@ def signin(req):
 
 def adminsignup(req):
 
-    msg=''
+
     
 
     if req.method == "POST":
-        pass
-        post_data = req.POST
-        print(post_data['username'])
+        try:
+            post_data = req.POST
 
-        user = User.objects.create(
-                username=post_data['username'],
-                is_staff=True
-            )
-        
-        
-        user.set_password(post_data['pwd'])
+            if User.objects.filter(username=post_data['username']).exists():
+                raise Exception("Username exists")
+            if User.objects.filter(email=post_data['email']).exists():
+                raise Exception("Email exists")
 
-        print(user.password)
-        
-        
-        
-        if user:
-            user.save()
-           
-            messages.success(req, "Signup")
+            user = User.objects.create(
+                    username=post_data['username'],
+                    email=post_data['email'],
+                    is_staff=True
+                )
             
-            return redirect('home')
- 
-    context = {"msg": msg, }
+            
+            user.set_password(post_data['pwd'])
 
-    return render(req, 'base/adminsignup.html', context)
+            print(user.password)
+        
+
+            if user:
+                user.save()
+            
+                messages.success(req, "Signup")
+                
+                return redirect('home')
+ 
+        except Exception as ex:
+            messages.error(req, ex)
+
+            context = {
+                'inp_data': post_data
+            }
+
+            return render(req, 'base/adminsignup.html', context)
+ 
+
+    return render(req, 'base/adminsignup.html')
 
 
 def adminsignin(req):
 
-    msg=''
+
     
     if req.method == "POST":
         post_data = req.POST
         user = authenticate(req, username=post_data['username'], password=post_data['pwd'])
 
         print(user)
-        if user:
+        if user and user.is_staff == True:
             login(req,user)
             return redirect("/admins/dashboard")
         else:

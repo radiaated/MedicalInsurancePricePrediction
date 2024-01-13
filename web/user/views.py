@@ -12,40 +12,41 @@ from django.contrib import messages
 def profile(request):
 
     if request.method == "POST":
+        list(messages.get_messages(request))
 
-        post_data = request.POST
+        try:
 
+            post_data = request.POST
+            
+            print(User.objects.filter(username=post_data['username']).exclude(id=request.user.id).exists())
+            print(User.objects.filter(email=post_data['email']).exclude(id=request.user.id).exists())
 
-        user =  User.objects.get(id=request.user.id)
-        userx =  UserX.objects.get(user=user)
+            if User.objects.filter(username=post_data['username']).exclude(id=request.user.id).exists():
+                raise Exception("Username exists")
+            if User.objects.filter(email=post_data['email']).exclude(id=request.user.id).exists():
+                raise Exception("Email exists")
+            print("nyo")
 
-        user.email = post_data['email']
-        user.username = post_data['username']
-        userx.full_name = post_data['full_name']
+            user =  User.objects.get(id=request.user.id)
+            userx =  UserX.objects.get(user=user)
 
-        userx.smoker = True if post_data.get("smoker") else False
-        
-        print(userx.smoker)
+            user.email = post_data['email']
+            user.username = post_data['username']
+            userx.full_name = post_data['full_name']
 
+            
 
+            if user and userx:
+                
+                user.save()
+                userx.save()
 
-        userx.age = int(float(post_data['age']))
-        userx.bmi = int(float(post_data['bmi']))
-        userx.children = int(float(post_data['children']))
-        userx.sex = post_data['sex']
-        userx.region = post_data['region']
-        userx.occupation = post_data['occupation']
-        userx.medical_history = post_data['medical_history']
-        userx.family_medical_history = post_data['family_medical_history']
-
-        if user and userx:
-            print("yo")
-            user.save()
-            userx.save()
-
+                return redirect("profile")
+        except Exception as ex:
+            messages.error(request, ex)
             return redirect("profile")
 
-        
+
     userx =  UserX.objects.get(user=request.user)
 
 

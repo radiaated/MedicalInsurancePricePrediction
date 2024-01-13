@@ -7,15 +7,15 @@ import numpy as np
 
 OUTPUT_COL = "charges"
 L_R = 0.1
-EST = 100
+EST = 125
 
-df = pd.read_csv("./csv/ds.csv")
+df = pd.read_csv("./csv/test.csv")
 
 df.drop(columns="package", inplace=True)
 
 train, test = train_test_split(df, test_size=0.2, random_state=42)
 
-print(train["charges"].mean())
+print("Mean: eheh: ", train["charges"].mean())
 
 gb_obj = GB(train, OUTPUT_COL, L_R, EST)
 

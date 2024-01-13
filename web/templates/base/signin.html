@@ -2,8 +2,20 @@
 
 <div class="card">
   <h3>Login</h3>
+  {% if messages %}
+  <div class="text-sm bg-red-50 border border-red-400 p-2 mb-2">
+    {% for message in messages %} {{ message }} {% endfor %}
+  </div>
 
-  <form method="POST" class="slform">
+  {% endif %}
+
+  <div id="msg"></div>
+  <form
+    method="POST"
+    class="slform"
+    name="userform"
+    onsubmit="return validateForm(event)"
+  >
     {% csrf_token %}
     <label>Username</label>
     <input type="username" name="username" />
@@ -13,7 +25,44 @@
 
     <input type="submit" name="submit" value="Login" />
   </form>
-  <p>{% for message in messages %} {{ message }} {% endfor %}</p>
 </div>
+<script>
+  function classAdder(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.add(classname);
+    }
+  }
+
+  function validateForm(e) {
+    // e.preventDefault();
+
+    var username = userform.username.value;
+
+    var pwd = userform.pwd.value;
+
+    var msg = document.getElementById("msg");
+    msg.innerHTML = "";
+
+    var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
+
+    msg.innerHTML = "";
+
+    if (username.length == 0) {
+      msg.innerHTML = "Username is empty";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    if (pwd.length == 0) {
+      msg.innerHTML = "Password is empty";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    classRemover(msg, classnames);
+
+    return true;
+  }
+</script>
 
 {% endblock %}

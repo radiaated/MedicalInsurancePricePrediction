@@ -1,9 +1,33 @@
-from typing import Any
 from django.db import models
 from django.contrib.auth.models import User
 from user.models import UserX
+from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
+
+coverage_choices = [
+    ("Inpatient hospital care", "Inpatient hospital care"),
+    ("Outpatient care", "Outpatient care"),
+    ("Emergency services", "Emergency services"),
+    ("Prescription drugs", "Prescription drugs"),
+    ("Preventive services", "Preventive services"),
+    ("Routine Check-ups and Vaccinations", "Routine Check-ups and Vaccinations"),
+    ("Dental and Vision", "Dental and Vision"),
+    ("Mental Health", "Mental Health")
+]
+network_choices = [
+    ("Access to 50+ hospitals, clinics, and healthcare providers", "Access to 50+ hospitals, clinics, and healthcare providers"),
+
+    ("Access to 100+ hospitals, clinics, and healthcare providers", "Access to 100+ hospitals, clinics, and healthcare providers"),
+
+    ("Access to 200+ hospitals, clinics, and healthcare providers", "Access to 200+ hospitals, clinics, and healthcare providers"),
+]
+
+class CoverageOption(models.Model):
+    name=models.CharField(max_length=500)
+
+    def __str__(self):
+        return self.name
 
 class Package(models.Model):
     package_name = models.CharField(max_length=500)
@@ -12,6 +36,9 @@ class Package(models.Model):
     deductibles = models.FloatField(default=0)
     waiting_period = models.FloatField(default=0)
     policy_period = models.FloatField(default=0)
+    coverage_options = models.ManyToManyField(CoverageOption, null=True, blank=True)
+    network_options = models.CharField(max_length=1000, choices=network_choices)
+
 
     def __str__(self):
         return self.package_name

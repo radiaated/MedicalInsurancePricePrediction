@@ -16,7 +16,9 @@
       {% for proposal in proposals %}
       <tr class="grid grid-cols-11">
         <td class="col-span-1">{{ forloop.counter }}</td>
-        <td class="col-span-2">{{ proposal.predicted_amt }}</td>
+        <td class="col-span-2">
+          ${{ proposal.predicted_amt | floatformat:2 }}
+        </td>
         <td class="col-span-4">{{ proposal.date_created }}</td>
 
         <td class="col-span-2">STATUS</td>

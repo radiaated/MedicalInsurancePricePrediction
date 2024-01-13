@@ -65,6 +65,19 @@
     @apply bg-zinc-100;
   }
 
+  .package-table tr th {
+    @apply font-medium text-left text-sm;
+  }
+
+  .package-table th,
+  .package-table td {
+    @apply p-2;
+  }
+
+  .package-table tr:nth-child(2n) {
+    @apply bg-zinc-100;
+  }
+
   .test {
     @apply bg-zinc-800;
   }

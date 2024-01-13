@@ -1,10 +1,10 @@
 
 import math
-from . import trees_classify_Bronze
-from . import trees_classify_Gold
-from . import trees_classify_Platinum
+from . import trees_classify_BASIC
+from . import trees_classify_STANDARD
+from . import trees_classify_PREMIUM
 
-def predictor_Bronze(dfd, l_r, te, est):
+def predictor_BASIC(dfd, l_r, te, est):
 
     d_temp = dfd.copy()
 
@@ -14,7 +14,7 @@ def predictor_Bronze(dfd, l_r, te, est):
 
         for i in range(est):
 
-            q = getattr(trees_classify_Bronze, f"tree{i}")(d_temp.loc[df_i].to_dict())
+            q = getattr(trees_classify_BASIC, f"tree{i}")(d_temp.loc[df_i].to_dict())
             d_temp.loc[df_i, "log_odd"] = d_temp.loc[df_i, "log_odd"] + l_r * q
 
 
@@ -32,7 +32,7 @@ def predictor_Bronze(dfd, l_r, te, est):
     
     return d_temp
 
-def predictor_Gold(dfd, l_r, te, est):
+def predictor_STANDARD(dfd, l_r, te, est):
 
     d_temp = dfd.copy()
 
@@ -42,7 +42,7 @@ def predictor_Gold(dfd, l_r, te, est):
 
         for i in range(est):
 
-            q = getattr(trees_classify_Gold, f"tree{i}")(d_temp.loc[df_i].to_dict())
+            q = getattr(trees_classify_STANDARD, f"tree{i}")(d_temp.loc[df_i].to_dict())
             d_temp.loc[df_i, "log_odd"] = d_temp.loc[df_i, "log_odd"] + l_r * q
 
 
@@ -60,7 +60,7 @@ def predictor_Gold(dfd, l_r, te, est):
     
     return d_temp
 
-def predictor_Platinum(dfd, l_r, te, est):
+def predictor_PREMIUM(dfd, l_r, te, est):
 
     d_temp = dfd.copy()
 
@@ -70,7 +70,7 @@ def predictor_Platinum(dfd, l_r, te, est):
 
         for i in range(est):
 
-            q = getattr(trees_classify_Platinum, f"tree{i}")(d_temp.loc[df_i].to_dict())
+            q = getattr(trees_classify_PREMIUM, f"tree{i}")(d_temp.loc[df_i].to_dict())
             d_temp.loc[df_i, "log_odd"] = d_temp.loc[df_i, "log_odd"] + l_r * q
 
 
