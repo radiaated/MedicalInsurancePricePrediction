@@ -1,0 +1,42 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>Contact</h3>
+  <div class="grid grid-cols-2">
+    <form action="" class="slform">
+      <label>Email</label>
+      <input type="email" placeholder="Email" />
+      <label>Phone</label>
+      <input type="text" placeholder="Phone" />
+
+      <label>Message</label>
+      <textarea placeholder="Message"></textarea>
+      <input type="submit" value="Send" />
+    </form>
+    <div>
+      <div class="text-indigo-700 text-2xl font-bold text-center">
+        IntelliGuard
+        <span class="text-zinc-700 font-normal">Insurance</span>
+      </div>
+      <div class="w-full py-2 text-center space-y-8">
+        <div class="text-sm">
+          <div>Phone: +977-014810888</div>
+          <div>Email: insuranceco@gmail.com</div>
+        </div>
+
+        <div>
+          <div class="text-xl font-medium">Social media</div>
+
+          <ul class="p-0 flex flex-col text-sm gap-2">
+            <li><a href="" class="underline">Facebook</a></li>
+            <li><a href="" class="underline">Twitter</a></li>
+            <li><a href="" class="underline">Instagram</a></li>
+            <li><a href="" class="underline">Thread</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

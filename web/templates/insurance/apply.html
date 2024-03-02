@@ -96,7 +96,7 @@
     >
       {% csrf_token %}
       <label>Age</label>
-      <input type="number" name="age" />
+      <input type="number" name="age" placeholder="Age" />
       <label>Sex</label>
       <select name="sex">
         <option value="male">Male</option>
@@ -104,7 +104,7 @@
       </select>
 
       <label>BMI</label>
-      <input type="number" name="bmi" />
+      <input type="number" name="bmi" placeholder="BMI"/>
 
       <label>Occupation</label>
       <select name="occupation">
@@ -113,11 +113,13 @@
         <option value="White collar">White Collar</option>
         <option value="Blue collar">Blue collar</option>
       </select>
-      <label>No. of children</label>
-      <input type="number" name="children" />
-      <label>Smoker</label>
+      <label>Number of children</label>
+      <input type="number" name="children" placeholder="Number of children"/>
 
-      <input type="checkbox" name="smoker" />
+      <div class="flex items-center gap-2"><label>Smoker</label><input type="checkbox" name="smoker" /></div>
+      
+
+      
 
       <label>Region</label>
       <select name="region">

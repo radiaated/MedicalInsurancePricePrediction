@@ -26,7 +26,7 @@ class ID3:
         if len(dff.index) == 0:
             self.tree_code += ("\t" * curr_depth) + f"return 0\n"
         
-        elif y_std * y_std < 0.1 or len(dff.index) <= 3 or curr_depth >= 5:
+        elif y_std * y_std < 0.1 or len(dff.index) <= 15 or curr_depth >= 6:
        
             self.tree_code += ("\t" * curr_depth) + f"return {dff[self.op].mean()}\n"
             # return dff[op].mean()

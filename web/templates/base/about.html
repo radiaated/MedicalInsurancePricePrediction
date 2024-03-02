@@ -1,0 +1,114 @@
+{% extends 'generic/base_generic.html' %} {% block content %}
+
+<div class="card">
+  <h3>About</h3>
+  <div class="grid grid-cols-6 gap-8">
+    <div class="col-span-4">
+      <p>
+        Welcome to IntelliGuard Insurance, where we revolutionize the way you
+        approach medical insurance. At IntelliGuard, we understand the
+        significance of securing your health and financial well-being. Our
+        mission is to empower individuals and families with the tools they need
+        to make informed decisions about their medical insurance coverage.
+      </p>
+      <h6>Our Vision</h6>
+      <p>
+        About IntelliGuard Insurance Welcome to IntelliGuard Insurance, where we
+        revolutionize the way you approach medical insurance. At IntelliGuard,
+        we understand the significance of securing your health and financial
+        well-being. Our mission is to empower individuals and families with the
+        tools they need to make informed decisions about their medical insurance
+        coverage. Our Vision At IntelliGuard Insurance, we envision a future
+        where obtaining medical insurance is transparent, accessible, and
+        personalized to each individual's needs. We strive to be at the
+        forefront of innovation, utilizing cutting-edge technology to provide
+        predictive insights and streamline the insurance proposal process.
+        Predictive Pricing Gone are the days of uncertainty when it comes to
+        medical insurance premiums. With our advanced algorithms and data
+        analytics, IntelliGuard Insurance enables customers to predict their
+        insurance prices accurately. By leveraging historical data and
+        predictive modeling, we offer personalized pricing estimates tailored to
+        your specific circumstances. Say goodbye to surprises and hello to
+        transparency with IntelliGuard Insurance. Streamlined Proposal
+        Submission We understand that navigating the insurance landscape can be
+        daunting. That's why IntelliGuard Insurance simplifies the proposal
+        submission process. Our intuitive online platform allows customers to
+        submit insurance proposals with ease. Whether you're an individual
+        seeking coverage or a family looking for comprehensive insurance
+        options, our user-friendly interface guides you through every step of
+        the process. Our Commitment At IntelliGuard Insurance, we are committed
+        to serving our customers with integrity, transparency, and excellence.
+        We believe in building lasting relationships based on trust and
+        reliability. Our team of experienced professionals is dedicated to
+        providing unparalleled support and assistance to ensure that you receive
+        the coverage you need, when you need it. Get Started Today Experience
+        the future of medical insurance with IntelliGuard Insurance. Explore our
+        range of coverage options, predict your insurance price with confidence,
+        and submit your insurance proposal effortlessly. Your health and peace
+        of mind are our top priorities. Join us on the journey to a healthier,
+        more secure future with IntelliGuard Insurance. Contact us today to
+        learn more about how IntelliGuard Insurance can empower you to take
+        control of your medical insurance.
+      </p>
+
+      <h6>Predictive Pricing</h6>
+      <p>
+        Gone are the days of uncertainty when it comes to medical insurance
+        premiums. With our advanced algorithms and data analytics, IntelliGuard
+        Insurance enables customers to predict their insurance prices
+        accurately. By leveraging historical data and predictive modeling, we
+        offer personalized pricing estimates tailored to your specific
+        circumstances. Say goodbye to surprises and hello to transparency with
+        IntelliGuard Insurance.
+      </p>
+      <h6>Streamlined Proposal Submission</h6>
+
+      <p>
+        We understand that navigating the insurance landscape can be daunting.
+        That's why IntelliGuard Insurance simplifies the proposal submission
+        process. Our intuitive online platform allows customers to submit
+        insurance proposals with ease. Whether you're an individual seeking
+        coverage or a family looking for comprehensive insurance options, our
+        user-friendly interface guides you through every step of the process.
+      </p>
+
+      <h6>Our Commitment</h6>
+
+      <p>
+        At IntelliGuard Insurance, we are committed to serving our customers
+        with integrity, transparency, and excellence. We believe in building
+        lasting relationships based on trust and reliability. Our team of
+        experienced professionals is dedicated to providing unparalleled support
+        and assistance to ensure that you receive the coverage you need, when
+        you need it.
+      </p>
+      <h6>Get Started Today</h6>
+
+      <p>
+        Experience the future of medical insurance with IntelliGuard Insurance.
+        Explore our range of coverage options, predict your insurance price with
+        confidence, and submit your insurance proposal effortlessly. Your health
+        and peace of mind are our top priorities. Join us on the journey to a
+        healthier, more secure future with IntelliGuard Insurance.
+
+        <span
+          ><a class="font-bold text-indigo-600" href="{% url 'contact' %}"
+            >Contact us</a
+          >
+          today to learn more about how IntelliGuard Insurance can empower you
+          to take control of your medical insurance.</span
+        >
+      </p>
+    </div>
+    <div class="col-span-2">
+      {% load static %}
+      <img
+        class="block w-full object-cover"
+        src="{% static 'img/cover.webp' %}"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -14,12 +14,18 @@
 
     <header class="bg-white w-full py-4 drop-shadow-sm">
       <div class="max-w-4xl w-[90%] mx-auto flex justify-between items-center">
-        <div class="text-3xl font-extrabold">Insurance Company</div>
+        <a
+          class="block text-indigo-700 text-xl font-bold"
+          href="{% url 'home' %}"
+        >
+          IntelliGuard
+          <span class="text-zinc-700 font-normal">Insurance</span>
+        </a>
 
         <nav class="list-none pl-0 flex gap-8 font-normal">
-          <li>Home</li>
-          <li>Insurance</li>
-          <li>Contact</li>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
         </nav>
         {% if user.is_authenticated and user.is_staff is True %}
         <nav class="list-none pl-0 flex gap-4 font-normal items-center">
@@ -86,14 +92,59 @@
 
     {% endblock %}
 
-    <div class="max-w-4xl w-[90%] mx-auto">
+    <div class="max-w-4xl w-[90%] mx-auto bg-white">
       {% block content %} {% endblock %}
     </div>
     {% block footer %}
 
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <footer class="bg-zinc-950">
+      <div
+        class="max-w-4xl w-[90%] mx-auto flex justify-between text-zinc-50 py-16"
+      >
+        <div class="text-3xl font-bold text-indigo-400">
+          IntelliGuard
+          <span class="text-zinc-200 font-normal">Insurance</span>
+        </div>
+        <div>
+          <ul class="p-0">
+            <li>
+              <a class="hover:underline" href="{% url 'home' %}">Home</a>
+            </li>
+            <li>
+              <a class="hover:underline" href="{% url 'home' %}">Contact</a>
+            </li>
+            <li>
+              <a class="hover:underline" href="{% url 'home' %}">About</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="p-0">
+            <li>
+              <a class="hover:underline" href="{% url 'signin' %}">Login</a>
+            </li>
+            <li>
+              <a class="hover:underline" href="{% url 'signup' %}">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="w-full bg-indigo-950 text-white flex items-center justify-center gap-4 text-sm py-2"
+      >
+        +977-014810888, insuranceco@gmail.com
+
+        <a href="" class="hover:underline">Facebook</a>
+        <a href="" class="hover:underline">Twitter</a>
+        <a href="" class="hover:underline">Instagram</a>
+        <a href="" class="hover:underline">Thread</a>
+      </div>
+      <div
+        class="w-full bg-black text-center text-zinc-100 py-4 tracking-wider"
+      >
+        Insurance Company&copy; 2024 | All rights reserved
+      </div>
+    </footer>
 
     {% endblock %}
   </body>

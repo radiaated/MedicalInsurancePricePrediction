@@ -2,7 +2,81 @@
 
 <div class="w-full h-[80vh]">
   {% load static %}
-  <img class="block w-full" src="{% static 'img/cover.webp' %}" alt="" />
+  <img
+    class="block w-full h-[80vh] cover"
+    src="{% static 'img/cover.webp' %}"
+    alt=""
+  />
+</div>
+
+<div class="bg-white p-10">
+  <h4>Features</h4>
+  <div class="flex justify-between gap-6 text-center">
+    <div class="p-16 border border-zinc-400 rounded-md">
+      Wide range of coverage options
+    </div>
+
+    <div class="p-16 border border-zinc-400 rounded-md">
+      Network of 150+ hospitals
+    </div>
+
+    <div class="p-16 border border-zinc-400 rounded-md">Multiple plans</div>
+  </div>
+</div>
+
+<div class="bg-indigo-600 p-10 text-zinc-50">
+  <h4>Service</h4>
+  <div class="space-y-4">
+    <div class="grid grid-cols-2">
+      <div
+        class="text-right text-4xl font-semibold border-r border-zinc-100 pr-4 py-4"
+      >
+        Step 1
+      </div>
+      <div class="text-left flex flex-col justify-center pl-4">
+        Fill up your details
+      </div>
+    </div>
+    <div class="grid grid-cols-2">
+      <div
+        class="text-right flex flex-col justify-center pr-4 border-r border-zinc-100"
+      >
+        Predict the insurance price
+      </div>
+      <div class="text-left text-4xl font-semibold pl-4 py-4">Step 2</div>
+    </div>
+    <div class="grid grid-cols-2">
+      <div
+        class="text-right text-4xl font-semibold border-r border-zinc-100 pr-4 py-4"
+      >
+        Step 3
+      </div>
+      <div class="text-left flex flex-col justify-center pl-4">View plan</div>
+    </div>
+    <div class="grid grid-cols-2">
+      <div
+        class="text-right flex flex-col justify-center pr-4 border-r border-zinc-100"
+      >
+        Submit the proposal
+      </div>
+      <div class="text-left text-4xl font-semibold pl-4 py-4">Step 4</div>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 h-[40vh]">
+  <div
+    class="py-16 px-4 italic flex flex-col justify-center items-center text-center"
+  >
+    "Protecting Your Tomorrow, Today <br />Your Trusted Insurance Partner"
+  </div>
+  <div class="py-16 flex flex-col justify-center items-center text-center">
+    <a
+      class="block border bg-indigo-700 border-indigo-700 py-2 w-[60%] rounded-md hover:bg-indigo-600 text-zinc-100"
+      href="{% url 'signup' %}"
+      >Get Started</a
+    >
+  </div>
 </div>
 
 {% endblock %}

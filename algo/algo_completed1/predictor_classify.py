@@ -1,6 +1,6 @@
 
 import math
-from trees import trees_classify
+from trees import trees_classify_STANDARD
 
 def predictor(dfd, l_r, te, est):
 
@@ -12,7 +12,7 @@ def predictor(dfd, l_r, te, est):
 
         for i in range(est):
 
-            q = getattr(trees_classify, f"tree{i}")(d_temp.loc[df_i].to_dict())
+            q = getattr(trees_classify_STANDARD, f"tree{i}")(d_temp.loc[df_i].to_dict())
             d_temp.loc[df_i, "log_odd"] = d_temp.loc[df_i, "log_odd"] + l_r * q
 
 

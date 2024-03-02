@@ -1,7 +1,7 @@
 import math
 from modules.ID3_classify import ID3 as id3_classify
 import importlib
-from trees import trees_classify
+from trees import trees_classify_STANDARD
 
 
 class GB:
@@ -62,10 +62,10 @@ class GB:
             id.build_tree()
             id.create_tree(f"tree{t}")
 
-            importlib.reload(trees_classify)
+            importlib.reload(trees_classify_STANDARD)
 
             for k in dfff.index:
-                q = getattr(trees_classify, f"tree{t}")(dfff.loc[k].to_dict())
+                q = getattr(trees_classify_STANDARD, f"tree{t}")(dfff.loc[k].to_dict())
                 new_te = dfff.loc[k, "LogOdds"] + 0.1 * q
         
                 prob = math.exp(new_te) / (1 + math.exp(new_te))

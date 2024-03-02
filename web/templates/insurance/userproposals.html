@@ -2,9 +2,9 @@
 
 <div class="card">
   <h3>Your proposals</h3>
-  <table class="w-full table-customer-profile">
+  <table class="w-full table-customer-profile h-[50vh]">
     <thead>
-      <tr class="grid grid-cols-11">
+      <tr class="grid grid-cols-11 border border-zinc-200 rounded-lg">
         <th class="col-span-1">SN</th>
         <th class="col-span-2">Predicted</th>
         <th class="col-span-4">Date</th>
@@ -13,7 +13,11 @@
       </tr>
     </thead>
     <tbody>
-      {% for proposal in proposals %}
+      {% if proposals|length == 0 %}
+      <tr class="text-center">
+        <td colspan="5">Empty</td>
+      </tr>
+      {% endif %} {% for proposal in proposals %}
       <tr class="grid grid-cols-11">
         <td class="col-span-1">{{ forloop.counter }}</td>
         <td class="col-span-2">

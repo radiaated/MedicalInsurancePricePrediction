@@ -8,6 +8,7 @@ def predictor(dff, l_r, mean_y, est):
     temp_df["Predicted"]  = mean_y
 
     for df_i in temp_df.index:
+        print(df_i)
 
         for i in range(est):
 

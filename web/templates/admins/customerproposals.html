@@ -1,14 +1,14 @@
 {% extends 'generic/base_generic.html' %} {% block content %}
-
+<div class="card">
 <h3 class="mt-4 w-full">Dashboard</h3>
 <div class="grid grid-cols-10 gap-8">
   {% include 'admins/dasboardmenu.html' %}
-  <div class="card w-full col-span-8">
+  <div class="w-full col-span-8">
     <div class="">
       <div
         class="flex flex-row justify-between items-center w-full border-b border-b-zinc-200 pb-3"
       >
-        <h4 class="text-zinc-700">Proposals</h4>
+        <h6 class="text-zinc-700">Proposals</h6>
         <form method="POST" class="flex justify-between gap-4 items-center">
           {% csrf_token %}
 
@@ -73,5 +73,6 @@
     </div>
   </div>
 </div>
-
+</div>
+</div>
 {% endblock %}

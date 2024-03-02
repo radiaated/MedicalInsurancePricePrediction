@@ -14,6 +14,14 @@ def index(req):
 
     return render(req, 'base/index.html')
 
+def about(req):
+
+    return render(req, 'base/about.html')
+
+def contact(req):
+
+    return render(req, 'base/contact.html')
+
 def signup(req):
 
     
