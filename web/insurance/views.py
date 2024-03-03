@@ -59,6 +59,8 @@ def apply(req):
 
             predd_package = Package.objects.get(package_name=pred_pack)
 
+            packages = Package.objects.all()
+
             
 
 
@@ -69,6 +71,10 @@ def apply(req):
                 'predicted_price': p.loc[0, "Predicted"],
                 'predicted_package': predd_package,
                 'predicted_package_prob': max_prob,
+                'packages': packages,
+                'basic_price': p.loc[0, "Predicted"] - p.loc[0, "Predicted"] * 0.2,
+                'prem_price': p.loc[0, "Predicted"] + p.loc[0, "Predicted"] * 0.2,
+
             }
 
             

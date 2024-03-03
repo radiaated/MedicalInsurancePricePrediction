@@ -22,13 +22,14 @@
   >
     {% csrf_token %}
     <label>Username</label>
-    <input type="username" name="username" />
+    <input type="username" name="username" placeholder="Username"/>
 
     <label>Password</label>
-    <input type="password" name="pwd" />
+    <input type="password" name="pwd" placeholder="Password"/>
 
     <input type="submit" name="submit" value="Login" />
   </form>
+  <div class="my-2">New? <a class="text-indigo-700" href="{% url 'signup' %}">Signup</a></div>
 </div>
 <script>
   function classAdder(divel, classnames) {

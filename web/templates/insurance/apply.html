@@ -7,87 +7,142 @@
 <div class="card">
   {% if predicted_price and predicted_package and predicted_package_prob %}
   <div class="text-zinc-900 font-medium mb-4 w-full text-center">
-    Recommended plan
+    Recommended plans
+
   </div>
-  <div class="flex items-center justify-center">
-    <div class="border border-zinc-300 w-[50%] shadow-md">
-      <div
-        class="bg-indigo-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
-      >
-        {{ predicted_package.package_name }}
-      </div>
-      <table class="package-table w-full">
-        <tbody>
-          <tr>
-            <th>Deductibles</th>
-            <td>${{ predicted_package.deductibles }}</td>
-          </tr>
-          <tr>
-            <th>Coverage limit</th>
-            <td>${{ predicted_package.coverage_limit }} per policy period</td>
-          </tr>
-          <tr>
-            <th>Waiting Period</th>
-            <td>
-              {{ predicted_package.waiting_period }} days for non-emergency
-            </td>
-          </tr>
-          <tr>
-            <th>Policy Period</th>
-            <td>Annual Renewal</td>
-          </tr>
-          <tr>
-            <th>Coverage Options</th>
-            <td class="flex flex-col gap-1">
-              {% for coverage_option in predicted_package.coverage_options.all %}
-              <!-- ---------------------------------------------------------- -->
-              <div>
-                <span class="text-sm text-indigo-600">&#10003;</span>
-                {{ coverage_option }}
-              </div>
+  
+    <div class="flex justify-between gap-6">
 
-              {% endfor %}
-            </td>
-          </tr>
-          <tr>
-            <th>Network Options</th>
-            <td>{{ predicted_package.network_options }}</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="py-4 text-center">
-        <div class="text-4xl font-extrabold">
-          ${{ predicted_price | floatformat:2 }}
+
+      {% for package in packages %}
+      <div class="border border-zinc-300 w-[50%] shadow-md rounded-md">
+
+        {% if package.package_name == 'BASIC' %}
+          <div
+          class="bg-purple-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
+        >
+
+        {% elif package.package_name == 'STANDARD' %}
+      
+              <div
+              class="bg-indigo-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
+            >
+        {% else %}
+              <div
+              class="bg-rose-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
+            >
+        {% endif %}
+       
+          {{ package.package_name }}
         </div>
-        <div>per year</div>
-      </div>
-      <form
-        method="POST"
-        class="flex items-center justify-center py-4"
-        onsubmit=""
-      >
-        {% csrf_token %}
+        <table class="package-table w-full text-sm">
+          <tbody>
+            <tr>
+              <th>Deductibles</th>
+              <td>${{ package.deductibles }}</td>
+            </tr>
+            <tr>
+              <th>Coverage limit</th>
+              <td>${{ package.coverage_limit }} per policy period</td>
+            </tr>
+            <tr>
+              <th>Waiting Period</th>
+              <td>
+                {{ package.waiting_period }} days for non-emergency
+              </td>
+            </tr>
+            <tr>
+              <th>Policy Period</th>
+              <td>Annual Renewal</td>
+            </tr>
+            <tr>
+              <th>Coverage Options</th>
+              <td class="flex flex-col gap-1 h-56">
+                {% for coverage_option in package.coverage_options.all %}
+                <!-- ---------------------------------------------------------- -->
+                <div>
+                  <span class="text-sm text-indigo-600">&#10003;</span>
+                  {{ coverage_option }}
+                </div>
 
-        <input
-          name="predicted_amt"
-          type="hidden"
-          value="{{ predicted_price }}"
-        />
+                {% endfor %}
+              </td>
+            </tr>
+            <tr>
+              <th>Network Options</th>
+              <td>{{ package.network_options }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="py-4 text-center">
+          <div class="text-4xl font-extrabold">
+            {% if package.package_name == 'BASIC' %}
+                ${{ basic_price  | floatformat:2 }}
 
-        <input
-          name="predicted_package"
-          type="hidden"
-          value="{{ predicted_package }}"
-        />
+            {% elif package.package_name == 'STANDARD' %}
+                ${{ predicted_price | floatformat:2 }}
+            {% else %}
+                ${{ prem_price | floatformat:2 }}
+            {% endif %}
+            
+          </div>
+          <div>per year</div>
+        </div>
+        <form
+          method="POST"
+          class="flex items-center justify-center py-4"
+          onsubmit=""
+        >
+          {% csrf_token %}
 
-        <input
-          type="submit"
-          name="submit"
-          value="Submit proposal"
-          class="py-2 px-4 border-[2px] border-indigo-600 rounded-md hover:bg-indigo-100 cursor-pointer text-indigo-800"
-        />
-      </form>
+
+
+          {% if package.package_name == 'BASIC' %}
+
+              <input
+                name="predicted_amt"
+                type="hidden"
+                value="{{ basic_price | floatformat:2 }}"
+              />
+          
+
+          {% elif package.package_name == 'STANDARD' %}
+              <input
+                name="predicted_amt"
+                type="hidden"
+                value="{{ predicted_price | floatformat:2 }}"
+              />
+              
+          {% else %}
+              <input
+                name="predicted_amt"
+                type="hidden"
+                value="{{ prem_price | floatformat:2 }}"
+              />
+              
+          {% endif %}
+
+
+          
+
+          <input
+            name="predicted_package"
+            type="hidden"
+            value="{{ package }}"
+          />
+
+          <input
+            type="submit"
+            name="submit"
+            value="Submit proposal"
+            class="py-2 px-4 border-[2px] border-indigo-600 rounded-md hover:bg-indigo-100 cursor-pointer text-indigo-800"
+          />
+        </form>
+      
     </div>
+      {% endfor %}
+    </div>
+      
 
     {% else %}
     <div id="msg"></div>
@@ -149,56 +204,59 @@
       <input type="submit" name="submit" value="Check" />
     </form>
     {% endif %}
-  </div>
-
-  <script>
-    function classAdder(divel, classnames) {
-      for (var classname of classnames.split(" ")) {
-        divel.classList.add(classname);
-      }
-    }
-    function classRemover(divel, classnames) {
-      for (var classname of classnames.split(" ")) {
-        divel.classList.remove(classname);
-      }
-    }
-
-    function validateForm(e) {
-      console.log("hello");
-
-      var age = applyform.age.value;
-      var bmi = applyform.bmi.value;
-      var children = applyform.children.value;
-
-      var msg = document.getElementById("msg");
-
-      var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
-
-      msg.innerHTML = "";
-
-      if (age < 18 || age > 64) {
-        msg.innerHTML = "Age must be between 18 to 64";
-        classAdder(msg, classnames);
-        return false;
-      }
-
-      if (bmi <= 0) {
-        msg.innerHTML = "BMI can't be 0 (zero) or less";
-        classAdder(msg, classnames);
-        return false;
-      }
-
-      if (children < 0) {
-        msg.innerHTML = "Invalid children number";
-        classAdder(msg, classnames);
-        return false;
-      }
-
-      classRemover(msg, classnames);
-
-      return true;
-    }
-  </script>
-
-  {% endblock %}
+ 
 </div>
+
+
+
+<script>
+  function classAdder(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.add(classname);
+    }
+  }
+  function classRemover(divel, classnames) {
+    for (var classname of classnames.split(" ")) {
+      divel.classList.remove(classname);
+    }
+  }
+
+  function validateForm(e) {
+    console.log("hello");
+
+    var age = applyform.age.value;
+    var bmi = applyform.bmi.value;
+    var children = applyform.children.value;
+
+    var msg = document.getElementById("msg");
+
+    var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
+
+    msg.innerHTML = "";
+
+    if (age < 18 || age > 64) {
+      msg.innerHTML = "Age must be between 18 to 64";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    if (bmi <= 0) {
+      msg.innerHTML = "BMI can't be 0 (zero) or less";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    if (children < 0) {
+      msg.innerHTML = "Invalid children number";
+      classAdder(msg, classnames);
+      return false;
+    }
+
+    classRemover(msg, classnames);
+
+    return true;
+  }
+</script>
+
+{% endblock %}
+ 

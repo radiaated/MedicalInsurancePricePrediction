@@ -20,19 +20,20 @@
   >
     {% csrf_token %}
     <label>Email</label>
-    <input type="email" name="email" value="{{ inp_data.email }}" />
+    <input type="email" name="email" value="{{ inp_data.email }}" placeholder="Email" />
     <label>Username</label>
-    <input type="username" name="username" value="{{ inp_data.username }}" />
+    <input type="username" name="username" value="{{ inp_data.username }}"  placeholder="Username" />
     <label>Full Name</label>
-    <input type="text" name="full_name" value="{{ inp_data.full_name }}" />
+    <input type="text" name="full_name" value="{{ inp_data.full_name }}"  placeholder="Full name" />
 
     <label>Password</label>
-    <input type="password" name="pwd" />
+    <input type="password" name="pwd"  placeholder="Password"/>
     <label>Confirm Password</label>
-    <input type="password" name="pwd2" />
+    <input type="password" name="pwd2"  placeholder="Confirm password"/>
 
     <input type="submit" name="submit" value="Signup" />
   </form>
+  <div class="my-2">Already have an account? <a class="text-indigo-700" href="{% url 'signin' %}">Signin</a></div>
 </div>
 <script>
   function classAdder(divel, classnames) {
