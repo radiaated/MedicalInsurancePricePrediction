@@ -36,7 +36,7 @@ def apply(req):
 
             df = pd.DataFrame(preproc(post_data), index=[0])
 
-            p = predictor(dff=df,est=100,l_r=0.1, mean_y=14425.105596351208)
+            p = predictor(dff=df,est=50,l_r=0.55, mean_y=14401.838215521071)
 
             p_B = predictor_classify.predictor_BASIC(df,0.1,BRONZE_LOG_ODDS,14)
             p_G = predictor_classify.predictor_STANDARD(df,0.1,GOLD_LOG_ODDS,14)
@@ -94,6 +94,10 @@ def apply(req):
 
                     if proposal:
                         proposal.save()
+
+                    return redirect("userproposals")
+
+                    
                     
 
 

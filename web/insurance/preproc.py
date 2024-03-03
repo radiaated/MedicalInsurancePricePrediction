@@ -15,8 +15,8 @@ def preproc(post_data):
         p_data['age'] = "26-41"
     elif 41 <= int(float(post_data['age'])) < 56:
         p_data['age'] = "41-56"
-    elif 56 <= int(float(post_data['age'])) <= 64:
-        p_data['age'] = "56-64"
+    elif int(float(post_data['age'])) >= 56:
+        p_data["age"] = ">56"
 
     if int(float(post_data['bmi'])) < 18.5:
         p_data['bmi'] = "< 18.5"
@@ -28,8 +28,8 @@ def preproc(post_data):
         p_data['bmi'] = "30 - 35"
     elif 35 <= int(float(post_data['bmi'])) < 40:
         p_data['bmi'] = "35 - 40"
-    elif 40 <= int(float(post_data['bmi'])) <= 54:
-        p_data['bmi'] = "40 - 54"
+    elif int(float(post_data['bmi'])) >= 40:
+        p_data['bmi'] = ">=40"
 
     p_data['children'] = int(float(post_data['children']))
     p_data['sex'] = post_data['sex']
@@ -52,7 +52,7 @@ def preproc(post_data):
         p_data["age"] = 1
     elif p_data["age"] == "41-56":
         p_data["age"] = 2
-    elif p_data["age"] == "56-64":
+    elif p_data["age"] == ">56":
         p_data["age"] = 3
 
     if p_data["bmi"] == "< 18.5":
@@ -65,7 +65,7 @@ def preproc(post_data):
         p_data["bmi"] = 3
     elif p_data["bmi"] == "35 - 40":
         p_data["bmi"] = 4
-    elif p_data["bmi"] == "40 - 54":
+    elif p_data["bmi"] == ">=40":
         p_data["bmi"] = 5
 
     if p_data["smoker"] == "yes":

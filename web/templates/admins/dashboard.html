@@ -1,12 +1,16 @@
-{% extends 'generic/base_generic.html' %} {% block content %}
+{% extends 'generic/base_generic.html' %}
+{% block title %} Customers | Admin {% endblock %}
+
+{% block content %}
+
 <div class="card">
   <h3 class="mt-4 w-full">Dashboard</h3>
-  <div class="grid grid-cols-10 gap-8">
+  <div class="sm:grid sm:grid-cols-10 sm:gap-8 flex flex-col gap-4">
     {% include 'admins/dasboardmenu.html' %}
     <div class="w-full col-span-8">
       <div class="">
         <div
-          class="flex flex-row justify-between items-center w-full border-b border-b-zinc-200 pb-3"
+          class="flex flex-col sm:flex-row sm:justify-between sm:items-center w-full border-b border-b-zinc-200 pb-3"
         >
           <h6 class="text-zinc-700">Customers Information</h6>
           <form method="POST">
@@ -14,7 +18,7 @@
             <input
               type="text"
               name="search"
-              class="border border-zinc-200 text-sm py-1 px-2 font-light tracking-wider"
+              class="border border-zinc-400 text-sm py-1 px-2 font-light tracking-wider"
               placeholder="Search..."
             />
             <input
@@ -37,6 +41,7 @@
                 >View</a
               >
               <a
+                href="{% url 'deletecustomer' id=user.user.id %}"
                 class="block border border-zinc-700 bg-zinc-700 text-sm text-zinc-200 px-4 py-1 hover:bg-zinc-800 cursor-pointer active:bg-zinc-900"
                 >Delete</a
               >

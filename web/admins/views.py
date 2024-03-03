@@ -93,10 +93,16 @@ def customerproposalbyid(req, id):
     return render(req, 'admins/customerproposalbyid.html', context)
 
 
-def delete_customer(req, id):
+def deletecustomer(req, id):
     
 
-    User.objects.delete(id=id)
+    users = User.objects.get(id=id)
+
+    users.delete()
+
+    return redirect("dashboard")
+
+
 
 
 

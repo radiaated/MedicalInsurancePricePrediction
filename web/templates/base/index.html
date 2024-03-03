@@ -1,9 +1,10 @@
-{% extends 'generic/base_generic.html' %} {% block content %}
+{% extends 'generic/base_generic.html' %} {% block title %} Home | IntelliGuard
+Insurance {% endblock %} {% block content %}
 
 <div class="w-full h-[80vh]">
   {% load static %}
   <img
-    class="block w-full h-[80vh] cover"
+    class="block w-full h-[80vh] object-cover object-center"
     src="{% static 'img/cover.webp' %}"
     alt=""
   />
@@ -11,7 +12,7 @@
 
 <div class="bg-white p-10">
   <h4>Features</h4>
-  <div class="flex justify-between gap-6 text-center">
+  <div class="flex md:flex-row flex-col justify-between gap-6 text-center">
     <div class="p-16 border border-zinc-400 rounded-md">
       Wide range of coverage options
     </div>

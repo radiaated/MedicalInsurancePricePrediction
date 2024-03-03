@@ -1,15 +1,16 @@
-{% extends 'generic/base_generic.html' %} {% block content %}
+{% extends 'generic/base_generic.html' %} {% block title %} User Proposals |
+IntelliGuard Insurance {% endblock %} {% block content %}
 
 <div class="card">
   <h3>Your proposals</h3>
   <table class="w-full table-customer-profile h-[50vh]">
     <thead>
-      <tr class="grid grid-cols-11 border border-zinc-200 rounded-lg">
+      <tr class="grid grid-cols-11 border border-zinc-200 rounded-lg text-center">
         <th class="col-span-1">SN</th>
-        <th class="col-span-2">Predicted</th>
-        <th class="col-span-4">Date</th>
-        <th class="col-span-2">STATUS</th>
-        <th class="col-span-2">Action</th>
+        <th class="col-span-4 sm:col-span-2">Predicted</th>
+        <th class="hidden sm:col-span-3 sm:block">Date</th>
+        <th class="col-span-3 sm:col-span-2">STATUS</th>
+        <th class="col-span-3">Action</th>
       </tr>
     </thead>
     <tbody>
@@ -20,21 +21,24 @@
       {% endif %} {% for proposal in proposals %}
       <tr class="grid grid-cols-11">
         <td class="col-span-1">{{ forloop.counter }}</td>
-        <td class="col-span-2">
+        <td class="col-span-4 sm:col-span-2">
           ${{ proposal.predicted_amt | floatformat:2 }}
         </td>
-        <td class="col-span-4">{{ proposal.date_created }}</td>
+        <td class="hidden sm:col-span-3 sm:block">{{ proposal.date_created }}</td>
 
-        <td class="col-span-2">STATUS</td>
-        <td class="col-span-2 flex gap-1">
+        <td class="col-span-3 sm:col-span-2">
+          {% if proposal.reviewed == True %} {% if proposal.status == 'accepted' %} Accepted {% else %} Rejected  {% endif %} {% else %} Pending
+          {% endif %}
+        </td>
+        <td class="col-span-3 flex flex-col sm:flex-row gap-1">
           <a
             href="/insurance/delete_proposal/{{ proposal.id }}/"
-            class="block text-xs bg-red-600 text-zinc-50 px-2 py-1 border border-red-800 hover:bg-red-700 rounded-sm"
+            class="flex text-xs bg-red-600 text-zinc-50 px-2 py-1 border border-red-800 hover:bg-red-700 rounded-sm w-full items-center justify-center"
             >DELETE</a
           >
           <a
             href="{% url 'userproposalbyid' id=proposal.id %}"
-            class="block text-xs bg-zinc-50 text-zinc-800 px-2 py-1 border border-zinc-800 hover:bg-zinc-100 rounded-sm"
+            class="flex text-xs bg-zinc-50 text-zinc-800 px-2 py-1 border border-zinc-800 hover:bg-zinc-100 rounded-sm w-full items-center justify-center"
             >VIEW</a
           >
         </td>

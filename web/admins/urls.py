@@ -8,5 +8,6 @@ urlpatterns = [
     path('customerproposals/', views.customerproposals, name='customerproposals'),
     path('customerproposal/<int:id>/', views.customerproposalbyid, name='customerproposalbyid'),
     path('reviewproposal/<int:id>/', views.reviewproposal, name='reviewproposal'),
+    path('deletecustomer/<int:id>/', views.deletecustomer, name='deletecustomer'),
 
 ]

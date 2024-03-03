@@ -23,13 +23,10 @@ OUTPUT_COL = "charges"
 L_R = 0.55
 EST = 50
 
-df = pd.read_csv("./csv/test.csv")
+df = pd.read_csv("./csv/cleaned.csv")
 
 df.drop(columns="package", inplace=True)
 
-print(df.loc[4489])
-
-# train, test = train_test_split(df, test_size=0.2, random_state=1)
 
 fold_size = int(0.2 * len(df))
 print("Fold size: ", fold_size)

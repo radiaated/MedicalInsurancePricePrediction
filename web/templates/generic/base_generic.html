@@ -7,10 +7,63 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
-    <title>Document</title>
+    <title>{% block title %}{% endblock %}</title>
   </head>
   <body>
     {% block header %}
+
+    <div
+      class="hidden fixed w-[100%] h-[100vh] top-0 left-0 bg-indigo-950 z-[999] text-4xl text-zinc-50 px-16 py-10 overflow-y-scroll"
+      id="mobilemenu"
+    >
+      <button id="closemenu" class="border border-zinc-50 rounded-lg text-4xl">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          fill="white"
+        >
+          <path d="M14 7l-5 5 5 5V7z" />
+          <path d="M24 0v24H0V0h24z" fill="none" />
+        </svg>
+      </button>
+
+      <nav
+        class="list-none pl-0 flex flex-col font-normal divide-y divide-zinc-200"
+      >
+        <li class="py-8"><a href="{% url 'home' %}">Home</a></li>
+        <li class="py-8"><a href="{% url 'about' %}">About</a></li>
+        <li class="py-8"><a href="{% url 'contact' %}">Contact</a></li>
+
+        {% if user.is_authenticated and user.is_staff is True %}
+        <li class="py-8">
+          <a href="/admins/dashboard/">Dashboard</a>
+        </li>
+        <li class="py-8"><a href="/signout">Sign out</a></li>
+
+        {% else %} {% if user.is_authenticated %}
+        <li class="py-8">
+          <a href="/user/profile/">Profile</a>
+        </li>
+        <li class="py-8">
+          <a href="/insurance/userproposals/">Proposals</a>
+        </li>
+        <li class="py-8">
+          <a href="/insurance/apply/">Submit a proposal</a>
+        </li>
+
+        <li class="py-8"><a href="/signout">Sign out</a></li>
+        {% else %}
+        <li class="py-8">
+          <a href="{% url 'signin' %}">Signin</a>
+        </li>
+        <li class="py-8">
+          <a href="{% url 'signup' %}">Signup</a>
+        </li>
+        {% endif %} {% endif %}
+      </nav>
+    </div>
 
     <header class="bg-white w-full py-4 drop-shadow-sm">
       <div class="max-w-4xl w-[90%] mx-auto flex justify-between items-center">
@@ -22,13 +75,15 @@
           <span class="text-zinc-700 font-normal">Insurance</span>
         </a>
 
-        <nav class="list-none pl-0 flex gap-8 font-normal">
+        <nav class="hidden list-none pl-0 sm:flex gap-8 font-normal">
           <li><a href="{% url 'home' %}">Home</a></li>
           <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="{% url 'contact' %}">Contact</a></li>
         </nav>
         {% if user.is_authenticated and user.is_staff is True %}
-        <nav class="list-none pl-0 flex gap-4 font-normal items-center">
+        <nav
+          class="hidden sm:flex list-none pl-0 gap-4 font-normal items-center"
+        >
           <a
             href="/admins/dashboard/"
             class="border border-zinc-800 px-4 py-2 rounded-3xl text-sm hover:bg-zinc-100 active:bg-zinc-200"
@@ -37,7 +92,9 @@
           <a href="/signout">Sign out</a>
         </nav>
         {% else %}
-        <nav class="list-none pl-0 flex gap-4 font-normal items-center">
+        <nav
+          class="list-none pl-0 hidden sm:flex gap-4 font-normal items-center"
+        >
           {% if user.is_authenticated %}
           <div class="relative">
             <button
@@ -87,6 +144,21 @@
           {% endif %}
         </nav>
         {% endif %}
+
+        <button class="cursor-pointer block sm:hidden" id="menubutton">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            id="menubutton"
+          >
+            <path
+              fill="currentColor"
+              d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"
+            />
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -99,14 +171,14 @@
 
     <footer class="bg-zinc-950">
       <div
-        class="max-w-4xl w-[90%] mx-auto flex justify-between text-zinc-50 py-16"
+        class="max-w-4xl w-[90%] mx-auto flex flex-col sm:flex-row justify-between text-zinc-50 py-16"
       >
-        <div class="text-3xl font-bold text-indigo-400">
+        <div class="flex items-center justify-center sm:items-start sm:justify-start text-3xl font-bold text-indigo-400  mb-8">
           IntelliGuard
           <span class="text-zinc-200 font-normal">Insurance</span>
         </div>
-        <div>
-          <ul class="p-0">
+        <div class=" mb-4">
+          <ul class="p-0 flex flex-row gap-8 sm:gap-1 sm:items-baseline items-center justify-center sm:flex-col">
             <li>
               <a class="hover:underline" href="{% url 'home' %}">Home</a>
             </li>
@@ -119,7 +191,7 @@
           </ul>
         </div>
         <div>
-          <ul class="p-0">
+          <ul class="p-0 flex flex-row gap-8 sm:gap-1 sm:items-baseline items-center justify-center sm:flex-col">
             <li>
               <a class="hover:underline" href="{% url 'signin' %}">Login</a>
             </li>
@@ -130,9 +202,9 @@
         </div>
       </div>
       <div
-        class="w-full bg-indigo-950 text-white flex items-center justify-center gap-4 text-sm py-2"
+        class="w-full bg-indigo-950 text-white flex items-center justify-center gap-4 text-sm py-2 flex-wrap"
       >
-        +977-014810888, insuranceco@gmail.com
+        <a href="">+977-014810888, insuranceco@gmail.com</a>
 
         <a href="" class="hover:underline">Facebook</a>
         <a href="" class="hover:underline">Twitter</a>
@@ -149,6 +221,16 @@
     {% endblock %}
   </body>
   <script>
+    document
+      .getElementById("menubutton")
+      .addEventListener("click", function () {
+        document.getElementById("mobilemenu").classList.remove("hidden");
+      });
+
+    document.getElementById("closemenu").addEventListener("click", function () {
+      document.getElementById("mobilemenu").classList.add("hidden");
+    });
+
     document
       .getElementById("user-btn-dropdown")
       .addEventListener("click", function () {

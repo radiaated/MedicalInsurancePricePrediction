@@ -1,4 +1,8 @@
-{% extends 'generic/base_generic.html' %} {% block content %}
+{% extends 'generic/base_generic.html' %}
+
+{% block title %} Submit | IntelliGuard Insurance {% endblock %}
+
+{% block content %}
 
 <div class="card">
   {% if predicted_price and predicted_package and predicted_package_prob %}
@@ -87,7 +91,7 @@
 
     {% else %}
     <div id="msg"></div>
-
+    <h3>Fill up</h3>
     <form
       method="POST"
       class="slform"

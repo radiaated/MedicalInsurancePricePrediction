@@ -1,4 +1,6 @@
-{% extends 'generic/base_generic.html' %} {% block content %}
+{% extends 'generic/base_generic.html' %}
+{% block title %} Customer proposal by {{ proposal.userx.full_name }} | Admin {% endblock %}
+{% block content %}
 
 <div class="card">
   <h3>Customer proposal</h3>
@@ -33,7 +35,7 @@
     </tr>
     <tr>
       <th>Predicted Price:</th>
-      <td>{{ proposal.predicted_amt }}</td>
+      <td>{{ proposal.predicted_amt | floatformat:2}}</td>
     </tr>
   </table>
   <div class="text-sm mb-2 mt-4">Submitted details</div>

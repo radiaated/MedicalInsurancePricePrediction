@@ -35,7 +35,7 @@
   }
 
   .small-btn {
-    @apply text-sm border border-zinc-200 bg-zinc-50 text-zinc-700 font-light px-4 py-1 cursor-pointer rounded-sm shadow-sm hover:bg-zinc-100;
+    @apply text-sm border border-zinc-500 bg-zinc-50 text-zinc-900 font-normal px-4 py-1 cursor-pointer rounded-sm shadow-sm hover:bg-zinc-100;
   }
 
   .slform {
