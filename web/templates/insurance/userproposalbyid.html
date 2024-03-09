@@ -38,7 +38,10 @@
     </tr>
     <tr>
       <th>Predicted Price:</th>
-      <td>{{ proposal.predicted_amt | floatformat:2 }}</td>
+      {% load humanize %}
+      <td>$ {{ proposal.predicted_amt | floatformat:2 | intcomma }} 
+        <!-- <span class="text-sm text-zinc-600">{{ proposal.confidence | floatformat:2 }}% certainity</span> -->
+      </td>
     </tr>
   </table>
   <div class="text-sm mb-2 mt-4">Submitted details</div>
@@ -61,7 +64,7 @@
     </tr>
     <tr>
       <th>Sex:</th>
-      <td>{{ proposal.insurance_profile.sex }}</td>
+      <td>{{ proposal.insurance_profile.sex | capfirst }}</td>
     </tr>
     <tr>
       <th>Smoker:</th>
@@ -69,7 +72,7 @@
     </tr>
     <tr>
       <th>Region:</th>
-      <td>{{ proposal.insurance_profile.region }}</td>
+      <td>{{ proposal.insurance_profile.region | capfirst }}</td>
     </tr>
     <tr>
       <th>Children:</th>
@@ -92,14 +95,20 @@
       <td>{{ proposal.insurance_profile.family_medical_history }}</td>
     </tr>
   </table>
+  
+  {% if proposal.reviewed == False %}
 
-  <div>
-    <a
-      href="/insurance/delete_proposal/{{ proposal.id }}/"
-      class="bg-red-600 border border-red-400 px-4 py-1 text-zinc-100 rounded-sm text-sm hover:bg-red-600/90"
-      >Delete</a
-    >
-  </div>
+    <div>
+      <a
+        href="/insurance/delete_proposal/{{ proposal.id }}/"
+        class="bg-red-600 border border-red-400 px-4 py-1 text-zinc-100 rounded-sm text-sm hover:bg-red-600/90"
+        >Delete</a
+      >
+    </div>
+
+  {% endif %}
+
+  
 </div>
 
 {% endblock %}

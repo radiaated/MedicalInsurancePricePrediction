@@ -18,13 +18,14 @@ IntelliGuard Insurance {% endblock %} {% block content %}
       <tr class="text-center">
         <td colspan="5">Empty</td>
       </tr>
-      {% endif %} {% for proposal in proposals %}
+      {% endif %} {% for proposal in proposals reversed %}
       <tr class="grid grid-cols-11">
         <td class="col-span-1">{{ forloop.counter }}</td>
         <td class="col-span-4 sm:col-span-2">
-          ${{ proposal.predicted_amt | floatformat:2 }}
+          {% load humanize %}
+          ${{ proposal.predicted_amt | floatformat:2 | intcomma }}
         </td>
-        <td class="hidden sm:col-span-3 sm:block">{{ proposal.date_created }}</td>
+        <td class="hidden sm:col-span-3 sm:block">{{ proposal.date_created | date:"Y-m-d" }}</td>
 
         <td class="col-span-3 sm:col-span-2">
           {% if proposal.reviewed == True %} {% if proposal.status == 'accepted' %} Accepted {% else %} Rejected  {% endif %} {% else %} Pending

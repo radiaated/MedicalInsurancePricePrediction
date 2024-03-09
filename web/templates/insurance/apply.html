@@ -76,13 +76,19 @@
         </table>
         <div class="py-4 text-center">
           <div class="text-4xl font-extrabold">
+            {% load humanize %}
             {% if package.package_name == 'BASIC' %}
-                ${{ basic_price  | floatformat:2 }}
+                ${{ basic_price  | floatformat:2 | intcomma }}
+                
 
             {% elif package.package_name == 'STANDARD' %}
-                ${{ predicted_price | floatformat:2 }}
+                ${{ predicted_price | floatformat:2 | intcomma }}
+                
             {% else %}
-                ${{ prem_price | floatformat:2 }}
+                ${{ prem_price | floatformat:2 | intcomma }}
+
+                
+
             {% endif %}
             
           </div>
@@ -122,7 +128,11 @@
               
           {% endif %}
 
-
+          <input
+          name="confidence"
+          type="hidden"
+          value="{{ predicted_cv }}"
+           />
           
 
           <input
@@ -141,8 +151,9 @@
       
     </div>
       {% endfor %}
-    </div>
       
+    </div>
+    <!-- <div class="w-full my-4 text-center">with <span class="text-indigo-700 font-bold">{{ predicted_cv | floatformat:2 }}%</span> certainity</div>   -->
 
     {% else %}
     <div id="msg"></div>
@@ -154,7 +165,7 @@
       onsubmit="return validateForm(event)"
     >
       {% csrf_token %}
-      <label>Age</label>
+      <label>Age <span class="tex-sm text-zinc-600">(18-64)</span></label>
       <input type="number" name="age" placeholder="Age" />
       <label>Sex</label>
       <select name="sex">
@@ -162,7 +173,7 @@
         <option value="female">Female</option>
       </select>
 
-      <label>BMI</label>
+      <label>BMI <span class="tex-sm text-zinc-600">(9-45)</span></label>
       <input type="number" name="bmi" placeholder="BMI"/>
 
       <label>Occupation</label>
@@ -172,8 +183,8 @@
         <option value="White collar">White Collar</option>
         <option value="Blue collar">Blue collar</option>
       </select>
-      <label>Number of children</label>
-      <input type="number" name="children" placeholder="Number of children"/>
+      <label>Number of children <span class="tex-sm text-zinc-600">(0-5)</span></label>
+      <input type="number" name="children" placeholder="Number of children" value="0"/>
 
       <div class="flex items-center gap-2"><label>Smoker</label><input type="checkbox" name="smoker" /></div>
       
@@ -201,7 +212,7 @@
         <option value="High Blood Pressure">High Blood Pressure</option>
         <option value="Diabetes">Diabetes</option>
       </select>
-      <input type="submit" name="submit" value="Check" />
+      <input type="submit" name="submit" value="Submit" />
     </form>
     {% endif %}
  
@@ -240,13 +251,13 @@
       return false;
     }
 
-    if (bmi <= 0) {
-      msg.innerHTML = "BMI can't be 0 (zero) or less";
+    if (bmi < 9  || bmi > 45) {
+      msg.innerHTML = "Invalid BMI value";
       classAdder(msg, classnames);
       return false;
     }
 
-    if (children < 0) {
+    if (children === "" || children < 0 || children > 5 ) {
       msg.innerHTML = "Invalid children number";
       classAdder(msg, classnames);
       return false;
