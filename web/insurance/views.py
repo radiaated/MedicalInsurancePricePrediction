@@ -5,106 +5,125 @@ from . import predictor_classify
 from .predictor import predictor
 import pandas as pd
 from .preproc import preproc
+from .forms import InsuranceProfileForm
 
 # Create your views here.
 
 
-def apply(req):
+def apply(request):
 
-    userx = UserX.objects.get(user=req.user)
+    if request.method == "POST":
 
-    BRONZE_LOG_ODDS = 0.13721134108089075
-    GOLD_LOG_ODDS = 0.3752345518796065
+        form = InsuranceProfileForm(request.POST, user=request.user)
 
-    PLATNIUM_LOG_ODS = 1.9279979643224976
+        if form.is_valid():
 
-    print("yo")
-    context = {}
-    if req.method == "POST":
-        post_data = req.POST
+            form.save()
 
-        if post_data["submit"] == "Submit":
+    else:
 
-            # print(p_data)
+        form = InsuranceProfileForm()
 
-            req.session['insurance_profile'] = {"user": req.user.username, "age": post_data['age'], "sex": post_data['sex'], "region": post_data['region'], "smoker": (True if post_data["smoker"] == "on" else False) if post_data.get(
-                "smoker") else False, "children": post_data['children'], "occupation": post_data['occupation'], "bmi": post_data['bmi'], "medical_history": post_data['medical_history'], "family_medical_history": post_data['family_medical_history']}
+    context = {"form": form}
 
-            df = pd.DataFrame(preproc(post_data), index=[0])
-
-            p = predictor(dff=df, est=50, l_r=0.55, mean_y=14401.838215521071)
-
-            p_B = predictor_classify.predictor_BASIC(
-                df, 0.1, BRONZE_LOG_ODDS, 14)
-            p_G = predictor_classify.predictor_STANDARD(
-                df, 0.1, GOLD_LOG_ODDS, 14)
-            p_P = predictor_classify.predictor_PREMIUM(
-                df, 0.1, PLATNIUM_LOG_ODS, 14)
-
-            pred_pack_info = [("BASIC", p_B.loc[0, "Prob"]), ("STANDARD",
-                                                              p_G.loc[0, "Prob"]), ("PREMIUM", p_P.loc[0, "Prob"])]
-
-            max_prob = 0
-            pred_pack = "BASIC"
-            for pack, prob in pred_pack_info:
-                if prob > max_prob:
-                    pred_pack = pack
-                    max_prob = prob
-
-            print(max_prob)
-            print(pred_pack)
-            print(p.loc[0, "Predicted"])
-
-            predd_package = Package.objects.get(package_name=pred_pack)
-
-            packages = Package.objects.all()
-
-            context = {
-                'userx': userx,
-                'predicted_price': p.loc[0, "Predicted"],
-                'predicted_package': predd_package,
-                'predicted_package_prob': max_prob,
-                'packages': packages,
-                'basic_price': p.loc[0, "Predicted"] - p.loc[0, "Predicted"] * 0.2,
-                'prem_price': p.loc[0, "Predicted"] + p.loc[0, "Predicted"] * 0.2,
-                'predicted_cv': 100 - p.loc[0, "cv"],
+    return render(request, "insurance/apply.html", context)
 
 
+# def apply(req):
 
-            }
+#     userx = UserX.objects.get(user=req.user)
 
-        if post_data["submit"] == "Submit proposal":
+#     BRONZE_LOG_ODDS = 0.13721134108089075
+#     GOLD_LOG_ODDS = 0.3752345518796065
 
-            package = Package.objects.get(
-                package_name=post_data["predicted_package"])
+#     PLATNIUM_LOG_ODS = 1.9279979643224976
 
-            session_data = req.session.get('insurance_profile', {})
+#     print("yo")
+#     context = {}
+#     if req.method == "POST":
+#         post_data = req.POST
 
-            print(session_data)
+#         if post_data["submit"] == "Submit":
 
-            insurance_profile = InsuranceProfile.objects.create(user=req.user, age=session_data['age'], sex=session_data['sex'], region=session_data['region'], smoker=session_data['smoker'], children=session_data[
-                                                                'children'], occupation=session_data['occupation'], bmi=session_data['bmi'], medical_history=session_data['medical_history'], family_medical_history=session_data['family_medical_history'])
+#             # print(p_data)
 
-            if insurance_profile:
+#             req.session['insurance_profile'] = {"user": req.user.username, "age": post_data['age'], "sex": post_data['sex'], "region": post_data['region'], "smoker": (True if post_data["smoker"] == "on" else False) if post_data.get(
+#                 "smoker") else False, "children": post_data['children'], "occupation": post_data['occupation'], "bmi": post_data['bmi'], "medical_history": post_data['medical_history'], "family_medical_history": post_data['family_medical_history']}
 
-                proposal = Proposal.objects.create(
-                    userx=UserX.objects.get(user=req.user),
-                    predicted_amt=float(post_data["predicted_amt"]),
-                    package=package,
-                    insurance_profile=insurance_profile,
-                    confidence=post_data["confidence"]
-                )
+#             df = pd.DataFrame(preproc(post_data), index=[0])
 
-                if proposal:
-                    proposal.save()
+#             p = predictor(dff=df, est=50, l_r=0.55, mean_y=14401.838215521071)
 
-                return redirect("userproposals")
+#             p_B = predictor_classify.predictor_BASIC(
+#                 df, 0.1, BRONZE_LOG_ODDS, 14)
+#             p_G = predictor_classify.predictor_STANDARD(
+#                 df, 0.1, GOLD_LOG_ODDS, 14)
+#             p_P = predictor_classify.predictor_PREMIUM(
+#                 df, 0.1, PLATNIUM_LOG_ODS, 14)
 
-    context = {**context,
-               'userx': userx,
-               }
+#             pred_pack_info = [("BASIC", p_B.loc[0, "Prob"]), ("STANDARD",
+#                                                               p_G.loc[0, "Prob"]), ("PREMIUM", p_P.loc[0, "Prob"])]
 
-    return render(req, 'insurance/apply.html', context)
+#             max_prob = 0
+#             pred_pack = "BASIC"
+#             for pack, prob in pred_pack_info:
+#                 if prob > max_prob:
+#                     pred_pack = pack
+#                     max_prob = prob
+
+#             print(max_prob)
+#             print(pred_pack)
+#             print(p.loc[0, "Predicted"])
+
+#             predd_package = Package.objects.get(package_name=pred_pack)
+
+#             packages = Package.objects.all()
+
+#             context = {
+#                 'userx': userx,
+#                 'predicted_price': p.loc[0, "Predicted"],
+#                 'predicted_package': predd_package,
+#                 'predicted_package_prob': max_prob,
+#                 'packages': packages,
+#                 'basic_price': p.loc[0, "Predicted"] - p.loc[0, "Predicted"] * 0.2,
+#                 'prem_price': p.loc[0, "Predicted"] + p.loc[0, "Predicted"] * 0.2,
+#                 'predicted_cv': 100 - p.loc[0, "cv"],
+
+
+#             }
+
+#         if post_data["submit"] == "Submit proposal":
+
+#             package = Package.objects.get(
+#                 package_name=post_data["predicted_package"])
+
+#             session_data = req.session.get('insurance_profile', {})
+
+#             print(session_data)
+
+#             insurance_profile = InsuranceProfile.objects.create(user=req.user, age=session_data['age'], sex=session_data['sex'], region=session_data['region'], smoker=session_data['smoker'], children=session_data[
+#                                                                 'children'], occupation=session_data['occupation'], bmi=session_data['bmi'], medical_history=session_data['medical_history'], family_medical_history=session_data['family_medical_history'])
+
+#             if insurance_profile:
+
+#                 proposal = Proposal.objects.create(
+#                     userx=UserX.objects.get(user=req.user),
+#                     predicted_amt=float(post_data["predicted_amt"]),
+#                     package=package,
+#                     insurance_profile=insurance_profile,
+#                     confidence=post_data["confidence"]
+#                 )
+
+#                 if proposal:
+#                     proposal.save()
+
+#                 return redirect("userproposals")
+
+#     context = {**context,
+#                'userx': userx,
+#                }
+
+#     return render(req, 'insurance/apply.html', context)
 
 
 def userproposals(request):
@@ -114,9 +133,7 @@ def userproposals(request):
     for p in proposals:
         print(p.predicted_amt)
 
-    context = {
-        "proposals": proposals
-    }
+    context = {"proposals": proposals}
 
     return render(request, "insurance/userproposals.html", context)
 
@@ -132,13 +149,11 @@ def delete_proposal(request, id):
 
 def userproposalbyid(req, id):
 
-    if req.method == 'GET':
+    if req.method == "GET":
         proposal = Proposal.objects.get(id=id, userx__user=req.user)
-    elif req.method == 'POST':
+    elif req.method == "POST":
         pass
 
-    context = {
-        'proposal': proposal
-    }
+    context = {"proposal": proposal}
 
-    return render(req, 'insurance/userproposalbyid.html', context)
+    return render(req, "insurance/userproposalbyid.html", context)

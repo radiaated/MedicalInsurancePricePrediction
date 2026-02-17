@@ -1,224 +1,33 @@
-{% extends 'generic/base_generic.html' %}
-
-{% block title %} Submit | IntelliGuard Insurance {% endblock %}
-
-{% block content %}
+{% extends 'generic/base_generic.html' %} {% block title %} Submit |
+IntelliGuard Insurance {% endblock %} {% block content %}
 
 <div class="card">
-  {% if predicted_price and predicted_package and predicted_package_prob %}
-  <div class="text-zinc-900 font-medium mb-4 w-full text-center">
-    Recommended plans
-
-  </div>
-  
-    <div class="flex justify-between gap-6">
-
-
-      {% for package in packages %}
-      <div class="border border-zinc-300 w-[50%] shadow-md rounded-md">
-
-        {% if package.package_name == 'BASIC' %}
-          <div
-          class="bg-purple-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
-        >
-
-        {% elif package.package_name == 'STANDARD' %}
-      
-              <div
-              class="bg-indigo-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
-            >
-        {% else %}
-              <div
-              class="bg-rose-600 text-2xl font-bold text-white py-8 flex items-center justify-center"
-            >
+  <div id="msg"></div>
+  <h3>Fill up</h3>
+  <form method="POST" class="slform">
+    {% csrf_token %}
+    {% for field in form %}
+      <label for="{{ field.id_for_label }}">
+        {{ field.label }}
+        {% if field.field.required %}
+          <span class="font-extrabold text-red-700">*</span>
         {% endif %}
-       
-          {{ package.package_name }}
+        {% if field.field.help_text %}
+          <span class="italic text-gray-600">{{ field.field.help_text }}</span>
+        {% endif %}
+      </label>
+      {{ field }}
+      {% if field.errors %}
+        <div class="text-sm text-red-600 italic">
+          {% for error in field.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
         </div>
-        <table class="package-table w-full text-sm">
-          <tbody>
-            <tr>
-              <th>Deductibles</th>
-              <td>${{ package.deductibles }}</td>
-            </tr>
-            <tr>
-              <th>Coverage limit</th>
-              <td>${{ package.coverage_limit }} per policy period</td>
-            </tr>
-            <tr>
-              <th>Waiting Period</th>
-              <td>
-                {{ package.waiting_period }} days for non-emergency
-              </td>
-            </tr>
-            <tr>
-              <th>Policy Period</th>
-              <td>Annual Renewal</td>
-            </tr>
-            <tr>
-              <th>Coverage Options</th>
-              <td class="flex flex-col gap-1 h-56">
-                {% for coverage_option in package.coverage_options.all %}
-                <!-- ---------------------------------------------------------- -->
-                <div>
-                  <span class="text-sm text-indigo-600">&#10003;</span>
-                  {{ coverage_option }}
-                </div>
-
-                {% endfor %}
-              </td>
-            </tr>
-            <tr>
-              <th>Network Options</th>
-              <td>{{ package.network_options }}</td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="py-4 text-center">
-          <div class="text-4xl font-extrabold">
-            {% load humanize %}
-            {% if package.package_name == 'BASIC' %}
-                ${{ basic_price  | floatformat:2 | intcomma }}
-                
-
-            {% elif package.package_name == 'STANDARD' %}
-                ${{ predicted_price | floatformat:2 | intcomma }}
-                
-            {% else %}
-                ${{ prem_price | floatformat:2 | intcomma }}
-
-                
-
-            {% endif %}
-            
-          </div>
-          <div>per year</div>
-        </div>
-        <form
-          method="POST"
-          class="flex items-center justify-center py-4"
-          onsubmit=""
-        >
-          {% csrf_token %}
-
-
-
-          {% if package.package_name == 'BASIC' %}
-
-              <input
-                name="predicted_amt"
-                type="hidden"
-                value="{{ basic_price | floatformat:2 }}"
-              />
-          
-
-          {% elif package.package_name == 'STANDARD' %}
-              <input
-                name="predicted_amt"
-                type="hidden"
-                value="{{ predicted_price | floatformat:2 }}"
-              />
-              
-          {% else %}
-              <input
-                name="predicted_amt"
-                type="hidden"
-                value="{{ prem_price | floatformat:2 }}"
-              />
-              
-          {% endif %}
-
-          <input
-          name="confidence"
-          type="hidden"
-          value="{{ predicted_cv }}"
-           />
-          
-
-          <input
-            name="predicted_package"
-            type="hidden"
-            value="{{ package }}"
-          />
-
-          <input
-            type="submit"
-            name="submit"
-            value="Submit proposal"
-            class="py-2 px-4 border-[2px] border-indigo-600 rounded-md hover:bg-indigo-100 cursor-pointer text-indigo-800"
-          />
-        </form>
-      
-    </div>
-      {% endfor %}
-      
-    </div>
-    <!-- <div class="w-full my-4 text-center">with <span class="text-indigo-700 font-bold">{{ predicted_cv | floatformat:2 }}%</span> certainity</div>   -->
-
-    {% else %}
-    <div id="msg"></div>
-    <h3>Fill up</h3>
-    <form
-      method="POST"
-      class="slform"
-      name="applyform"
-      onsubmit="return validateForm(event)"
-    >
-      {% csrf_token %}
-      <label>Age <span class="tex-sm text-zinc-600">(18-64)</span></label>
-      <input type="number" name="age" placeholder="Age" />
-      <label>Sex</label>
-      <select name="sex">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-
-      <label>BMI <span class="tex-sm text-zinc-600">(9-45)</span></label>
-      <input type="number" name="bmi" placeholder="BMI"/>
-
-      <label>Occupation</label>
-      <select name="occupation">
-        <option value="Unemployed">Unemployed</option>
-        <option value="Student">Student</option>
-        <option value="White collar">White Collar</option>
-        <option value="Blue collar">Blue collar</option>
-      </select>
-      <label>Number of children <span class="tex-sm text-zinc-600">(0-5)</span></label>
-      <input type="number" name="children" placeholder="Number of children" value="0"/>
-
-      <div class="flex items-center gap-2"><label>Smoker</label><input type="checkbox" name="smoker" /></div>
-      
-
-      
-
-      <label>Region</label>
-      <select name="region">
-        <option value="northeast">Northeast</option>
-        <option value="northwest">Northwest</option>
-        <option value="southwest">Southwest</option>
-        <option value="southeast">Southeast</option>
-      </select>
-      <label>Medical history</label>
-      <select name="medical_history">
-        <option value="No">None</option>
-        <option value="Heart Disease">Heart Disease</option>
-        <option value="High Blood Pressure">High Blood Pressure</option>
-        <option value="Diabetes">Diabetes</option>
-      </select>
-      <label>Family Medical history</label>
-      <select name="family_medical_history">
-        <option value="No">None</option>
-        <option value="Heart Disease">Heart Disease</option>
-        <option value="High Blood Pressure">High Blood Pressure</option>
-        <option value="Diabetes">Diabetes</option>
-      </select>
-      <input type="submit" name="submit" value="Submit" />
-    </form>
-    {% endif %}
- 
+      {% endif %}
+    {% endfor %}
+    <input type="submit" name="submit" value="Submit" />
+  </form>
 </div>
-
-
 
 <script>
   function classAdder(divel, classnames) {
@@ -251,13 +60,13 @@
       return false;
     }
 
-    if (bmi < 9  || bmi > 45) {
+    if (bmi < 9 || bmi > 45) {
       msg.innerHTML = "Invalid BMI value";
       classAdder(msg, classnames);
       return false;
     }
 
-    if (children === "" || children < 0 || children > 5 ) {
+    if (children === "" || children < 0 || children > 5) {
       msg.innerHTML = "Invalid children number";
       classAdder(msg, classnames);
       return false;
@@ -270,4 +79,3 @@
 </script>
 
 {% endblock %}
- 

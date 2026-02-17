@@ -39,7 +39,7 @@
   }
 
   .slform {
-    @apply flex flex-col;
+    @apply flex flex-col items-start;
   }
 
   .slform span {
@@ -47,13 +47,17 @@
   }
 
   .slform label {
-    @apply mb-2 text-lg;
+    @apply mb-1 text-lg w-full;
   }
 
   .slform input,
   .slform select,
   .slform textarea {
-    @apply bg-zinc-100 border border-zinc-300 rounded-sm text-lg py-1 px-2 mb-2;
+    @apply w-full bg-zinc-100 border border-zinc-300 rounded-sm text-lg py-1 px-2 mb-2;
+  }
+
+  .slform input[type="checkbox"] {
+    @apply w-fit;
   }
 
   .slform input[type="submit"] {
