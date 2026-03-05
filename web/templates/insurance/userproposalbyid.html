@@ -40,7 +40,7 @@
       <th>Predicted Price:</th>
       {% load humanize %}
       <td>$ {{ proposal.predicted_amt | floatformat:2 | intcomma }} 
-        <!-- <span class="text-sm text-zinc-600">{{ proposal.confidence | floatformat:2 }}% certainity</span> -->
+        
       </td>
     </tr>
   </table>
@@ -63,8 +63,8 @@
       <td>{{ proposal.insurance_profile.age }}</td>
     </tr>
     <tr>
-      <th>Sex:</th>
-      <td>{{ proposal.insurance_profile.sex | capfirst }}</td>
+      <th>Gender:</th>
+      <td>{{ proposal.insurance_profile.gender | capfirst }}</td>
     </tr>
     <tr>
       <th>Smoker:</th>
@@ -88,11 +88,11 @@
     </tr>
     <tr>
       <th>Medical history:</th>
-      <td>{{ proposal.insurance_profile.medical_history }}</td>
+      <td>{{ proposal.insurance_profile.medical_history | capfirst }}</td>
     </tr>
     <tr>
       <th>Family medical history:</th>
-      <td>{{ proposal.insurance_profile.family_medical_history }}</td>
+      <td>{{ proposal.insurance_profile.family_medical_history | capfirst }}</td>
     </tr>
   </table>
   
@@ -100,7 +100,7 @@
 
     <div>
       <a
-        href="/insurance/delete_proposal/{{ proposal.id }}/"
+        href="{% url 'userproposalsdelete' proposal.id %}"
         class="bg-red-600 border border-red-400 px-4 py-1 text-zinc-100 rounded-sm text-sm hover:bg-red-600/90"
         >Delete</a
       >

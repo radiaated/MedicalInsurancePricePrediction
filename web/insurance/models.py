@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
-from user.models import UserX
-from django.contrib.postgres.fields import ArrayField
+from django.core.validators import MinValueValidator, MaxValueValidator
+
 
 # Create your models here.
 
@@ -40,13 +40,42 @@ class CoverageOption(models.Model):
 
 class Package(models.Model):
     package_name = models.CharField(max_length=500)
-    coverage_limit = models.FloatField(default=0)
-    premium = models.FloatField(default=0)
-    deductibles = models.FloatField(default=0)
-    waiting_period = models.FloatField(default=0)
-    policy_period = models.FloatField(default=0)
-    coverage_options = models.ManyToManyField(CoverageOption, null=True, blank=True)
-    network_options = models.CharField(max_length=1000, choices=network_choices)
+    coverage_limit = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
+    premium = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
+    deductibles = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
+    waiting_period = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
+    policy_period = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
+    coverage_options = models.ManyToManyField(
+        CoverageOption,
+        null=False,
+        blank=False,
+    )
+    network_options = models.CharField(
+        max_length=1000,
+        choices=network_choices,
+        null=False,
+        blank=False,
+    )
 
     def __str__(self):
         return self.package_name
@@ -60,12 +89,18 @@ class InsuranceProfile(models.Model):
         null=False,
         blank=False,
     )
-    age = models.IntegerField(default=18, null=False, blank=False, verbose_name="Age")
-    sex = models.CharField(
+    age = models.IntegerField(
+        default=18,
+        validators=[MinValueValidator(18), MaxValueValidator(64)],
+        null=False,
+        blank=False,
+        verbose_name="Age",
+    )
+    gender = models.CharField(
         max_length=6,
         default="male",
         choices=[("male", "Male"), ("female", "Female")],
-        verbose_name="Sex",
+        verbose_name="Gender",
         null=False,
         blank=False,
     )
@@ -90,18 +125,19 @@ class InsuranceProfile(models.Model):
     )
     children = models.IntegerField(
         default=0,
-        verbose_name="Number of children",
+        validators=[MinValueValidator(0), MaxValueValidator(5)],
         null=False,
         blank=False,
+        verbose_name="Number of children",
     )
     occupation = models.CharField(
         max_length=20,
         default="Unemployed",
         choices=[
             ("Student", "Student"),
+            ("Unemployed", "Unemployed"),
             ("White collar", "White collar"),
             ("Blue collar", "Blue collar"),
-            ("Unemployed", "Unemployed"),
         ],
         verbose_name="Occupation",
         null=False,
@@ -115,11 +151,11 @@ class InsuranceProfile(models.Model):
     )
     medical_history = models.CharField(
         max_length=20,
-        default="No",
+        default="no",
         choices=[
-            ("Heart Disease", "Heart Disease"),
-            ("High Blood Pressure", "High Blood Pressure"),
-            ("No", "No"),
+            ("no", "No"),
+            ("Heart disease", "Heart disease"),
+            ("High blood pressure", "High blood pressure"),
             ("Diabetes", "Diabetes"),
         ],
         verbose_name="Medical History",
@@ -128,17 +164,31 @@ class InsuranceProfile(models.Model):
     )
     family_medical_history = models.CharField(
         max_length=20,
-        default="No",
+        default="no",
         choices=[
-            ("Heart Disease", "Heart Disease"),
-            ("High Blood Pressure", "High Blood Pressure"),
-            ("No", "No"),
+            ("no", "No"),
+            ("Heart disease", "Heart disease"),
+            ("High blood pressure", "High blood pressure"),
             ("Diabetes", "Diabetes"),
         ],
         verbose_name="Family Medical History",
         null=False,
         blank=False,
     )
+    exercise_frequency = models.CharField(
+        max_length=12,
+        default="No",
+        choices=[
+            ("Never", "Never"),
+            ("Occasionally", "Occasionally"),
+            ("Rarely", "Rarely"),
+            ("Frequently", "Frequently"),
+        ],
+        verbose_name="Exercise Frequency",
+        null=False,
+        blank=False,
+    )
+
     insurance_profile = models.BooleanField(
         default=False,
         null=False,
@@ -150,30 +200,44 @@ class InsuranceProfile(models.Model):
 
 
 class Proposal(models.Model):
-    userx = models.ForeignKey(
-        UserX,
-        on_delete=models.CASCADE,
-        related_name="proposal_userx",
-        blank=True,
-        null=True,
-    )
+
     package = models.ForeignKey(
-        Package, on_delete=models.CASCADE, related_name="proposal_package"
+        Package,
+        on_delete=models.CASCADE,
+        related_name="proposal_package",
+        null=False,
+        blank=False,
     )
-    date_created = models.DateTimeField(auto_now_add=True)
-    predicted_amt = models.FloatField(default=0)
+    date_created = models.DateTimeField(
+        auto_now_add=True,
+        null=False,
+        blank=False,
+    )
+    predicted_amt = models.FloatField(
+        default=0,
+        null=False,
+        blank=False,
+    )
     status = models.CharField(
         max_length=15,
-        choices=[("accepted", "accepted"), ("rejected", "rejected")],
-        null=True,
+        choices=[
+            ("pending", "pending"),
+            ("accepted", "accepted"),
+            ("rejected", "rejected"),
+        ],
+        default="pending",
+        null=False,
+        blank=False,
     )
-    reviewed = models.BooleanField(default=False)
+    reviewed = models.BooleanField(
+        default=False,
+        null=False,
+        blank=False,
+    )
     insurance_profile = models.ForeignKey(
         InsuranceProfile,
         on_delete=models.CASCADE,
         related_name="insurance_profile_userx",
-        blank=True,
-        null=True,
+        null=False,
+        blank=False,
     )
-
-    confidence = models.FloatField(default=87)

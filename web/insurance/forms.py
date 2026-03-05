@@ -10,7 +10,7 @@ class InsuranceProfileForm(ModelForm):
         model = InsuranceProfile
         fields = [
             "age",
-            "sex",
+            "gender",
             "region",
             "smoker",
             "children",
@@ -18,6 +18,7 @@ class InsuranceProfileForm(ModelForm):
             "bmi",
             "medical_history",
             "family_medical_history",
+            "exercise_frequency",
         ]
 
     def __init__(self, *args, **kwargs):
