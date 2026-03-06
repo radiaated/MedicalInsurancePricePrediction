@@ -13,8 +13,8 @@
           class="flex flex-col sm:flex-row sm:justify-between sm:items-center w-full border-b border-b-zinc-200 pb-3"
         >
           <h6 class="text-zinc-700">Customers Information</h6>
-          <form method="POST">
-            {% csrf_token %}
+          <form method="GET">
+            
             <input
               type="text"
               name="search"
@@ -30,18 +30,18 @@
           </form>
         </div>
         <div class="divide-y divide-zinc-200 w-full">
-          {% for user in userx %}
+          {% for customer in customers %}
 
           <div class="flex flex-row justify-between py-2">
-            <div class="">{{user.full_name}}</div>
+            <div class="">{{ customer.first_name }} {{ customer.last_name }}</div>
             <div class="flex flex-row gap-3">
               <a
-                href="{% url 'customerprofile' username=user.user.username %}"
+                href="{% url 'customerprofile' username=customer.username %}"
                 class="block border border-zinc-700 text-sm px-4 py-1 hover:bg-zinc-200 cursor-pointer active:bg-zinc-400"
                 >View</a
               >
               <a
-                href="{% url 'deletecustomer' id=user.user.id %}"
+                href="{% url 'deletecustomer' customer.id %}"
                 class="block border border-zinc-700 bg-zinc-700 text-sm text-zinc-200 px-4 py-1 hover:bg-zinc-800 cursor-pointer active:bg-zinc-900"
                 >Delete</a
               >

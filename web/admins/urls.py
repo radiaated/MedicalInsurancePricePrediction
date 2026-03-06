@@ -1,13 +1,24 @@
-
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('dashboard/', views.dashboard, name='dashboard'),
-    path('c-<str:username>/', views.customerinfo, name='customerprofile'),
-    path('customerproposals/', views.customerproposals, name='customerproposals'),
-    path('customerproposal/<int:id>/', views.customerproposalbyid, name='customerproposalbyid'),
-    path('reviewproposal/<int:id>/', views.reviewproposal, name='reviewproposal'),
-    path('deletecustomer/<int:id>/', views.deletecustomer, name='deletecustomer'),
-
+    path("dashboard/", views.DashboardView.as_view(), name="dashboard"),
+    path(
+        "customer/<str:username>/",
+        views.CustomerDetailView.as_view(),
+        name="customerprofile",
+    ),
+    path(
+        "deletecustomer/<int:pk>/",
+        views.CustomerDeleteView.as_view(),
+        name="deletecustomer",
+    ),
+    path(
+        "customerproposals/", views.ProposalListView.as_view(), name="customerproposals"
+    ),
+    path(
+        "customerproposal/<int:pk>/",
+        views.ProposalDetailView.as_view(),
+        name="customerproposalbyid",
+    ),
 ]

@@ -67,8 +67,6 @@ class Package(models.Model):
     )
     coverage_options = models.ManyToManyField(
         CoverageOption,
-        null=False,
-        blank=False,
     )
     network_options = models.CharField(
         max_length=1000,
@@ -85,7 +83,7 @@ class InsuranceProfile(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
-        related_name="insurance_profile_user",
+        related_name="user_insurance_profiles",
         null=False,
         blank=False,
     )
@@ -204,7 +202,7 @@ class Proposal(models.Model):
     package = models.ForeignKey(
         Package,
         on_delete=models.CASCADE,
-        related_name="proposal_package",
+        related_name="package_proposals",
         null=False,
         blank=False,
     )
@@ -237,7 +235,7 @@ class Proposal(models.Model):
     insurance_profile = models.ForeignKey(
         InsuranceProfile,
         on_delete=models.CASCADE,
-        related_name="insurance_profile_userx",
+        related_name="insurance_profile_proposal",
         null=False,
         blank=False,
     )

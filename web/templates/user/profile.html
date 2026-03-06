@@ -8,83 +8,31 @@
 
 <div class="card">
   <h3>Profile</h3>
-  {% if messages %}
-  <div class="text-sm bg-red-50 border border-red-400 p-2 mb-2">
-    {% for message in messages %} {{ message }} {% endfor %}
-  </div>
-  {% endif %}
-  <div id="msg"></div>
   <form
     method="POST"
     class="slform"
     name="userform"
     onsubmit="return validateForm(event)"
   >
-    {% csrf_token %}
-    <label>Email</label>
-    <input type="email" name="email" value="{{ user.email }}" />
-    <label>Username</label>
-    <input type="username" name="username" value="{{ user.username }}" />
-    <label>Full name</label>
-    <input type="text" name="full_name" value="{{ userx.full_name }}" />
-
-    <input type="submit" name="submit" value="submit" />
+    {% csrf_token %} 
+    {% for field in form %}
+      <label for="{{ field.id_for_label }}">
+        {{ field.label }} 
+        {% if field.field.required %}
+          <span class="font-extrabold text-red-700">*</span>
+        {% endif %} 
+      </label>
+      {{ field }} 
+      {% if field.errors %}
+        <div class="text-sm text-red-600 italic">
+          {% for error in field.errors %}
+            <p>{{ error }}</p>
+          {% endfor %}
+        </div>
+      {% endif %} 
+    {% endfor %}
+    <input type="submit" name="submit" value="Update" />
   </form>
 </div>
-
-<script>
-  function classAdder(divel, classnames) {
-    for (var classname of classnames.split(" ")) {
-      divel.classList.add(classname);
-    }
-  }
-  function classRemover(divel, classnames) {
-    for (var classname of classnames.split(" ")) {
-      divel.classList.remove(classname);
-    }
-  }
-
-  function validateForm(e) {
-    console.log("hello");
-
-    var email = userform.email.value;
-    var username = userform.username.value;
-    var full_name = userform.full_name.value;
-
-    var msg = document.getElementById("msg");
-
-    var classnames = "text-sm bg-red-50 border border-red-400 p-2 mb-2";
-
-    msg.innerHTML = "";
-
-    if (email.length == 0) {
-      msg.innerHTML = "Email is empty";
-      classAdder(msg, classnames);
-      return false;
-    }
-    if (username.length == 0) {
-      msg.innerHTML = "Username is empty";
-      classAdder(msg, classnames);
-      return false;
-    } else if (username.length < 7) {
-      msg.innerHTML = "Username must be at least six characters";
-      classAdder(msg, classnames);
-      return false;
-    }
-    if (full_name.length == 0) {
-      msg.innerHTML = "Full name is empty";
-      classAdder(msg, classnames);
-      return false;
-    } else if (full_name.length < 7) {
-      msg.innerHTML = "Full name must be at least six characters";
-      classAdder(msg, classnames);
-      return false;
-    }
-
-    classRemover(msg, classnames);
-
-    return true;
-  }
-</script>
 
 {% endblock %}

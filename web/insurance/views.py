@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect
-from user.models import UserX
-from .models import Proposal, Package, InsuranceProfile
-import pandas as pd
-from .forms import InsuranceProfileForm
-import pickle
-import math
 from django.views.generic import ListView, DetailView, DeleteView
 from django.urls import reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+from .models import Proposal, Package
+from .forms import InsuranceProfileForm
+
+import pickle
 
 
 # Create your views here.
@@ -111,8 +111,6 @@ def apply(request):
 
             insurance_profile = request.session.get("insurance_profile", {})
 
-            # insurance_profile
-
             if insurance_profile:
 
                 insurance_profile_form = InsuranceProfileForm(insurance_profile)
@@ -143,13 +141,22 @@ def apply(request):
     return render(request, "insurance/apply.html", context)
 
 
-class UserProposalListView(ListView):
+class UserProposalListView(LoginRequiredMixin, ListView):
     model = Proposal
     template_name = "insurance/userproposals.html"
     context_object_name = "proposals"
 
+    def get_queryset(self):
+        return super().get_queryset().filter(insurance_profile__user=self.request.user)
 
-class UserProposalDeleteView(DeleteView):
+
+class UserProposalDetailView(LoginRequiredMixin, DetailView):
+    model = Proposal
+    template_name = "insurance/userproposalbyid.html"
+    context_object_name = "proposal"
+
+
+class UserProposalDeleteView(LoginRequiredMixin, DeleteView):
     model = Proposal
     success_url = reverse_lazy("userproposals")
 
@@ -157,9 +164,3 @@ class UserProposalDeleteView(DeleteView):
         self.object = self.get_object()
         self.object.delete()
         return redirect(self.success_url)
-
-
-class UserProposalDetailView(DetailView):
-    model = Proposal
-    template_name = "insurance/userproposalbyid.html"
-    context_object_name = "proposal"

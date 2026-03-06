@@ -1,170 +1,53 @@
-from django.shortcuts import render, HttpResponse, redirect
-from django.contrib.auth.models import User
-from user.models import UserX
-from django.contrib import messages
+from django.views.generic import CreateView
+from django.contrib.auth.views import LoginView
+from django.shortcuts import render
 
-from django.contrib.auth.hashers import make_password
-from django.contrib.auth.decorators import login_required
+from django.urls import reverse_lazy
 
-from django.contrib.auth import authenticate, login, logout
+from .forms import SignUpForm, AdminSignUpForm, AdminSignInForm
 
 # # Create your views here.
 
+
 def index(req):
 
-    return render(req, 'base/index.html')
+    return render(req, "base/index.html")
+
 
 def about(req):
 
-    return render(req, 'base/about.html')
+    return render(req, "base/about.html")
+
 
 def contact(req):
 
-    return render(req, 'base/contact.html')
-
-def signup(req):
-
-    
-    
-
-    if req.method == "POST":
-
-        list(messages.get_messages(req))
-
-        post_data = req.POST
-
-        try:
-
-            if User.objects.filter(username=post_data['username']).exists():
-                raise Exception("Username exists")
-            if User.objects.filter(email=post_data['email']).exists():
-                raise Exception("Email exists")
-
-            user = User.objects.create(
-                username=post_data['username'],
-                email=post_data['email'],
-                
-            )
-
-            user.set_password(post_data['pwd'])
-
-            print(user.password)
-            
-            userx = UserX.objects.create(
-                    user=user,
-                    full_name=post_data['full_name'],
-                )
-            
-            if user and userx:
-                user.save()
-                userx.save()
-                # msg = 'Signed up'
-                
-                return redirect('home')
-    
-        except Exception as ex:
-    
-            messages.error(req, ex)
+    return render(req, "base/contact.html")
 
 
-            context = {
-                'inp_data': post_data
-            }
-
-            return render(req, 'base/signup.html', context)
-
-    return render(req, 'base/signup.html')
+class SignUpView(CreateView):
+    form_class = SignUpForm
+    template_name = "base/signup.html"
+    success_url = reverse_lazy("signin")
 
 
-def signin(req):
+class SignInView(LoginView):
 
-    
-    if req.method == "POST":
+    template_name = "base/signin.html"
 
-        list(messages.get_messages(req))
-        post_data = req.POST
-
-        user = authenticate(req, username=post_data['username'], password=post_data['pwd'])
-
-        print(user)
-        if user:
-            login(req,user)
-            return redirect("home")
-        else:
-            messages.error(req, "Invalid credentials")
-
-    return render(req, 'base/signin.html')
+    def get_success_url(self):
+        return reverse_lazy("home")
 
 
-def adminsignup(req):
+class AdminSignUpView(CreateView):
+    form_class = AdminSignUpForm
+    template_name = "base/adminsignup.html"
+    success_url = reverse_lazy("adminsignin")
 
 
-    
+class AdminSignInView(LoginView):
 
-    if req.method == "POST":
-        try:
-            post_data = req.POST
+    template_name = "base/adminsignin.html"
+    authentication_form = AdminSignInForm
 
-            if User.objects.filter(username=post_data['username']).exists():
-                raise Exception("Username exists")
-            if User.objects.filter(email=post_data['email']).exists():
-                raise Exception("Email exists")
-
-            user = User.objects.create(
-                    username=post_data['username'],
-                    email=post_data['email'],
-                    is_staff=True
-                )
-            
-            
-            user.set_password(post_data['pwd'])
-
-            print(user.password)
-        
-
-            if user:
-                user.save()
-            
-                messages.success(req, "Signup")
-                
-                return redirect('home')
- 
-        except Exception as ex:
-            messages.error(req, ex)
-
-            context = {
-                'inp_data': post_data
-            }
-
-            return render(req, 'base/adminsignup.html', context)
- 
-
-    return render(req, 'base/adminsignup.html')
-
-
-def adminsignin(req):
-
-
-    
-    if req.method == "POST":
-        post_data = req.POST
-        user = authenticate(req, username=post_data['username'], password=post_data['pwd'])
-
-        print(user)
-        if user and user.is_staff == True:
-            login(req,user)
-            return redirect("/admins/dashboard")
-        else:
-            messages.error(req, "Invalid credentialss")
-
-    return render(req, 'base/adminsignin.html')
-
-
-@login_required
-def signout(req):
-
-    if req.user:
-        logout(req)
-        return redirect('signin')
-    
-
+    def get_success_url(self):
+        return reverse_lazy("dashboard")

@@ -1,31 +1,25 @@
 {% extends 'generic/base_generic.html' %}
-{% block title %} Customer proposal by {{ proposal.userx.full_name }} | Admin {% endblock %}
+{% block title %} Customer proposal by {{ proposal.insurance_profile.user.first_name }} {{ proposal.insurance_profile.user.last_name }} | Admin {% endblock %}
 {% block content %}
 
 <div class="card">
   <h3>Customer proposal</h3>
-  {% if proposal.reviewed is True %}
+  
+  
   <div>
-    {% if proposal.status == 'accepted' %}
     <div
-      class="italic font-medium tracking-wider bg-green-600 text-zinc-100 text-xs w-full px-2 py-1"
+      class="italic font-medium tracking-wider {% if proposal.status == 'pending' %}bg-gray-600 {% elif proposal.status == 'accepted' %} bg-green-600 {% else %} bg-red-500 {% endif %} text-zinc-100 text-xs w-full px-2 py-1"
     >
-      Accepted
+      {{ proposal.status | capfirst }}
     </div>
-    {% else %}
-    <div
-      class="italic font-medium tracking-wider bg-red-600 text-zinc-100 text-xs w-full px-2 py-1"
-    >
-      Rejected
-    </div>
-    {% endif %}
+    
   </div>
-  {% endif %}
+
   <div class="text-sm mb-2 mt-4">
     Submitted by:
     <span
       class="text-cyan-700 font-normal hover:underline hover:underline-offset-1 cursor-pointer"
-      >{{ proposal.userx.full_name }}</span
+      >{{ proposal.insurance_profile.user.first_name }} {{ proposal.insurance_profile.user.last_name }}</span
     >
   </div>
   <table class="table-customer-profile">
@@ -41,25 +35,14 @@
   </table>
   <div class="text-sm mb-2 mt-4">Submitted details</div>
   <table class="table-customer-profile mb-4">
-    <!-- <tr>
-      <th>Username:</th>
-      <td>{{ proposal.userx.user.username }}</td>
-    </tr>
-    <tr>
-      <th>full_name:</th>
-      <td>{{ proposal.userx.full_name }}</td>
-    </tr>
-    <tr>
-      <th>Email:</th>
-      <td>{{ proposal.userx.user.email }}</td>
-    </tr> -->
+    
     <tr>
       <th>Age:</th>
       <td>{{ proposal.insurance_profile.age }}</td>
     </tr>
     <tr>
-      <th>Sex:</th>
-      <td>{{ proposal.insurance_profile.sex | capfirst }}</td>
+      <th>Gender:</th>
+      <td>{{ proposal.insurance_profile.gender | capfirst }}</td>
     </tr>
     <tr>
       <th>Smoker:</th>
@@ -83,11 +66,11 @@
     </tr>
     <tr>
       <th>Medical history:</th>
-      <td>{{ proposal.insurance_profile.medical_history }}</td>
+      <td>{{ proposal.insurance_profile.medical_history | capfirst }}</td>
     </tr>
     <tr>
       <th>Family medical history:</th>
-      <td>{{ proposal.insurance_profile.family_medical_history }}</td>
+      <td>{{ proposal.insurance_profile.family_medical_history | capfirst }}</td>
     </tr>
   </table>
 

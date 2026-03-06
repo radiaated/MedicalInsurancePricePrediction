@@ -1,119 +1,74 @@
-from django.shortcuts import render, HttpResponse, redirect
 from django.contrib.auth.models import User
-from user.models import UserX
-from django.contrib import messages
+from django.views.generic import ListView, DetailView, DeleteView
+from django.urls import reverse_lazy
+from django.shortcuts import redirect
+from django.db.models import Q
+
 from insurance.models import Proposal
-
-from django.contrib.auth.hashers import make_password
-from django.contrib.auth.decorators import login_required
-
-from django.contrib.auth import authenticate, login, logout
+from .mixins import AdminRequiredMixin
 
 # # Create your views here.
 
-def dashboard(req):
-    
 
-    userx = UserX.objects.all().order_by("full_name")[:15]
+class DashboardView(AdminRequiredMixin, ListView):
+    model = User
+    template_name = "admins/dashboard.html"
+    context_object_name = "customers"
 
-    if(req.method == "POST"):
-         userx = UserX.objects.filter(full_name__contains=req.POST['search']).order_by("full_name")[:15]
+    def get_queryset(self):
+        search = self.request.GET.get("search")
 
-    print(userx)
+        if search:
 
-    context = {
-        'userx': userx
-    }
+            return (
+                super()
+                .get_queryset()
+                .filter(
+                    Q(first_name__contains=search) | Q(last_name__contains=search),
+                    is_staff=False,
+                )
+                .order_by("first_name")[:15]
+            )
 
-    return render(req, 'admins/dashboard.html', context)
-
-def customerinfo(req, username):
-    
-
-    userx = UserX.objects.get(user__username=username)
-
-    
-    print(userx)
-
-    context = {
-        'userx': userx
-    }
-
-    return render(req, 'admins/customerprofile.html', context)
+        return super().get_queryset().filter(is_staff=False)
 
 
-def customerproposals(req):
-    
+class CustomerDetailView(AdminRequiredMixin, DetailView):
+    model = User
+    template_name = "admins/dashboard.html"
+    context_object_name = "customer"
 
-    if req.method == 'GET':
-        reviewed = False
-        status = None
-        proposals = Proposal.objects.filter(reviewed=reviewed)[:15]
-    elif req.method == 'POST':
-        print(req.POST)
+    slug_field = "username"
+    slug_url_kwarg = "username"
 
-        status = req.POST.get('status') if req.POST.get('status') else None
+
+class CustomerDeleteView(AdminRequiredMixin, DeleteView):
+    model = User
+    success_url = reverse_lazy("dashboard")
+
+    def get(self, request, *args, **kwargs):
+        self.object = self.get_object()
+        self.object.delete()
+        return redirect(self.success_url)
+
+
+class ProposalListView(AdminRequiredMixin, ListView):
+    model = Proposal
+    template_name = "admins/customerproposals.html"
+    context_object_name = "proposals"
+
+    def get_queryset(self):
+
+        status = self.request.GET.get("status")
 
         if status:
-            reviewed=True
-            proposals = Proposal.objects.filter(status=status, reviewed =reviewed)[:15]
-        else:
-            reviewed = (True if req.POST['reviewed'] == 'on' else False) if req.POST.get('reviewed') else False
-            proposals = Proposal.objects.filter(reviewed=reviewed)[:15]
-        
 
-        
-        
-    print(reviewed)     
-    print(status)     
+            return super().get_queryset().filter(status=status).order_by("date_created")
+
+        return super().get_queryset().filter(status="pending").order_by("date_created")
 
 
-    context = {
-        'proposals': proposals,
-        'status': status,
-        'reviewed': reviewed
-    }
-
-    return render(req, 'admins/customerproposals.html', context)
-
-
-def customerproposalbyid(req, id):
-    
-
-    if req.method == 'GET':
-        proposal = Proposal.objects.get(id=id)
-    elif req.method == 'POST':
-        pass
-
-
-    context = {
-        'proposal': proposal
-    }
-
-    return render(req, 'admins/customerproposalbyid.html', context)
-
-
-def deletecustomer(req, id):
-    
-
-    users = User.objects.get(id=id)
-
-    users.delete()
-
-    return redirect("dashboard")
-
-
-
-
-
-def reviewproposal(request, id):
-    proposal = Proposal.objects.get(id=id)
-
-   
-
-    proposal.status = request.GET.get("status")
-    proposal.reviewed = True
-    proposal.save()
-
-    return redirect("customerproposalbyid", id=proposal.id)
-
+class ProposalDetailView(AdminRequiredMixin, DetailView):
+    model = Proposal
+    template_name = "admins/customerproposalbyid.html"
+    context_object_name = "proposal"

@@ -6,23 +6,37 @@
 
 <div class="card">
   <h3>Admin Login</h3>
-
-  {% if messages %}
-  <div class="text-sm bg-red-50 border border-red-400 p-2 mb-2">
-    {% for message in messages %} {{ message }} {% endfor %}
-  </div>
-  {% endif %}
-
+  
   <form method="POST" class="slform">
-    {% csrf_token %}
-    <label>Username</label>
-    <input type="username" name="username" />
-
-    <label>Password</label>
-    <input type="password" name="pwd" />
-
-    <input type="submit" name="submit" value="Login" />
-  </form>
+    {% csrf_token %} 
+      {% if form.non_field_errors %}
+        <div class="italic text-red-600 text-xs">
+          {% for error in form.non_field_errors %}
+              {{ error }}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% for field in form %}
+        <label for="{{ field.id_for_label }}">
+          {{ field.label }} 
+          {% if field.field.required %}
+            <span class="font-extrabold text-red-700">*</span>
+          {% endif %} 
+          {% if field.field.help_text %}
+            <span class="italic text-gray-600">{{ field.field.help_text }}</span>
+          {% endif %}
+        </label>
+        {{ field }} 
+        {% if field.errors %}
+          <div class="text-sm text-red-600 italic">
+            {% for error in field.errors %}
+              <p>{{ error }}</p>
+            {% endfor %}
+          </div>
+        {% endif %} 
+      {% endfor %}
+      <input type="submit" value="Sign in" />
+    </form>
 </div>
 
 {% endblock %}

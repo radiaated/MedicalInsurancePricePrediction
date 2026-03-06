@@ -1,5 +1,5 @@
 {% extends 'generic/base_generic.html' %}
-{% block title %} Customer: {{ userx.full_name }} | Admin {% endblock %}
+{% block title %} Customer: {{ customer.full_name }} | Admin {% endblock %}
 
 {% block content %}
 
@@ -8,51 +8,15 @@
   <table class="table-customer-profile">
     <tr>
       <th>Username:</th>
-      <td>{{ userx.user.username }}</td>
+      <td>{{ customer.username }}</td>
     </tr>
     <tr>
-      <th>full_name:</th>
-      <td>{{ userx.full_name }}</td>
+      <th>Full name:</th>
+      <td>{{ customer.first_name }} {{ customer.last_name }}</td>
     </tr>
     <tr>
       <th>Email:</th>
-      <td>{{ userx.user.email }}</td>
-    </tr>
-    <tr>
-      <th>Age:</th>
-      <td>{{ userx.age }}</td>
-    </tr>
-    <tr>
-      <th>Sex:</th>
-      <td>{{ userx.sex }}</td>
-    </tr>
-    <tr>
-      <th>Smoker:</th>
-      <td>{{ userx.smoker }}</td>
-    </tr>
-    <tr>
-      <th>Region:</th>
-      <td>{{ userx.region }}</td>
-    </tr>
-    <tr>
-      <th>Children:</th>
-      <td>{{ userx.children }}</td>
-    </tr>
-    <tr>
-      <th>Occupation:</th>
-      <td>{{ userx.occupation }}</td>
-    </tr>
-    <tr>
-      <th>BMI:</th>
-      <td>{{ userx.bmi }}</td>
-    </tr>
-    <tr>
-      <th>Medical history:</th>
-      <td>{{ userx.medical_history }}</td>
-    </tr>
-    <tr>
-      <th>Family medical history:</th>
-      <td>{{ userx.family_medical_history }}</td>
+      <td>{{ customer.email }}</td>
     </tr>
   </table>
 </div>

@@ -1,7 +1,7 @@
 {% extends 'generic/base_generic.html' %}
 
 
-{% block title %} Proposal by {{ proposal.userx.full_name }} | IntelliGuard Insurance {% endblock %}
+{% block title %} Proposal by {{ proposal.insurance_profile.user.first_name }} {{ proposal.insurance_profile.user.last_name }} | IntelliGuard Insurance {% endblock %}
 
 {% block content %}
 
@@ -28,7 +28,7 @@
     Submitted by:
     <span
       class="text-cyan-700 font-normal hover:underline hover:underline-offset-1 cursor-pointer"
-      >{{ proposal.userx.full_name }}</span
+      >{{ proposal.insurance_profile.user.first_name }} {{ proposal.insurance_profile.user.last_name }}</span
     >
   </div>
   <table class="table-customer-profile">
@@ -46,18 +46,7 @@
   </table>
   <div class="text-sm mb-2 mt-4">Submitted details</div>
   <table class="table-customer-profile mb-4">
-    <!-- <tr>
-      <th>Username:</th>
-      <td>{{ proposal.userx.user.username }}</td>
-    </tr>
-    <tr>
-      <th>full_name:</th>
-      <td>{{ proposal.userx.full_name }}</td>
-    </tr>
-    <tr>
-      <th>Email:</th>
-      <td>{{ proposal.userx.user.email }}</td>
-    </tr> -->
+    
     <tr>
       <th>Age:</th>
       <td>{{ proposal.insurance_profile.age }}</td>
