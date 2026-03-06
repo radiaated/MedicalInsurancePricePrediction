@@ -8,14 +8,17 @@ from .forms import InsuranceProfileForm
 
 import pickle
 
-
-# Create your views here.
+# Views for insurance application and user proposals
 
 
 class CustomUnpickler(pickle.Unpickler):
+    """
+    Custom unpickler to safely load machine learning models
+    and encoders from pickle files.
+    """
 
     def find_class(self, module, name):
-
+        """Map specific class names to local imports to allow unpickling."""
         from insurance.stream.modules import (
             GradientBoosting,
             EncoderPipeline,
@@ -41,26 +44,28 @@ class CustomUnpickler(pickle.Unpickler):
 
 
 def apply(request):
-
+    """
+    Handles insurance application form.
+    On first submit, calculates predicted charges for packages.
+    On 'Submit proposal', saves proposal linked to user and package.
+    """
     if request.method == "POST":
         post_data = request.POST
 
         if post_data["submit"] == "Submit":
-
             form = InsuranceProfileForm(request.POST)
-
             if form.is_valid():
-
+                # Save form data to session
                 request.session["insurance_profile"] = form.cleaned_data
 
+                # Load encoders and model
                 with open("./insurance/stream/encoders_1.pkl", "rb") as file:
-
                     encoders = CustomUnpickler(file).load()
 
                 with open("./insurance/stream/gb_regression_1.pkl", "rb") as file:
-
                     gb = CustomUnpickler(file).load()
 
+                # Prepare data for prediction
                 data = {
                     "age": form.cleaned_data["age"],
                     "gender": form.cleaned_data["gender"],
@@ -76,16 +81,19 @@ def apply(request):
                     "exercise_frequency": form.cleaned_data["exercise_frequency"],
                 }
 
+                # Create separate package datasets
                 package_basic_data = {**data, "coverage_level": "Basic"}
                 package_standard_data = {**data, "coverage_level": "Standard"}
                 package_premium_data = {**data, "coverage_level": "Premium"}
 
+                # Encode data
                 package_basic_encoded_data = encoders.transform(package_basic_data)
                 package_standard_encoded_data = encoders.transform(
                     package_standard_data
                 )
                 package_premium_encoded_data = encoders.transform(package_premium_data)
 
+                # Predict charges
                 package_basic_charge = round(gb.predict(package_basic_encoded_data), 2)
                 package_standard_charge = round(
                     gb.predict(package_standard_encoded_data), 2
@@ -94,6 +102,7 @@ def apply(request):
                     gb.predict(package_premium_encoded_data), 2
                 )
 
+                # Load available packages
                 packages = Package.objects.all()
 
                 context = {
@@ -106,19 +115,14 @@ def apply(request):
                 return render(request, "insurance/apply.html", context=context)
 
         elif post_data["submit"] == "Submit proposal":
-
+            # Save user proposal
             package = Package.objects.get(package_name=post_data["predicted_package"])
-
             insurance_profile = request.session.get("insurance_profile", {})
 
             if insurance_profile:
-
                 insurance_profile_form = InsuranceProfileForm(insurance_profile)
-
                 insurance_profile = insurance_profile_form.save(commit=False)
-
                 insurance_profile.user = request.user
-
                 insurance_profile.save()
 
                 proposal = Proposal.objects.create(
@@ -126,41 +130,55 @@ def apply(request):
                     package=package,
                     insurance_profile=insurance_profile,
                 )
-
                 if proposal:
                     proposal.save()
 
                 return redirect("userproposals")
 
     else:
-
         form = InsuranceProfileForm()
 
     context = {"form": form}
-
     return render(request, "insurance/apply.html", context)
 
 
+# User-specific proposal views
+
+
 class UserProposalListView(LoginRequiredMixin, ListView):
+    """
+    Displays all proposals for the logged-in user.
+    """
+
     model = Proposal
     template_name = "insurance/userproposals.html"
     context_object_name = "proposals"
 
     def get_queryset(self):
+        """Filter proposals for the current user."""
         return super().get_queryset().filter(insurance_profile__user=self.request.user)
 
 
 class UserProposalDetailView(LoginRequiredMixin, DetailView):
+    """
+    Displays details of a single user proposal.
+    """
+
     model = Proposal
     template_name = "insurance/userproposalbyid.html"
     context_object_name = "proposal"
 
 
 class UserProposalDeleteView(LoginRequiredMixin, DeleteView):
+    """
+    Allows a user to delete their proposal.
+    """
+
     model = Proposal
     success_url = reverse_lazy("userproposals")
 
     def get(self, request, *args, **kwargs):
+        """Delete proposal on GET request and redirect."""
         self.object = self.get_object()
         self.object.delete()
         return redirect(self.success_url)
