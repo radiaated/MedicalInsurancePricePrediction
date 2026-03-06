@@ -21,4 +21,5 @@ urlpatterns = [
         views.ProposalDetailView.as_view(),
         name="customerproposalbyid",
     ),
+    path("reviewproposal/<int:id>/", views.reviewproposal, name="reviewproposal"),
 ]

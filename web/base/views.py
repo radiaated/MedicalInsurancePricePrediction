@@ -1,7 +1,9 @@
 from django.views.generic import CreateView
 from django.contrib.auth.views import LoginView
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
+from django.contrib.auth import login
+
 from .forms import SignUpForm, AdminSignUpForm, AdminSignInForm
 
 # Basic site pages
@@ -35,6 +37,16 @@ class SignUpView(CreateView):
     template_name = "base/signup.html"
     success_url = reverse_lazy("signin")
 
+    def form_valid(self, form):
+        # Save the new user
+        user = form.save()
+
+        # Log the user in
+        login(self.request, user)
+
+        # redirect to wherever you want logged-in users to go
+        return redirect("home")
+
 
 class SignInView(LoginView):
     """
@@ -58,6 +70,16 @@ class AdminSignUpView(CreateView):
     form_class = AdminSignUpForm
     template_name = "base/adminsignup.html"
     success_url = reverse_lazy("adminsignin")
+
+    def form_valid(self, form):
+        # Save the new user
+        user = form.save()
+
+        # Log the user in
+        login(self.request, user)
+
+        # redirect to wherever you want logged-in users to go
+        return redirect("dashboard")
 
 
 class AdminSignInView(LoginView):

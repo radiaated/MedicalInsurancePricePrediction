@@ -74,9 +74,7 @@
     </tr>
   </table>
 
-
-  {% if proposal.reviewed == False %}
-
+  {% if proposal.status == 'pending' %}
     <div>
       <a
         href="{% url 'reviewproposal' id=proposal.id %}?status=accepted"
@@ -89,10 +87,8 @@
         >Reject</a
       >
     </div>
-
   {% endif %}
-
-  
+    
 </div>
 
 {% endblock %}

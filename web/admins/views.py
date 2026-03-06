@@ -2,7 +2,9 @@ from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView, DeleteView
 from django.urls import reverse_lazy
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import user_passes_test
 from django.db.models import Q
+
 from insurance.models import Proposal
 from .mixins import AdminRequiredMixin
 
@@ -76,8 +78,10 @@ class ProposalListView(AdminRequiredMixin, ListView):
         """Filter proposals by status or return pending ones."""
         status = self.request.GET.get("status")
         if status:
-            return super().get_queryset().filter(status=status).order_by("date_created")
-        return super().get_queryset().filter(status="pending").order_by("date_created")
+            return (
+                super().get_queryset().filter(status=status).order_by("-date_created")
+            )
+        return super().get_queryset().filter(status="pending").order_by("-date_created")
 
 
 class ProposalDetailView(AdminRequiredMixin, DetailView):
@@ -88,3 +92,21 @@ class ProposalDetailView(AdminRequiredMixin, DetailView):
     model = Proposal
     template_name = "admins/customerproposalbyid.html"
     context_object_name = "proposal"
+
+
+def admin_required(view_func):
+    """Decorator to allow access only to admin (superuser) users."""
+    return user_passes_test(lambda u: u.is_staff)(view_func)
+
+
+@admin_required
+def reviewproposal(request, id):
+    """Mark a proposal as reviewed and update its status (admin only)."""
+
+    proposal = Proposal.objects.get(id=id)
+
+    proposal.status = request.GET.get("status")
+    proposal.reviewed = True
+    proposal.save()
+
+    return redirect("customerproposalbyid", pk=proposal.id)
