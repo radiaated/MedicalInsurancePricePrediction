@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView, DeleteView
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Proposal, Package
@@ -49,6 +49,37 @@ def apply(request):
     On first submit, calculates predicted charges for packages.
     On 'Submit proposal', saves proposal linked to user and package.
     """
+
+    if (
+        request.session.get("insurance_profile")
+        and request.session.get("predicted_package")
+        and request.session.get("predicted_amt")
+    ):
+        package = Package.objects.get(
+            package_name=request.session.get("predicted_package")
+        )
+        insurance_profile = request.session.get("insurance_profile", {})
+
+        if insurance_profile:
+            insurance_profile_form = InsuranceProfileForm(insurance_profile)
+            insurance_profile = insurance_profile_form.save(commit=False)
+            insurance_profile.user = request.user
+            insurance_profile.save()
+
+            proposal = Proposal.objects.create(
+                predicted_amt=float(request.session.get("predicted_amt")),
+                package=package,
+                insurance_profile=insurance_profile,
+            )
+            if proposal:
+                proposal.save()
+
+            request.session.pop("insurance_profile")
+            request.session.pop("predicted_package")
+            request.session.pop("predicted_amt")
+
+            return redirect("userproposals")
+
     if request.method == "POST":
         post_data = request.POST
 
@@ -116,6 +147,20 @@ def apply(request):
 
         elif post_data["submit"] == "Submit proposal":
             # Save user proposal
+
+            if not request.user.is_authenticated:
+
+                # Get current path or any URL you want to return to after signup
+                next_url = request.get_full_path()
+
+                # Construct signup_url URL with redirect query parameter
+                signup_url = f"{reverse('signup')}?redirect={next_url}"
+
+                request.session["predicted_package"] = post_data["predicted_package"]
+                request.session["predicted_amt"] = post_data["predicted_amt"]
+
+                return redirect(signup_url)
+
             package = Package.objects.get(package_name=post_data["predicted_package"])
             insurance_profile = request.session.get("insurance_profile", {})
 
@@ -132,6 +177,8 @@ def apply(request):
                 )
                 if proposal:
                     proposal.save()
+
+                request.session.pop("insurance_profile")
 
                 return redirect("userproposals")
 

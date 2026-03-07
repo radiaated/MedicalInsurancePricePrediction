@@ -1,8 +1,13 @@
-{% extends 'generic/base_generic.html' %} {% block title %} Home | IntelliGuard
-Insurance {% endblock %} {% block content %}
+{% extends 'generic/base_generic.html' %} 
+{% block title %} Home | IntelliGuard Insurance {% endblock %}
 
-<div class="w-full h-[80vh]">
-  {% load static %}
+{% block content %}
+{% load static %}
+
+<div class="w-full h-[80vh] relative">
+
+    <a href="{% url 'apply' %}" class="block absolute bottom-32 left-8 font-bold bg-indigo-600 text-3xl text-gray-50 px-4 py-2 rounded-sm drop-shadow-lg hover:bg-indigo-700 duration-50 transition">Apply now!</a>
+
   <img
     class="block w-full h-[80vh] object-cover object-center"
     src="{% static 'img/cover.webp' %}"
@@ -74,7 +79,7 @@ Insurance {% endblock %} {% block content %}
   <div class="py-16 flex flex-col justify-center items-center text-center">
     <a
       class="block border bg-indigo-700 border-indigo-700 py-2 w-[60%] rounded-md hover:bg-indigo-600 text-zinc-100"
-      href="{% url 'signup' %}"
+      href="{% url 'apply' %}"
       >Get Started</a
     >
   </div>

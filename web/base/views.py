@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 from django.contrib.auth import login
 
+
 from .forms import SignUpForm, AdminSignUpForm, AdminSignInForm
 
 # Basic site pages
@@ -43,6 +44,12 @@ class SignUpView(CreateView):
 
         # Log the user in
         login(self.request, user)
+
+        redirect_url = self.request.GET.get("redirect")
+
+        if redirect_url:
+
+            return redirect(redirect_url)
 
         # redirect to wherever you want logged-in users to go
         return redirect("home")
