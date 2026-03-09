@@ -50,7 +50,7 @@ def apply(request):
     On 'Submit proposal', saves proposal linked to user and package.
     """
 
-    if (
+    if (request.user.is_authenticated and
         request.session.get("insurance_profile")
         and request.session.get("predicted_package")
         and request.session.get("predicted_amt")

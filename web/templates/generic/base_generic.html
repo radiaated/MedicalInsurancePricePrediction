@@ -252,23 +252,28 @@
       document.getElementById("mobilemenu").classList.add("hidden");
     });
 
-    document
-      .getElementById("user-btn-dropdown")
-      .addEventListener("click", function () {
-        document.getElementById("user-dropdown").classList.remove("hidden");
-        document.addEventListener("click", (event) => {
-          if (
-            !document.getElementById("user-btn-dropdown").contains(event.target)
-          ) {
-            document.getElementById("user-dropdown").classList.add("hidden");
-          }
-          return document
-            .getElementById("user-btn-dropdown")
-            .addEventListener("click", function () {});
-        });
-        return document
+    if(document
+      .getElementById("user-btn-dropdown")) {
+        document
           .getElementById("user-btn-dropdown")
-          .addEventListener("click", function () {});
-      });
+          .addEventListener("click", function () {
+            document.getElementById("user-dropdown").classList.remove("hidden");
+            document.addEventListener("click", (event) => {
+              if (
+                !document.getElementById("user-btn-dropdown").contains(event.target)
+              ) {
+                document.getElementById("user-dropdown").classList.add("hidden");
+              }
+              return document
+                .getElementById("user-btn-dropdown")
+                .addEventListener("click", function () {});
+            });
+            return document
+              .getElementById("user-btn-dropdown")
+              .addEventListener("click", function () {});
+          });
+      }
+
+    
   </script>
 </html>
