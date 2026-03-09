@@ -16,12 +16,9 @@ The evaluation metrics of the model are shown in the table below:
 | MSE | - | - |
 | R² Score | - | - |
 
-## Platform Demo
+## Web Platform Demo
 
-<video width="1280" height="720" controls>
-  <source src="./docs/Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Web Platform Demo Gif](./docs/Demo.gif)
 
 ## Technologies used
 
