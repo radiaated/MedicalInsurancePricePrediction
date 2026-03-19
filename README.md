@@ -12,9 +12,9 @@ The system predicts medical insurance pricing based on various fearures and reco
 The evaluation metrics of the model are shown in the table below:
 | Metrics | Training Loss | Validation Loss |
 |-----------|---------------|-----------------|
-| MAE | - | - |
-| MSE | - | - |
-| R² Score | - | - |
+| MAE | 871.46 | 870.075 |
+| MSE | 1182018.3792 | 1178591.5509 |
+| R² Score | 0.9394 | 0.9393 |
 
 ## Web Platform Demo
 
