@@ -4,15 +4,10 @@
 {% block content %}
 {% load static %}
 
-<div class="w-full h-[80vh] relative">
+<div style="background-image: url({% static 'img/cover.webp' %})" class="w-full h-[80vh] bg-cover bg-center flex items-end pl-10 pb-10">
 
-    <a href="{% url 'apply' %}" class="block absolute bottom-32 left-8 font-bold bg-indigo-600 text-3xl text-gray-50 px-4 py-2 rounded-sm drop-shadow-lg hover:bg-indigo-700 duration-50 transition">Apply now!</a>
+    <a href="{% url 'apply' %}" class="block font-bold bg-indigo-600 text-3xl text-gray-50 px-4 py-2 rounded-sm drop-shadow-lg hover:bg-indigo-700 duration-50 transition">Apply now!</a>
 
-  <img
-    class="block w-full h-[80vh] object-cover object-center"
-    src="{% static 'img/cover.webp' %}"
-    alt=""
-  />
 </div>
 
 <div class="bg-white p-10">

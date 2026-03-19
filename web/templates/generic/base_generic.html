@@ -102,7 +102,7 @@
               >
             {% else %}
               <div
-                class="list-none pl-0 hidden sm:flex gap-4 font-normal items-center z-[999]"
+                class="list-none pl-0 hidden sm:flex gap-4 font-normal items-center"
               >
                 <div class="relative">
                   <button
@@ -151,7 +151,7 @@
             {% endif %}
             <form method="POST" action="{% url 'signout' %}">
               {% csrf_token %}
-              <button type="submit">Sign out</button>
+              <button type="submit" class="text-xs text-red-700">Sign out</button>
             </form>
           {% else %}
             <a class="btn-full" href="{% url 'signin' %}">Signin</a>
