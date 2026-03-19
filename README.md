@@ -5,7 +5,7 @@ A gradient boosting model built from scratch using the Pandas and NumPy librarie
 The system predicts medical insurance pricing based on various fearures and recommends various plans of different coverage features and benefits.
 
 **Go to Notebook:**
-[Open in Google Colab](https://colab.research.google.com/drive/1tc_wCYIcV5VOHDVFs0iAFLZVYilyhyn5#scrollTo=IvDk5C1yinMf)
+[Open](https://github.com/radiaated/MedicalInsurancePricePrediction/blob/main/MedicalInsurancePricePrediction.ipynb)
 
 ---
 
