@@ -45,7 +45,13 @@ The evaluation metrics of the model are shown in the table below:
    python manage.py makemigrations
    python manage.py migrate
    ```
-5. Run the django project
+5. Install the database fixtures
+
+   ```bash
+   python manage.py loaddata dump.json
+   ```
+
+6. Run the django project
    ```bash
    python manage.py runserver
    ```
