@@ -1,0 +1,146 @@
+{
+  "insurance_package": [
+    {
+      "id": 1,
+      "package_name": "Basic",
+      "coverage_limit": 250000,
+      "premium": 0,
+      "deductibles": 5000,
+      "waiting_period": 30,
+      "policy_period": 365,
+      "network_options": "Access to 50+ hospitals, clinics, and healthcare providers"
+    },
+    {
+      "id": 2,
+      "package_name": "Standard",
+      "coverage_limit": 500000,
+      "premium": 0,
+      "deductibles": 3000,
+      "waiting_period": 15,
+      "policy_period": 30,
+
+      "network_options": "Access to 100+ hospitals, clinics, and healthcare providers"
+    },
+    {
+      "id": 3,
+      "package_name": "Premium",
+      "coverage_limit": "1000000",
+      "premium": 0,
+      "deductibles": 2000,
+      "waiting_period": 7,
+      "policy_period": 30,
+      "network_options": "Access to 200+ hospitals, clinics, and healthcare providers"
+    }
+  ],
+  "insurance_coverageoption": [
+    {
+      "id": 1,
+      "name": "Inpatient hospital care"
+    },
+    {
+      "id": 2,
+      "name": "Outpatient care"
+    },
+    {
+      "id": 3,
+      "name": "Emergency services"
+    },
+    {
+      "id": 4,
+      "name": "Prescription drugs"
+    },
+    {
+      "id": 5,
+      "name": "Preventive services"
+    },
+    {
+      "id": 6,
+      "name": "Routine Check-ups and Vaccinations"
+    },
+    {
+      "id": 7,
+      "name": "Dental and Vision"
+    },
+    {
+      "id": 8,
+      "name": "Mental Health"
+    }
+  ],
+  "insurance_package_coverage_options": [
+    {
+      "id": 1,
+      "package_id": 1,
+      "coverageoption_id": 1
+    },
+    {
+      "id": 2,
+      "package_id": 2,
+      "coverageoption_id": 1
+    },
+    {
+      "id": 3,
+      "package_id": 3,
+      "coverageoption_id": 1
+    },
+    {
+      "id": 4,
+      "package_id": 2,
+      "coverageoption_id": 2
+    },
+    {
+      "id": 5,
+      "package_id": 2,
+      "coverageoption_id": 3
+    },
+    {
+      "id": 6,
+      "package_id": 2,
+      "coverageoption_id": 4
+    },
+    {
+      "id": 7,
+      "package_id": 2,
+      "coverageoption_id": 5
+    },
+    {
+      "id": 9,
+      "package_id": 1,
+      "coverageoption_id": 2
+    },
+    {
+      "id": 10,
+      "package_id": 1,
+      "coverageoption_id": 3
+    },
+    {
+      "id": 11,
+      "package_id": 3,
+      "coverageoption_id": 2
+    },
+    {
+      "id": 12,
+      "package_id": 3,
+      "coverageoption_id": 3
+    },
+    {
+      "id": 13,
+      "package_id": 3,
+      "coverageoption_id": 4
+    },
+    {
+      "id": 14,
+      "package_id": 3,
+      "coverageoption_id": 5
+    },
+    {
+      "id": 15,
+      "package_id": 3,
+      "coverageoption_id": 6
+    },
+    {
+      "id": 16,
+      "package_id": 3,
+      "coverageoption_id": 7
+    }
+  ]
+}
